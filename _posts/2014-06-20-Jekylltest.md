@@ -4,10 +4,10 @@ title: "Jekyllで記事を書いてみる"
 categories: jekyll update
 ---
 
-#マークダウンでJekyllの記事を書いてみる
+# マークダウンでJekyllの記事を書いてみる
 
-##テスト
+## テスト
 
 
-###です
+### です
 
