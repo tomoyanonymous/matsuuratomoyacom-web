@@ -1,6 +1,6 @@
 -----
-layout:post
-title:Jekyllで記事を書いてみる
+layout: post
+title: "Jekyllで記事を書いてみる"
 ------
 
 #マークダウンでJekyllの記事を書いてみる
@@ -10,4 +10,3 @@ title:Jekyllで記事を書いてみる
 
 ###です
 
---------
