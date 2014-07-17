@@ -4,9 +4,7 @@ email: s2113241☆ms.geidai.ac.jp
 description: "松浦知也の情報編集の授業用ウェブページです。"
 baseurl: ""
 url: "http://yourdomain.com"
-author:
-twitter:tomoya_nonymous
-github:tomoyanonymous
+
 # Build settings
 markdown: kramdown
 permalink: pretty
