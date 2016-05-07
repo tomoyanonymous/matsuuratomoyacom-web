@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="ja" prefix="og: http://ogp.me/ns#">
+  <head>
+    <meta charset="utf-8">
+
+    <link rel="stylesheet" href="../../../assets/css/style.css">
+    <link rel="shortcut icon" href="assets/img/favicon.ico">
+    <link rel="canonical" href="http://matsuuratomoya.com">
+    <meta name="viewport" content="width=device-width,user-scalable=0">
+    <meta property="og:type" content="website" />
+    <meta name="keyword" content="松浦知也,マツウラトモヤ,Matsuura Tomoya,Tomoya Matsuura,まつうらともや">
+  <meta name="description" content="Website of Matsuura Tomoya.">
+  <meta property="og:title" content="Matsuura Tomoya|松浦知也" />
+<meta property="og:url" content="http://matsuuratomoya.com/" />
+<meta property="og:image" content="http://matsuuratomoya.com/assets/img/image_ogp.png" />
+<meta property="og:image:type" content="image/png" />
+<meta property="og:image:width" content="1200" />
+<meta property="og:image:height" content="630" />
+<meta property="fb:app_id" content="1756749324544053" />
+  <meta property="og:description" content="Website of Matsuura Tomoya."/>
+    <title>Puredataで評価実験 Matsuura Tomoya|松浦知也 </title>
+  </head>
+<body>
+      <!-- Google Tag Manager -->
+      <noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-KSWGLR"
+      height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+      <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+      new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+      j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+      '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+      })(window,document,'script','dataLayer','GTM-KSWGLR');</script>
+      <!-- End Google Tag Manager -->
+  <div class="outer">
+
+    
+    <header>
+      <div class="child">
+      <a href="../../.."><div class="title">Matsuura Tomoya</div></a>
+    
+    <div class="menu">
+      <a href="../../../about"><div>about</div></a>
+      <a href="../../../info"><div>info</div></a>
+      <a href="../../../works"><div>works</div></a>
+      <a href="../.."><div>blog</div></a>
+      <a href="../../../contact"><div>contact</div></a>
+    </div>
+    
+    <div class="locales">
+    </div>
+    
+    <div class="social">
+      <div class="tw">
+        <div class="logo">
+          <a href="https://twitter.com/tomoya_nonymous" target=”_blank”>
+            <img src="../../../assets/img/tw.png" alt="">
+          </a>
+        </div>
+        </div>
+        <div class="fb">
+          <div class="logo">
+            <a href="https://www.facebook.com/tomoya.matsuura.98" target=”_blank”>
+              <img src="../../../assets/img/fb.png" alt="">
+            </a>
+          </div>
+        </div>
+    </div>
+    
+    </div>
+    </header>
+    <div class="inner">
+        <div class="child">
+
+        <div class="content">
+          <p class="date">2016/04/27</p>
+        <p class="title"><a href=".">Puredataで評価実験</a></p>
+<div class="markdown">
+          <p>微妙な需要ですが、Puredataはアルゴリズム作曲とか、シンセやエフェクター作ったりする以外にも（特に音を使う）主観評価実験に使うと便利だったりします。</p>
+<p>大体の実験で、</p>
+<ul>
+<li>DAWソフトとかでパラメーターごとの音刺激を作成</li>
+<li>iTunesとかのプレイリストに音刺激入れてランダム再生</li>
+<li>紙の解答用紙に記録してもらう</li>
+<li>出てきたデータをエクセルにひたすら入力(めんどくさい)</li>
+<li>エクセルからCSV書き出し</li>
+<li>Rとかでデータの解析</li>
+</ul>
+<p>という手順になったりするのですがこの内の<strong>iTunes、紙、エクセル</strong>の部分をPuredataを使えば一つにまとめることが出来ます。</p>
+<p>当然実験内容によって作り方が変わるので万能のパッチは存在しないのですが、ある程度共通して使えるメソッドはあるのでここに書き記しておこうと思います。
+<a href="http://matsuuratomoya.com/">http://matsuuratomoya.com/</a>
+<img src="http://matsuuratomoya.com/assets/img/A_D_M.JPG" alt="">
+<!-- more --></p>
+<p>ちなみに、「GUIとか組むならMaxのほうがプレゼンテーションモード使えて楽やん」と言うのはごもっともですが実験のためだけにMax買うのがつらいとか、（芸術系の大学はともかく）大学の授業だとMaxよりPuredataのほうが多そうな気もするので今回はPuredataで例示しようと思います。
+それと、Pdの利点としてもう1つあげられるのは<strong>直接CSVファイルに記録できること</strong>があります。Maxでもdict使ってJSONで記録すれば似たようなことは出来ますが。。。</p>
+<h3 id="-">仮の実験内容</h3>
+<p>今回はこの記事通して架空の「ステレオ音源の音像幅を狭めた時の印象評価」という実験用パッチを作ってみます。</p>
+<p>この実験では「元の音源を3種類」「ステレオの音像幅を100%、75%、50%、25%」に変化させたのをそれぞれの元音源と比較して（つまり100%は変化なし）、それぞれの「音像幅、包まれ感、空間の広がり」がどのくらい変化したかを回答してもらうとします。</p>
+<p>これが統計の評価的に妥当な実験かどうかはとりあえず無視して、実際の制作に役立ちそうな部分だけを寄せ集めたものだと思ってください。</p>
+<h3 id="-">パラメーターの洗い出し</h3>
+<p>実験用パッチを作るにあたって最初にパラメーターが何種類あるかを洗い出します。</p>
+<p>今回は「元の音源を3種類」「ステレオの音像幅を100%、75%、50%、25%に変化させる」でした。
+ということは今回は12種類の比較があるわけです。</p>
+<h3 id="-">パラメーターを順列に対応させる</h3>
+<p>まずはこの全パターンを1~12の番号に1つずつ割り振ります。</p>
+<p>具体的にはこのような感じです。</p>
+<p><img src="http://matsuuratomoya.com/assets/img/A_D_M.JPG" alt=""></p>
+<p>さて、これに加えて「音量を+2、+1、±0、-1、−2、-3dB変化させる」というパラメーターを加えたくなった場合はどうでしょう（妥当性があるかは相変わらず無視です）。</p>
+<p>こんな感じですね。
+<img src="http://matsuuratomoya.com/assets/img/A_D_M.JPG" alt=""></p>
+<p>実際に数値はArgumentに書くか右インレットに入れるかのどちらかでよいので、次の内どちらでも良いです。
+<img src="http://matsuuratomoya.com/assets/img/A_D_M.JPG" alt="">
+<img src="http://matsuuratomoya.com/assets/img/A_D_M.JPG" alt=""></p>
+<p>これで、0~71の順列に対応した組み合わせが吐き出されるようになります。</p>
+<h3 id="-">ランダムに出力する</h3>
+<p>実際の実験では出題がランダムに為されるのが望ましい場合が多いですね。
+0~71で規則的に組み合わせが並んでいるので、0~71の数字をバラバラな順番に</p>
+
+
+          <div class="share">
+            <div class="tweet">
+          <a href="https://twitter.com/share" class="twitter-share-button" data-size="large" data-related="tomoya_noynmous">Tweet</a>
+          <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+          </div>
+          
+          <div class="fb-share-button" data-href="http://matsuuratomoya.com/blog/2016-04-27/puredata-subjective-test" data-layout="box_count" data-mobile-iframe="true"></div>
+          
+          </div>
+          <hr>
+          
+          <div class="fb-comments" data-width="100%" data-href="http://matsuuratomoya.com/blog/2016-04-27/puredata-subjective-test" data-numposts="5"></div>
+          <div class="pagination">
+          
+          <ul>
+            <li class="to_prev">
+          
+              <a href="../../2016-09-10/blogaaa" >
+          
+              <<
+              blogaaa
+              </a>
+            </li>
+            <li class="to_index">
+              <a href="../../">^</a>
+            </li>
+            <li class="to_next">
+          
+              <a href="../../2015-10-09/blog33"  >
+                blog33
+              >>
+          
+              </a>
+          
+            </li>
+          </ul>
+          </div>
+          </div>
+        </div>
+
+      </div>
+
+</div>
+    
+      <footer>
+    <div class="child">
+    
+    <p class = "copyrights">
+    
+    <a href="../../../license">2016 (CC BY-NC-ND 4.0) Matsuura Tomoya</a>
+    </p>
+    </div>
+    </footer>
+</div>
+</body>
+</html>
