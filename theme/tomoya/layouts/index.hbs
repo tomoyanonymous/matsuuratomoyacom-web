@@ -1,0 +1,75 @@
+
+{{> head }}
+<body>
+      {{> tagmanager }}
+  <div class="outer">
+
+    {{>header}}
+
+
+    <div class="inner">
+  {{!
+      <div class="content">
+
+        <div class="child">
+          }}
+{{!content}}
+    {{!
+        </div>
+      </div>
+        }}
+      <div class="content2">
+      <div class="child">
+        <div class="work">
+          {{#forloop collections.works 1}}
+          <div class="image">
+            <a href="{{relative_path ../path path}}">
+              <div class="description">
+          <p>recent work</p>
+          <p class="caption_title">{{title}}</p>
+          </div>
+              <img src="{{relative_path ../path thum ../this}}" alt=""></a>
+
+          </div>
+          {{/forloop}}
+        </div>
+        <div class="flex">
+          <div class="index_left">
+            <a href="./info"><p class="title">Updated infomation</p></a>
+            {{#forloop collections.infos 2}}
+
+            <div class="index_inner">
+              <p class="date">{{date}}</p>
+              <p class="title"><a href="{{relative_path ../path path ../this}}">{{title}}</a></p>
+
+              <div class="content">
+            <div class="markdown">{{{excerpt}}}</div>
+              </div>
+            </div>
+
+            {{/forloop}}
+          </div>
+          <div class="index_right">
+          <a href="./blog">  <p class="title">Blog</p></a>
+            {{#forloop collections.blogs 2}}
+            <div class="index_inner">
+              <p class="date">{{date}}</p>
+
+              <p class="title"><a href="{{relative_path ../path path ../this}}">{{title}}</a></p>
+
+              <div class="content">
+                <div class="markdown">{{{excerpt}}}</div>
+              </div>
+            </div>
+
+            {{/forloop}}
+          </div>
+
+        </div>
+        </div>
+      </div>
+    </div>
+    {{>footer}}
+  </div>
+</body>
+</html>

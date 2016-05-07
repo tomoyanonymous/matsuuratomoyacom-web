@@ -1,0 +1,21 @@
+{
+  "hostname":"matsuuratomoya.com",
+  "root":"http://matsuuratomoya.com/",
+  "theme":"tomoya",
+  "menu":[
+    {"name":"about",
+    "link":"about"},
+    {"name":"info",
+    "link":"info"},
+    {"name":"works",
+    "link":"works"},
+    {"name":"blog",
+    "link":"blog"},
+    {"name":"contact",
+    "link":"contact"}
+  ],
+  "locales":[
+    "ja","en"
+  ]
+
+}

@@ -1,0 +1,34 @@
+<div class="pagination">
+
+<ul>
+  <li class="to_prev">
+
+    <a href="{{#if previous}}{{relative_path path previous.path}}{{/if}}" {{#unless previous}}class="none"{{/unless}}>
+
+    <<
+    {{#if previous}}
+    {{previous.title}}
+    {{/if}}
+    </a>
+  </li>
+  <li class="to_index">
+    {{#if thum}}
+    <a href="../">^</a>
+    {{/if}}
+    {{#unless thum}}
+    <a href="../../">^</a>
+    {{/unless}}
+  </li>
+  <li class="to_next">
+
+    <a href="{{#if next}}{{relative_path path next.path}}{{/if}}"  {{#unless next}}class="none"{{/unless}}>
+        {{#if next}}
+      {{next.title}}
+  {{/if}}
+    >>
+
+    </a>
+
+  </li>
+</ul>
+</div>

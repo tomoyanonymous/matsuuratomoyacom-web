@@ -1,0 +1,26 @@
+{{> head}}
+<body>
+      {{> tagmanager }}
+  <div class="outer">
+
+    {{>header}}
+    <div class="inner">
+        <div class="child">
+<div class="content">
+        <p class="title"><a href="{{relative_path path path}}">{{{title}}}</a></p>
+        <div class="image">
+          <a href="{{relative_path path thum}}"><img src="{{relative_path path thum}}" alt=""></a>
+        </div>
+        <div class="markdown">
+        {{{contents}}}</div></div>
+
+        <p class="date">Updated on {{date}}.</p>
+        {{>pagination_indiv}}
+      </div>
+
+
+</div>
+    {{>footer}}
+</div>
+</body>
+</html>

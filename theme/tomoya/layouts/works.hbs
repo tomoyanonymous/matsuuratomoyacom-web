@@ -1,0 +1,37 @@
+
+{{> head }}
+  <body>
+        {{>tagmanager }}
+    <div class="outer">
+
+{{>header}}
+
+
+<div class="inner">
+
+<div class="content">
+    <div class="child">
+    {{{contents}}}
+  </div>
+</div>
+<div class="index_outer">
+    {{#each collections.works}}
+
+    <div class="index_inner">
+        <div class="child">
+          <a href="{{relative_path ../path path}}">
+          <div class="content">
+          <p class="date">  {{date}}</p>
+      <p class="title">{{{title}}}</p>
+      <div class="image"><img src="{{relative_path ../path thum}}" alt=""></div>
+      </div>
+      </a>
+    </div>
+</div>
+    {{/each}}
+</div>
+    </div>
+        {{>footer}}
+    </div>
+  </body>
+</html>

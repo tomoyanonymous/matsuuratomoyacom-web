@@ -1,0 +1,35 @@
+<div class="pagination">
+  <div class="child">
+  <ul>
+    <li>
+    {{#if pagination.first}}
+    <a href="{{relative_path path pagination.first.path}}"><<</a>
+    {{/if}}
+  </li>
+    <li>
+    {{#if pagination.previous}}
+    <a href="{{relative_path path pagination.previous.path}}">
+    {{/if}}
+    <
+      {{#if pagination.previous}}
+    </a>
+    {{/if}}
+  </li>
+  <li class="number">{{pagination.num}}</li>
+  <li>
+  {{#if pagination.next}}
+  <a href="{{relative_path path pagination.next.path}}">
+  {{/if}}
+  >
+    {{#if pagination.next}}
+  </a>
+  {{/if}}
+</li>
+<li>
+{{#if pagination.last}}
+<a href="{{relative_path path pagination.last.path}}">>></a>
+{{/if}}
+</li>
+  </ul>
+</div>
+</div>

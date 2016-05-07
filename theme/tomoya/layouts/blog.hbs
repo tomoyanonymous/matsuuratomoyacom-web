@@ -1,0 +1,28 @@
+{{> head}}
+<body>
+      {{> tagmanager }}
+  <div class="outer">
+
+    {{>header}}
+    <div class="inner">
+        <div class="child">
+
+        <div class="content">
+          <p class="date">{{date}}</p>
+        <p class="title"><a href="{{relative_path path path}}">{{title}}</a></p>
+<div class="markdown">
+          {{{contents}}}
+
+          {{> share}}
+          {{> comment}}
+          {{> pagination_indiv}}
+          </div>
+        </div>
+
+      </div>
+
+</div>
+    {{>footer}}
+</div>
+</body>
+</html>
