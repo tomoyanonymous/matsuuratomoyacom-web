@@ -8,7 +8,7 @@
     "metalsmith": "node index.js",
     "gulp": "gulp",
     "clean": "rm -rf ./build ; mkdir build",
-    "deploy": "gulp pre_deploy && git subtree -P build origin master",
+    "deploy":"gulp pre_deploy",
     "watch": "node bs.js"
   },
   "author": "",
@@ -28,7 +28,6 @@
     "metalsmith-in-place": "^1.4.3",
     "metalsmith-layouts": "",
     "metalsmith-markdown": "",
-    "metalsmith-metallic": "^0.3.1",
     "metalsmith-pagination": "^1.4.0",
     "metalsmith-permalinks": "",
     "metalsmith-sass": "",

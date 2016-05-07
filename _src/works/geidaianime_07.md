@@ -2,7 +2,7 @@
 layout: work.hbs
 title: 東京藝術大学映像研究科アニメーション専攻2015年度修了制作・1年次製作
 permalink: geidaianime_07
-thum: assets/img/A_D_M.JPG
+thum: assets/img/yell7.jpg
 date : 2016-03-05
 ---
 

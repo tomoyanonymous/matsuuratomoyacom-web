@@ -5,6 +5,7 @@
     <meta charset="utf-8">
 
     <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.3.0/styles/tomorrow.min.css">
     <link rel="shortcut icon" href="assets/img/favicon.ico">
     <link rel="canonical" href="http://matsuuratomoya.com">
     <meta name="viewport" content="width=device-width,user-scalable=0">
@@ -47,12 +48,6 @@
     </div>
     
     <div class="locales">
-        <a href="en">
-      <span>
-        en
-    
-      </span>
-        </a>
     </div>
     
     <div class="social">
@@ -118,22 +113,45 @@
           <div class="index_right">
           <a href="./blog">  <p class="title">Blog</p></a>
             <div class="index_inner">
-              <p class="date">2016/10/02</p>
+              <p class="date">2016/05/07</p>
 
-              <p class="title"><a href="blog/2016-10-02/hoge-fugaa">hoge_fugaa</a></p>
+              <p class="title"><a href="blog/2016-05-07/githubpage-subdirectory">Github pagesで意地でもサブディレクトリをルートにする</a></p>
 
               <div class="content">
-                <div class="markdown">日記その１</div>
+                <div class="markdown"><h3 id="-">主題</h3>
+<p>このページ自体をGithub Pagesでホストしているのですが、</p>
+<ul>
+<li>ソース自体もgithubで管理したい</li>
+<li>しかしリポジトリのルートからホスティングされるためbuildとかに入れてると例えば前者なら<githubのユーザー名>.github.io/buildにアクセスしないといけない</githubのユーザー名></li>
+<li>そうすると相対パスが狂ったりする</li>
+<li>公式でおすすめされてるJekyllはインソースビルドしてるがフォルダ構造が汚くなるのでやりたくない</li>
+</ul>
+<p>などの問題があります。これをどうにか解決しようと頑張った。</p>
+<!-- more -->
+<h3 id="-</div>
               </div>
             </div>
 
             <div class="index_inner">
-              <p class="date">2016/09/11</p>
+              <p class="date">2016/04/27</p>
 
-              <p class="title"><a href="blog/2016-09-11/blog-22">blog_22</a></p>
+              <p class="title"><a href="blog/2016-04-27/puredata-subjective-test">Puredataで評価実験</a></p>
 
               <div class="content">
-                <div class="markdown">日記その2</div>
+                <div class="markdown"><p>微妙な需要ですが、Puredataはアルゴリズム作曲とか、シンセやエフェクター作ったりする以外にも（特に音を使う）主観評価実験に使うと便利だったりします。</p>
+<p>大体の実験で、</p>
+<ul>
+<li>DAWソフトとかでパラメーターごとの音刺激を作成</li>
+<li>iTunesとかのプレイリストに音刺激入れてランダム再生</li>
+<li>紙の解答用紙に記録してもらう</li>
+<li>出てきたデータをエクセルにひたすら入力(めんどくさい)</li>
+<li>エクセルからCSV書き出し</li>
+<li>Rとかでデータの解析</li>
+</ul>
+<p>という手順になったりするのですがこの内の<strong>iTunes、紙、エクセル</strong>の部分をPuredataを使えば一つにまとめることが出来ます。</p>
+<p>当然実験内容によって作り方が変わるので万能のパッチは存在しないのですが、ある程度共通して使えるメソッドはあるのでここに書き記しておこうと思います。
+<a href="http://matsuuratomoya.com/">http://matsuuratomoya.com/</a>
+<img src="http://matsuuratomoya.com/assets/img/A_D_M.JPG" alt=""></div>
               </div>
             </div>
 

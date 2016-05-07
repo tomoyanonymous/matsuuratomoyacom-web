@@ -217,11 +217,11 @@ word-wrap:break-word;
       padding:10px 0;
       box-shadow: 2px 2px 2px $main2 * 0.7;
       .content{
-        background-color:$main2*0.98 ;
+        background-color:$main2 ;
         border:1px $main2 * 0.7;
         margin:10px 0;
         padding:10px;
-        box-shadow: 2px 2px 2px $main2 * 0.7;
+        box-shadow: 3px 3px 2px $main2 * 0.7;
       }
       >.content{
         background-color:$main2;

@@ -739,11 +739,11 @@ body .outer .inner {
 
 /* line 219, stdin */
 body .outer .inner .content {
-  background-color: #ebf4f7;
+  background-color: #F0F9FC;
   border: 1px #a8aeb0;
   margin: 10px 0;
   padding: 10px;
-  box-shadow: 2px 2px 2px #a8aeb0;
+  box-shadow: 3px 3px 2px #a8aeb0;
 }
 
 /* line 226, stdin */
