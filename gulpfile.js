@@ -10,7 +10,8 @@ var Metalsmith = require('metalsmith'),
     handlebars = require('handlebars'),
     excerpts = require('metalsmith-better-excerpts'),
     rootpath = require('metalsmith-rootpath'),
-    moment = require("moment");
+    moment = require("moment"),
+    metallic = require("metalsmith-metallic");
 
 var gulp = require('gulp'),
     sass = require('gulp-sass'),
@@ -194,6 +195,7 @@ function build(){
   .destination("build/")
   .metadata({"config":config})
   .use(inplace(build_config.metalsmith.inplace))
+  .use(metallic())
   .use(markdown())
   .use(excerpts({moreRegExp: /\s*<!--\s*more\s*-->/i,
         stripTags: false,
