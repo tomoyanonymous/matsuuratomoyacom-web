@@ -255,8 +255,8 @@ function build(){
   }
 
   function copy_images(){
-    return gulp.src("_src/assets/images/*")
-    .pipe(gulp.dest("./build/assets/images"));
+    return gulp.src("./_src/assets/img/**")
+    .pipe(gulp.dest("./build/assets/img"));
   }
 
   exports.gulp_sass = gulp_sass;
