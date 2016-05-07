@@ -8,6 +8,7 @@
     "metalsmith": "node index.js",
     "gulp": "gulp",
     "clean": "rm -rf ./build ; mkdir build",
+    "deploy":"gulp pre_deploy && git subtree -P build origin master",
     "watch": "node bs.js"
   },
   "author": "",
