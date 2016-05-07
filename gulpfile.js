@@ -229,7 +229,8 @@ function build(){
   .build(function(err) {
     if (err) throw err;
     console.log('finished building.');
-    bs.reload();});
+    bs.reload();
+  });
 
     return gulp.src('./gulpfile.js');
 
@@ -258,6 +259,10 @@ function build(){
     return gulp.src("./_src/assets/img/**")
     .pipe(gulp.dest("./build/assets/img"));
   }
+  function copy_others(){
+    return gulp.src("CNAME")
+    .pipe(gulp.dest("./build"))
+  }
 
   exports.gulp_sass = gulp_sass;
   gulp.task('clean',function(){
@@ -271,7 +276,7 @@ function build(){
   exports.reload = bs.reload();
   // gulp.task('reload',bs.reload);
 
-  var pre_deploy = gulp.series('clean',build,gulp_sass,copy_images)
+  var pre_deploy = gulp.series('clean',build,gulp_sass,copy_images,copy_others)
 
   gulp.task('pre_deploy',pre_deploy);
 
