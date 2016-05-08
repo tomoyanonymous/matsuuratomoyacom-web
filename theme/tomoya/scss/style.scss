@@ -163,7 +163,7 @@ word-wrap:break-word;
           justify-content:flex-end;
           min-height:5rem;
           padding:0px;
-          .tw,.fb{
+          >div{
             min-height:25px;
             display: table-cell;
             vertical-align: middle;
@@ -174,7 +174,6 @@ word-wrap:break-word;
           }
           .logo{
             min-height:25px;
-            background-color: #55acee;
             width:25px;
             height:25px;
             margin:2.5px;
@@ -192,7 +191,7 @@ word-wrap:break-word;
               border-radius:5px;
               &:hover{
                 text-decoration:none;
-                box-shadow:1px 1px 1px $main2 * 0.7;
+                // box-shadow:1px 1px 1px $main2 * 0.7;
                 border:none;
               }
               img{
@@ -205,8 +204,15 @@ word-wrap:break-word;
               }
             }
           }
+          .tw .logo{
+            background-color: #55acee;
+          }
           .fb .logo{
-            background-color: $main2;
+            background-color:#fff;
+          }
+          .github .logo{
+            // background-color:#fff;
+            border-radius:5px;
           }
         }
       }
