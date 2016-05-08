@@ -12,6 +12,6 @@ date : 2015-10-16
 
 また弦楽4重奏をリアルタイムサンプリングし、エフェクトをかけて雨の効果音として用いる演出などを実装した。
 
-![]({{config.root}}asset/img/imaienai/operate.jpg)
+![]({{config.root}}assets/img/imaienai/operate.jpg)
 
-![]({{config.root}}asset/img/imaienai/2.jpg)
+![]({{config.root}}assets/img/imaienai/2.jpg)

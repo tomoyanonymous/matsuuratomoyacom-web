@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.3.0/styles/tomorrow.min.css">
     <link rel="shortcut icon" href="assets/img/favicon.ico">
     <link rel="canonical" href="http://matsuuratomoya.com">
-    <meta name="viewport" content="width=device-width,user-scalable=0">
+    <meta name="viewport" content="width=device-width">
     <meta property="og:type" content="website" />
     <meta name="keyword" content="松浦知也,マツウラトモヤ,Matsuura Tomoya,Tomoya Matsuura,まつうらともや">
   <meta name="description" content="Website of Matsuura Tomoya.">
@@ -53,14 +53,22 @@
       <div class="tw">
         <div class="logo">
           <a href="https://twitter.com/tomoya_nonymous" target=”_blank”>
-            <img src="../../../assets/img/tw.png" alt="">
+            <img src="../../../assets/img/tw.png" alt="twitter">
           </a>
         </div>
         </div>
         <div class="fb">
           <div class="logo">
             <a href="https://www.facebook.com/tomoya.matsuura.98" target=”_blank”>
-              <img src="../../../assets/img/fb.png" alt="">
+              <img src="../../../assets/img/fb.png" alt="facebook">
+            </a>
+          </div>
+        </div>
+      
+        <div class="github">
+          <div class="logo">
+            <a href="https://github.com/tomoyanonymous" target=”_blank”>
+              <img src="../../../assets/img/github.png" alt="github">
             </a>
           </div>
         </div>
@@ -75,16 +83,15 @@
           <p class="date">2016/05/07</p>
         <p class="title"><a href=".">Github pagesで意地でもサブディレクトリをルートにする</a></p>
 <div class="markdown">
-          <h3 id="-">主題</h3>
-<p>このページ自体をGithub Pagesでホストしているのですが、</p>
+          <p>このページ自体をGithub Pagesでホストしているのですが、</p>
 <ul>
 <li>ソース自体もgithubで管理したい</li>
 <li>しかしリポジトリのルートからホスティングされるためbuildとかに入れてると例えば前者なら<Githubのユーザー名>.github.io/buildにアクセスしないといけない</li>
 <li>そうすると相対パスが狂ったりする</li>
 <li>公式でおすすめされてるJekyllはインソースビルドしてるがフォルダ構造が汚くなるのでやりたくない</li>
 </ul>
-<p>などの問題があります。これをどうにか解決しようと頑張った。</p>
-<!-- more -->
+<p>などの問題があります。これをどうにか解決しようと頑張った。
+<!-- more --></p>
 <h3 id="-">試行錯誤</h3>
 <p>git subtreeを使ってサブディレクトリだけ別ブランチにプッシュすればいけるのでは？と思いやってみる。</p>
 <p>そういえばGithub Pagesのホスティングは2種類あって、gh-pagesというブランチを作れば勝手にホスティングされるんだったなと思い、</p>
@@ -139,9 +146,10 @@ $ git branch -D master <span class="hljs-comment">#一旦masterブランチを�
           <ul>
             <li class="to_prev">
           
-              <a href="" class="none">
+              <a href="../../2016-05-08/maxmsp-pattr" >
           
               <<
+              Cycling74-MaxのPattrをちゃんと使い倒す
               </a>
             </li>
             <li class="to_index">
@@ -150,7 +158,7 @@ $ git branch -D master <span class="hljs-comment">#一旦masterブランチを�
             <li class="to_next">
           
               <a href="../../2016-04-27/puredata-subjective-test"  >
-                Puredataで評価実験
+                Puredataで評価実験(サンプルパッチあり)
               >>
           
               </a>

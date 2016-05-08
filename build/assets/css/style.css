@@ -674,7 +674,7 @@ body .outer header div .social {
 }
 
 /* line 166, stdin */
-body .outer header div .social .tw, body .outer header div .social .fb {
+body .outer header div .social > div {
   min-height: 25px;
   display: table-cell;
   vertical-align: middle;
@@ -687,7 +687,6 @@ body .outer header div .social .tw, body .outer header div .social .fb {
 /* line 175, stdin */
 body .outer header div .social .logo {
   min-height: 25px;
-  background-color: #55acee;
   width: 25px;
   height: 25px;
   margin: 2.5px;
@@ -695,7 +694,7 @@ body .outer header div .social .logo {
   border-radius: 5px;
 }
 
-/* line 183, stdin */
+/* line 182, stdin */
 body .outer header div .social .logo a {
   min-height: 25px;
   width: 25px;
@@ -707,14 +706,13 @@ body .outer header div .social .logo a {
   border-radius: 5px;
 }
 
-/* line 193, stdin */
+/* line 192, stdin */
 body .outer header div .social .logo a:hover {
   text-decoration: none;
-  box-shadow: 1px 1px 1px #a8aeb0;
   border: none;
 }
 
-/* line 198, stdin */
+/* line 197, stdin */
 body .outer header div .social .logo a img {
   width: 25px;
   height: 25px;
@@ -724,12 +722,22 @@ body .outer header div .social .logo a img {
   border: none;
 }
 
-/* line 208, stdin */
-body .outer header div .social .fb .logo {
-  background-color: #F0F9FC;
+/* line 207, stdin */
+body .outer header div .social .tw .logo {
+  background-color: #55acee;
 }
 
-/* line 214, stdin */
+/* line 210, stdin */
+body .outer header div .social .fb .logo {
+  background-color: #fff;
+}
+
+/* line 213, stdin */
+body .outer header div .social .github .logo {
+  border-radius: 5px;
+}
+
+/* line 220, stdin */
 body .outer .inner {
   background-color: #e6eff2;
   margin: 20px 0;
@@ -737,7 +745,7 @@ body .outer .inner {
   box-shadow: 2px 2px 2px #a8aeb0;
 }
 
-/* line 219, stdin */
+/* line 225, stdin */
 body .outer .inner .content {
   background-color: #F0F9FC;
   border: 1px #a8aeb0;
@@ -746,14 +754,14 @@ body .outer .inner .content {
   box-shadow: 3px 3px 2px #a8aeb0;
 }
 
-/* line 226, stdin */
+/* line 232, stdin */
 body .outer .inner > .content {
   background-color: #F0F9FC;
   box-shadow: 3px 3px 3px #a8aeb0;
   padding: 10px 0;
 }
 
-/* line 232, stdin */
+/* line 238, stdin */
 body .outer .inner > .content2 {
   background-color: #ebf4f7;
   box-shadow: 2px 2px 2px #a8aeb0;
@@ -761,7 +769,7 @@ body .outer .inner > .content2 {
   margin: 10px 0;
 }
 
-/* line 239, stdin */
+/* line 245, stdin */
 body .outer .inner p.title {
   font-size: 2rem;
   font-weight: lighter;
@@ -769,45 +777,45 @@ body .outer .inner p.title {
   padding: 10px 0;
 }
 
-/* line 245, stdin */
+/* line 251, stdin */
 body .outer .inner p.date {
   font-size: 0.9rem;
   font-weight: lighter;
   padding: 10px 0 0 0;
 }
 
-/* line 256, stdin */
+/* line 262, stdin */
 body .outer .inner .index_inner {
   border-top: 1px solid #ccc;
   padding: 10px 0;
   margin: 0;
 }
 
-/* line 260, stdin */
+/* line 266, stdin */
 body .outer .inner .index_inner .content {
   background-color: #F0F9FC;
 }
 
-/* line 264, stdin */
+/* line 270, stdin */
 body .outer .inner .work {
   width: 100%;
   margin: 10px 0;
   position: relative;
 }
 
-/* line 268, stdin */
+/* line 274, stdin */
 body .outer .inner .work a {
   display: block;
   height: 100%;
 }
 
-/* line 273, stdin */
+/* line 279, stdin */
 body .outer .inner .work:hover {
   opacity: 0.9;
   border: none;
 }
 
-/* line 277, stdin */
+/* line 283, stdin */
 body .outer .inner .work .description {
   position: absolute;
   float: left;
@@ -816,30 +824,30 @@ body .outer .inner .work .description {
   padding: 0 10px;
 }
 
-/* line 285, stdin */
+/* line 291, stdin */
 body .outer .inner .work .description p {
   color: #FA8F2D;
   text-shadow: 1px 1px 2px #af6420;
   opacity: 0.8;
 }
 
-/* line 291, stdin */
+/* line 297, stdin */
 body .outer .inner .work .description .caption_title {
   font-size: 2rem;
   height: 4rem;
 }
 
-/* line 297, stdin */
+/* line 303, stdin */
 body .outer .inner .work img {
   box-shadow: 2px 2px 3px #bbb;
 }
 
-/* line 299, stdin */
+/* line 305, stdin */
 body .outer .inner .work img:hover {
   opacity: 1;
 }
 
-/* line 304, stdin */
+/* line 310, stdin */
 body .outer .inner .flex {
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -852,7 +860,7 @@ body .outer .inner .flex {
   flex-wrap: wrap;
 }
 
-/* line 308, stdin */
+/* line 314, stdin */
 body .outer .inner .flex > div {
   background-color: #F0F9FC;
   border: 1px solid #ccc;
@@ -861,31 +869,31 @@ body .outer .inner .flex > div {
   padding: 10px;
 }
 
-/* line 316, stdin */
+/* line 322, stdin */
 body .outer .inner .index_left, body .outer .inner .index_right {
   width: 45%;
   min-width: 350px;
 }
 
-/* line 320, stdin */
+/* line 326, stdin */
 body .outer .inner .index_left a > .title, body .outer .inner .index_right a > .title {
   font-weight: normal;
 }
 
-/* line 323, stdin */
+/* line 329, stdin */
 body .outer .inner .index_left .content, body .outer .inner .index_right .content {
   padding: 5px 0;
   box-shadow: 0px 0px 0px #F0F9FC;
 }
 
-/* line 330, stdin */
+/* line 336, stdin */
 body .outer .pagination {
   width: 100%;
   text-align: center;
   padding: 20px 0;
 }
 
-/* line 334, stdin */
+/* line 340, stdin */
 body .outer .pagination ul {
   list-style: none;
   width: 100%;
@@ -904,7 +912,7 @@ body .outer .pagination ul {
   align-items: center;
 }
 
-/* line 344, stdin */
+/* line 350, stdin */
 body .outer .pagination ul li {
   vertical-align: bottom;
   text-decoration: none;
@@ -913,13 +921,13 @@ body .outer .pagination ul li {
   width: 30%;
 }
 
-/* line 351, stdin */
+/* line 357, stdin */
 body .outer .pagination ul li:not(.number) {
   font-size: 1rem;
   text-decoration: none;
 }
 
-/* line 362, stdin */
+/* line 368, stdin */
 body .outer .pagination ul li a {
   background-color: #F0F9FC;
   box-shadow: 1px 1px 1px #787d7e;
@@ -929,12 +937,12 @@ body .outer .pagination ul li a {
   height: 100%;
 }
 
-/* line 369, stdin */
+/* line 375, stdin */
 body .outer .pagination ul li a:hover {
   box-shadow: 2px 2px 2px #787d7e;
 }
 
-/* line 375, stdin */
+/* line 381, stdin */
 body .outer .pagination ul .to_index {
   -webkit-flex-basis: 20%;
   -ms-flex-preferred-size: 20%;
@@ -942,19 +950,19 @@ body .outer .pagination ul .to_index {
   margin: 10px;
 }
 
-/* line 378, stdin */
+/* line 384, stdin */
 body .outer .pagination ul .to_index a {
   font-size: 2rem;
 }
 
-/* line 383, stdin */
+/* line 389, stdin */
 body .outer .pagination ul .none {
   pointer-events: none;
   font-color: #787d7e;
   box-shadow: none;
 }
 
-/* line 390, stdin */
+/* line 396, stdin */
 body .outer footer {
   border-top: 1px solid #ccc;
   background-color: #ebf4f7;

@@ -4,9 +4,6 @@ title: Github pagesで意地でもサブディレクトリをルートにする
 permalink: githubpage-subdirectory
 layout: blog.hbs
 ---
-
-### 主題
-
 このページ自体をGithub Pagesでホストしているのですが、
 
 - ソース自体もgithubで管理したい
@@ -15,8 +12,8 @@ layout: blog.hbs
 - 公式でおすすめされてるJekyllはインソースビルドしてるがフォルダ構造が汚くなるのでやりたくない
 
 などの問題があります。これをどうにか解決しようと頑張った。
-
 <!-- more -->
+
 
 ### 試行錯誤
 
