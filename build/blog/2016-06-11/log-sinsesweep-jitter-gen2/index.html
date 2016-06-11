@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="ja" prefix="og: http://ogp.me/ns#">
+  <head>
+    <meta charset="utf-8">
+
+    <link rel="stylesheet" href="../../../assets/css/style.css">
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.3.0/styles/tomorrow.min.css">
+    <link rel="shortcut icon" href="assets/img/favicon.ico">
+    <link rel="canonical" href="http://matsuuratomoya.com">
+    <meta name="viewport" content="width=device-width">
+    <meta property="og:type" content="website" />
+    <meta name="keyword" content="松浦知也,マツウラトモヤ,Matsuura Tomoya,Tomoya Matsuura,まつうらともや">
+  <meta name="description" content="Website of Matsuura Tomoya.">
+  <meta property="og:title" content="Matsuura Tomoya|松浦知也" />
+<meta property="og:url" content="http://matsuuratomoya.com/" />
+<meta property="og:image" content="http://matsuuratomoya.com/assets/img/image_ogp.png" />
+<meta property="og:image:type" content="image/png" />
+<meta property="og:image:width" content="1200" />
+<meta property="og:image:height" content="630" />
+<meta property="fb:app_id" content="1756749324544053" />
+  <meta property="og:description" content="Website of Matsuura Tomoya."/>
+    <title>JitterとGenを活用してインパルス応答測定(2) Matsuura Tomoya|松浦知也 </title>
+  </head>
+<body>
+      <!-- Google Tag Manager -->
+      <noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-KSWGLR"
+      height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+      <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+      new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+      j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+      '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+      })(window,document,'script','dataLayer','GTM-KSWGLR');</script>
+      <!-- End Google Tag Manager -->
+  <div class="outer">
+
+    
+    <header>
+      <div class="child">
+      <a href="../../.."><div class="title">Matsuura Tomoya</div></a>
+    
+    <div class="menu">
+      <a href="../../../about"><div>about</div></a>
+      <a href="../../../info"><div>info</div></a>
+      <a href="../../../works"><div>works</div></a>
+      <a href="../.."><div>blog</div></a>
+      <a href="../../../contact"><div>contact</div></a>
+    </div>
+    
+    <div class="locales">
+    </div>
+    
+    <div class="social">
+      <div class="tw">
+        <div class="logo">
+          <a href="https://twitter.com/tomoya_nonymous" target=”_blank”>
+            <img src="../../../assets/img/tw.png" alt="twitter">
+          </a>
+        </div>
+        </div>
+        <div class="fb">
+          <div class="logo">
+            <a href="https://www.facebook.com/tomoya.matsuura.98" target=”_blank”>
+              <img src="../../../assets/img/fb.png" alt="facebook">
+            </a>
+          </div>
+        </div>
+      
+        <div class="github">
+          <div class="logo">
+            <a href="https://github.com/tomoyanonymous" target=”_blank”>
+              <img src="../../../assets/img/github.png" alt="github">
+            </a>
+          </div>
+        </div>
+    </div>
+    
+    </div>
+    </header>
+    <div class="inner">
+        <div class="child">
+
+        <div class="content">
+          <p class="date">2016/06/11</p>
+        <p class="title"><a href=".">JitterとGenを活用してインパルス応答測定(2)</a></p>
+<div class="markdown">
+          <p>インパルス応答計測の方法の概略は<a href="http://matsuuratomoya.com/blog/2016-06-11/log-sinsesweep-jitter-gen1/">前回</a>説明しました。
+今回は実際にインパルス応答測定のためのパッチづくりを、実際にJitterとGenで作ったパッチの中身を見ながら解説していこうと思います。</p>
+<!-- more -->
+<h3 id="-max-">インパルス応答測定の流れとMaxで作るメリット</h3>
+<p>さて、実際にインパルス応答を録るにあたって必要な作業は以下です</p>
+<ol>
+<li>測定信号の生成</li>
+<li>測定</li>
+<li>逆フィルタでインパルス応答復元</li>
+</ol>
+<p>大体生成が何らかのスクリプト言語やツールを使って生成するのが一般的です（みんな大好きAudacityにもChirpと呼ばれるもので生成できます。）。そしてDAWなどに書きだした測定信号ファイルを取り込み録音、またプログラムなどに戻ってインパルス応答を復元という流れになります。Audacityとかなら1,2までは出来ますが3に行く時にどうしても別のツールに頼らねばなりません。
+これが全部1つのツールで完結すると非常に楽です。</p>
+<p>ちなみに、それをPuredataで作ったExpoChirpToolboxというのがあります。</p>
+<p><a href="http://www.katjaas.nl/expochirp/expochirp.html">http://www.katjaas.nl/expochirp/expochirp.html</a>
+これは[expochirp~]というエクスターナルオブジェクトとセットにしたpdパッチで、信号の生成、録音からIRの編集、分析まで全部できます。</p>
+<p><small>ちなみに自分でエクスターナル無しでPdで開発しようとしたところ小数点精度の問題などであえなく挫折しました</small></p>
+<p>Maxであればエクスターナル開発無しでも行けるかも、と思い開発してみました。</p>
+<h3 id="jitter-gen-buffer-">JitterとGenでBuffer~操作</h3>
+<p>先ほど測定信号を作るだけならMSPで写真のようなパッチを組めば十分と書きましたが、最終的にインパルス応答を取り出したければ逆フィルタを畳み込まねばなりません。
+この時一番問題になるのは時間領域→周波数領域に変換するFFTで、信号を一定間隔で切り出して順次FFTするような形になっています。感覚のコントロールは可能ですが一回だけFFTして止める、みたいな事をするのは至難の技です。</p>
+<p>そこで本来映像操作のためのjitterを使って波形を操作しようと言うのが今回の目的です（前置きが長い）。
+今回はTSP信号と逆フィルタはGenで生成し、畳込みなどの処理はjitterでやっていきます。</p>
+<p>この2つを使うと、Maxメッセージと比べて64bitでの処理ができるというメリットも有ります。</p>
+<h3 id="gen-tsp-">GenでのTSP信号、逆フィルタ生成</h3>
+<p><img src="http://matsuuratomoya.com/assets/img/max_IR/TSP_gen.png" alt=""></p>
+<p>Genではpokeを使えばbufferに書き込みが可能です。
+counterというサンプル単位で進むカウンターがあるので、外から1/0でカウンターのリセットをしてカウンターを回し始め、あとはほぼ定義通りの計算です。</p>
+<p>逆フィルタの生成のほうが時間反転や振幅の計算がある分複雑です。ちなみに逆フィルタは振幅がだいたい-1~+1の範囲を超えますが、32bitfloatの上にこれ単体を再生したりすることは無いので特に気にする必要はありません。</p>
+<h3 id="jitter-">Jitterでの逆畳込み</h3>
+<p><img src="http://matsuuratomoya.com/assets/img/max_IR/deconv_jitter1.png" alt="">
+さて、逆フィルタの処理部分です。
+jit.buffer~からbufferの中身を長さ*1のマトリックスとして読み出して計算します。左側が録音した波形、右側が逆フィルターです。
+float32で読み込まれるので一度jit.matrix @type float64で型変換します。jitterはアトリビュートの指定だらけになるのでオブジェクトが見にくい事この上ないです。</p>
+<p>録音した波形は複数回繰り返されて録音されているのでjit.scissorsで分割して足し合わせます。</p>
+<p><img src="http://matsuuratomoya.com/assets/img/max_IR/deconv_jitter2.png" alt=""></p>
+<p>jit.glueで空の配列を足しているのは空き部分を作っておかないとはみ出した応答がマイナス時間に回りこむのを避けるため（円状畳込みを直線畳込みにするため）です。</p>
+<p>jit.packで複素数（虚数成分は0）にしたうえでjit.fftに突っ込みます。</p>
+<p>そして周波数領域同士で掛け算をします。サブパッチの中身は複素数の掛け算です。</p>
+<p><img src="http://matsuuratomoya.com/assets/img/max_IR/deconv_jitter3.png" alt=""></p>
+<p>その後jit.fft @inverse 1で時間領域に戻し、unpackで実数部のみを取り出します。</p>
+<p>bufferに戻すためにjit.matrix @type float32で型を戻し、jit.buffer~に書き込み。
+これでインパルス応答が復元されます。</p>
+<p><img src="http://matsuuratomoya.com/assets/img/max_IR/main.png" alt=""></p>
+<p>これに録音機能（とりあえず4ch録音したかったので4ch仕様です）、インパルス応答のノーマライズ、マイナス時間の削除機能などなどをつけてとりあえず自分が使う分には十分なアプリが完成です。一応公開しておきますがいろいろ足りない機能だらけだと思うので自分で改造する叩き台ということでお願いします。</p>
+<p><a href="https://github.com/tomoyanonymous/IR_measurement_toolbox">https://github.com/tomoyanonymous/IR_measurement_toolbox</a></p>
+<p>今後はF特のグラフ書いたり任意のファイルにIR畳み込んだりIRのサンプル数減らすように出来たりしたいですね。plot~の記法がめんどくさすぎて諦めました。</p>
+<h4 id="-">おまけ</h4>
+<p>完成までに出力された波形の数々</p>
+<p><img src="http://matsuuratomoya.com/assets/img/max_IR/waves.png" alt=""></p>
+
+
+          <div class="share">
+            <div class="tweet">
+          <a href="https://twitter.com/share" class="twitter-share-button" data-size="large" data-related="tomoya_noynmous">Tweet</a>
+          <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+          </div>
+          
+          <div class="fb-share-button" data-href="http://matsuuratomoya.com/blog/2016-06-11/log-sinsesweep-jitter-gen2" data-layout="box_count" data-mobile-iframe="true"></div>
+          
+          </div>
+          <hr>
+          
+          <div class="fb-comments" data-width="100%" data-href="http://matsuuratomoya.com/blog/2016-06-11/log-sinsesweep-jitter-gen2" data-numposts="5"></div>
+          <div class="pagination">
+          
+          <ul>
+            <li class="to_prev">
+          
+              <a href="" class="none">
+          
+              <<
+              </a>
+            </li>
+            <li class="to_index">
+              <a href="../../">^</a>
+            </li>
+            <li class="to_next">
+          
+              <a href="../log-sinsesweep-jitter-gen1"  >
+                JitterとGenを活用してインパルス応答測定(1)
+              >>
+          
+              </a>
+          
+            </li>
+          </ul>
+          </div>
+          </div>
+        </div>
+
+      </div>
+
+</div>
+    
+      <footer>
+    <div class="child">
+    
+    <p class = "copyrights">
+    
+    <a href="../../../license">2016 (CC BY-NC-ND 4.0) Matsuura Tomoya</a>
+    </p>
+    </div>
+    </footer>
+</div>
+</body>
+</html>
