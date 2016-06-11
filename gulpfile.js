@@ -147,6 +147,14 @@ function ignore_assets(files, metalsmith, done){
   }
   done();
 }
+function ignore_drafts(files, metalsmith, done){
+  for(var file in files){
+    if(draft == true){
+      delete files[file];
+    }
+  }
+  done();
+}
 function append_locales(files, metalsmith, done){
   var def_loc = "ja";
 
@@ -192,6 +200,7 @@ function build(){
   Metalsmith(__dirname)
   .source("_src/")
   .use(ignore_assets)
+  .use(ignore_drafts)
   .destination("build/")
   .metadata({"config":config})
   .use(inplace(build_config.metalsmith.inplace))
