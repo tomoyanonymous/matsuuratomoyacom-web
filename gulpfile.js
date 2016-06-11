@@ -149,10 +149,10 @@ function ignore_assets(files, metalsmith, done){
 }
 function ignore_drafts(files, metalsmith, done){
   for(var file in files){
-    if(draft == true){
+    if(files[file].draft == true){
       delete files[file];
     }
-  }
+  } 
   done();
 }
 function append_locales(files, metalsmith, done){
