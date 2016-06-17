@@ -9,7 +9,8 @@
     "gulp": "gulp",
     "clean": "rm -rf ./build ; mkdir build",
     "deploy":"gulp pre_deploy",
-    "watch": "node bs.js"
+    "watch": "node bs.js",
+    "subtreepush":"git subtree push -P build origin master"
   },
   "author": "",
   "license": "ISC",
