@@ -91,7 +91,7 @@ Max上ではnodesオブジェクトを使ったパンニングも思想として
 
 ### 実装
 
-今回はJamomaのページにある論文をほぼそのまま実装したものですので、より詳しい情報が見たい博多はこちらを参考にするのがよいと思います。
+今回はJamomaのページにある論文をほぼそのまま実装したものですので、より詳しい情報が見たいという方はこちらを参考にするのがよいと思います。
 
 [http://jamoma.org/publications/attachments/icmc2009-dbap-rev1.pdf](http://jamoma.org/publications/attachments/icmc2009-dbap-rev1.pdf)
 
