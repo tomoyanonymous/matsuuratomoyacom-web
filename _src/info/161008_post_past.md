@@ -48,7 +48,9 @@ Twitter: [@tomoya_nonymous](https://twitter.com/tomoya_nonymous)
 ### ステートメント
 
 この展示は2015年12月に展示した「Acoustic Delay (⇔) Memory」に続く作品の展示となります。コンピュータの最初期、1950年代のごく短い間に使われた音響遅延線メモリーという記録装置がありました。
+
 音響遅延線メモリーというのは、水銀入ったタンクの端から音のパルスを流し、反対の端でその音をマイクで検出し、もう一度どのパルスを反対の端から流すと、音のパルスがぐるぐると回り続けることになります。そのパルスのパターンが保持されることでデジタルデータを記録するというものです。
+
 「Acoustic Delay (⇔) Memory」では、音響遅延線メモリーを普通のスピーカーとマイクと簡単な電子回路を使って再現してみる、更にそれをリアルタイムで動作するクラウドストレージにする、という試みをしました。
 クラウドストレージと言い張るものの保存容量はたった8bit、英数字1文字しかなく、記録装置としてはほぼ無意味なものと言えるのですが、今回の展示ではその記憶装置をもう少し無意味な方向に発展させようと思います。
 
@@ -94,14 +96,17 @@ Twitter: [@tomoya_nonymous](https://twitter.com/tomoya_nonymous)
 ### Statement
 
 This exhibition is a continuation work of my past work "Acoustic Delay (⇔) Memory" in December 2015.
+
 In early days of the computer, 1950s , There was the memory equipment the name of "Acoustic delay line memory".
 Acoustic delay line memory works by circulating sonic pulses from the end to the end of a metal tank filled with a mercury.
 Sonic pulses keep some fixed pattern, that means some binary data was stored.
+
 In my work "Acoustic Delay (⇔) Memory", I built a Acoustic delay line memory by using ordinary Speaker, Microphone and some simple electronic circuit and made it as cloud storage which can be controlled from the Internet.
 I called it cloud storage but, actually, it can store only 8 bit,only 1 word in ascii code. So it was completely useless as memory system today.
+
 In this exhibition, I will make this memory system a bit more useless.
 
-what makes things "digital", explaining roughly , it is interpreting.
+What makes things "digital", explaining roughly , it is interpreting.
 if an voltage get over some level, it's 1. if not, it's 0.
 When you read this statement, you see the placements of the ink on the paper or dots on a display of your PC, you interpret that pattern as characters.
 Of course, the level of voltage is interpreted by a function of some electronic parts, but that level is still defined by human.
