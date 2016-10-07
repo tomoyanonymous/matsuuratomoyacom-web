@@ -95,7 +95,7 @@ Twitter: [@tomoya_nonymous](https://twitter.com/tomoya_nonymous)
 
 ### Statement
 
-This exhibition is a continuation work of my past work "Acoustic Delay (⇔) Memory" in December 2015.
+This exhibition is a continuation of my past work "Acoustic Delay (⇔) Memory" in December 2015.
 
 In early days of the computer, 1950s , There was the memory equipment the name of "Acoustic delay line memory".
 Acoustic delay line memory works by circulating sonic pulses from the end to the end of a metal tank filled with a mercury.
@@ -109,6 +109,9 @@ In this exhibition, I will make this memory system a bit more useless.
 What makes things "digital", explaining roughly , it is interpreting.
 if an voltage get over some level, it's 1. if not, it's 0.
 When you read this statement, you see the placements of the ink on the paper or dots on a display of your PC, you interpret that pattern as characters.
+
+And then, there is a common rule between sender and receiver.
+
 Of course, the level of voltage is interpreted by a function of some electronic parts, but that level is still defined by human.
 Every time interpretation needs human.
 
