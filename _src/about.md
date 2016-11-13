@@ -8,6 +8,8 @@ layout: about.hbs
 
 ## 松浦知也
 
+![]({{config.root}}assets/img/profile.jpg)
+
 Sound Maker/Engineer/Designer/Programmer
 
 インスタレーションやサウンドアートのサウンドシステム開発をする他、自身でも展示作品などの制作を行う。
@@ -20,6 +22,8 @@ Sound Maker/Engineer/Designer/Programmer
 
 1994年生まれ 神奈川県在住
 
+2010/04~2013/03 神奈川県立神奈川総合高等学校 普通科個性化コース
+
 2013~ 東京芸術大学 音楽学部音楽環境創造科 プロジェクト３(録音/サウンドデザイン専攻)
 
 2014/02 ~ teamlab サウンドエンジニア
@@ -30,23 +34,24 @@ Sound Maker/Engineer/Designer/Programmer
 
 ### Skill
 
-#### できる
+#### よく使う
 
 - Puredata
 - Max/MSP
 - HTML5/CSS3
 - Cubase
+- Faust
+- Javascript(Node.jsも)
+
+#### 使う
+
 - Protools
-
-#### 使ったことがある
-
-- Openframeworks
-- Processing
-- Node.js
 - R
+- Openframeworks
+
 
 #### 勉強中
 
-- Faust
+-
 - Julia
 - Unity

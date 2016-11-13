@@ -9,12 +9,16 @@ locale: en
 
 ## 松浦知也
 
+![]({{config.root}}assets/img/profile.jpg)
+
 Sound Maker/Engineer/Designer/Programmer
 
 ---
 ### CV
 
-Born in 1994.
+Born in 1994. Living in Kanagawa Pref. Japan.
+
+2010/04~2013/03 Kanagawa Sohgoh Highschool
 
 2013~ Tokyo University of the Arts Music Creation and Environment in Music Program(Project 3:Sound Engineering)
 
@@ -26,23 +30,24 @@ Born in 1994.
 
 ### Skill
 
-#### Intermediate
+#### Frequently Use
 
 - Puredata
 - Max/MSP
 - HTML5/CSS3
 - Cubase
-- Protools
-
-#### Have Used
-
-- Openframeworks
-- Processing
-- Node.js
-- R
-
-#### Studying now
-
 - Faust
+- Javascript(including Node.js)
+
+#### Use
+
+- Protools
+- R
+- Openframeworks
+
+
+#### Studying
+
+-
 - Julia
 - Unity
