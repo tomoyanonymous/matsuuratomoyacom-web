@@ -5,6 +5,10 @@ permalink: post_past
 date: 2016-10-08
 ---
 
+*11/9*
+
+*本展示は終了いたしました。ご来場ありがとうございました。*
+
 2016年11月4日~9日にかけて、展示「送れ|遅れ / post|past」を開催します。
 
 <img src="{{config.root}}assets/img/ADM2_chirashi.png" alt="">

@@ -48,10 +48,8 @@ Sound Maker/Engineer/Designer/Programmer
 - Protools
 - R
 - Openframeworks
-
-
+-
 #### 勉強中
 
--
 - Julia
 - Unity
