@@ -443,6 +443,15 @@ hr {
   border-top: 1px solid #e2eaed;
 }
 
+/* line 47, /Users/Tomoya/Website/tomoyanonymous.github.io/theme/tomoya/scss/_init.scss */
+td, th {
+  text-align: left;
+  vertical-align: center;
+  padding: 5px;
+  border-width: 1px;
+  border-style: solid;
+}
+
 /* line 10, stdin */
 body .markdown p {
   margin: 1rem 0;

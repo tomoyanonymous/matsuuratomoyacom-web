@@ -223,8 +223,8 @@
 <li>tgroup(label,block):グルーピング。タブ切り替え配置</li>
 </ul>
 <p>しかし、実際にこれらがどうUIとして出力されるかはアーキテクチャファイル次第です。
-例えばQtアプリケーション出力ではほぼこの通り出力されますが、Maxのオブジェクトとして出力された場合はUIもなにもないので、オブジェクトに&quot;label&quot; (設定したい数値)で全てのUIを同じように操作することになります（ちなみにMaxではhbargraphは機能しません）。</p>
-<p>またhslider(&quot;btn1 [style:knob]&quot;,0,0,100,1)のようにラベルの中に拡張メタデータを埋め込むことができ、アーキテクチャファイル側で対応した実装がされていれば、例えばこの例の場合はQtアプリ出力の際にスライダーではなくノブとして表れてくれます。
+例えばQtアプリケーション出力ではほぼこの通り出力されますが、Maxのオブジェクトとして出力された場合はUIもなにもないので、オブジェクトに&quot;label&quot; (設定したい数値)というメッセージを送ることで全てのUIを同じように操作することになります（ちなみにMaxではhbargraphは機能しません）。</p>
+<p>またhslider(&quot;btn1 [style:knob]&quot;,0,0,100,1)のようにラベルの中に拡張メタデータを埋め込むことができ、アーキテクチャファイル側で対応した実装がされていれば、例えばこの例の場合はQtアプリ出力の際にスライダーではなくノブとして現れてくれます。
 スタイルの変更以外にも、MIDI入力の定義やOSCのアドレス設定などもできるものがあります。</p>
 <h3 id="-">ライブラリ</h3>
 <p>こちらにライブラリのドキュメントがあります。
@@ -420,13 +420,14 @@ Code generated with Faust 2.0.a53 (http://faust.grame.fr)
 
 <p>computeに信号処理の部分、buildUserInterfaceにUI記述の部分が表れているのが分かりますでしょうか？</p>
 <h4 id="-">アーキテクチャファイル</h4>
-<p>そして、この出力されたコードの前後にくっつけるコードを予め定義しておくのがアーキテクチャファイルというわけです。例えばMaxオブジェクトならMaxのSDKを読み込みオブジェクト生成のための実装の中でmydsp-&gt;compute()やbuildUserInterfaceを呼び出して処理をするような物を書いておけば、後はcppファイルをコンパイルすればいいだけです。<strong>もちろん、アーキテクチャファイルを自分で作ることも出来ます。</strong></p>
+<p>そして、この出力されたコードの前後にくっつけるコードを予め定義しておくのがアーキテクチャファイルというわけです。例えばMaxオブジェクトならMaxのSDKを読み込みオブジェクト生成のための実装の中でmydsp-&gt;compute()やbuildUserInterfaceを呼び出して処理をするような物を書いておけば、後はcppファイルをコンパイルすればいいだけです。もちろん、<strong>アーキテクチャファイルを自分で作ることも出来ます。</strong></p>
 <h4 id="faust2xxx">faust2xxx</h4>
 <p>Faustのコマンドラインをインストールすると、
 faust2xxxでfaustコードをアーキテクチャファイルを指定してコンパイル、その後cppをコンパイルするところまでを書いたシェルスクリプト群がくっついてきます。
 一覧は以下の通り。</p>
 <p>faust2alqt faust2alsa faust2alsaconsole faust2android faust2api faust2asmjs faust2au faust2bela faust2caqt faust2caqtios faust2csound faust2dssi faust2eps faust2faustvst faust2firefox faust2gen faust2graph faust2graphviewer faust2ios faust2iosKeyboard faust2jack faust2jackconsole faust2jackinternal faust2jackserver faust2jaqt faust2ladspa faust2lv2 faust2lv2synth faust2mathdoc faust2mathviewer faust2max6 faust2md faust2msp faust2netjackconsole faust2netjackqt faust2octave faust2owl faust2paqt faust2pdf faust2plot faust2png faust2puredata faust2raqt faust2ros faust2rosgtk faust2rpialsaconsole faust2rpinetjackconsole faust2sc faust2sig faust2sigviewer faust2supercollider faust2svg faust2vst faust2vsti faust2webaudio faust2webaudioasm</p>
 <p>この他にWindows用のプラットフォーム依存のものがあるのですが多すぎるので省きました。面白いので言うと<a href="http://hoxtonowl.com">OWL</a>や<a href="http://bela.io/">Bela</a>などのハードウェアプラットフォームやWeb Audio用のもの（asm.js使用）などでしょうか。</p>
+<p>なお、これはただのシェルスクリプトでしか無いのでQtアプリケーションを書き出すのであればQtSDKが入っていてqmakeコマンドが使えるようになっていたり、MaxオブジェクトであればMaxSDK、VSTプラグインならVST SDKを各自インストールしておく必要がありますのでご注意を。</p>
 <h3 id="-">その他のプラットフォーム</h3>
 <p>しかし毎回コードを手動でコマンド打ってコンパイルするのも何かと面倒です。
 そのための開発環境としては、次の記事で詳しく紹介しますが</p>
@@ -439,7 +440,7 @@ faust2xxxでfaustコードをアーキテクチャファイルを指定してコ
 </ul>
 <p>の4つがあります。</p>
 <p>これらはどれもfaust2ブランチのライブコンパイル機能を活用して作られており、<strong>libfaust</strong>というライブラリを使えばC++のアプリケーション上でfaustのコードを実行時コンパイルして信号処理を変更するような事もできます。</p>
-<p>例としてはプレゼンをしているLarkin氏が作っているのが、JUCEライブラリとの組み合わせでVSTプラグイン上でさらにVSTやFaustのdspを読み込み、パラメータを2次元上にマッピングして複雑なコントロールをする<a href="https://github.com/olilarkin/pMix2">pMix</a>という中々ぶっ飛んでるソフトなどがあります。</p>
+<p>例としてはプレゼンをしているLarkin氏が作っている、JUCEライブラリとの組み合わせでVSTプラグイン上でさらにVSTやFaustのdspを読み込み、その中の任意のパラメータを2次元上にマッピングして複雑なコントロールをする<a href="https://github.com/olilarkin/pMix2">pMix</a>という中々ぶっ飛んでるソフトなどがあります。</p>
 <h3 id="-">次の記事では</h3>
 <p>とりあえずFaustを触って見るための入門環境として上で説明したFaustLive、オンラインコンパイラーなどの解説をする予定です。よろしくお願いします。</p>
 
@@ -461,9 +462,10 @@ faust2xxxでfaustコードをアーキテクチャファイルを指定してコ
           <ul>
             <li class="to_prev">
           
-              <a href="" class="none">
+              <a href="../../2016-12-04/faust-start" >
           
               <<
+              とりあえずFaustを始めたい人のための4つの環境
               </a>
             </li>
             <li class="to_index">
