@@ -1,5 +1,5 @@
 ---
-date: 2016-012-01
+date: 2016-012-11
 layout: blog.hbs
 title: Faustのコンパイラのビルドとインストール時の注意点
 permalink: faust_build_compiler
