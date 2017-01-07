@@ -36,7 +36,7 @@ process = _ : *(0.5);
 ## 例3
 
 ```java
-process = A:*(B);
+process = *(_,0.5);
 ```
 
 <img src="{{config.root}}assets/img/faust/mult0.5.svg" alt="" style = "max-height:300px;">
