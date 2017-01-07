@@ -25,9 +25,9 @@ min-width: 700px;
     &:hover{
       color:$main5;
       text-decoration: none;
-      border-bottom: 1px solid $main5;
+      border-bottom: 2px solid $main5;
       img{
-        transition:0.3s;
+        transition: 0.1s cubic-bezier(0.4, 0.0, 0.2, 1);
         &:hover{
           opacity:0.9;
             border-bottom:none;
@@ -36,8 +36,7 @@ min-width: 700px;
     }
   }
   div,a,img{
-    transition:0.1s ease-in-out;
-
+    transition: 0.1s cubic-bezier(0.4, 0.0, 0.2, 1);
   }
 }
 hr{

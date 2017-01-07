@@ -6,50 +6,50 @@
 
 body{
 
-.markdown{
-  p{
-    margin:1rem 0;
-  }
-  a{
+  .markdown{
+    p{
+      margin:1rem 0;
+    }
+    a{
       display:block;
-    margin:10px auto;
-  }
-  img{
-    width:100%;
-    height:100%;
       margin:10px auto;
-  }
-  p a{
-    display:inline;
-  }
-  h1,h2,h3,h4,h5,h6{
-    margin:2rem 0;
-  }
-hr{
-  border-top:solid 1px $main2*0.5;
-}
+    }
+    img{
+      width:100%;
+      height:100%;
+      margin:10px auto;
+    }
+    p a{
+      display:inline;
+    }
+    h1,h2,h3,h4,h5,h6{
+      margin:2rem 0;
+    }
+    hr{
+      border-top:solid 1px $main2*0.5;
+    }
 
-  iframe{
-    text-align:center;
-    margin:10px auto;
+    iframe{
+      text-align:center;
+      margin:10px auto;
+    }
   }
-}
-.title{
-  overflow-wrap:break-word;
-word-wrap:break-word;
-}
-.back{
-  display:inline;
- padding:10px 0;
- font-size:1.2rem;
-}
-.share{
- display:flex;
- margin:20px 0;
- div{
-   margin:auto 20px auto 0;
- }
-}
+  .title{
+    overflow-wrap:break-word;
+    word-wrap:break-word;
+  }
+  .back{
+    display:inline;
+    padding:10px 0;
+    font-size:1.2rem;
+  }
+  .share{
+    display:flex;
+    margin:20px 0;
+    div{
+      margin:auto 20px auto 0;
+    }
+  }
   .outer{
     position:relative;
     width:100%;
@@ -65,7 +65,6 @@ word-wrap:break-word;
       min-width:none;
       border:none;
     }
-    // padding:0px 20px;
     header{
       width:100%;
       border-top:$border;
@@ -73,150 +72,147 @@ word-wrap:break-word;
       padding:0px;
       min-height:5rem;
       box-shadow: 0px 1px 1px $main2 * 0.7;
-      // margin:0 0 20px 0 ;
       background-color:$main2*0.98;
-      .child{
-        min-height:5rem;
+      min-height:5rem;
 
-        .title{
-          display:table-cell;
-          text-align:center;
-          vertical-align: middle;
-          min-width:300px;
-          padding:0px;
-          font-size:2rem;
-          font-weight:200;
-          letter-spacing: 0.15rem;
-        }
+    }
+    header>div{
+      width:100%;
+      display:flex;
+      align-content: flex-start;
+      height:100%;
+      padding:0;
+      padding-right: 200px;
+      flex-wrap:wrap;
+      max-width: 1000px;
+      min-width: 700px;
+      margin:0 auto;
+      position: relative;
+    }
+    header a{
+      min-height:5rem;
+      display:table;
+      height:100%;
+      padding:0px;
+      margin-right: 20px;
+
+      &:hover{
+        box-shadow: 1px 1px 2px $main2 * 0.7;
       }
-      div{
-        display:flex;
-        justify-content:flex-start;
-        align-content: flex-start;
+
+    }
+    header a .title{
+      display:table-cell;
+      text-align:center;
+      vertical-align: middle;
+      min-width:300px;
+      padding:0px;
+      font-size:2rem;
+      font-weight:200;
+      letter-spacing: 0.15rem;
+    }
+    header div.menu{
+      display:flex;
+      vertical-align: baseline;
+      margin-right: 20px;
+
+      a{
+        display:table;
+        margin:auto;
         height:100%;
-        flex-wrap:wrap;
-        .menu{
-          display:flex;
-          padding:0;
-          vertical-align: baseline;
-          min-height:5rem;
-          a{
-            display:table;
-            margin:auto;
-            height:100%;
-            flex:1;
-            padding:0 1rem;
-            div{
-              padding:auto 0px;
-
-              display:table-cell;
-              vertical-align: middle;
-              width:auto;
-              // min-width: 100px;
-            }
-            &:hover{
-              text-shadow:1px 1px 2px $main2 * 0.7;
-              box-shadow: 0px 1px 1px $main2 * 0.7;
-            }
-          }
-        }
-        a
-        {min-height:5rem;
-          // align-self: flex-start;
-          display:table;
-          height:100%;
-          padding:0px;
-          &:hover{
-            text-shadow:1px 1px 2px $main2 * 0.7;
-            box-shadow: 0px 1px 1px $main2 * 0.7;
-          }
-
-        }
+        min-height:4rem;
         div{
-          padding: 0 10px;
-          min-height: 5rem;
+          padding: auto;
+          display:table-cell;
+          vertical-align: middle;
+          width:auto;
+          padding:0 20px;
+          // min-width: 100px;
         }
-        .locales{
-          min-height:5rem;
-          height:100%;
-
-          a{
-            min-height:5rem;
-            display:table;
-            padding:0 7px;
-            height:100%;
-            margin :auto 0;
-            font-size: 0.8rem;
-            span{
-              height:100%;
-              display: table-cell;
-              vertical-align: middle;
-            }
-          }
-        }
-        .social{
-          margin-left:20px;
-          width:100%;
-          flex:1;
-          align-self: flex-end;
-          display:flex;
-          justify-content:flex-end;
-          min-height:5rem;
-          padding:0px;
-          >div{
-            min-height:25px;
-            display: table-cell;
-            vertical-align: middle;
-            margin:auto 10px;
-            width:30px;
-            height:30px;
-            padding:0;
-          }
-          .logo{
-            min-height:25px;
-            width:25px;
-            height:25px;
-            margin:2.5px;
-            padding:0;
-            border-radius:5px;
-            a{
-              min-height:25px;
-              width:25px;
-              height:25px;
-              display:table;
-              padding:0;
-
-              text-decoration:none;
-              border:none;
-              border-radius:5px;
-              &:hover{
-                text-decoration:none;
-                // box-shadow:1px 1px 1px $main2 * 0.7;
-                border:none;
-              }
-              img{
-                width:25px;
-                height:25px;
-                padding:0;
-                margin:0;
-                text-decoration:none;
-                border:none;
-              }
-            }
-          }
-          .tw .logo{
-            background-color: #55acee;
-          }
-          .fb .logo{
-            background-color:#fff;
-          }
-          .github .logo{
-            // background-color:#fff;
-            border-radius:5px;
-          }
+        &:hover{
+          box-shadow: 1px 1px 2px $main2 * 0.7;
         }
       }
     }
+    header div.locales{
+      min-height:3rem;
+      a{
+        display:table;
+        padding:0 7px;
+        height:100%;
+        margin :auto 0;
+        font-size: 0.8rem;
+        span{
+          height:100%;
+          display: table-cell;
+          vertical-align: middle;
+        }
+      }
+    }
+    header div.social{
+      width:100%;
+      max-width:200px;
+      display:flex;
+      align-items: center;
+      min-height:3rem;
+      height: 100%;
+      padding:0px;
+      position: absolute;
+      right:0px;
+      >div{
+        min-height:25px;
+        display: table-cell;
+        vertical-align: middle;
+        margin:auto 10px;
+        width:30px;
+        height:30px;
+        padding:0;
+      }
+      div.logo{
+        min-height:25px;
+        width:25px;
+        height:25px;
+        margin:2.5px;
+        padding:0;
+        border-radius:5px;
+        a{
+          min-height:25px;
+          width:25px;
+          height:25px;
+          display:table;
+          padding:0;
+          margin: 0;
+          text-decoration:none;
+          border:none;
+          border-radius:5px;
+          &:hover{
+            text-decoration:none;
+            // box-shadow:1px 1px 1px $main2 * 0.7;
+            border:none;
+          }
+          img{
+            width:25px;
+            height:25px;
+            padding:0;
+            margin:0;
+            text-decoration:none;
+            border:none;
+          }
+        }
+      }
+      .tw .logo{
+        background-color: #55acee;
+      }
+      .fb .logo{
+        background-color:#fff;
+      }
+      .github .logo{
+        // background-color:#fff;
+        border-radius:5px;
+      }
+    }
+
+
     .inner{
       background-color:$main2 * 0.96;
       margin:20px 0;
@@ -326,10 +322,10 @@ word-wrap:break-word;
         a>.title{
           font-weight: normal;
         }
-      .content{
+        .content{
           padding:5px 0;
-        box-shadow: 0px 0px 0px $main2;
-      }
+          box-shadow: 0px 0px 0px $main2;
+        }
       }
 
     }
@@ -352,7 +348,7 @@ word-wrap:break-word;
           vertical-align:bottom;
           text-decoration: none;
           color:$main2 * 0.7;
-          transition:0.3s;
+          transition: 0.1s cubic-bezier(0.4, 0.0, 0.2, 1);
           width: 30%;
           &:not(.number){
             // font-weight: bolder;

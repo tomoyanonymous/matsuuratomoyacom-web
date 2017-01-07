@@ -351,6 +351,55 @@ textarea {
   text-shadow: none;
 }
 
+@font-face {
+  font-family: 'Noto Sans Japanese';
+  font-style: normal;
+  font-weight: 100;
+  src: url(//fonts.gstatic.com/ea/notosansjapanese/v6/NotoSansJP-Thin.woff2) format("woff2"), url(//fonts.gstatic.com/ea/notosansjapanese/v6/NotoSansJP-Thin.woff) format("woff"), url(//fonts.gstatic.com/ea/notosansjapanese/v6/NotoSansJP-Thin.otf) format("opentype");
+}
+
+@font-face {
+  font-family: 'Noto Sans Japanese';
+  font-style: normal;
+  font-weight: 200;
+  src: url(//fonts.gstatic.com/ea/notosansjapanese/v6/NotoSansJP-Light.woff2) format("woff2"), url(//fonts.gstatic.com/ea/notosansjapanese/v6/NotoSansJP-Light.woff) format("woff"), url(//fonts.gstatic.com/ea/notosansjapanese/v6/NotoSansJP-Light.otf) format("opentype");
+}
+
+@font-face {
+  font-family: 'Noto Sans Japanese';
+  font-style: normal;
+  font-weight: 300;
+  src: url(//fonts.gstatic.com/ea/notosansjapanese/v6/NotoSansJP-DemiLight.woff2) format("woff2"), url(//fonts.gstatic.com/ea/notosansjapanese/v6/NotoSansJP-DemiLight.woff) format("woff"), url(//fonts.gstatic.com/ea/notosansjapanese/v6/NotoSansJP-DemiLight.otf) format("opentype");
+}
+
+@font-face {
+  font-family: 'Noto Sans Japanese';
+  font-style: normal;
+  font-weight: 400;
+  src: local("NotoSansJP-Regular.otf"), url(//fonts.gstatic.com/ea/notosansjapanese/v6/NotoSansJP-Regular.woff2) format("woff2"), url(//fonts.gstatic.com/ea/notosansjapanese/v6/NotoSansJP-Regular.woff) format("woff"), url(//fonts.gstatic.com/ea/notosansjapanese/v6/NotoSansJP-Regular.otf) format("opentype");
+}
+
+@font-face {
+  font-family: 'Noto Sans Japanese';
+  font-style: normal;
+  font-weight: 500;
+  src: url(//fonts.gstatic.com/ea/notosansjapanese/v6/NotoSansJP-Medium.woff2) format("woff2"), url(//fonts.gstatic.com/ea/notosansjapanese/v6/NotoSansJP-Medium.woff) format("woff"), url(//fonts.gstatic.com/ea/notosansjapanese/v6/NotoSansJP-Medium.otf) format("opentype");
+}
+
+@font-face {
+  font-family: 'Noto Sans Japanese';
+  font-style: normal;
+  font-weight: 700;
+  src: url(//fonts.gstatic.com/ea/notosansjapanese/v6/NotoSansJP-Bold.woff2) format("woff2"), url(//fonts.gstatic.com/ea/notosansjapanese/v6/NotoSansJP-Bold.woff) format("woff"), url(//fonts.gstatic.com/ea/notosansjapanese/v6/NotoSansJP-Bold.otf) format("opentype");
+}
+
+@font-face {
+  font-family: 'Noto Sans Japanese';
+  font-style: normal;
+  font-weight: 900;
+  src: url(//fonts.gstatic.com/ea/notosansjapanese/v6/NotoSansJP-Black.woff2) format("woff2"), url(//fonts.gstatic.com/ea/notosansjapanese/v6/NotoSansJP-Black.woff) format("woff"), url(//fonts.gstatic.com/ea/notosansjapanese/v6/NotoSansJP-Black.otf) format("opentype");
+}
+
 /* line 1, /Users/Tomoya/Website/tomoyanonymous.github.io/theme/tomoya/scss/_fontsize.scss */
 h1 {
   font-size: 2rem;
@@ -386,6 +435,55 @@ h6 {
   font-size: 1rem;
 }
 
+@font-face {
+  font-family: 'Noto Sans Japanese';
+  font-style: normal;
+  font-weight: 100;
+  src: url(//fonts.gstatic.com/ea/notosansjapanese/v6/NotoSansJP-Thin.woff2) format("woff2"), url(//fonts.gstatic.com/ea/notosansjapanese/v6/NotoSansJP-Thin.woff) format("woff"), url(//fonts.gstatic.com/ea/notosansjapanese/v6/NotoSansJP-Thin.otf) format("opentype");
+}
+
+@font-face {
+  font-family: 'Noto Sans Japanese';
+  font-style: normal;
+  font-weight: 200;
+  src: url(//fonts.gstatic.com/ea/notosansjapanese/v6/NotoSansJP-Light.woff2) format("woff2"), url(//fonts.gstatic.com/ea/notosansjapanese/v6/NotoSansJP-Light.woff) format("woff"), url(//fonts.gstatic.com/ea/notosansjapanese/v6/NotoSansJP-Light.otf) format("opentype");
+}
+
+@font-face {
+  font-family: 'Noto Sans Japanese';
+  font-style: normal;
+  font-weight: 300;
+  src: url(//fonts.gstatic.com/ea/notosansjapanese/v6/NotoSansJP-DemiLight.woff2) format("woff2"), url(//fonts.gstatic.com/ea/notosansjapanese/v6/NotoSansJP-DemiLight.woff) format("woff"), url(//fonts.gstatic.com/ea/notosansjapanese/v6/NotoSansJP-DemiLight.otf) format("opentype");
+}
+
+@font-face {
+  font-family: 'Noto Sans Japanese';
+  font-style: normal;
+  font-weight: 400;
+  src: local("NotoSansJP-Regular.otf"), url(//fonts.gstatic.com/ea/notosansjapanese/v6/NotoSansJP-Regular.woff2) format("woff2"), url(//fonts.gstatic.com/ea/notosansjapanese/v6/NotoSansJP-Regular.woff) format("woff"), url(//fonts.gstatic.com/ea/notosansjapanese/v6/NotoSansJP-Regular.otf) format("opentype");
+}
+
+@font-face {
+  font-family: 'Noto Sans Japanese';
+  font-style: normal;
+  font-weight: 500;
+  src: url(//fonts.gstatic.com/ea/notosansjapanese/v6/NotoSansJP-Medium.woff2) format("woff2"), url(//fonts.gstatic.com/ea/notosansjapanese/v6/NotoSansJP-Medium.woff) format("woff"), url(//fonts.gstatic.com/ea/notosansjapanese/v6/NotoSansJP-Medium.otf) format("opentype");
+}
+
+@font-face {
+  font-family: 'Noto Sans Japanese';
+  font-style: normal;
+  font-weight: 700;
+  src: url(//fonts.gstatic.com/ea/notosansjapanese/v6/NotoSansJP-Bold.woff2) format("woff2"), url(//fonts.gstatic.com/ea/notosansjapanese/v6/NotoSansJP-Bold.woff) format("woff"), url(//fonts.gstatic.com/ea/notosansjapanese/v6/NotoSansJP-Bold.otf) format("opentype");
+}
+
+@font-face {
+  font-family: 'Noto Sans Japanese';
+  font-style: normal;
+  font-weight: 900;
+  src: url(//fonts.gstatic.com/ea/notosansjapanese/v6/NotoSansJP-Black.woff2) format("woff2"), url(//fonts.gstatic.com/ea/notosansjapanese/v6/NotoSansJP-Black.woff) format("woff"), url(//fonts.gstatic.com/ea/notosansjapanese/v6/NotoSansJP-Black.otf) format("opentype");
+}
+
 /* line 2, /Users/Tomoya/Website/tomoyanonymous.github.io/theme/tomoya/scss/_init.scss */
 html {
   width: 100%;
@@ -394,7 +492,7 @@ html {
 
 /* line 7, /Users/Tomoya/Website/tomoyanonymous.github.io/theme/tomoya/scss/_init.scss */
 body {
-  font-family: "Helvetica Neue", "Helvetica", "Hiragino Sans", "ヒラギノ角ゴシック", "Hiragino Kaku Gothic Pro", "ヒラギノ角ゴ Pro W3", "メイリオ", "Meiryo", "ＭＳ Ｐゴシック", Osaka, sans-serif;
+  font-family: "Helvetica Neue", "Noto Sans Japanese", "Hiragino Sans", "Hiragino Kaku Gothic ProN", "游ゴシック  Medium", meiryo, sans-serif;
   width: 100%;
   min-width: 700px;
   font-size: 12pt;
@@ -419,12 +517,12 @@ body a {
 body a:hover {
   color: #02B2D4;
   text-decoration: none;
-  border-bottom: 1px solid #02B2D4;
+  border-bottom: 2px solid #02B2D4;
 }
 
 /* line 29, /Users/Tomoya/Website/tomoyanonymous.github.io/theme/tomoya/scss/_init.scss */
 body a:hover img {
-  transition: 0.3s;
+  transition: 0.1s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 /* line 31, /Users/Tomoya/Website/tomoyanonymous.github.io/theme/tomoya/scss/_init.scss */
@@ -435,15 +533,15 @@ body a:hover img:hover {
 
 /* line 38, /Users/Tomoya/Website/tomoyanonymous.github.io/theme/tomoya/scss/_init.scss */
 body div, body a, body img {
-  transition: 0.1s ease-in-out;
+  transition: 0.1s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-/* line 43, /Users/Tomoya/Website/tomoyanonymous.github.io/theme/tomoya/scss/_init.scss */
+/* line 42, /Users/Tomoya/Website/tomoyanonymous.github.io/theme/tomoya/scss/_init.scss */
 hr {
   border-top: 1px solid #e2eaed;
 }
 
-/* line 47, /Users/Tomoya/Website/tomoyanonymous.github.io/theme/tomoya/scss/_init.scss */
+/* line 46, /Users/Tomoya/Website/tomoyanonymous.github.io/theme/tomoya/scss/_init.scss */
 td, th {
   text-align: left;
   vertical-align: center;
@@ -539,7 +637,7 @@ body .outer div {
   border: none;
 }
 
-/* line 69, stdin */
+/* line 68, stdin */
 body .outer header {
   width: 100%;
   border-top: 1px solid #ccc;
@@ -548,15 +646,46 @@ body .outer header {
   min-height: 5rem;
   box-shadow: 0px 1px 1px #a8aeb0;
   background-color: #ebf4f7;
-}
-
-/* line 78, stdin */
-body .outer header .child {
   min-height: 5rem;
 }
 
-/* line 81, stdin */
-body .outer header .child .title {
+/* line 79, stdin */
+body .outer header > div {
+  width: 100%;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-content: flex-start;
+  -ms-flex-line-pack: start;
+  align-content: flex-start;
+  height: 100%;
+  padding: 0;
+  padding-right: 200px;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  max-width: 1000px;
+  min-width: 700px;
+  margin: 0 auto;
+  position: relative;
+}
+
+/* line 92, stdin */
+body .outer header a {
+  min-height: 5rem;
+  display: table;
+  height: 100%;
+  padding: 0px;
+  margin-right: 20px;
+}
+
+/* line 99, stdin */
+body .outer header a:hover {
+  box-shadow: 1px 1px 2px #a8aeb0;
+}
+
+/* line 104, stdin */
+body .outer header a .title {
   display: table-cell;
   text-align: center;
   vertical-align: middle;
@@ -567,87 +696,44 @@ body .outer header .child .title {
   letter-spacing: 0.15rem;
 }
 
-/* line 92, stdin */
-body .outer header div {
+/* line 114, stdin */
+body .outer header div.menu {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  -webkit-justify-content: flex-start;
-  -ms-flex-pack: start;
-  justify-content: flex-start;
-  -webkit-align-content: flex-start;
-  -ms-flex-line-pack: start;
-  align-content: flex-start;
-  height: 100%;
-  -webkit-flex-wrap: wrap;
-  -ms-flex-wrap: wrap;
-  flex-wrap: wrap;
-}
-
-/* line 98, stdin */
-body .outer header div .menu {
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  padding: 0;
   vertical-align: baseline;
-  min-height: 5rem;
+  margin-right: 20px;
 }
 
-/* line 103, stdin */
-body .outer header div .menu a {
+/* line 119, stdin */
+body .outer header div.menu a {
   display: table;
   margin: auto;
   height: 100%;
-  -webkit-flex: 1;
-  -ms-flex: 1;
-  flex: 1;
-  padding: 0 1rem;
+  min-height: 4rem;
 }
 
-/* line 109, stdin */
-body .outer header div .menu a div {
-  padding: auto 0px;
+/* line 124, stdin */
+body .outer header div.menu a div {
+  padding: auto;
   display: table-cell;
   vertical-align: middle;
   width: auto;
+  padding: 0 20px;
 }
 
-/* line 117, stdin */
-body .outer header div .menu a:hover {
-  text-shadow: 1px 1px 2px #a8aeb0;
-  box-shadow: 0px 1px 1px #a8aeb0;
+/* line 132, stdin */
+body .outer header div.menu a:hover {
+  box-shadow: 1px 1px 2px #a8aeb0;
 }
 
-/* line 123, stdin */
-body .outer header div a {
-  min-height: 5rem;
-  display: table;
-  height: 100%;
-  padding: 0px;
-}
-
-/* line 129, stdin */
-body .outer header div a:hover {
-  text-shadow: 1px 1px 2px #a8aeb0;
-  box-shadow: 0px 1px 1px #a8aeb0;
-}
-
-/* line 135, stdin */
-body .outer header div div {
-  padding: 0 10px;
-  min-height: 5rem;
+/* line 137, stdin */
+body .outer header div.locales {
+  min-height: 3rem;
 }
 
 /* line 139, stdin */
-body .outer header div .locales {
-  min-height: 5rem;
-  height: 100%;
-}
-
-/* line 143, stdin */
-body .outer header div .locales a {
-  min-height: 5rem;
+body .outer header div.locales a {
   display: table;
   padding: 0 7px;
   height: 100%;
@@ -655,35 +741,32 @@ body .outer header div .locales a {
   font-size: 0.8rem;
 }
 
-/* line 150, stdin */
-body .outer header div .locales a span {
+/* line 145, stdin */
+body .outer header div.locales a span {
   height: 100%;
   display: table-cell;
   vertical-align: middle;
 }
 
-/* line 157, stdin */
-body .outer header div .social {
-  margin-left: 20px;
+/* line 152, stdin */
+body .outer header div.social {
   width: 100%;
-  -webkit-flex: 1;
-  -ms-flex: 1;
-  flex: 1;
-  -webkit-align-self: flex-end;
-  -ms-flex-item-align: end;
-  align-self: flex-end;
+  max-width: 200px;
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  -webkit-justify-content: flex-end;
-  -ms-flex-pack: end;
-  justify-content: flex-end;
-  min-height: 5rem;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  min-height: 3rem;
+  height: 100%;
   padding: 0px;
+  position: absolute;
+  right: 0px;
 }
 
-/* line 166, stdin */
-body .outer header div .social > div {
+/* line 162, stdin */
+body .outer header div.social > div {
   min-height: 25px;
   display: table-cell;
   vertical-align: middle;
@@ -693,8 +776,8 @@ body .outer header div .social > div {
   padding: 0;
 }
 
-/* line 175, stdin */
-body .outer header div .social .logo {
+/* line 171, stdin */
+body .outer header div.social div.logo {
   min-height: 25px;
   width: 25px;
   height: 25px;
@@ -703,26 +786,27 @@ body .outer header div .social .logo {
   border-radius: 5px;
 }
 
-/* line 182, stdin */
-body .outer header div .social .logo a {
+/* line 178, stdin */
+body .outer header div.social div.logo a {
   min-height: 25px;
   width: 25px;
   height: 25px;
   display: table;
   padding: 0;
+  margin: 0;
   text-decoration: none;
   border: none;
   border-radius: 5px;
 }
 
-/* line 192, stdin */
-body .outer header div .social .logo a:hover {
+/* line 188, stdin */
+body .outer header div.social div.logo a:hover {
   text-decoration: none;
   border: none;
 }
 
-/* line 197, stdin */
-body .outer header div .social .logo a img {
+/* line 193, stdin */
+body .outer header div.social div.logo a img {
   width: 25px;
   height: 25px;
   padding: 0;
@@ -731,22 +815,22 @@ body .outer header div .social .logo a img {
   border: none;
 }
 
-/* line 207, stdin */
-body .outer header div .social .tw .logo {
+/* line 203, stdin */
+body .outer header div.social .tw .logo {
   background-color: #55acee;
 }
 
-/* line 210, stdin */
-body .outer header div .social .fb .logo {
+/* line 206, stdin */
+body .outer header div.social .fb .logo {
   background-color: #fff;
 }
 
-/* line 213, stdin */
-body .outer header div .social .github .logo {
+/* line 209, stdin */
+body .outer header div.social .github .logo {
   border-radius: 5px;
 }
 
-/* line 220, stdin */
+/* line 216, stdin */
 body .outer .inner {
   background-color: #e6eff2;
   margin: 20px 0;
@@ -754,7 +838,7 @@ body .outer .inner {
   box-shadow: 2px 2px 2px #a8aeb0;
 }
 
-/* line 225, stdin */
+/* line 221, stdin */
 body .outer .inner .content {
   background-color: #F0F9FC;
   border: 1px #a8aeb0;
@@ -763,14 +847,14 @@ body .outer .inner .content {
   box-shadow: 3px 3px 2px #a8aeb0;
 }
 
-/* line 232, stdin */
+/* line 228, stdin */
 body .outer .inner > .content {
   background-color: #F0F9FC;
   box-shadow: 3px 3px 3px #a8aeb0;
   padding: 10px 0;
 }
 
-/* line 238, stdin */
+/* line 234, stdin */
 body .outer .inner > .content2 {
   background-color: #ebf4f7;
   box-shadow: 2px 2px 2px #a8aeb0;
@@ -778,7 +862,7 @@ body .outer .inner > .content2 {
   margin: 10px 0;
 }
 
-/* line 245, stdin */
+/* line 241, stdin */
 body .outer .inner p.title {
   font-size: 2rem;
   font-weight: lighter;
@@ -786,45 +870,45 @@ body .outer .inner p.title {
   padding: 10px 0;
 }
 
-/* line 251, stdin */
+/* line 247, stdin */
 body .outer .inner p.date {
   font-size: 0.9rem;
   font-weight: lighter;
   padding: 10px 0 0 0;
 }
 
-/* line 262, stdin */
+/* line 258, stdin */
 body .outer .inner .index_inner {
   border-top: 1px solid #ccc;
   padding: 10px 0;
   margin: 0;
 }
 
-/* line 266, stdin */
+/* line 262, stdin */
 body .outer .inner .index_inner .content {
   background-color: #F0F9FC;
 }
 
-/* line 270, stdin */
+/* line 266, stdin */
 body .outer .inner .work {
   width: 100%;
   margin: 10px 0;
   position: relative;
 }
 
-/* line 274, stdin */
+/* line 270, stdin */
 body .outer .inner .work a {
   display: block;
   height: 100%;
 }
 
-/* line 279, stdin */
+/* line 275, stdin */
 body .outer .inner .work:hover {
   opacity: 0.9;
   border: none;
 }
 
-/* line 283, stdin */
+/* line 279, stdin */
 body .outer .inner .work .description {
   position: absolute;
   float: left;
@@ -833,30 +917,30 @@ body .outer .inner .work .description {
   padding: 0 10px;
 }
 
-/* line 291, stdin */
+/* line 287, stdin */
 body .outer .inner .work .description p {
   color: #FA8F2D;
   text-shadow: 1px 1px 2px #af6420;
   opacity: 0.8;
 }
 
-/* line 297, stdin */
+/* line 293, stdin */
 body .outer .inner .work .description .caption_title {
   font-size: 2rem;
   height: 4rem;
 }
 
-/* line 303, stdin */
+/* line 299, stdin */
 body .outer .inner .work img {
   box-shadow: 2px 2px 3px #bbb;
 }
 
-/* line 305, stdin */
+/* line 301, stdin */
 body .outer .inner .work img:hover {
   opacity: 1;
 }
 
-/* line 310, stdin */
+/* line 306, stdin */
 body .outer .inner .flex {
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -869,7 +953,7 @@ body .outer .inner .flex {
   flex-wrap: wrap;
 }
 
-/* line 314, stdin */
+/* line 310, stdin */
 body .outer .inner .flex > div {
   background-color: #F0F9FC;
   border: 1px solid #ccc;
@@ -878,31 +962,31 @@ body .outer .inner .flex > div {
   padding: 10px;
 }
 
-/* line 322, stdin */
+/* line 318, stdin */
 body .outer .inner .index_left, body .outer .inner .index_right {
   width: 45%;
   min-width: 350px;
 }
 
-/* line 326, stdin */
+/* line 322, stdin */
 body .outer .inner .index_left a > .title, body .outer .inner .index_right a > .title {
   font-weight: normal;
 }
 
-/* line 329, stdin */
+/* line 325, stdin */
 body .outer .inner .index_left .content, body .outer .inner .index_right .content {
   padding: 5px 0;
   box-shadow: 0px 0px 0px #F0F9FC;
 }
 
-/* line 336, stdin */
+/* line 332, stdin */
 body .outer .pagination {
   width: 100%;
   text-align: center;
   padding: 20px 0;
 }
 
-/* line 340, stdin */
+/* line 336, stdin */
 body .outer .pagination ul {
   list-style: none;
   width: 100%;
@@ -921,22 +1005,22 @@ body .outer .pagination ul {
   align-items: center;
 }
 
-/* line 350, stdin */
+/* line 346, stdin */
 body .outer .pagination ul li {
   vertical-align: bottom;
   text-decoration: none;
   color: #a8aeb0;
-  transition: 0.3s;
+  transition: 0.1s cubic-bezier(0.4, 0, 0.2, 1);
   width: 30%;
 }
 
-/* line 357, stdin */
+/* line 353, stdin */
 body .outer .pagination ul li:not(.number) {
   font-size: 1rem;
   text-decoration: none;
 }
 
-/* line 368, stdin */
+/* line 364, stdin */
 body .outer .pagination ul li a {
   background-color: #F0F9FC;
   box-shadow: 1px 1px 1px #787d7e;
@@ -946,12 +1030,12 @@ body .outer .pagination ul li a {
   height: 100%;
 }
 
-/* line 375, stdin */
+/* line 371, stdin */
 body .outer .pagination ul li a:hover {
   box-shadow: 2px 2px 2px #787d7e;
 }
 
-/* line 381, stdin */
+/* line 377, stdin */
 body .outer .pagination ul .to_index {
   -webkit-flex-basis: 20%;
   -ms-flex-preferred-size: 20%;
@@ -959,19 +1043,19 @@ body .outer .pagination ul .to_index {
   margin: 10px;
 }
 
-/* line 384, stdin */
+/* line 380, stdin */
 body .outer .pagination ul .to_index a {
   font-size: 2rem;
 }
 
-/* line 389, stdin */
+/* line 385, stdin */
 body .outer .pagination ul .none {
   pointer-events: none;
   font-color: #787d7e;
   box-shadow: none;
 }
 
-/* line 396, stdin */
+/* line 392, stdin */
 body .outer footer {
   border-top: 1px solid #ccc;
   background-color: #ebf4f7;

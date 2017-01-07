@@ -1,28 +1,26 @@
 
 <header>
-  <div class="child">
-  <a href="{{relative_path path ""}}"><div class="title">Matsuura Tomoya</div></a>
+  <div>
+      <a href="{{relative_path path ""}}"><div class="title">Matsuura Tomoya</div></a>
 
-<div class="menu">
-  {{#each config.menu}}
-  <a href="{{relative_path ../path link ../this}}"><div>{{i18n ../this name}}</div></a>
-  {{/each}}
-</div>
+      <div class="menu">
+        {{#each config.menu}}
+        <a href="{{relative_path ../path link ../this}}"><div>{{i18n ../this name}}</div></a>
+        {{/each}}
+      </div>
+    <div class="locales">
+      {{#locale_path locales locale this}}
+      <a href="{{path}}">
+        <span>
+          {{name}}
 
-<div class="locales">
-  {{#locale_path locales locale this}}
-    <a href="{{path}}">
-  <span>
-    {{name}}
+        </span>
+      </a>
+      {{/locale_path}}
+    </div>
 
-  </span>
-    </a>
-  {{/locale_path}}
-</div>
-
-<div class="social">
-  {{> socials}}
-</div>
-
-</div>
+    <div class="social">
+      {{> socials}}
+    </div>
+    </div>
 </header>
