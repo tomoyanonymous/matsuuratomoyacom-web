@@ -104,7 +104,7 @@
 </ul>
 <p>などの問題があります。これをどうにか解決しようと頑張った。
 <!-- more      --></p>
-<h3 id="-">試行錯誤</h3>
+<h1 id="-">試行錯誤</h1>
 <p>git subtreeを使ってサブディレクトリだけ別ブランチにプッシュすればいけるのでは？と思いやってみる。</p>
 <p>そういえばGithub Pagesのホスティングは2種類あって、gh-pagesというブランチを作れば勝手にホスティングされるんだったなと思い、</p>
 <pre><code class="hljs bash">$ git subtree push -P build origin gh-pages</code></pre>
@@ -118,7 +118,7 @@
 <p>ここで例えばmatsuuratomoya.comからリダイレクトするようにしても、matsuuratomoya.com/リポジトリ名でしかリダイレクトしてくれません。</p>
 <p><a href="https://help.github.com/articles/custom-domain-redirects-for-github-pages-sites/">https://help.github.com/articles/custom-domain-redirects-for-github-pages-sites/</a></p>
 <p>ということはなんとか前者にしなければいけません。</p>
-<h3 id="-">解決法</h3>
+<h1 id="-">解決法</h1>
 <p>結論から言うと<em>ソースを入れてるフォルダをmaster以外のブランチに移し</em>、<em>buildフォルダをsubtreeとしてmasterブランチに作る</em>ので解決なんですが、すでにリモートのmasterブランチにファイルがいたりするとコンフリクトして大変なのでメモ書きすると</p>
 <pre><code class="hljs bash">$ git branch -m working <span class="hljs-comment">#masterからworkingという適当な名前の新しいブランチに移動</span>
 $ git push <span class="hljs-comment">#リモートにもworkingを作る</span>

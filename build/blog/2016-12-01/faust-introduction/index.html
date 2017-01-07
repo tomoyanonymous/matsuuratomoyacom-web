@@ -99,7 +99,7 @@
 <p>さて、やろうと思っていて中々出来てなかった<a href="http://faust.grame.fr">Faust</a>の紹介ですが、この際Advent Calenderでまとめて紹介して行こうと思います。
 今回はFaustの全体的な紹介です。</p>
 <!-- more -->
-<h3 id="-">この記事の流れ</h3>
+<h1 id="-">この記事の流れ</h1>
 <p><img src="http://matsuuratomoya.com/assets/img/faust/faust_logo.png" alt="" style = "width :300px; margin:20px;"></p>
 <p>Faustとは<em>Functional-AUdio-STream</em>の略で、フランスの音響研究所GRAMEが中心になって2004年頃から開発を続けている<strong>関数型音声処理言語</strong>です。</p>
 <p>このAdventCalenderではFaustの紹介からtips、応用的な使い方までできるだけ網羅的にFaustについての記事を書いていきます。</p>
@@ -108,7 +108,7 @@
 
 <p>スライドもLarkin氏のサイトに上がってます。</p>
 <p><a href="http://olilarkin.co.uk/misc/JUCE_Summit.pdf">http://olilarkin.co.uk/misc/JUCE_Summit.pdf</a></p>
-<h3 id="faust-">Faustとは？</h3>
+<h1 id="faust-">Faustとは？</h1>
 <p>基本的な説明は以下の通り。</p>
 <ul>
 <li>Faustは音声信号処理に特化した関数型プログラミング言語です。</li>
@@ -118,7 +118,7 @@
 <li>コンパイラはLinux、Windows、Macどれでも動くクロスプラットフォーム仕様で、GPLライセンスで配布されています</li>
 <li>Faustでコンパイルしたプログラムは基本的にコンパイルしたソースのライセンスを引き継ぎます。多くの場合商用利用可能です</li>
 </ul>
-<h3 id="faust-">Faustでのプログラミングの基本的な考え方</h3>
+<h1 id="faust-">Faustでのプログラミングの基本的な考え方</h1>
 <p>Max、SuperCollider、Puredata、ChucKなど音声処理ができるプログラミング環境は多数存在しますが既存の環境の中で一番近いものを上げるとすればMaxの中の<strong>Gen</strong>だと思います。</p>
 <p>その理由は以下のような共通点があることです。</p>
 <ul>
@@ -134,9 +134,9 @@
 <li><p>さらにWebエクスポートとかもできる。（サンプルは<a href="http://faust.grame.fr/images/noise/noise.html">こちら</a>音が出ますので注意。）</p>
 </li>
 </ul>
-<h3 id="faust-">Faustのメリット・デメリット</h3>
+<h1 id="faust-">Faustのメリット・デメリット</h1>
 <p>いくつかさっき言ったのと被ってますが、</p>
-<h4 id="-">メリット</h4>
+<h2 id="-">メリット</h2>
 <ul>
 <li>非常に詳細かつ簡潔に信号処理を記述できる</li>
 <li>慣れるとプログラミングの中で信号処理のみに集中できるのでワークフローが高速に</li>
@@ -145,7 +145,7 @@
 <li>フィルタ・オシレータ・様々なエフェクトの大量のライブラリが揃っている</li>
 <li>ドキュメントをFaustのコードから出力することが可能</li>
 </ul>
-<h4 id="-">デメリット</h4>
+<h2 id="-">デメリット</h2>
 <ul>
 <li><p>全てがサンプル単位で処理され続けるので、あまり巨大なモジュールを作ると使ってない部分も信号処理をし続けるので無駄が発生する（with-muteというブランチで部分的に信号処理を止められる機能も開発中）</p>
 </li>
@@ -156,8 +156,8 @@
 <li><p>エラーが起きてもエラーメッセージが何を指摘していのかよくわからないことが多々ある（これも慣れると段々わかってくる。）</p>
 </li>
 </ul>
-<h3 id="faust-">Faustの基本記法</h3>
-<h4 id="-">基本的な考え方</h4>
+<h1 id="faust-">Faustの基本記法</h1>
+<h2 id="-">基本的な考え方</h2>
 <p>まず、Faustではあらゆる処理を入力がm個、出力がn個の処理ブロックと考え、それを繋いでいきます。</p>
 <p>例えば基本的な＋、-、×や/も「2入力1出力」のブロックです。</p>
 <p><img src="http://matsuuratomoya.com/assets/img/faust/plus_mult_process.svg" alt="" style = "max-height:400px;"></p>
@@ -166,33 +166,33 @@
 <p><img src="http://matsuuratomoya.com/assets/img/faust/ident_cut_process.svg" alt="" style = "max-height:400px;"></p>
 <p>これ、使う意味あんの？と思いますが他のブロックとの入出力数の調整のためにめちゃくちゃ使います。</p>
 <p>その他、sinやcosなどの基本的な関数も同様にブロックとして扱います。</p>
-<h4 id="-">接続文法</h4>
+<h2 id="-">接続文法</h2>
 <p>さて、このブロック同士をつなぐコンポジション（「接続」としましょうか）という文法がFaustの特徴的な文法です。</p>
 <p>接続文法は<strong>並列(Parallel)</strong>、<strong>直列(Sequencial)</strong>、<strong>分岐(Split)</strong>、<strong>結合(Merge)</strong>、<strong>再帰(Recursive)</strong>という5種類の文法があります。</p>
 <p>それぞれの接続法は見てもらえばイメージがつかめると思います。詳しくは文法の詳細解説の記事でお話ししますが、入力と出力数がルールに則っていないと接続できずエラーになります。</p>
-<h5 id="parallel">Parallel</h5>
+<h3 id="parallel">Parallel</h3>
 <pre><code class="hljs java">process = (<span class="hljs-number">10</span>,*);</code></pre>
 
 <p><img src="http://matsuuratomoya.com/assets/img/faust/par1-svg/process.svg" alt="" style = "max-height:400px;"></p>
-<h5 id="sequencial">Sequencial</h5>
+<h3 id="sequencial">Sequencial</h3>
 <pre><code class="hljs java">process = ((*,/):+);</code></pre>
 
 <p><img src="http://matsuuratomoya.com/assets/img/faust/seq1-svg/process.svg" alt="" style = "max-height:400px;"></p>
-<h5 id="split">Split</h5>
+<h3 id="split">Split</h3>
 <pre><code class="hljs java">process = ((<span class="hljs-number">10</span>,<span class="hljs-number">20</span>)&lt;: (+,*,/));</code></pre>
 
 <p><img src="http://matsuuratomoya.com/assets/img/faust/split1-svg/process.svg" alt="" style = "max-height:400px;"></p>
-<h5 id="merge">Merge</h5>
+<h3 id="merge">Merge</h3>
 <pre><code class="hljs java">process = ((<span class="hljs-number">10</span>,<span class="hljs-number">20</span>,<span class="hljs-number">30</span>,<span class="hljs-number">40</span>):&gt; *);</code></pre>
 
 <p><img src="http://matsuuratomoya.com/assets/img/faust/merge1-svg/process.svg" alt="" style = "max-height:400px;"></p>
-<h5 id="recursive">Recursive</h5>
+<h3 id="recursive">Recursive</h3>
 <pre><code class="hljs java">process = +(<span class="hljs-number">12345</span>)~ *(<span class="hljs-number">1103515245</span>)</code></pre>
 
 <p><img src="http://matsuuratomoya.com/assets/img/faust/rec1-svg/process.svg" alt="" style = "max-height:400px;"></p>
 <p>※これだけわけわからんコードだと思いますがこれは乱数列の生成をするコードです</p>
 <p>それぞれ繋いだものを最終的にprocess = your_block;というように&quot;process&quot;に持っていくとそれが最終的な出力ブロックになります。</p>
-<h3 id="-">プリミティブなブロックの種類達</h3>
+<h1 id="-">プリミティブなブロックの種類達</h1>
 <ul>
 <li>数値(float/int)。0in1outのブロックとして扱われます</li>
 <li>基本演算子</li>
@@ -205,7 +205,7 @@
 <li>その他Cの外部関数呼び出し</li>
 <li><strong>UI要素</strong></li>
 </ul>
-<h3 id="ui-">UI機能</h3>
+<h1 id="ui-">UI機能</h1>
 <p><img src="http://matsuuratomoya.com/assets/img/faust/UIs.png" alt="" style = "max-height:400px;"></p>
 <p>Faustでは例えばシンセを作るならオシレータのピッチやフィルターの周波数、Qなど実行中に変えたいパラメータが幾つかあると思います。
 それらを予めUIとして定義しておくと、(アーキテクチャファイルの実装次第ですが)スライダーやトグルボックスなどのUIとして数値を変更することが可能です。</p>
@@ -226,7 +226,7 @@
 例えばQtアプリケーション出力ではほぼこの通り出力されますが、Maxのオブジェクトとして出力された場合はUIもなにもないので、オブジェクトに&quot;label&quot; (設定したい数値)というメッセージを送ることで全てのUIを同じように操作することになります（ちなみにMaxではhbargraphは機能しません）。</p>
 <p>またhslider(&quot;btn1 [style:knob]&quot;,0,0,100,1)のようにラベルの中に拡張メタデータを埋め込むことができ、アーキテクチャファイル側で対応した実装がされていれば、例えばこの例の場合はQtアプリ出力の際にスライダーではなくノブとして現れてくれます。
 スタイルの変更以外にも、MIDI入力の定義やOSCのアドレス設定などもできるものがあります。</p>
-<h3 id="-">ライブラリ</h3>
+<h1 id="-">ライブラリ</h1>
 <p>こちらにライブラリのドキュメントがあります。
 また別記事での詳細解説の際に触れますが、最近ライブラリが刷新されインポート方法に若干変化が出たのと、スライドにあるものより更に種類が増えました。</p>
 <p><a href="http://faust.grame.fr/library.html">http://faust.grame.fr/library.html</a></p>
@@ -256,8 +256,8 @@
 <li>tonestack.lib:この2つはドキュメント化されてないがギターアンプとそれに使われる真空管のモデリング。IRのサンプルと思われる数値が直書きしてあってやばい</li>
 </ul>
 <p>今年のFaust Awardで賞取った<a href="http://www.sekisushai.net/ambitools/">ambitools</a>はhoa.libをガンガン使っているはずですし、tonestackとtube.libははLinux用アンプシミュレーター<a href="http://guitarix.org/">Guitarix</a>のために作られたやつだったはずで、iOS用アプリ<a href="http://www.moforte.com/moforte-guitar-app/">moForte</a>でも使われているはずです。</p>
-<h3 id="faust-">Faustでの実際のワークフロー</h3>
-<h4 id="-">コマンドライン</h4>
+<h1 id="faust-">Faustでの実際のワークフロー</h1>
+<h2 id="-">コマンドライン</h2>
 <p><a href="https://sourceforge.net/p/faudiostream/code/">コンパイラ</a>をダウンロードしてきて自力でビルドすれば、FaustのコードからC++のファイルなどを直接コンパイルできるようになります。</p>
 <p>例えば、以下のFaustのコードは入力1と2のボリュームをスライダーでコントロールしてミックスするというコードです。</p>
 <pre><code class="hljs java"><span class="hljs-comment">// simplemixer.dsp</span>
@@ -291,7 +291,7 @@ Code generated with Faust 2.0.a53 (http://faust.grame.fr)
 
 
 
-<span class="hljs-preprocessor">#ifndef FAUSTCLASS </span>
+<span class="hljs-preprocessor">#ifndef FAUSTCLASS</span>
 <span class="hljs-preprocessor">#<span class="hljs-keyword">define</span> FAUSTCLASS mydsp</span>
 <span class="hljs-preprocessor">#<span class="hljs-keyword">endif</span></span>
 
@@ -305,7 +305,7 @@ Code generated with Faust 2.0.a53 (http://faust.grame.fr)
 
  <span class="hljs-keyword">public</span>:
 
-    <span class="hljs-keyword">void</span> metadata(Meta* m) { 
+    <span class="hljs-keyword">void</span> metadata(Meta* m) {
     }
 
     <span class="hljs-keyword">virtual</span> <span class="hljs-keyword">int</span> getNumInputs() {
@@ -419,16 +419,16 @@ Code generated with Faust 2.0.a53 (http://faust.grame.fr)
 
 
 <p>computeに信号処理の部分、buildUserInterfaceにUI記述の部分が表れているのが分かりますでしょうか？</p>
-<h4 id="-">アーキテクチャファイル</h4>
+<h2 id="-">アーキテクチャファイル</h2>
 <p>そして、この出力されたコードの前後にくっつけるコードを予め定義しておくのがアーキテクチャファイルというわけです。例えばMaxオブジェクトならMaxのSDKを読み込みオブジェクト生成のための実装の中でmydsp-&gt;compute()やbuildUserInterfaceを呼び出して処理をするような物を書いておけば、後はcppファイルをコンパイルすればいいだけです。もちろん、<strong>アーキテクチャファイルを自分で作ることも出来ます。</strong></p>
-<h4 id="faust2xxx">faust2xxx</h4>
+<h2 id="faust2xxx">faust2xxx</h2>
 <p>Faustのコマンドラインをインストールすると、
 faust2xxxでfaustコードをアーキテクチャファイルを指定してコンパイル、その後cppをコンパイルするところまでを書いたシェルスクリプト群がくっついてきます。
 一覧は以下の通り。</p>
 <p>faust2alqt faust2alsa faust2alsaconsole faust2android faust2api faust2asmjs faust2au faust2bela faust2caqt faust2caqtios faust2csound faust2dssi faust2eps faust2faustvst faust2firefox faust2gen faust2graph faust2graphviewer faust2ios faust2iosKeyboard faust2jack faust2jackconsole faust2jackinternal faust2jackserver faust2jaqt faust2ladspa faust2lv2 faust2lv2synth faust2mathdoc faust2mathviewer faust2max6 faust2md faust2msp faust2netjackconsole faust2netjackqt faust2octave faust2owl faust2paqt faust2pdf faust2plot faust2png faust2puredata faust2raqt faust2ros faust2rosgtk faust2rpialsaconsole faust2rpinetjackconsole faust2sc faust2sig faust2sigviewer faust2supercollider faust2svg faust2vst faust2vsti faust2webaudio faust2webaudioasm</p>
 <p>この他にWindows用のプラットフォーム依存のものがあるのですが多すぎるので省きました。面白いので言うと<a href="http://hoxtonowl.com">OWL</a>や<a href="http://bela.io/">Bela</a>などのハードウェアプラットフォームやWeb Audio用のもの（asm.js使用）などでしょうか。</p>
 <p>なお、これはただのシェルスクリプトでしか無いのでQtアプリケーションを書き出すのであればQtSDKが入っていてqmakeコマンドが使えるようになっていたり、MaxオブジェクトであればMaxSDK、VSTプラグインならVST SDKを各自インストールしておく必要がありますのでご注意を。</p>
-<h3 id="-">その他のプラットフォーム</h3>
+<h1 id="-">その他のプラットフォーム</h1>
 <p>しかし毎回コードを手動でコマンド打ってコンパイルするのも何かと面倒です。
 そのための開発環境としては、次の記事で詳しく紹介しますが</p>
 <p><a href="http://faust.grame.fr/download/">http://faust.grame.fr/download/</a></p>
@@ -441,7 +441,7 @@ faust2xxxでfaustコードをアーキテクチャファイルを指定してコ
 <p>の4つがあります。</p>
 <p>これらはどれもfaust2ブランチのライブコンパイル機能を活用して作られており、<strong>libfaust</strong>というライブラリを使えばC++のアプリケーション上でfaustのコードを実行時コンパイルして信号処理を変更するような事もできます。</p>
 <p>例としてはプレゼンをしているLarkin氏が作っている、JUCEライブラリとの組み合わせでVSTプラグイン上でさらにVSTやFaustのdspを読み込み、その中の任意のパラメータを2次元上にマッピングして複雑なコントロールをする<a href="https://github.com/olilarkin/pMix2">pMix</a>という中々ぶっ飛んでるソフトなどがあります。</p>
-<h3 id="-">次の記事では</h3>
+<h1 id="-">次の記事では</h1>
 <p>とりあえずFaustを触って見るための入門環境として上で説明したFaustLive、オンラインコンパイラーなどの解説をする予定です。よろしくお願いします。</p>
 
 

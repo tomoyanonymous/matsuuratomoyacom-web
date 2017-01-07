@@ -14,7 +14,7 @@ permalink: faust_introduction
 <!-- more -->
 
 
-### この記事の流れ
+# この記事の流れ
 
 <img src="{{config.root}}assets/img/faust/faust_logo.png" alt="" style = "width :300px; margin:20px;">
 
@@ -31,7 +31,7 @@ Faustとは*Functional-AUdio-STream*の略で、フランスの音響研究所GR
 
 [http://olilarkin.co.uk/misc/JUCE_Summit.pdf](http://olilarkin.co.uk/misc/JUCE_Summit.pdf)
 
-### Faustとは？
+# Faustとは？
 
 基本的な説明は以下の通り。
 
@@ -42,7 +42,7 @@ Faustとは*Functional-AUdio-STream*の略で、フランスの音響研究所GR
 - コンパイラはLinux、Windows、Macどれでも動くクロスプラットフォーム仕様で、GPLライセンスで配布されています
 - Faustでコンパイルしたプログラムは基本的にコンパイルしたソースのライセンスを引き継ぎます。多くの場合商用利用可能です
 
-### Faustでのプログラミングの基本的な考え方
+# Faustでのプログラミングの基本的な考え方
 
 Max、SuperCollider、Puredata、ChucKなど音声処理ができるプログラミング環境は多数存在しますが既存の環境の中で一番近いものを上げるとすればMaxの中の**Gen**だと思います。
 
@@ -59,11 +59,11 @@ Max、SuperCollider、Puredata、ChucKなど音声処理ができるプログラ
 
 - さらにWebエクスポートとかもできる。（サンプルは[こちら](http://faust.grame.fr/images/noise/noise.html)音が出ますので注意。）
 
-### Faustのメリット・デメリット
+# Faustのメリット・デメリット
 
 いくつかさっき言ったのと被ってますが、
 
-#### メリット
+## メリット
 
 - 非常に詳細かつ簡潔に信号処理を記述できる
 - 慣れるとプログラミングの中で信号処理のみに集中できるのでワークフローが高速に
@@ -72,7 +72,7 @@ Max、SuperCollider、Puredata、ChucKなど音声処理ができるプログラ
 - フィルタ・オシレータ・様々なエフェクトの大量のライブラリが揃っている
 - ドキュメントをFaustのコードから出力することが可能
 
-#### デメリット
+## デメリット
 
 - 全てがサンプル単位で処理され続けるので、あまり巨大なモジュールを作ると使ってない部分も信号処理をし続けるので無駄が発生する（with-muteというブランチで部分的に信号処理を止められる機能も開発中）
 
@@ -82,9 +82,9 @@ Max、SuperCollider、Puredata、ChucKなど音声処理ができるプログラ
 
 - エラーが起きてもエラーメッセージが何を指摘していのかよくわからないことが多々ある（これも慣れると段々わかってくる。）
 
-### Faustの基本記法
+# Faustの基本記法
 
-#### 基本的な考え方
+## 基本的な考え方
 
 まず、Faustではあらゆる処理を入力がm個、出力がn個の処理ブロックと考え、それを繋いでいきます。
 
@@ -104,7 +104,7 @@ Max、SuperCollider、Puredata、ChucKなど音声処理ができるプログラ
 
 その他、sinやcosなどの基本的な関数も同様にブロックとして扱います。
 
-#### 接続文法
+## 接続文法
 
 さて、このブロック同士をつなぐコンポジション（「接続」としましょうか）という文法がFaustの特徴的な文法です。
 
@@ -112,7 +112,7 @@ Max、SuperCollider、Puredata、ChucKなど音声処理ができるプログラ
 
 それぞれの接続法は見てもらえばイメージがつかめると思います。詳しくは文法の詳細解説の記事でお話ししますが、入力と出力数がルールに則っていないと接続できずエラーになります。
 
-##### Parallel
+### Parallel
 
 ```java
 process = (10,*);
@@ -120,7 +120,7 @@ process = (10,*);
 
 <img src="{{config.root}}assets/img/faust/par1-svg/process.svg" alt="" style = "max-height:400px;">
 
-##### Sequencial
+### Sequencial
 
 ```java
 process = ((*,/):+);
@@ -128,7 +128,7 @@ process = ((*,/):+);
 
 <img src="{{config.root}}assets/img/faust/seq1-svg/process.svg" alt="" style = "max-height:400px;">
 
-##### Split
+### Split
 
 ```java
 process = ((10,20)<: (+,*,/));
@@ -137,7 +137,7 @@ process = ((10,20)<: (+,*,/));
 
 <img src="{{config.root}}assets/img/faust/split1-svg/process.svg" alt="" style = "max-height:400px;">
 
-##### Merge
+### Merge
 ```java
 process = ((10,20,30,40):> *);
 
@@ -145,7 +145,7 @@ process = ((10,20,30,40):> *);
 
 <img src="{{config.root}}assets/img/faust/merge1-svg/process.svg" alt="" style = "max-height:400px;">
 
-##### Recursive
+### Recursive
 
 ```java
 process = +(12345)~ *(1103515245)
@@ -159,7 +159,7 @@ process = +(12345)~ *(1103515245)
 
 それぞれ繋いだものを最終的にprocess = your_block;というように"process"に持っていくとそれが最終的な出力ブロックになります。
 
-### プリミティブなブロックの種類達
+# プリミティブなブロックの種類達
 
 - 数値(float/int)。0in1outのブロックとして扱われます
 - 基本演算子
@@ -172,7 +172,7 @@ process = +(12345)~ *(1103515245)
 - その他Cの外部関数呼び出し
 - **UI要素**
 
-### UI機能
+# UI機能
 
 <img src="{{config.root}}assets/img/faust/UIs.png" alt="" style = "max-height:400px;">
 
@@ -200,7 +200,7 @@ Faust上で定義されてるUIの種類は以下の通り。
 またhslider("btn1 [style:knob]",0,0,100,1)のようにラベルの中に拡張メタデータを埋め込むことができ、アーキテクチャファイル側で対応した実装がされていれば、例えばこの例の場合はQtアプリ出力の際にスライダーではなくノブとして現れてくれます。
 スタイルの変更以外にも、MIDI入力の定義やOSCのアドレス設定などもできるものがあります。
 
-### ライブラリ
+# ライブラリ
 
 こちらにライブラリのドキュメントがあります。
 また別記事での詳細解説の際に触れますが、最近ライブラリが刷新されインポート方法に若干変化が出たのと、スライドにあるものより更に種類が増えました。
@@ -234,9 +234,9 @@ Faust上で定義されてるUIの種類は以下の通り。
 
 今年のFaust Awardで賞取った[ambitools](http://www.sekisushai.net/ambitools/)はhoa.libをガンガン使っているはずですし、tonestackとtube.libははLinux用アンプシミュレーター[Guitarix](http://guitarix.org/)のために作られたやつだったはずで、iOS用アプリ[moForte](http://www.moforte.com/moforte-guitar-app/)でも使われているはずです。
 
-### Faustでの実際のワークフロー
+# Faustでの実際のワークフロー
 
-#### コマンドライン
+## コマンドライン
 
 [コンパイラ](https://sourceforge.net/p/faudiostream/code/)をダウンロードしてきて自力でビルドすれば、FaustのコードからC++のファイルなどを直接コンパイルできるようになります。
 
@@ -283,30 +283,30 @@ Code generated with Faust 2.0.a53 (http://faust.grame.fr)
 
 
 
-#ifndef FAUSTCLASS 
+#ifndef FAUSTCLASS
 #define FAUSTCLASS mydsp
 #endif
 
 class mydsp : public dsp {
-	
+
  private:
-	
+
 	int fSamplingFreq;
 	FAUSTFLOAT fHslider0;
 	FAUSTFLOAT fHslider1;
-	
+
  public:
-	
-	void metadata(Meta* m) { 
+
+	void metadata(Meta* m) {
 	}
 
 	virtual int getNumInputs() {
 		return 2;
-		
+
 	}
 	virtual int getNumOutputs() {
 		return 1;
-		
+
 	}
 	virtual int getInputRate(int channel) {
 		int rate;
@@ -323,10 +323,10 @@ class mydsp : public dsp {
 				rate = -1;
 				break;
 			}
-			
+
 		}
 		return rate;
-		
+
 	}
 	virtual int getOutputRate(int channel) {
 		int rate;
@@ -339,31 +339,31 @@ class mydsp : public dsp {
 				rate = -1;
 				break;
 			}
-			
+
 		}
 		return rate;
-		
+
 	}
-	
+
 	static void classInit(int samplingFreq) {
-		
+
 	}
-	
+
 	virtual void instanceConstants(int samplingFreq) {
 		fSamplingFreq = samplingFreq;
-		
+
 	}
-	
+
 	virtual void instanceResetUserInterface() {
 		fHslider0 = FAUSTFLOAT(0.5f);
 		fHslider1 = FAUSTFLOAT(0.5f);
-		
+
 	}
-	
+
 	virtual void instanceClear() {
-		
+
 	}
-	
+
 	virtual void init(int samplingFreq) {
 		classInit(samplingFreq);
 		instanceInit(samplingFreq);
@@ -373,23 +373,23 @@ class mydsp : public dsp {
 		instanceResetUserInterface();
 		instanceClear();
 	}
-	
+
 	virtual mydsp* clone() {
 		return new mydsp();
 	}
-	
+
 	virtual int getSampleRate() {
 		return fSamplingFreq;
 	}
-	
+
 	virtual void buildUserInterface(UI* ui_interface) {
 		ui_interface->openVerticalBox("0x00");
 		ui_interface->addHorizontalSlider("volume1", &fHslider0, 0.5f, 0.0f, 1.0f, 0.00999999978f);
 		ui_interface->addHorizontalSlider("volume2", &fHslider1, 0.5f, 0.0f, 1.0f, 0.00999999978f);
 		ui_interface->closeBox();
-		
+
 	}
-	
+
 	virtual void compute(int count, FAUSTFLOAT** inputs, FAUSTFLOAT** outputs) {
 		FAUSTFLOAT* input0 = inputs[0];
 		FAUSTFLOAT* input1 = inputs[1];
@@ -398,12 +398,12 @@ class mydsp : public dsp {
 		float fSlow1 = float(fHslider1);
 		for (int i = 0; (i < count); i = (i + 1)) {
 			output0[i] = FAUSTFLOAT(((fSlow0 * float(input0[i])) + (fSlow1 * float(input1[i]))));
-			
+
 		}
-		
+
 	}
 
-	
+
 };
 
 
@@ -414,11 +414,11 @@ class mydsp : public dsp {
 
 computeに信号処理の部分、buildUserInterfaceにUI記述の部分が表れているのが分かりますでしょうか？
 
-#### アーキテクチャファイル
+## アーキテクチャファイル
 
 そして、この出力されたコードの前後にくっつけるコードを予め定義しておくのがアーキテクチャファイルというわけです。例えばMaxオブジェクトならMaxのSDKを読み込みオブジェクト生成のための実装の中でmydsp->compute()やbuildUserInterfaceを呼び出して処理をするような物を書いておけば、後はcppファイルをコンパイルすればいいだけです。もちろん、**アーキテクチャファイルを自分で作ることも出来ます。**
 
-#### faust2xxx
+## faust2xxx
 
 Faustのコマンドラインをインストールすると、
 faust2xxxでfaustコードをアーキテクチャファイルを指定してコンパイル、その後cppをコンパイルするところまでを書いたシェルスクリプト群がくっついてきます。
@@ -430,7 +430,7 @@ faust2alqt faust2alsa faust2alsaconsole faust2android faust2api faust2asmjs faus
 
 なお、これはただのシェルスクリプトでしか無いのでQtアプリケーションを書き出すのであればQtSDKが入っていてqmakeコマンドが使えるようになっていたり、MaxオブジェクトであればMaxSDK、VSTプラグインならVST SDKを各自インストールしておく必要がありますのでご注意を。
 
-### その他のプラットフォーム
+# その他のプラットフォーム
 
 しかし毎回コードを手動でコマンド打ってコンパイルするのも何かと面倒です。
 そのための開発環境としては、次の記事で詳しく紹介しますが
@@ -448,6 +448,6 @@ faust2alqt faust2alsa faust2alsaconsole faust2android faust2api faust2asmjs faus
 
 例としてはプレゼンをしているLarkin氏が作っている、JUCEライブラリとの組み合わせでVSTプラグイン上でさらにVSTやFaustのdspを読み込み、その中の任意のパラメータを2次元上にマッピングして複雑なコントロールをする[pMix](https://github.com/olilarkin/pMix2)という中々ぶっ飛んでるソフトなどがあります。
 
-### 次の記事では
+# 次の記事では
 
 とりあえずFaustを触って見るための入門環境として上で説明したFaustLive、オンラインコンパイラーなどの解説をする予定です。よろしくお願いします。
