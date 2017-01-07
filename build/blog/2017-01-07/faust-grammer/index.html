@@ -188,6 +188,7 @@ process = _&lt;:par(i,<span class="hljs-number">5</span>,fi.bandpass(<span class
 <h2 id="-recursive">再帰/Recursive</h2>
 <p>一番ややこしいやつ、右側の出力を左側の入力へフィードバックするやつです。</p>
 <p>この例は44100サンプルのフィードバックディレイです。実際に鳴らすと多分発振するのでお気をつけて。。。</p>
+<p>なお、フィードバックされた信号は暗黙的に<strong>1サンプル遅れた信号</strong>になります。</p>
 <pre><code class="hljs java">process = + ~ @(<span class="hljs-number">44100</span>);</code></pre>
 
 <p><img src="http://matsuuratomoya.com/assets/img/faust/fdbkdelay.svg" alt="" style = "max-height:400px;"></p>
