@@ -93,7 +93,7 @@ process = (_,0.5 : *)<:(*,*):>~(_);
 
 fi = library("filter.lib");
 
-process = _<:par(i,10,fi.bandpass(1,i*10));
+process = _<:par(i,5,fi.bandpass(1,1,i*100));
 ```
 
 <img src="{{config.root}}assets/img/faust/compositions.svg" alt="" style = "max-height:400px;">
