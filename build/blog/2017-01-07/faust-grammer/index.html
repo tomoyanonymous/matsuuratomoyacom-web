@@ -132,7 +132,7 @@
 <p>などはすべて0以上の入力と出力を持つ機能ブロックで表現できます。</p>
 <h2 id="function-">function = 関数</h2>
 <p>そのまんまですが、<strong>Faustではすべてのブロックが関数とみなせる</strong>ので、明示的に「関数」と呼ぶのは<strong>引数つきのブロック定義をする場合</strong>において主に使われます。</p>
-<pre><code class="hljs java">inputhalf(gain) = _ * gain;</code></pre>
+<pre><code class="hljs java">applygain(gain) = _ * gain;</code></pre>
 
 <h2 id="diagram-expression-">diagram expression＝ダイアグラム記法</h2>
 <p>これもそのまんまですが、ブロック同士を<strong>接続、あるいは並列</strong>する場合の記法です。

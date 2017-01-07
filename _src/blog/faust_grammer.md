@@ -77,7 +77,7 @@ _
 そのまんまですが、**Faustではすべてのブロックが関数とみなせる**ので、明示的に「関数」と呼ぶのは**引数つきのブロック定義をする場合**において主に使われます。
 
 ```java
-inputhalf(gain) = _ * gain;
+applygain(gain) = _ * gain;
 ```
 
 ## diagram expression＝ダイアグラム記法
