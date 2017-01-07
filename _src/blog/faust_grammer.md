@@ -23,21 +23,23 @@ permalink: faust_grammer
 process = (_,0.5) : *;
 ```
 
-<img src="{{config.root}}assets/img/faust/mult0.5.svg" alt="" style = "max-height:400px;">
+<img src="{{config.root}}assets/img/faust/mult0.5.svg" alt="" style = "max-height:300px;">
 
 ## 例2
 
 ```java
 process = _ : *(0.5);
 ```
-<img src="{{config.root}}assets/img/faust/mult0.5.svg" alt="" style = "max-height:400px;">
+
+<img src="{{config.root}}assets/img/faust/mult0.5.svg" alt="" style = "max-height:300px;">
 
 ## 例3
+
 ```java
 process = A:*(B);
 ```
 
-<img src="{{config.root}}assets/img/faust/mult0.5.svg" alt="" style = "max-height:400px;">
+<img src="{{config.root}}assets/img/faust/mult0.5.svg" alt="" style = "max-height:300px;">
 
 ## 例4
 
@@ -45,7 +47,7 @@ process = A:*(B);
 process = _*0.5;
 ```
 
-<img src="{{config.root}}assets/img/faust/mult0.5.svg" alt="" style = "max-height:400px;">
+<img src="{{config.root}}assets/img/faust/mult0.5.svg" alt="" style = "max-height:300px;">
 
 
 ・・・は？って感じですよね。一番上の記法ほど普通の言語からすると謎な表現に見えますがFaustでは上から順に普遍的な書き方になります。
