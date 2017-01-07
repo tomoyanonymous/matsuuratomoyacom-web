@@ -3,11 +3,11 @@ layout: about.hbs
 locale: en
 ---
 
-## MatsuuraTomoya
+# MatsuuraTomoya
 
-## マツウラトモヤ
+# マツウラトモヤ
 
-## 松浦知也
+# 松浦知也
 
 ![]({{config.root}}assets/img/profile2.jpg)
 
@@ -19,7 +19,7 @@ Sound Maker/Engineer/Designer/Programmer
 
 ---
 
-### CV
+## CV
 
 Born in 1994. Living in Kanagawa Pref. Japan.
 
@@ -35,9 +35,9 @@ Born in 1994. Living in Kanagawa Pref. Japan.
 
 ---
 
-### Skill
+## Skill
 
-#### Frequently Use
+### Frequently Use
 
 - Puredata
 - Max/MSP
@@ -46,13 +46,13 @@ Born in 1994. Living in Kanagawa Pref. Japan.
 - Faust
 - Javascript(including Node.js)
 
-#### Use
+### Use
 
 - Protools
 - R
 - Openframeworks
 
-#### Studying
+### Studying
 
 - Julia
 - Unity

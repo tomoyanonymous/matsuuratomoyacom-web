@@ -2,11 +2,11 @@
 layout: about.hbs
 ---
 
-## MatsuuraTomoya
+# MatsuuraTomoya
 
-## マツウラトモヤ
+# マツウラトモヤ
 
-## 松浦知也
+# 松浦知也
 
 ![]({{config.root}}assets/img/profile2.jpg)
 
@@ -25,7 +25,7 @@ Sound Maker/Engineer/Designer/Programmer
 
 ---
 
-### CV
+## CV
 
 1994年生まれ 神奈川県在住
 
@@ -41,9 +41,9 @@ Sound Maker/Engineer/Designer/Programmer
 
 ---
 
-### Skill
+## Skill
 
-#### よく使う
+### よく使う
 
 - Puredata
 - Max/MSP
@@ -52,14 +52,14 @@ Sound Maker/Engineer/Designer/Programmer
 - Faust
 - Javascript(Node.jsも)
 
-#### 使う
+### 使う
 
 - Protools
 - R
 - Openframeworks
 
 
-#### 勉強中
+### 勉強中
 
 - Julia
 - Unity
