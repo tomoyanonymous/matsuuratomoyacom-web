@@ -2,7 +2,7 @@
 layout: work.hbs
 title: How-ring
 permalink: how-ring
-thum: assets/img/how-ring/1.JPG
+thum: assets/img/how-ring/1.jpg
 date : 2014-12-15
 ---
 千住 Art Path 2014（東京芸術大学千住キャンパス制作・論文発表会）にて展示
