@@ -33,6 +33,10 @@ Webサイト: <http://onkansotsuten.com/>
 
 場所：東京藝術大学 千住キャンパス 入場無料
 
+<a class="twitter-follow-button"
+  href="https://twitter.com/onkan_sotsuten" data-size="large">
+Follow @onkan_sotsuten</a>
+
 <div style = "display:flex;flex-wrap:wrap;">
 
 <img src = "{{config.root}}assets/img/sotsuten2017/sotsuten2017_omote.png" style ="width:50%; min-width:350px;">
