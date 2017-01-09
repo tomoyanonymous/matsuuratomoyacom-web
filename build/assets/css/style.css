@@ -681,7 +681,7 @@ body .outer header a {
 
 /* line 99, stdin */
 body .outer header a:hover {
-  box-shadow: 1px 1px 2px #a8aeb0;
+  box-shadow: 0px 1px 2px #a8aeb0;
 }
 
 /* line 104, stdin */
