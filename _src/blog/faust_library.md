@@ -244,7 +244,7 @@ interleavesample =4<:ro.interleave(4,2);
 process = crosssample,cross2sample,crossnnsample,interleavesample;
 ```
 
-<img src="{{config.root}}assets/img/faust/routesample.png" alt="">
+<img src="{{config.root}}assets/img/faust/routesample.svg" alt="">
 
 ## filter.lib
 
