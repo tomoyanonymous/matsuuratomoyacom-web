@@ -345,7 +345,7 @@ de.spectral_level_demo
 
 こういう感じになります。
 
-<img src="{{config.root}}assets/img/faust/faust_analyzer.png" alt="" style = "max-height:400px;">
+<img src="{{config.root}}assets/img/faust/faust_analyzer.png" alt="">
 
 これ、若干パラメータがややこしいですが
 
