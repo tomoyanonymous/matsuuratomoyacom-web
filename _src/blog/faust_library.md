@@ -228,16 +228,23 @@ _ : sAndH(t) : _; // 上の簡略版。tが1の時サンプル。ビット演算
 ルーティング系。大規模になるほど使う機会が増えてきます。
 呼び出しはro。
 
+コレは多分図を見たほうが早いです。
+
 ```java
-(1,2,3,4,5) : ro.cross(5) -> 5,4,3,2,1
+import("stdfaust.lib");
 
-(L1,R1,L2,R2):ro.cross2 -> (L1,L2,R1,R2) //ステレオ信号を２つ扱う時に便利
+crosssample = 1<:ro.cross(4);
 
-(1,2,3,4,5,6,7,8):crossnn(4) -> 5,6,7,8,1,2,3,4
+cross2sample = 2<:ro.cross2; //ステレオエフェクトを２つ組み合わせる時に便利
 
-(1,2,3,4,5,6,7,8):interleave(4,2) -> 1,5,2,6,3,7,4,8
+crossnnsample = 3<:ro.crossnn(4);
 
+interleavesample =4<:ro.interleave(4,2);
+
+process = crosssample,cross2sample,crossnnsample,interleavesample;
 ```
+
+<img src="{{config.root}}assets/img/faust/routesample.png" alt="">
 
 ## filter.lib
 

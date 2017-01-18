@@ -248,14 +248,20 @@ _ : sAndH(t) : _; <span class="hljs-comment">// 上の簡略版。tが1の時サ
 <h2 id="route-lib">route.lib</h2>
 <p>ルーティング系。大規模になるほど使う機会が増えてきます。
 呼び出しはro。</p>
-<pre><code class="hljs java">(<span class="hljs-number">1</span>,<span class="hljs-number">2</span>,<span class="hljs-number">3</span>,<span class="hljs-number">4</span>,<span class="hljs-number">5</span>) : ro.cross(<span class="hljs-number">5</span>) -&gt; <span class="hljs-number">5</span>,<span class="hljs-number">4</span>,<span class="hljs-number">3</span>,<span class="hljs-number">2</span>,<span class="hljs-number">1</span>
+<p>コレは多分図を見たほうが早いです。</p>
+<pre><code class="hljs java"><span class="hljs-keyword">import</span>(<span class="hljs-string">"stdfaust.lib"</span>);
 
-(L1,R1,L2,R2):ro.cross2 -&gt; (L1,L2,R1,R2) <span class="hljs-comment">//ステレオ信号を２つ扱う時に便利</span>
+crosssample = <span class="hljs-number">1</span>&lt;:ro.cross(<span class="hljs-number">4</span>);
 
-(<span class="hljs-number">1</span>,<span class="hljs-number">2</span>,<span class="hljs-number">3</span>,<span class="hljs-number">4</span>,<span class="hljs-number">5</span>,<span class="hljs-number">6</span>,<span class="hljs-number">7</span>,<span class="hljs-number">8</span>):crossnn(<span class="hljs-number">4</span>) -&gt; <span class="hljs-number">5</span>,<span class="hljs-number">6</span>,<span class="hljs-number">7</span>,<span class="hljs-number">8</span>,<span class="hljs-number">1</span>,<span class="hljs-number">2</span>,<span class="hljs-number">3</span>,<span class="hljs-number">4</span>
+cross2sample = <span class="hljs-number">2</span>&lt;:ro.cross2; <span class="hljs-comment">//ステレオエフェクトを２つ組み合わせる時に便利</span>
 
-(<span class="hljs-number">1</span>,<span class="hljs-number">2</span>,<span class="hljs-number">3</span>,<span class="hljs-number">4</span>,<span class="hljs-number">5</span>,<span class="hljs-number">6</span>,<span class="hljs-number">7</span>,<span class="hljs-number">8</span>):interleave(<span class="hljs-number">4</span>,<span class="hljs-number">2</span>) -&gt; <span class="hljs-number">1</span>,<span class="hljs-number">5</span>,<span class="hljs-number">2</span>,<span class="hljs-number">6</span>,<span class="hljs-number">3</span>,<span class="hljs-number">7</span>,<span class="hljs-number">4</span>,<span class="hljs-number">8</span></code></pre>
+crossnnsample = <span class="hljs-number">3</span>&lt;:ro.crossnn(<span class="hljs-number">4</span>);
 
+interleavesample =<span class="hljs-number">4</span>&lt;:ro.interleave(<span class="hljs-number">4</span>,<span class="hljs-number">2</span>);
+
+process = crosssample,cross2sample,crossnnsample,interleavesample;</code></pre>
+
+<p><img src="http://matsuuratomoya.com/assets/img/faust/routesample.png" alt=""></p>
 <h2 id="filter-lib">filter.lib</h2>
 <p>フィルター系。膨大な量入っているので普通に実装の勉強になります。
 ぱっと使いたい時に便利なやつを紹介。呼び出しはfiです。</p>
