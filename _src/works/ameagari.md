@@ -25,4 +25,4 @@ date : 2014-03-21
 
 <a href="{{config.root}}assets/img/ameagari/furaiya-.jpg"><img src="{{config.root}}assets/img/ameagari/furaiya-.jpg" alt=""></a>
 
-<a href="{{config.root}}assets/img/ameagari/Furaiya-ura.jpg"><img src="{{config.root}}assets/img/ameagari/FUraiya-ura.jpg" alt=""></a>
+<a href="{{config.root}}assets/img/ameagari/Furaiya-ura.jpg"><img src="{{config.root}}assets/img/ameagari/Furaiya-ura.jpg" alt=""></a>
