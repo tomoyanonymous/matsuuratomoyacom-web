@@ -1,5 +1,5 @@
 ---
-date: 2016-01-19
+date: 2017-01-19
 layout: blog.hbs
 title: Faustのライブラリの使い方と標準ライブラリのオススメ
 permalink: faust_library
