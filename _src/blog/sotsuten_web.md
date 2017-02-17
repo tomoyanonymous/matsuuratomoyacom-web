@@ -3,6 +3,7 @@ date: 2017-02-15
 layout: blog.hbs
 title: 大学の卒展のWebサイトをSPA(Riot.js)で作った話
 permalink: sotsuten_web
+draft: true
 
 ---
 
