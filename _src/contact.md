@@ -1,9 +1,7 @@
 ---
 layout: about.hbs
 ---
-## Contact
+# Contact
 
-
-##### Mail: [matsuura.nonymous+web[at]gmail.com](mailto:matsuura.nonymous+web@gmail.com)
-
-##### Twitter: [@tomoya_nonymous](https://twitter.com/tomoya_nonymous)
+## Mail: matsuura.nonymous+web@<span style="display:none;"></span>gmail.com
+## Twitter: [@tomoya_nonymous](https://twitter.com/tomoya_nonymous)

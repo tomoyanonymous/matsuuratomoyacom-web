@@ -1,5 +1,5 @@
 ---
-date: 2016-012-01
+date: 2016-12-01
 layout: blog.hbs
 title: 音声処理プログラミング言語、Faustの紹介
 permalink: faust_introduction

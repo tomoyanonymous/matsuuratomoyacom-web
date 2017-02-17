@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="ja" prefix="og: http://ogp.me/ns#">
+  <head>
+    <meta charset="utf-8">
+
+    <link rel="stylesheet" href="../../../assets/css/style.css">
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.3.0/styles/tomorrow.min.css">
+    <link rel="shortcut icon" href="assets/img/favicon.ico">
+    <link rel="canonical" href="http://matsuuratomoya.com">
+    <meta name="viewport" content="width=700px initial-scale=1.0">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta property="og:type" content="website" />
+    <meta name="keyword" content="松浦知也,マツウラトモヤ,Matsuura Tomoya,Tomoya Matsuura,まつうらともや">
+  <meta name="description" content="大学の卒展のWebサイトをSPA(Riot.js)で作った話">
+  <meta property="og:title" content="Matsuura Tomoya|松浦知也" />
+  <meta property="twitter:card" content="summary" />
+  <meta property="twitter:site" content="@tomoya_nonymous">
+    <meta property="twitter:creator" content="@tomoya_nonymous">
+    <meta property="twitter:creator:id" content="@tomoya_nonymous">
+<meta property="og:url" content="http://matsuuratomoya.com/" />
+<meta property="og:image" content="http://matsuuratomoya.com/assets/img/image_ogp.png" />
+<meta property="og:image:type" content="image/png" />
+<meta property="og:image:width" content="1200" />
+<meta property="og:image:height" content="630" />
+<meta property="fb:app_id" content="1756749324544053" />
+  <meta property="og:description" content="大学の卒展のWebサイトをSPA(Riot.js)で作った話"/>
+    <title>大学の卒展のWebサイトをSPA(Riot.js)で作った話 Matsuura Tomoya|松浦知也 </title>
+  </head>
+<body>
+      <!-- Google Tag Manager -->
+      <noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-KSWGLR"
+      height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+      <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+      new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+      j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+      '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+      })(window,document,'script','dataLayer','GTM-KSWGLR');</script>
+      <!-- End Google Tag Manager -->
+  <div class="outer">
+
+    
+    <header>
+      <div>
+          <a href="../../.."><div class="title">Matsuura Tomoya</div></a>
+    
+          <div class="menu">
+            <a href="../../../about"><div>about</div></a>
+            <a href="../../../info"><div>info</div></a>
+            <a href="../../../works"><div>works</div></a>
+            <a href="../.."><div>blog</div></a>
+            <a href="../../../contact"><div>contact</div></a>
+          </div>
+        <div class="locales">
+        </div>
+    
+        <div class="social">
+          <div class="tw">
+            <div class="logo">
+              <a href="https://twitter.com/tomoya_nonymous" target=”_blank”>
+                <img src="../../../assets/img/tw.png" alt="twitter">
+              </a>
+            </div>
+            </div>
+            <div class="fb">
+              <div class="logo">
+                <a href="https://www.facebook.com/tomoya.matsuura.98" target=”_blank”>
+                  <img src="../../../assets/img/fb.png" alt="facebook">
+                </a>
+              </div>
+            </div>
+          
+            <div class="github">
+              <div class="logo">
+                <a href="https://github.com/tomoyanonymous" target=”_blank”>
+                  <img src="../../../assets/img/github.png" alt="github">
+                </a>
+              </div>
+            </div>
+          
+            <div class="instagram">
+              <div class="logo">
+                <a href="https://www.instagram.com/tomoya_nonymous/" target=”_blank”>
+                  <img src="../../../assets/img/instagram.png" alt="instagram">
+                </a>
+              </div>
+            </div>
+        </div>
+        </div>
+    </header>
+    <div class="inner">
+        <div class="child">
+
+        <div class="content">
+          <p class="date">2017/02/15</p>
+        <p class="title"><a href=".">大学の卒展のWebサイトをSPA(Riot.js)で作った話</a></p>
+<div class="markdown">
+          <p>技術ネタ供養の回です。</p>
+<p>先日、自分の所属している東京藝術大学の音楽環境創造科というところの卒展（正確には展示だけじゃなくて発表会なんですが）がおわりまして、それの運営委員長をやりつつWebサイトのコーディングをするという事をしていました。</p>
+<p><a href="http://onkansotsuten.com">http://onkansotsuten.com</a></p>
+<p>今までも幾つかこういうイベントもののWebを作ってきて、それまでは静的サイトで構築していたのですが今回始めてRiot.jsというやたらモダンなフレームワークを導入してSPA（シングルページアプリケーション）としてWebサイトを構築したのでその裏話です。</p>
+<!-- more -->
+<h1 id="-">求められる仕様</h1>
+<p>今回のWebサイトでは結局</p>
+<ul>
+<li>学科紹介</li>
+<li><strong>作品・論文紹介</strong></li>
+<li><strong>タイムテーブル・会場案内</strong></li>
+<li>学生インタビュー</li>
+<li>論文集の販売案内</li>
+<li>アクセス</li>
+</ul>
+<p>とかをやって、特に太字で書いた通り作品紹介とタイムテーブルが肝でした。</p>
+<p>先ほども書いたように卒展と名乗りつつもコンサート・演劇・オーディオドラマなど時間指定系のものがあるのでタイムテーブルの制作が必須。またそれ以外にも論文発表やらインスタレーションやらやってることがバラバラすぎるので個々人何をやっているのかをちゃんと紹介できるようにしておく必要がありました。</p>
+<p>その作品のジャンルがまた多い以外にそもそも参加人数や会場もそこそこあるのでタイムテーブルをパッと見ただけだと何が入ってるかよくわからん、みたいなことが発生するので出来ればその辺を解決したかったというのがあります。</p>
+<h1 id="-">今まで</h1>
+<p>参考までに自分が今までやった学校関係のイベントのWebサイトは以下の通り。</p>
+<h2 id="-2013">千住アートパス2013</h2>
+<p><a href="http://senjuartpath.com/2013">http://senjuartpath.com/2013</a></p>
+<p>Webの担当者が別に外部にいたが蒸発。2週間ぐらい前になって作れないかと話が飛んでくる（この時学部1年）。前年のWeb(<a href="http://senjuartpath.com/2012">http://senjuartpath.com/2012</a>)のレイアウトそのままに色とかデザインだけをその年仕様に寄せて作り直す方向で行こうという方針になる。</p>
+<p>ところが前年のWebサイトをダウンロードするとどうやらWordのHTML出力したものであることが発覚し途方に暮れながら見た目だけ同じになるようにフルスクラッチで書き直す。</p>
+<p>この年ぐらいにはメインブラウザでだいたいcss3のflex-boxが効くようになっていたので旧ブラウザを切り捨てわりとシンプルにレイアウトを組んだ。</p>
+<p>作品情報・タイムテーブルはかなり直前に出来上がったパンフのデータをjpgにしてベタ貼り。</p>
+<h2 id="-2014">千住アートパス2014</h2>
+<p><a href="http://senjuartpath.com/2014">http://senjuartpath.com/2014</a></p>
+<p>Webはメインをフライヤーなどを作ってくれたデザイナーさんに頼んでいたが、</p>
+<ul>
+<li>作品情報をパンフベタ貼りじゃなくてちゃんと個別に情報見られるようにしよう</li>
+<li>でも作品情報のデータのやり取りは多分学生側で片付けないと間に合わないからそこだけこっちでやろう</li>
+</ul>
+<p>という流れで作品情報ページ部分だけを担当することに。デザイナーさんからイラレのカンプだけ貰って実装はこっち側で勝手にやるのでわりと気楽だったが情報のアップロードをどこまでこっちでやっていいのかで結構苦労。
+並べるのはご存知<a href="http://masonry.desandro.com/">Masonry</a>と<a href="http://fancyapps.com/fancybox/">Fancybox</a>を使用。</p>
+<p>今思うと結構デザイナーさん担当部分がjQuery地g・・・なんでもないんですあれだったんですが、この時初めてjQuery使ったので勉強しつつ色々頑張った思い出。
+テンプレートだけ他の人に渡して作品の情報を流し込んでもらい大量のテキストファイルからコピペしてHTMLソースにコピペしていくというわりと地獄だった思い出。</p>
+<p>ちなみにタイムテーブルはやっぱりパンフベタ貼り。</p>
+<h2 id="-2015">千住アートパス2015</h2>
+<p><a href="http://senjuartpath.com/2015">http://senjuartpath.com/2015</a></p>
+<p>gulpとejsを使ってミニ静的サイトジェネレータ的なものを作る。ヘッダー・フッターのコピペが必要なくなったのと作品情報をGoogleスプレッドシート→csv→jsonと変換して一発生成という技を覚えたため作業がだいぶ楽になる。</p>
+<p>深夜3時位にデザイナーさんと素材をやり取りしながらリアルタイム反映させるという地獄をやってしまい結構反省した。</p>
+<p>ここまで来てもタイムテーブルはやっぱりパンフベタ貼り。</p>
+<h1 id="-spa-">なぜSPAか</h1>
+<p>基本、HTML信者なので（？）あんまりSPA好きじゃないです。あとから見てソースがよくわかんなくなるし、こと学生のWebサイトだとどんなスキルの人が後から見て参考にするかわからんのもあるし、アーカイブとしての役目も考えるとできるだけシンプルな構造な方がよい。実際3年間完全にワンマンで千住アートパスを作り続けた結果後輩がめっちゃ困るという自体が発生したので結構反省していた。</p>
+<p>しかし、タイムテーブルだけは時間をかければ気合でHTML＋fancyboxとか使えばどうにかなるかもしれんがタイムテーブルが確定するの自体イベントから結構ギリギリになるので一刻も早く外に知らせたいのもある。</p>
+
+
+          <div class="share">
+            <div class="tweet">
+          <a href="https://twitter.com/share" class="twitter-share-button" data-size="large" data-url="http://matsuuratomoya.com/blog/2017-02-15/sotsuten-web" data-related="tomoya_noynmous">Tweet</a>
+          <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+          </div>
+          
+          <div class="fb-share-button" data-href="http://matsuuratomoya.com/blog/2017-02-15/sotsuten-web" data-layout="box_count" data-mobile-iframe="true"></div>
+          
+          </div>
+          <hr>
+          
+          <div class="fb-comments" data-width="100%" data-href="http://matsuuratomoya.com/blog/2017-02-15/sotsuten-web" data-numposts="5"></div>
+          <div class="pagination">
+          
+          <ul>
+            <li class="to_prev">
+          
+              <a href="" class="none">
+          
+              <<
+              </a>
+            </li>
+            <li class="to_index">
+              <a href="../../">^</a>
+            </li>
+            <li class="to_next">
+          
+              <a href="../../2017-01-19/faust-library"  >
+                Faustのライブラリの使い方と標準ライブラリのオススメ
+              >>
+          
+              </a>
+          
+            </li>
+          </ul>
+          </div>
+          </div>
+        </div>
+
+      </div>
+
+</div>
+    
+      <footer>
+    <div class="child">
+    
+    <p class = "copyrights">
+    
+    <a href="../../../license">2016-2017 (CC BY-NC-ND 4.0) Matsuura Tomoya</a>
+    </p>
+    </div>
+    </footer>
+</div>
+</body>
+</html>
