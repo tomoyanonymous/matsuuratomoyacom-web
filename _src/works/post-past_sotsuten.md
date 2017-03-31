@@ -23,10 +23,11 @@ padding: 0 0 56.25%;overflow: hidden; margin:10px auto;"><iframe src="https://pl
 音響遅延線メモリーは上の図のようにスピーカーから出した音のパルスをマイクで広い、検出したパルスを再びスピーカーから出力することで一定のパルスのパターンがぐるぐると回りつづけ、データが保存できるというものである。
  この作品は、音響遅延線メモリーを前作[《Acoustic Delay (⇔) Memory》]({{config.root}}works/acoustic-delay-memory)から更に拡大解釈したシステムを提示する。
 
-「聞き取ったのと同じデータを発音する」というだけのシステムを2台組み合わせることで、個別には通信装置としての機能しか持っていないが全体としては記憶装置の機能を持つ。それではデータは一体どこに「保存」されているのだろうか？システムは、音のパルスを用いた2つ1組のコンピュータと、音声入力・テキスト読み上げ機能を用いた2つ1組のコンピュータの計4台が独立してそれぞれ稼働している。
+「聞き取ったのと同じデータを発音する」というだけのシステムを2台組み合わせることで、個別には通信装置としての機能しか持っていないが全体としては記憶装置の機能を持つ。それではデータは一体どこに「保存」されているのだろうか？
 
 ![]({{config.root}}assets/img/post-past-sotsuten/adm2_setsumei.png)
 
+システムは、音のパルスを用いた2つ1組のコンピュータと、音声入力・テキスト読み上げ機能を用いた2つ1組のコンピュータの計4台が独立してそれぞれ稼働している。
 
 音を発することを通して何かを「記録」したり「記憶」する事を再考する音響装置作品。
 
@@ -75,7 +76,7 @@ padding: 0 0 56.25%;overflow: hidden; margin:10px auto;"><iframe src="https://pl
 
 しかし、64bitのしょぼい記憶装置を動かしている間にはこの1024bit以上使われているメモリたちを意識することがないということに違和感を覚える。先程の1024bitくらいのメモリは機能的にはサンプリングしたデータを一時的に保持してソフトウェアに送り、また新しくサンプリングされたデータを受け取るだけだ。エッカートの例えを借りるならば買い物のメモを覚え始めた途中で別のメモウィ新しく渡され続けるようなものだ。これは短期記憶で一般にイメージする「記憶」とは異なるだろう。
 
-とはいえここで使われているメモリはPCで情報を保持しているメモリと同じである。要するに記憶装置の仕組み瞳孔よりも、その用途がどうなっているかの方が重要ということだ。
+とはいえここで使われているメモリはPCで情報を保持しているメモリと同じである。要するに記憶装置の仕組みどうこうよりも、その用途がどうなっているかの方が重要ということだ。
 
 ## 試行2
 
@@ -113,10 +114,9 @@ In this works, two type of a pair of system which has a function, "Listen, decod
 
 The individual machines have a function of communication system but whole system have memory system. In this situation, where the data is stored in? 
 
-One type of a pair is using sound pulse like a original acoustic delay memory. Another one is using speech-to-text engine and text-to-spech engine.
-
 ![]({{config.root}}assets/img/post-past-sotsuten/adm2_setsumei_en.png)
 
+One type of a pair is using sound pulse like a original acoustic delay memory. Another one is using speech-to-text engine and text-to-spech engine.
 
 Rethinking "Record" and "Memorise" through makeing sounds.
 

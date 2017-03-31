@@ -107,8 +107,9 @@ padding: 0 0 56.25%;overflow: hidden; margin:10px auto;"><iframe src="https://pl
 <p><img src="http://matsuuratomoya.com/assets/img/post-past-sotsuten/adm_setsumei.png" alt=""></p>
 <p>音響遅延線メモリーは上の図のようにスピーカーから出した音のパルスをマイクで広い、検出したパルスを再びスピーカーから出力することで一定のパルスのパターンがぐるぐると回りつづけ、データが保存できるというものである。
  この作品は、音響遅延線メモリーを前作<a href="http://matsuuratomoya.com/works/acoustic-delay-memory">《Acoustic Delay (⇔) Memory》</a>から更に拡大解釈したシステムを提示する。</p>
-<p>「聞き取ったのと同じデータを発音する」というだけのシステムを2台組み合わせることで、個別には通信装置としての機能しか持っていないが全体としては記憶装置の機能を持つ。それではデータは一体どこに「保存」されているのだろうか？システムは、音のパルスを用いた2つ1組のコンピュータと、音声入力・テキスト読み上げ機能を用いた2つ1組のコンピュータの計4台が独立してそれぞれ稼働している。</p>
+<p>「聞き取ったのと同じデータを発音する」というだけのシステムを2台組み合わせることで、個別には通信装置としての機能しか持っていないが全体としては記憶装置の機能を持つ。それではデータは一体どこに「保存」されているのだろうか？</p>
 <p><img src="http://matsuuratomoya.com/assets/img/post-past-sotsuten/adm2_setsumei.png" alt=""></p>
+<p>システムは、音のパルスを用いた2つ1組のコンピュータと、音声入力・テキスト読み上げ機能を用いた2つ1組のコンピュータの計4台が独立してそれぞれ稼働している。</p>
 <p>音を発することを通して何かを「記録」したり「記憶」する事を再考する音響装置作品。</p>
 <hr>
 <p><img src="http://matsuuratomoya.com/assets/img/post-past-sotsuten/sotsuten_5.JPG" alt="">
@@ -137,7 +138,7 @@ padding: 0 0 56.25%;overflow: hidden; margin:10px auto;"><iframe src="https://pl
 <p>結論：概ね目的は達成できた。テストでは16QAMという変調方式で、64bitの保存装置を作った。しかし、別の疑問が浮かぶ。</p>
 <p>今回は手っ取り早くテストをするためにコンピュータのソフトウェア上でデジタル信号処理の実装をした。そのため実際にはマイクから入った信号をサンプリングし、ソフトウェアに送る過程で一時的にメモリに書き込む処理が発生しているはずだ。これは少なめに見積もっても1024bitは必要で記憶オス地を作りたいならはじめからこのメモリを使うほうが圧倒的に有効だ。</p>
 <p>しかし、64bitのしょぼい記憶装置を動かしている間にはこの1024bit以上使われているメモリたちを意識することがないということに違和感を覚える。先程の1024bitくらいのメモリは機能的にはサンプリングしたデータを一時的に保持してソフトウェアに送り、また新しくサンプリングされたデータを受け取るだけだ。エッカートの例えを借りるならば買い物のメモを覚え始めた途中で別のメモウィ新しく渡され続けるようなものだ。これは短期記憶で一般にイメージする「記憶」とは異なるだろう。</p>
-<p>とはいえここで使われているメモリはPCで情報を保持しているメモリと同じである。要するに記憶装置の仕組み瞳孔よりも、その用途がどうなっているかの方が重要ということだ。</p>
+<p>とはいえここで使われているメモリはPCで情報を保持しているメモリと同じである。要するに記憶装置の仕組みどうこうよりも、その用途がどうなっているかの方が重要ということだ。</p>
 <h2 id="-2">試行2</h2>
 <p>仮説：試行1で制作した音響遅延線は理論的には一時メモリが無くても制作可能だった。しかし一時メモリの使われ方自体によっては“見かけ上記憶装置では無い”と言えるならば、内部の物理メモリどうこうをいっそ気にせずに音響遅延線「的な」仕組みの物を作ることが可能ではないか。こうすると普段記憶装置として使っているものは機能として透明化し、別のところに記憶装置としての機能が立ち上がる。という事が起きるのではないだろうか。最低限必要な機能「データを受け取り同じデータを返す」だけでいいのであれば、例えば音声認識エンジンとテキスト読み上げ機能でも成立するのではないか。</p>
 <p>結論：音声認識でテキストを生成し、一時的にGoogleドキュメント上に配置する。この時明らかにGoogleドキュメントは、と言うかその情報を保存しているコンピュータ上のメモリは明らかに「記憶装置」として機能して（しまって）いる。単純に保持している時間の問題が「記憶っぽさ」を生んでいるのだろうか？</p>
@@ -159,8 +160,8 @@ padding: 0 0 56.25%;overflow: hidden; margin:10px auto;"><iframe src="https://pl
 <p>This works is the more over-interpreted acoustic delay memory system than past works <a href="http://matsuuratomoya.com/works/acoustic-delay-memory">《Acoustic Delay (⇔) Memory》</a>.</p>
 <p>In this works, two type of a pair of system which has a function, &quot;Listen, decode a data, re-encode same data and read out it&quot;.</p>
 <p>The individual machines have a function of communication system but whole system have memory system. In this situation, where the data is stored in? </p>
-<p>One type of a pair is using sound pulse like a original acoustic delay memory. Another one is using speech-to-text engine and text-to-spech engine.</p>
 <p><img src="http://matsuuratomoya.com/assets/img/post-past-sotsuten/adm2_setsumei_en.png" alt=""></p>
+<p>One type of a pair is using sound pulse like a original acoustic delay memory. Another one is using speech-to-text engine and text-to-spech engine.</p>
 <p>Rethinking &quot;Record&quot; and &quot;Memorise&quot; through makeing sounds.</p>
 <hr>
 <p><img src="http://matsuuratomoya.com/assets/img/post-past-sotsuten/sotsuten_11.JPG" alt=""></p>
