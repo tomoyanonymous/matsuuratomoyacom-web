@@ -3,6 +3,7 @@ date: 2017-03-03
 layout: blog.hbs
 title: cycling'74 Maxで評価実験のパッチを作る
 permalink: max_subjective
+draft: true
 ---
 
 先日身内向けにMaxの基礎講座＋Maxで作る評価実験用のパッチの作り方をやったので、その資料も兼ねてここに置いておきます。

@@ -3,11 +3,15 @@ layout: about.hbs
 locale: en
 ---
 
-# MatsuuraTomoya
-
-# マツウラトモヤ
-
-# 松浦知也
+<p style="font-size:300%; font-weight:bolder;">
+Matsuura Tomoya
+</p>
+<p style="font-size:300%; font-weight:bolder;">
+マツウラトモヤ
+</p>
+<p style="font-size:300%; font-weight:bolder;">
+松浦知也
+</p>
 
 ![]({{config.root}}assets/img/profile2.jpg)
 

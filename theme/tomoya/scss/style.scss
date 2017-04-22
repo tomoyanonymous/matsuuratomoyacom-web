@@ -7,12 +7,25 @@
 body{
 
   .markdown{
+      padding:0 20px;
     p{
-      margin:1rem 0;
+      margin:3rem 0;
+      line-height: 1.7rem;
+
+    }
+    em{
+      padding:0 10px;
+      font-size: 90%;
+      color:$main1*2.5;
+      display: block;
+      padding:0 25px;
     }
     a{
-      display:block;
+      display:inline-block;
       margin:10px auto;
+    }
+    >p a{
+      text-decoration: underline;
     }
     img{
       width:100%;
@@ -23,7 +36,22 @@ body{
       display:inline;
     }
     h1,h2,h3,h4,h5,h6{
-      margin:2rem 0;
+      margin:4rem 0 2rem 0;
+      line-height: 150%;
+    }
+    h1{
+      padding: 2rem 0 0.3rem;
+      border-top: 3px dashed $main3;
+    }
+
+    ul{
+      margin:2rem 10px;
+      font-size:90%;
+    }
+    li{
+      margin:1rem 0;
+      color:$main1*3;
+
     }
     hr{
       border-top:solid 1px $main2*0.5;
@@ -81,7 +109,7 @@ body{
       display:flex;
       align-content: flex-start;
       height:100%;
-      padding:0;
+      padding:0 5px;
       padding-right: 200px;
       flex-wrap:wrap;
       max-width: 1000px;
@@ -115,7 +143,7 @@ body{
       display:flex;
       vertical-align: baseline;
       margin-right: 20px;
-
+      letter-spacing: 0.07rem;
       a{
         display:table;
         margin:auto;
@@ -126,7 +154,7 @@ body{
           display:table-cell;
           vertical-align: middle;
           width:auto;
-          padding:0 20px;
+          padding:0 18px;
 
         }
         &:hover{
@@ -146,6 +174,7 @@ body{
           height:100%;
           display: table-cell;
           vertical-align: middle;
+          letter-spacing: 0rem;
         }
       }
     }
@@ -217,13 +246,13 @@ body{
     .inner{
       background-color:$main2 * 0.96;
       margin:20px 0;
-      padding:10px 0;
+      padding:10px 5px;
       box-shadow: 2px 2px 2px $main2 * 0.7;
       .content{
         background-color:$main2 ;
         border:1px $main2 * 0.7;
         margin:10px 0;
-        padding:10px;
+        padding:10px 25px;
         box-shadow: 3px 3px 2px $main2 * 0.7;
       }
       >.content{
@@ -231,6 +260,9 @@ body{
         box-shadow: 3px 3px 3px $main2 * 0.7;
         // margin:10px 0;
         padding:10px 0;
+        >.child{
+          padding:0 25px;
+        }
       }
       >.content2{
         background-color:$main2 *0.98;
@@ -242,8 +274,9 @@ body{
       p.title{
         font-size:2rem;
         font-weight:lighter;
-        letter-spacing: 0.3rem;
-        padding:10px 0;
+        letter-spacing: 0.4rem;
+        line-height: 140%;
+        padding:20px 0;
       }
       p.date{
         font-size:0.9rem;
@@ -313,12 +346,12 @@ body{
           border:$border;
           box-shadow: 1px 1px 1px $main2 * 0.7;
           margin:10px 0;
-          padding:10px;
+          padding:10px 20px;
         }
       }
       .index_left,.index_right {
 
-        width:45%;
+        width:48%;
         min-width:350px;
         a>.title{
           font-weight: normal;
@@ -326,6 +359,9 @@ body{
         .content{
           padding:5px 0;
           box-shadow: 0px 0px 0px $main2;
+          .markdown{
+            padding:0;
+          }
         }
       }
 
