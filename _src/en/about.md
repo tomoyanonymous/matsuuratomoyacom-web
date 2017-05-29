@@ -21,10 +21,16 @@ Matsuura Tomoya
 
 Sound Maker/Engineer/Designer/Programmer
 
-Making sound installation works and developping sound systems for installation works.
-Main theme is "System" around the sound, in particular, electronic musical instruments, digital memory systems and so on.
+Making sound artworks, electric musical instruments, systems for live performance and also composing, playing and so on.
 
-Also do recording, sound design of animation, theatre sound design/SR and so on.
+The Main theme of works is "System" in varying media around the sound, in particular, the relationship between "Liveness/Communication" and "Archive/Record/Memory".
+
+
+
+Making sound installation works and developping sound systems for installation works.
+
+
+Also do: developing sound systems/program for installation art works as a technical support, recording, sound design of animation, theatre sound design/SR and so on.
 
 ---
 
