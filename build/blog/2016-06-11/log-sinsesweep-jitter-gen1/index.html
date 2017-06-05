@@ -17,8 +17,8 @@
   <meta property="twitter:site" content="@tomoya_nonymous">
     <meta property="twitter:creator" content="@tomoya_nonymous">
     <meta property="twitter:creator:id" content="@tomoya_nonymous">
-<meta property="og:url" content="http://matsuuratomoya.com/" />
-<meta property="og:image" content="http://matsuuratomoya.com/assets/img/image_ogp.png" />
+<meta property="og:url" content="https://matsuuratomoya.com/" />
+<meta property="og:image" content="https://matsuuratomoya.com/assets/img/image_ogp.png" />
 <meta property="og:image:type" content="image/png" />
 <meta property="og:image:width" content="1200" />
 <meta property="og:image:height" content="630" />
@@ -120,7 +120,7 @@
 ここで個別のサイン波の位相を少しづつずらして行くとTime Stretched Pulse(時間引き伸ばしパルス)というものが出来ます。
 時間軸上ではサイン波の周波数を0からサンプリング周波数/2まで順次変化させていったもの等価になるのでSine SweepとかSwept Sineという風にも呼ばれます。</p>
 <p>イメージで言うとこうです。実のところJitterとかGenとか持ち出さずともこれだけでも測定信号としてはほとんど十分だったりします、、、</p>
-<p><img src="http://matsuuratomoya.com/assets/img/max_IR/TSP_sample.png" alt="" style = "width:400px;"></p>
+<p><img src="https://matsuuratomoya.com/assets/img/max_IR/TSP_sample.png" alt="" style = "width:400px;"></p>
 <p>そして、この信号をスピーカーなどで出力して、システム（エフェクターとか、部屋とか）を通しマイクで録音し、TSPを周波数領域で割り算して取り出してあげます。説明がややこしいので省略しますが、周波数領域でTSPで割り算するのは、TSPを時間軸上で反転した波形（up-TSPに対してdown-TSP）を周波数領域上で掛け算（畳み込み）することに当たります。</p>
 <h1 id="tsp-linear-sine-sweep-pink-tsp-log-exponential-sine-sweep-">TSP(Linear Sine Sweep)とPink TSP(Log/Exponential Sine Sweep)</h1>
 <p>TSP信号において、周波数を直線上に変化させるやり方にはいくつかの問題があります。
@@ -128,11 +128,11 @@
 ので、スイープの仕方を対数カーブにしてあげようというのがLog（もしくはExponential） SineSweepです。
 周波数成分的に考えると、均等に含まれていたTSPより低音の鳴っている時間が長くなるので、高域に行くに従って減衰するような周波数成分になります。これがピンクノイズと同じ-3dB/octになるようなカーブなので、Pink-TSPと呼ばれたりします。呼び方のバリエーション多すぎ。Pink-SineSweepとかいう人もいます。
 <small>ついでに言うと、対数カーブではなく折れ線型の周波数カーブを作るoptimized-Sinesweepというのもあります。</small></p>
-<p><img src="http://matsuuratomoya.com/assets/img/max_IR/TSP_sample2.png" alt=""></p>
+<p><img src="https://matsuuratomoya.com/assets/img/max_IR/TSP_sample2.png" alt=""></p>
 <p>Pink-TSPの逆フィルタはPink-TSPを前後に反転したあと、高域の減衰を補正するような+6db/octの振幅を掛けた形になります。
 -3db/octの信号に、-3+6db/oct=+3db/octの信号を畳み込むと±0db/octの信号になるわけです。
 こんな感じです。間違えて名前逆になってますけど上が逆フィルター、下がスイープ信号です。</p>
-<p><img src="http://matsuuratomoya.com/assets/img/max_IR/audacity.png" alt=""></p>
+<p><img src="https://matsuuratomoya.com/assets/img/max_IR/audacity.png" alt=""></p>
 <p>TSP信号は定常性ノイズに強いとの記述をしましたが、スイープ時間を長くするほどノイズ成分は平均化され少なくなります。また複数回録音した波形を平均化することでもノイズが減らせます。(ただ、あまりに何度も足し合わせると高域側ほど相関が低いためロールオフしてしまう、とのことで少ない数で長い信号を使うのが最近の傾向だそうです。)</p>
 <p>もう一つのメリットとして、歪のような非線形成分がマイナス時間の応答という形で現れるので、望まない歪成分を分離することができたりスピーカーの歪み測定などにも使われるようです。</p>
 <h1 id="farina-exponential-sine-sweep">FarinaのExponential Sine Sweep</h1>
@@ -144,21 +144,21 @@
 <p><a href="http://pcfarina.eng.unipr.it/Public/Presentations/audioprecision-workshop.pdf">[pdf] IMPULSE RESPONSE IMPULSE RESPONSE
 MEASUREMENTS BY MEASUREMENTS BY EXPONENTIAL SINE SWEEPS EXPONENTIAL SINE SWEEPS</a></p>
 <p>長くなりすぎたので実際のパッチ作成は次に進みます。</p>
-<p><a href="http://matsuuratomoya.com/blog/2016-06-11/log-sinsesweep-jitter-gen2/">JitterとGenを活用してインパルス応答測定(2)</a></p>
+<p><a href="https://matsuuratomoya.com/blog/2016-06-11/log-sinsesweep-jitter-gen2/">JitterとGenを活用してインパルス応答測定(2)</a></p>
 
 
           <div class="share">
             <div class="tweet">
-          <a href="https://twitter.com/share" class="twitter-share-button" data-size="large" data-url="http://matsuuratomoya.com/blog/2016-06-11/log-sinsesweep-jitter-gen1" data-related="tomoya_noynmous">Tweet</a>
+          <a href="https://twitter.com/share" class="twitter-share-button" data-size="large" data-url="https://matsuuratomoya.com/blog/2016-06-11/log-sinsesweep-jitter-gen1" data-related="tomoya_noynmous">Tweet</a>
           <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
           </div>
           
-          <div class="fb-share-button" data-href="http://matsuuratomoya.com/blog/2016-06-11/log-sinsesweep-jitter-gen1" data-layout="box_count" data-mobile-iframe="true"></div>
+          <div class="fb-share-button" data-href="https://matsuuratomoya.com/blog/2016-06-11/log-sinsesweep-jitter-gen1" data-layout="box_count" data-mobile-iframe="true"></div>
           
           </div>
           <hr>
           
-          <div class="fb-comments" data-width="100%" data-href="http://matsuuratomoya.com/blog/2016-06-11/log-sinsesweep-jitter-gen1" data-numposts="5"></div>
+          <div class="fb-comments" data-width="100%" data-href="https://matsuuratomoya.com/blog/2016-06-11/log-sinsesweep-jitter-gen1" data-numposts="5"></div>
           <div class="pagination">
           
           <ul>

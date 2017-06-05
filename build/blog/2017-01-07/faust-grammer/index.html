@@ -17,8 +17,8 @@
   <meta property="twitter:site" content="@tomoya_nonymous">
     <meta property="twitter:creator" content="@tomoya_nonymous">
     <meta property="twitter:creator:id" content="@tomoya_nonymous">
-<meta property="og:url" content="http://matsuuratomoya.com/" />
-<meta property="og:image" content="http://matsuuratomoya.com/assets/img/image_ogp.png" />
+<meta property="og:url" content="https://matsuuratomoya.com/" />
+<meta property="og:image" content="https://matsuuratomoya.com/assets/img/image_ogp.png" />
 <meta property="og:image:type" content="image/png" />
 <meta property="og:image:width" content="1200" />
 <meta property="og:image:height" content="630" />
@@ -103,19 +103,19 @@
 <h2 id="-1">例1</h2>
 <pre><code class="hljs java">process = (_,<span class="hljs-number">0.5</span>) : *;</code></pre>
 
-<p><img src="http://matsuuratomoya.com/assets/img/faust/mult0.5.svg" alt="" style = "max-height:300px;"></p>
+<p><img src="https://matsuuratomoya.com/assets/img/faust/mult0.5.svg" alt="" style = "max-height:300px;"></p>
 <h2 id="-2">例2</h2>
 <pre><code class="hljs java">process = _ : *(<span class="hljs-number">0.5</span>);</code></pre>
 
-<p><img src="http://matsuuratomoya.com/assets/img/faust/mult0.5.svg" alt="" style = "max-height:300px;"></p>
+<p><img src="https://matsuuratomoya.com/assets/img/faust/mult0.5.svg" alt="" style = "max-height:300px;"></p>
 <h2 id="-3">例3</h2>
 <pre><code class="hljs java">process = *(_,<span class="hljs-number">0.5</span>);</code></pre>
 
-<p><img src="http://matsuuratomoya.com/assets/img/faust/mult0.5.svg" alt="" style = "max-height:300px;"></p>
+<p><img src="https://matsuuratomoya.com/assets/img/faust/mult0.5.svg" alt="" style = "max-height:300px;"></p>
 <h2 id="-4">例4</h2>
 <pre><code class="hljs java">process = _*<span class="hljs-number">0.5</span>;</code></pre>
 
-<p><img src="http://matsuuratomoya.com/assets/img/faust/mult0.5.svg" alt="" style = "max-height:300px;"></p>
+<p><img src="https://matsuuratomoya.com/assets/img/faust/mult0.5.svg" alt="" style = "max-height:300px;"></p>
 <p>・・・は？って感じですよね。一番上の記法ほど普通の言語からすると謎な表現に見えますがFaustでは上から順に普遍的な書き方になります。</p>
 <p>例1が<strong>ダイヤグラム記法</strong>、例2は関数定義の記法、例3は演算子型での記法となります。</p>
 <h1 id="-">用語の定義</h1>
@@ -145,8 +145,8 @@ fi = library(<span class="hljs-string">"filter.lib"</span>);
 
 process = _&lt;:par(i,<span class="hljs-number">5</span>,fi.bandpass(<span class="hljs-number">1</span>,<span class="hljs-number">1</span>,i*<span class="hljs-number">100</span>));</code></pre>
 
-<p><img src="http://matsuuratomoya.com/assets/img/faust/compositions.svg" alt="" style = "max-height:400px;">
-<img src="http://matsuuratomoya.com/assets/img/faust/parallel.svg" alt="" style = "max-height:400px;"></p>
+<p><img src="https://matsuuratomoya.com/assets/img/faust/compositions.svg" alt="" style = "max-height:400px;">
+<img src="https://matsuuratomoya.com/assets/img/faust/parallel.svg" alt="" style = "max-height:400px;"></p>
 <p>残りは後々出てきたらその時々訳すことにします。</p>
 <h1 id="-">接続の記法</h1>
 <p>とりあえず覚えておけば色々できるようになるのが接続(diagram-composition)記法です。</p>
@@ -156,21 +156,21 @@ process = _&lt;:par(i,<span class="hljs-number">5</span>,fi.bandpass(<span class
 <p>ブロック同士をコンマで並べるとそのブロックは横並びで一括りのブロックになります。</p>
 <pre><code class="hljs java">process = (<span class="hljs-number">10</span>,*);</code></pre>
 
-<p><img src="http://matsuuratomoya.com/assets/img/faust/par1-svg/process.svg" alt="" style = "max-height:400px;"></p>
+<p><img src="https://matsuuratomoya.com/assets/img/faust/par1-svg/process.svg" alt="" style = "max-height:400px;"></p>
 <p>特に記法の制限はなし。
 上の例では0in1out+2in1outのブロックの組み合わせで2in2outのブロックが出来ました。</p>
 <h2 id="-sequencial">直列/Sequencial</h2>
 <p>ブロック同士をセミコロンで並べると直列接続。になります。</p>
 <pre><code class="hljs java">process = ((*,/):+);</code></pre>
 
-<p><img src="http://matsuuratomoya.com/assets/img/faust/seq1-svg/process.svg" alt="" style = "max-height:400px;"></p>
+<p><img src="https://matsuuratomoya.com/assets/img/faust/seq1-svg/process.svg" alt="" style = "max-height:400px;"></p>
 <p>制限:左側の出力数==右側の入力数</p>
 <p>上の例では4in2outと2in1outで一致しています。</p>
 <h2 id="-split">分岐/Split</h2>
 <p>&lt;:で複数の入力に分岐するような書き方ができます。</p>
 <pre><code class="hljs java">process = ((<span class="hljs-number">10</span>,<span class="hljs-number">20</span>)&lt;: (+,*,/));</code></pre>
 
-<p><img src="http://matsuuratomoya.com/assets/img/faust/split1-svg/process.svg" alt="" style = "max-height:400px;"></p>
+<p><img src="https://matsuuratomoya.com/assets/img/faust/split1-svg/process.svg" alt="" style = "max-height:400px;"></p>
 <p>制限：左側の出力数*(2,3,4...)==右側の入力数</p>
 <p>左が2outならば右側は4,6,8,10inなどのブロックが必要です。</p>
 <p>上の例は0in2out&lt;:6in3outで満たしています。</p>
@@ -178,19 +178,19 @@ process = _&lt;:par(i,<span class="hljs-number">5</span>,fi.bandpass(<span class
 <p>さっきと逆向き、:&gt;で複数入力を少ない数にまとめるような書き方になります。</p>
 <pre><code class="hljs java">process = ((<span class="hljs-number">10</span>,<span class="hljs-number">20</span>,<span class="hljs-number">30</span>,<span class="hljs-number">40</span>):&gt; *);</code></pre>
 
-<p><img src="http://matsuuratomoya.com/assets/img/faust/merge1-svg/process.svg" alt="" style = "max-height:400px;"></p>
+<p><img src="https://matsuuratomoya.com/assets/img/faust/merge1-svg/process.svg" alt="" style = "max-height:400px;"></p>
 <p>制限:左側の出力数==右側の入力数*(2,3,4...)</p>
 <p>先程の逆ですね。</p>
 <p>注意点として、結合接続が集まったときは<strong>すべての入力の和</strong>として出力されます。
 つまり、上の例は明示的に表すとこうなります。</p>
-<p><img src="http://matsuuratomoya.com/assets/img/faust/merge2.svg" alt="" style = "max-height:400px;"></p>
+<p><img src="https://matsuuratomoya.com/assets/img/faust/merge2.svg" alt="" style = "max-height:400px;"></p>
 <h2 id="-recursive">再帰/Recursive</h2>
 <p>一番ややこしいやつ、右側の出力を左側の入力へフィードバックするやつです。</p>
 <p>この例は44100サンプルのフィードバックディレイです。実際に鳴らすと多分発振するのでお気をつけて。。。</p>
 <p>なお、フィードバックされた信号は暗黙的に<strong>1サンプル遅れた信号</strong>になります。</p>
 <pre><code class="hljs java">process = + ~ @(<span class="hljs-number">44100</span>);</code></pre>
 
-<p><img src="http://matsuuratomoya.com/assets/img/faust/fdbkdelay.svg" alt="" style = "max-height:400px;"></p>
+<p><img src="https://matsuuratomoya.com/assets/img/faust/fdbkdelay.svg" alt="" style = "max-height:400px;"></p>
 <p>制限:左側の<strong>出力</strong>≧右側の<strong>入力</strong>　かつ　左側の<strong>入力</strong>≧右側の<strong>出力</strong></p>
 <p>右側のブロックはダイヤグラム上で上下左右が反転します。</p>
 <p>左側は2in1out、右側は1in1outなので、</p>
@@ -207,7 +207,7 @@ process = _&lt;:par(i,<span class="hljs-number">5</span>,fi.bandpass(<span class
 <p><strong>再帰のみ左から</strong>、他は右から</p>
 <p>（評価順は普段はそこまで気にしなくても良いが、パターンマッチングのときなどに影響してきます。）</p>
 <p>例えば以下のコードはこのぐらいカッコでくくっときたくなりますが、</p>
-<p><img src="http://matsuuratomoya.com/assets/img/faust/kakko_setsumei.svg" alt="" style = "max-height:400px;"></p>
+<p><img src="https://matsuuratomoya.com/assets/img/faust/kakko_setsumei.svg" alt="" style = "max-height:400px;"></p>
 <pre><code class="hljs java">process = (((_,<span class="hljs-number">0.5</span>):*)&lt;: (*,*) :&gt; _) ~ _;</code></pre>
 
 <p>実際はコレだけでOKです。</p>
@@ -216,7 +216,7 @@ process = _&lt;:par(i,<span class="hljs-number">5</span>,fi.bandpass(<span class
 <p>ただ、カッコがなければソースの可読性が上がるというわけでもないので実際には場合に応じてカッコを付けていくのが良いでしょう。</p>
 <h1 id="-">接続記法の応用</h1>
 <p>さて、以下のダイヤグラムはどのようにして書いたでしょうか？</p>
-<p><img src="http://matsuuratomoya.com/assets/img/faust/stereo_cross.svg" alt="" style = "max-height:400px;"></p>
+<p><img src="https://matsuuratomoya.com/assets/img/faust/stereo_cross.svg" alt="" style = "max-height:400px;"></p>
 <p>普通に書こうと思うとこうですが、インプットがクロスしていますね。</p>
 <pre><code class="hljs java">process = (_,_) : (*(<span class="hljs-number">0.5</span>),*(<span class="hljs-number">0.3</span>));</code></pre>
 
@@ -225,13 +225,13 @@ process = _&lt;:par(i,<span class="hljs-number">5</span>,fi.bandpass(<span class
 
 <p>!は何だったかというと、入力をカットする1in0outのブロックです。カットされた以降何もつながってない部分は、ダイヤグラム上からは省かれます。
 イメージ的にはこうなっているということです。</p>
-<p><img src="http://matsuuratomoya.com/assets/img/faust/stereo_cross2.svg" alt="" style = "max-height:400px;"></p>
+<p><img src="https://matsuuratomoya.com/assets/img/faust/stereo_cross2.svg" alt="" style = "max-height:400px;"></p>
 <p>こういった例以上に複雑なのは標準ライブラリのro.interleaveやro.crossなどを利用するとだいぶ見やすくなります。</p>
 <p>例えば4×2の入力を2×4のセットに変えるときは</p>
 <pre><code class="hljs java"><span class="hljs-keyword">import</span>(<span class="hljs-string">"stdfaust.lib"</span>);
 process = si.bus(<span class="hljs-number">8</span>):ro.interleave(<span class="hljs-number">4</span>,<span class="hljs-number">2</span>)</code></pre>
 
-<p><img src="http://matsuuratomoya.com/assets/img/faust/interleave.svg" alt="" style = "max-height:400px;"></p>
+<p><img src="https://matsuuratomoya.com/assets/img/faust/interleave.svg" alt="" style = "max-height:400px;"></p>
 <p>ちなみに手実装するとこうです。おわかりいただけますでしょうか。</p>
 <pre><code class="hljs java">process = (_,_,_,_,_,_,_,_)&lt;:(_,!,!,!,!,!,!,!,!,!,_,!,!,!,!,!,!,!,!,!,_,!,!,!,!,!,!,!,!,!,_,!,!,_,!,!,!,!,!,!,!,!,!,_,!,!,!,!,!,!,!,!,!,_,!,!,!,!,!,!,!,!,!,_)</code></pre>
 
@@ -274,21 +274,21 @@ process = prod(i,<span class="hljs-number">4</span>,i);</code></pre>
 
 process = gain_offset(<span class="hljs-number">0.5</span>,-<span class="hljs-number">0.3</span>);</code></pre>
 
-<p><img src="http://matsuuratomoya.com/assets/img/faust/gainoffset1.svg" alt="" style = "max-height:400px;"></p>
+<p><img src="https://matsuuratomoya.com/assets/img/faust/gainoffset1.svg" alt="" style = "max-height:400px;"></p>
 <p>この例はわかるでしょうか。入力を0.5倍してDCオフセットを0.3つけるという処理になります。</p>
 <p>なので、gain_offsetを引数無しで置いたりするとコンパイルエラーに、、、と思いきや、</p>
 <pre><code class="hljs java">gain_offset(gain,offset) = _:*(gain):+(offset);
 
 process = gain_offset;</code></pre>
 
-<p><img src="http://matsuuratomoya.com/assets/img/faust/gainoffset2.svg" alt="" style = "max-height:400px;"></p>
+<p><img src="https://matsuuratomoya.com/assets/img/faust/gainoffset2.svg" alt="" style = "max-height:400px;"></p>
 <p>はい、実は引数なしでも使えてしまうというのがFaustのもう一つややこしいところです。この場合、引数が左から順にインプットとして追加されます。</p>
 <p>ちなみに引数を一つで使うと、</p>
 <pre><code class="hljs java">gain_offset(gain,offset) = _:*(gain):+(offset);
 
 process = gain_offset(<span class="hljs-number">0.5</span>);</code></pre>
 
-<p><img src="http://matsuuratomoya.com/assets/img/faust/gainoffset3.svg" alt="" style = "max-height:400px;"></p>
+<p><img src="https://matsuuratomoya.com/assets/img/faust/gainoffset3.svg" alt="" style = "max-height:400px;"></p>
 <p>このように、左の引数から代入され、残ったやつがインプットとして扱われます。</p>
 <p>コレを覚えておくと関数の設計でちょっと便利になります。</p>
 <h2 id="with-">with{} ローカル変数</h2>
@@ -318,7 +318,7 @@ duplicate(n,x) = (x, duplicate(n-<span class="hljs-number">1</span>,x) );
 
 process = duplicate(<span class="hljs-number">3</span>)</code></pre>
 
-<p><img src="http://matsuuratomoya.com/assets/img/faust/patternmatch1.svg" alt="" style = "max-height:400px;"></p>
+<p><img src="https://matsuuratomoya.com/assets/img/faust/patternmatch1.svg" alt="" style = "max-height:400px;"></p>
 <p>このように、関数内で自分の関数を使う再帰関数のような定義の仕方が出来ます。慣れないとすぐコンパイルエラーを起こしますが、慣れると反復接続だけでは出来ない、入れ子であったり並列と直列が組み合わさったような表現が可能になります。</p>
 <p>例えば5タップのFIRフィルター(1サンプルずつのディレイにそれぞれゲインを掛けて加算したもの)が以下のように表現できます。</p>
 <p>コレがわかれば大体のFaustのコードは読めるんではないでしょうか。</p>
@@ -338,7 +338,7 @@ gainlist = (<span class="hljs-number">0.1</span>,<span class="hljs-number">0.2</
 
 process =fir(<span class="hljs-number">5</span>,gainlist);</code></pre>
 
-<p><img src="http://matsuuratomoya.com/assets/img/faust/fir.svg" alt="" style = "max-height:600px;"></p>
+<p><img src="https://matsuuratomoya.com/assets/img/faust/fir.svg" alt="" style = "max-height:600px;"></p>
 <h1 id="-">演算子</h1>
 <p>さて、ここまで見れば実は+や＊などの演算子はブロックであり関数であり演算子的な記法もできる特殊な奴なのでアレだけたくさんの書き方ができるということです。</p>
 <pre><code class="hljs java">process = A*B;
@@ -355,16 +355,16 @@ process = A:*(B);</code></pre>
 
           <div class="share">
             <div class="tweet">
-          <a href="https://twitter.com/share" class="twitter-share-button" data-size="large" data-url="http://matsuuratomoya.com/blog/2017-01-07/faust-grammer" data-related="tomoya_noynmous">Tweet</a>
+          <a href="https://twitter.com/share" class="twitter-share-button" data-size="large" data-url="https://matsuuratomoya.com/blog/2017-01-07/faust-grammer" data-related="tomoya_noynmous">Tweet</a>
           <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
           </div>
           
-          <div class="fb-share-button" data-href="http://matsuuratomoya.com/blog/2017-01-07/faust-grammer" data-layout="box_count" data-mobile-iframe="true"></div>
+          <div class="fb-share-button" data-href="https://matsuuratomoya.com/blog/2017-01-07/faust-grammer" data-layout="box_count" data-mobile-iframe="true"></div>
           
           </div>
           <hr>
           
-          <div class="fb-comments" data-width="100%" data-href="http://matsuuratomoya.com/blog/2017-01-07/faust-grammer" data-numposts="5"></div>
+          <div class="fb-comments" data-width="100%" data-href="https://matsuuratomoya.com/blog/2017-01-07/faust-grammer" data-numposts="5"></div>
           <div class="pagination">
           
           <ul>

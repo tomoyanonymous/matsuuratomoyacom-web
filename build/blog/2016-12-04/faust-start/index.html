@@ -17,8 +17,8 @@
   <meta property="twitter:site" content="@tomoya_nonymous">
     <meta property="twitter:creator" content="@tomoya_nonymous">
     <meta property="twitter:creator:id" content="@tomoya_nonymous">
-<meta property="og:url" content="http://matsuuratomoya.com/" />
-<meta property="og:image" content="http://matsuuratomoya.com/assets/img/image_ogp.png" />
+<meta property="og:url" content="https://matsuuratomoya.com/" />
+<meta property="og:image" content="https://matsuuratomoya.com/assets/img/image_ogp.png" />
 <meta property="og:image:type" content="image/png" />
 <meta property="og:image:width" content="1200" />
 <meta property="og:image:height" content="630" />
@@ -117,7 +117,7 @@
 <p>FaustLiveはFaustのソースコードを読み込んでリアルタイムでGUI付きのアプリケーションを生成してくれるアプリケーションです。</p>
 <p>現在手っ取り早くFaustでの開発を行うための最も一般的な手段だと思われます。</p>
 <p>ソースコードの読み込み自体も変更を自動監視してコンパイルし直してくれます。ご丁寧に再コンパイル時には音が1秒ほどクロスフェードして切り替わるのでクリックノイズなどで再生機器を痛める心配もありません。</p>
-<p><img src="http://matsuuratomoya.com/assets/img/faust/faust_fl.png" alt="" style ="width:80%; "></p>
+<p><img src="https://matsuuratomoya.com/assets/img/faust/faust_fl.png" alt="" style ="width:80%; "></p>
 <p>こちらはfilterbankのサンプルを開いた状態です。
 Edit SourceはFinderでdspをダブルクリックするのと同じなので、システムで.dspに紐付けられたアプリが開きます（なので.dspにFaustLiveを指定してるともう一個アプリが立ち上がるだけです）。</p>
 <p>view QR codeではローカルサーバ上に同じUI画面を立ち上げてブラウザ上でアプリをコントロールできます（この場合は音声処理自体はブラウザ上では行われていません）。</p>
@@ -148,9 +148,9 @@ JACKのインストーラも一緒に入っているのでZipを展開してイ�
 Windows、Mac共に使えますがMaxのバージョンが6か7かによってインストール方法が異なりますが、基本オブジェクトを指定の場所にコピーしていくだけで使えます。
 MacでかつMax7ならば~/Documents/Max 7/PackagesのフォルダにZipを展開した中のOSX/Max7/faustgenをフォルダごとコピーすれば終了です。</p>
 <p><a href="https://sourceforge.net/projects/faudiostream/files/?source=navbar">https://sourceforge.net/projects/faudiostream/files/?source=navbar</a></p>
-<p><img src="http://matsuuratomoya.com/assets/img/faust/faustgen1.png" alt="" style ="width:80%; "></p>
+<p><img src="https://matsuuratomoya.com/assets/img/faust/faustgen1.png" alt="" style ="width:80%; "></p>
 <p>普通のオブジェクトにはあまりないですが、オブジェクトをダブルクリック（編集モードはCmd+ダブルクリック）でこのようなメニューが出てきます。</p>
-<p><img src="http://matsuuratomoya.com/assets/img/faust/faustgen2.png" alt="" style =""></p>
+<p><img src="https://matsuuratomoya.com/assets/img/faust/faustgen2.png" alt="" style =""></p>
 <p>faustgen~に限らずfaustで出力したMaxオブジェクトは全てそうですが、Faustのコード上のインプット、アウトプットの数だけインレット、アウトレットが作られ、UIのコントロールを全て第1インレットにUIのラベルと数値のメッセージを送ることでコントロールします。</p>
 <p>エディタでコードを編集して<strong>エディタを閉じるたびに</strong>コードがコンパイルされ更新されます。コンパイルに失敗するとオブジェクトが赤くなってコンソールにエラーが出ます。</p>
 <p>ただ、初期状態だと標準ライブラリ以外のインポートがパスが通らないので、その場合は外部に置いたDSPファイルをreadするようにすると、そこからの相対パスが効くように。</p>
@@ -163,7 +163,7 @@ MacでかつMax7ならば~/Documents/Max 7/PackagesのフォルダにZipを展�
 個人的にはいつもfaustgen~の場合でも外部エディタで編集して、read hoge.dspで読み込み直しています。</p>
 <p>ただ、Faustのシンタックスハイライトが最初っから入っているエディタは今のところ無いので、適当な他の言語の物を流用するか、コンパイラに付属しているFaust用のシンタックスハイライトをインストールする必要があります。</p>
 <p>流用する場合には一番オススメなのはJavaなんですが、「&#39;」（シングルクォーテーション）を「1サンプルディレイ」として扱うためにこれが含まれているコードを読もうとするとディレイが入ったところからちゃんと表示されなくなってしまいます。</p>
-<p><img src="http://matsuuratomoya.com/assets/img/faust/badsyntax.png" alt="" style ="width:80%;"></p>
+<p><img src="https://matsuuratomoya.com/assets/img/faust/badsyntax.png" alt="" style ="width:80%;"></p>
 <p>なので、シンタックスハイライトのDLは強くオススメします。（実際、シングルクォーテーションは全て「mem」というブロックに置き換えられるので自分のコードだけしか見ない場合には使わず頑張るという手も無くはないですが。）</p>
 <p>シンタックスハイライトはコンパイラのソースのsyntax-highlightingの中にあります。README読めばわかりますが、<strong>KDE Kate/Kwrite、GNOME gedit、TextWrangler、highlight、Emacs、vim、Atom、CodePress</strong>用があります。</p>
 <p>FaustLiveやfaustgen~だけでいいやという方はこちらから直にDLしちゃっても良いでしょう。</p>
@@ -174,12 +174,12 @@ MacでかつMax7ならば~/Documents/Max 7/PackagesのフォルダにZipを展�
 <p><a href="http://faust.grame.fr/onlinecompiler/">http://faust.grame.fr/onlinecompiler/</a></p>
 <p>オンラインコンパイラでは、シンタックスハイライト付きのコードエディタ、それがコンパイルされたC++などのコード、SVGダイアグラムなどを確認しながら、コードを最終的にVSTやMaxオブジェクトなどにしてDLすることが出来ます。</p>
 <p>残念ながら<strong>音は出ません</strong>。のでSVGダイアグラムを確認しながらぽちぽちと拾ったサンプルなどをいじっていくのが現実的です。</p>
-<p><img src="http://matsuuratomoya.com/assets/img/faust/faust_oc.png" alt="" style ="width:80%;"></p>
+<p><img src="https://matsuuratomoya.com/assets/img/faust/faust_oc.png" alt="" style ="width:80%;"></p>
 <h2 id="faust-playground">Faust Playground</h2>
 <p>音声処理言語なんだから音が出なきゃ意味が無いだろ、という方にはこちらです。</p>
 <p><a href="http://faust.grame.fr/faustplayground/">http://faust.grame.fr/faustplayground/</a></p>
 <p>FaustPlaygroundはFaustのWebオーディオ出力機能を活用したWebアプリケーションで、<strong>Faust製のモジュールをMaxの様にパッチングしたり、モジュールそのものをFaustで書き換えたりする</strong>ことが出来ます。</p>
-<p><img src="http://matsuuratomoya.com/assets/img/faust/faust_pg.png" alt="" style ="width:80%;"></p>
+<p><img src="https://matsuuratomoya.com/assets/img/faust/faust_pg.png" alt="" style ="width:80%;"></p>
 <p>…なんですが、おそらくFaustのライブラリの形態が変わったのに伴ってExampleのコードが対応しきれてないっぽく、幾つか動かないのがたくさんあるみたいです。
 それから僕の環境ではマイクが無効になってしまいました。</p>
 <p>FaustPlaygroundは今年稼働し始めたばかりなのでまだまだこれからに期待、という感じではあります。</p>
@@ -248,16 +248,16 @@ MacでかつMax7ならば~/Documents/Max 7/PackagesのフォルダにZipを展�
 
           <div class="share">
             <div class="tweet">
-          <a href="https://twitter.com/share" class="twitter-share-button" data-size="large" data-url="http://matsuuratomoya.com/blog/2016-12-04/faust-start" data-related="tomoya_noynmous">Tweet</a>
+          <a href="https://twitter.com/share" class="twitter-share-button" data-size="large" data-url="https://matsuuratomoya.com/blog/2016-12-04/faust-start" data-related="tomoya_noynmous">Tweet</a>
           <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
           </div>
           
-          <div class="fb-share-button" data-href="http://matsuuratomoya.com/blog/2016-12-04/faust-start" data-layout="box_count" data-mobile-iframe="true"></div>
+          <div class="fb-share-button" data-href="https://matsuuratomoya.com/blog/2016-12-04/faust-start" data-layout="box_count" data-mobile-iframe="true"></div>
           
           </div>
           <hr>
           
-          <div class="fb-comments" data-width="100%" data-href="http://matsuuratomoya.com/blog/2016-12-04/faust-start" data-numposts="5"></div>
+          <div class="fb-comments" data-width="100%" data-href="https://matsuuratomoya.com/blog/2016-12-04/faust-start" data-numposts="5"></div>
           <div class="pagination">
           
           <ul>

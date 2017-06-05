@@ -17,8 +17,8 @@
   <meta property="twitter:site" content="@tomoya_nonymous">
     <meta property="twitter:creator" content="@tomoya_nonymous">
     <meta property="twitter:creator:id" content="@tomoya_nonymous">
-<meta property="og:url" content="http://matsuuratomoya.com/" />
-<meta property="og:image" content="http://matsuuratomoya.com/assets/img/image_ogp.png" />
+<meta property="og:url" content="https://matsuuratomoya.com/" />
+<meta property="og:image" content="https://matsuuratomoya.com/assets/img/image_ogp.png" />
 <meta property="og:image:type" content="image/png" />
 <meta property="og:image:width" content="1200" />
 <meta property="og:image:height" content="630" />
@@ -99,7 +99,7 @@
 今回はFaustの全体的な紹介です。</p>
 <!-- more -->
 <h1 id="-">この記事の流れ</h1>
-<p><img src="http://matsuuratomoya.com/assets/img/faust/faust_logo.png" alt="" style = "width :300px; margin:20px;"></p>
+<p><img src="https://matsuuratomoya.com/assets/img/faust/faust_logo.png" alt="" style = "width :300px; margin:20px;"></p>
 <p>Faustとは<em>Functional-AUdio-STream</em>の略で、フランスの音響研究所GRAMEが中心になって2004年頃から開発を続けている<strong>関数型音声処理言語</strong>です。</p>
 <p>このAdventCalenderではFaustの紹介からtips、応用的な使い方までできるだけ網羅的にFaustについての記事を書いていきます。</p>
 <p>この記事での紹介はJUCE Summit 2015でのOliver Larkinさんによるプレゼンの前半が非常によくまとまっていたのでそれをベースに書かせていただきます。英語OKな人は直接動画見るのも良いと思います。</p>
@@ -153,10 +153,10 @@
 <h2 id="-">基本的な考え方</h2>
 <p>まず、Faustではあらゆる処理を入力がm個、出力がn個の処理ブロックと考え、それを繋いでいきます。</p>
 <p>例えば基本的な＋、-、×や/も「2入力1出力」のブロックです。</p>
-<p><img src="http://matsuuratomoya.com/assets/img/faust/plus_mult_process.svg" alt="" style = "max-height:400px;"></p>
+<p><img src="https://matsuuratomoya.com/assets/img/faust/plus_mult_process.svg" alt="" style = "max-height:400px;"></p>
 <p>ちなみにこの画像はFaustの出力の一つにSVG出力というのがあり、コードの構造を視覚的に確認することができるというものです。コードそのものが抽象的なFaustでは非常に重宝されます。</p>
 <p>その他基本ブロックとしては、_(アンダースコア)が「1入力1出力」で、入力をそのままパスするブロックです。また、!（エクスクラメーションマーク）が「1入力0出力」の入力をカットするブロックです。</p>
-<p><img src="http://matsuuratomoya.com/assets/img/faust/ident_cut_process.svg" alt="" style = "max-height:400px;"></p>
+<p><img src="https://matsuuratomoya.com/assets/img/faust/ident_cut_process.svg" alt="" style = "max-height:400px;"></p>
 <p>これ、使う意味あんの？と思いますが他のブロックとの入出力数の調整のためにめちゃくちゃ使います。</p>
 <p>その他、sinやcosなどの基本的な関数も同様にブロックとして扱います。</p>
 <h2 id="-">接続文法</h2>
@@ -166,23 +166,23 @@
 <h3 id="parallel">Parallel</h3>
 <pre><code class="hljs java">process = (<span class="hljs-number">10</span>,*);</code></pre>
 
-<p><img src="http://matsuuratomoya.com/assets/img/faust/par1-svg/process.svg" alt="" style = "max-height:400px;"></p>
+<p><img src="https://matsuuratomoya.com/assets/img/faust/par1-svg/process.svg" alt="" style = "max-height:400px;"></p>
 <h3 id="sequencial">Sequencial</h3>
 <pre><code class="hljs java">process = ((*,/):+);</code></pre>
 
-<p><img src="http://matsuuratomoya.com/assets/img/faust/seq1-svg/process.svg" alt="" style = "max-height:400px;"></p>
+<p><img src="https://matsuuratomoya.com/assets/img/faust/seq1-svg/process.svg" alt="" style = "max-height:400px;"></p>
 <h3 id="split">Split</h3>
 <pre><code class="hljs java">process = ((<span class="hljs-number">10</span>,<span class="hljs-number">20</span>)&lt;: (+,*,/));</code></pre>
 
-<p><img src="http://matsuuratomoya.com/assets/img/faust/split1-svg/process.svg" alt="" style = "max-height:400px;"></p>
+<p><img src="https://matsuuratomoya.com/assets/img/faust/split1-svg/process.svg" alt="" style = "max-height:400px;"></p>
 <h3 id="merge">Merge</h3>
 <pre><code class="hljs java">process = ((<span class="hljs-number">10</span>,<span class="hljs-number">20</span>,<span class="hljs-number">30</span>,<span class="hljs-number">40</span>):&gt; *);</code></pre>
 
-<p><img src="http://matsuuratomoya.com/assets/img/faust/merge1-svg/process.svg" alt="" style = "max-height:400px;"></p>
+<p><img src="https://matsuuratomoya.com/assets/img/faust/merge1-svg/process.svg" alt="" style = "max-height:400px;"></p>
 <h3 id="recursive">Recursive</h3>
 <pre><code class="hljs java">process = +(<span class="hljs-number">12345</span>)~ *(<span class="hljs-number">1103515245</span>)</code></pre>
 
-<p><img src="http://matsuuratomoya.com/assets/img/faust/rec1-svg/process.svg" alt="" style = "max-height:400px;"></p>
+<p><img src="https://matsuuratomoya.com/assets/img/faust/rec1-svg/process.svg" alt="" style = "max-height:400px;"></p>
 <p>※これだけわけわからんコードだと思いますがこれは乱数列の生成をするコードです</p>
 <p>それぞれ繋いだものを最終的にprocess = your_block;というように&quot;process&quot;に持っていくとそれが最終的な出力ブロックになります。</p>
 <h1 id="-">プリミティブなブロックの種類達</h1>
@@ -199,7 +199,7 @@
 <li><strong>UI要素</strong></li>
 </ul>
 <h1 id="ui-">UI機能</h1>
-<p><img src="http://matsuuratomoya.com/assets/img/faust/UIs.png" alt="" style = "max-height:400px;"></p>
+<p><img src="https://matsuuratomoya.com/assets/img/faust/UIs.png" alt="" style = "max-height:400px;"></p>
 <p>Faustでは例えばシンセを作るならオシレータのピッチやフィルターの周波数、Qなど実行中に変えたいパラメータが幾つかあると思います。
 それらを予めUIとして定義しておくと、(アーキテクチャファイルの実装次第ですが)スライダーやトグルボックスなどのUIとして数値を変更することが可能です。</p>
 <p>Faust上で定義されてるUIの種類は以下の通り。</p>
@@ -257,7 +257,7 @@
 process = (_,hslider(<span class="hljs-string">"volume1"</span>,<span class="hljs-number">0.5</span>,<span class="hljs-number">0</span>,<span class="hljs-number">1</span>,<span class="hljs-number">0.01</span>),_,hslider(<span class="hljs-string">"volume2"</span>,<span class="hljs-number">0.5</span>,<span class="hljs-number">0</span>,<span class="hljs-number">1</span>,<span class="hljs-number">0.01</span>) ):(*,*): +;</code></pre>
 
 <p>何が何やらさっぱりだと思いますが、これがこういうシグナルブロックになります。</p>
-<p><img src="http://matsuuratomoya.com/assets/img/faust/simplemixer_process.svg" alt="" style = "max-height:400px;"></p>
+<p><img src="https://matsuuratomoya.com/assets/img/faust/simplemixer_process.svg" alt="" style = "max-height:400px;"></p>
 <p>そしてこれをコンパイルするコマンドがこちら。</p>
 <pre><code class="hljs bash">faust simplemixer.dsp -o simplemixer.cpp</code></pre>
 
@@ -440,16 +440,16 @@ faust2xxxでfaustコードをアーキテクチャファイルを指定してコ
 
           <div class="share">
             <div class="tweet">
-          <a href="https://twitter.com/share" class="twitter-share-button" data-size="large" data-url="http://matsuuratomoya.com/blog/2016-12-01/faust-introduction" data-related="tomoya_noynmous">Tweet</a>
+          <a href="https://twitter.com/share" class="twitter-share-button" data-size="large" data-url="https://matsuuratomoya.com/blog/2016-12-01/faust-introduction" data-related="tomoya_noynmous">Tweet</a>
           <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
           </div>
           
-          <div class="fb-share-button" data-href="http://matsuuratomoya.com/blog/2016-12-01/faust-introduction" data-layout="box_count" data-mobile-iframe="true"></div>
+          <div class="fb-share-button" data-href="https://matsuuratomoya.com/blog/2016-12-01/faust-introduction" data-layout="box_count" data-mobile-iframe="true"></div>
           
           </div>
           <hr>
           
-          <div class="fb-comments" data-width="100%" data-href="http://matsuuratomoya.com/blog/2016-12-01/faust-introduction" data-numposts="5"></div>
+          <div class="fb-comments" data-width="100%" data-href="https://matsuuratomoya.com/blog/2016-12-01/faust-introduction" data-numposts="5"></div>
           <div class="pagination">
           
           <ul>

@@ -17,8 +17,8 @@
   <meta property="twitter:site" content="@tomoya_nonymous">
     <meta property="twitter:creator" content="@tomoya_nonymous">
     <meta property="twitter:creator:id" content="@tomoya_nonymous">
-<meta property="og:url" content="http://matsuuratomoya.com/" />
-<meta property="og:image" content="http://matsuuratomoya.com/assets/img/image_ogp.png" />
+<meta property="og:url" content="https://matsuuratomoya.com/" />
+<meta property="og:image" content="https://matsuuratomoya.com/assets/img/image_ogp.png" />
 <meta property="og:image:type" content="image/png" />
 <meta property="og:image:width" content="1200" />
 <meta property="og:image:height" content="630" />
@@ -106,28 +106,28 @@
 <p>みたいな現象が起きて、これを改善しようと思うとsendとreceiveで双方向に値を送り合ったりしてパッチがグッチャグチャになっていきます。地獄。pattrを使うとこれがうまいこと解決できます。</p>
 <h1 id="pattr-">pattr入門</h1>
 <p>まずpattrの一番シンプルにわかりやすい挙動について見てみましょう。</p>
-<p><img src="http://matsuuratomoya.com/assets/img/max_pattr/pattr.gif" alt="" style = "width:300px;"></p>
+<p><img src="https://matsuuratomoya.com/assets/img/max_pattr/pattr.gif" alt="" style = "width:300px;"></p>
 <p>分かりますでしょうか。
 注目すべきは<strong>2番めのアウトレット</strong>に繋がれたfloatはアウトレットに何も繋がっていないにも関わらず他のオブジェクトの値を変更しています。
 この双方向バインディングこそがpattrのミソですが、上から下にメッセージが流れていくパッチングの原則を破っているのでわかりにくさの原因でもあります。(そのためこの2番めのアウトレットはfloatやsliderなど値を持つ一部のオブジェクトにしか接続できないという特徴があります。)</p>
 <h1 id="-">サブパッチャーにアクセス</h1>
 <p>面白いのはサブパッチャーの中のパラメーターにもアクセスできることで、例えばディレイのモジュールを作り、中でパラメーターにpattrで名前をつけバインドしておきます。</p>
-<p><img src="http://matsuuratomoya.com/assets/img/max_pattr/pattr2.png" alt="" style = "width:400px;"></p>
+<p><img src="https://matsuuratomoya.com/assets/img/max_pattr/pattr2.png" alt="" style = "width:400px;"></p>
 <p>これを親パッチから2つそれぞれ呼び出して中のパラメーターを個別に操作することが出来ます。今回はfeedbackをコントロールしたい。</p>
-<p><img src="http://matsuuratomoya.com/assets/img/max_pattr/pattr3.png" alt="" style = "width:400px;"></p>
+<p><img src="https://matsuuratomoya.com/assets/img/max_pattr/pattr3.png" alt="" style = "width:400px;"></p>
 <p>ややこしいポイントとしては、サブパッチ、bpatcherにはpattrオブジェクトは<strong>バインド出来ません</strong>。
 [p fuga]のようなサブパッチなら[bindto fuga::feedback\&lt;、bpatcherならインスペクタを開いてScripting nameを編集し[bindto (scriptingname)::feedback\&lt;　というようにするとアクセスできます。</p>
 <h1 id="pattrstorage-">pattrstorageで保存</h1>
 <p>pattrのもう一つの特徴に、出てきたpattrオブジェクトの値を自動でまとめてくれるpattrstorageというものがあり、json/xmlにエクスポートしたり、presetオブジェクトと連携が出来たりします。</p>
 <p>とりあえず作ってみて、[clientwindow\&lt;というメッセージを送り保存される値を見てみましょう。</p>
-<p><img src="http://matsuuratomoya.com/assets/img/max_pattr/pattr4.png" alt=""></p>
+<p><img src="https://matsuuratomoya.com/assets/img/max_pattr/pattr4.png" alt=""></p>
 <p>上2つにu〜〜〜という変なのがいますね。これは名前をつけてないpattrオブジェクトが自動的に検出されているからです。
 コントローラー側は特に値を保存しなくてもいいのでこれは邪魔です。
 しかしちゃんとそのへんは考えられていて、</p>
-<p><img src="http://matsuuratomoya.com/assets/img/max_pattr/pattr5.png" alt=""></p>
+<p><img src="https://matsuuratomoya.com/assets/img/max_pattr/pattr5.png" alt=""></p>
 <p>@invisivleというアトリビュートをつけてやると解決します。</p>
 <p>さて、[pattrstorage store]と名前をつけたうえで[preset @pattrstorage store ]というpattrstorageと結びつけたpresetオブジェクトを作り、1つ2つ値を保存してみます。</p>
-<p><img src="http://matsuuratomoya.com/assets/img/max_pattr/pattr6.png" style = "width:300px;" alt=""></p>
+<p><img src="https://matsuuratomoya.com/assets/img/max_pattr/pattr6.png" style = "width:300px;" alt=""></p>
 <p>その後[writejson\&lt;というメッセージをpattrstorageに送り、値を保存すると中身はこのようになっております。</p>
 <pre><code class="hljs json">//storage.json
 {
@@ -176,8 +176,8 @@
 一度jsonファイルを経由すれば、これも出来ます。</p>
 <p>実際の処理部分のパッチをmain.maxpat、コントローラーのパッチをcontroller.maxpatとしておきましょう。</p>
 <p>で、controllerの方はいきなりですがこうします。</p>
-<p><img src="http://matsuuratomoya.com/assets/img/max_pattr/pattr7.png" style = "min-width:330px; width:45%;" alt="">
-<img src="http://matsuuratomoya.com/assets/img/max_pattr/pattr8.png" style = "min-width:330px; width:45%;" alt=""></p>
+<p><img src="https://matsuuratomoya.com/assets/img/max_pattr/pattr7.png" style = "min-width:330px; width:45%;" alt="">
+<img src="https://matsuuratomoya.com/assets/img/max_pattr/pattr8.png" style = "min-width:330px; width:45%;" alt=""></p>
 <p>pattrの手前で[sprintf ::main::%s]となっていますが、これは名前がmain.maxpatだからこうなります。
 これで、ドロップダウンメニューから好きなパラメーターを選択してinletに好きな値を放り込めば完成です。</p>
 <h1 id="-">実際</h1>
@@ -186,9 +186,9 @@ Arturiaの<a href="https://arturia.jp/products/item/beatstep/">BEATSTEP</a>と�
 BEATSTEPのいいところは、ノブがエンドレスロータリーエンコーダーになってて、Relativeモードというのが使えるところです。</p>
 <p>relativeモードでは回した速度によってインクリメント、デクリメントを送ってくるモードで、最初に挙げたmidiコントローラー側が値を持っていてパッチ側で設定した値が飛んでしまうという問題を回避することが出来ます。</p>
 <h3 id="-">通常モード</h3>
-<p><img src="http://matsuuratomoya.com/assets/img/max_pattr/pattr9.png" alt=""></p>
+<p><img src="https://matsuuratomoya.com/assets/img/max_pattr/pattr9.png" alt=""></p>
 <h3 id="-">プレゼンテーションモード</h3>
-<p><img src="http://matsuuratomoya.com/assets/img/max_pattr/pattr10.png" alt=""></p>
+<p><img src="https://matsuuratomoya.com/assets/img/max_pattr/pattr10.png" alt=""></p>
 <p>さらにコントローラーごとの値をpattrで保存して値のマッピング情報自体をjsonにインポート/エクスポート出来ます。
 使いまわせるほど現場で回数使ってないですが。。。</p>
 <p>今回のサンプルパッチはこちらに。</p>
@@ -198,16 +198,16 @@ BEATSTEPのいいところは、ノブがエンドレスロータリーエンコ
 
           <div class="share">
             <div class="tweet">
-          <a href="https://twitter.com/share" class="twitter-share-button" data-size="large" data-url="http://matsuuratomoya.com/blog/2016-05-08/maxmsp-pattr" data-related="tomoya_noynmous">Tweet</a>
+          <a href="https://twitter.com/share" class="twitter-share-button" data-size="large" data-url="https://matsuuratomoya.com/blog/2016-05-08/maxmsp-pattr" data-related="tomoya_noynmous">Tweet</a>
           <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
           </div>
           
-          <div class="fb-share-button" data-href="http://matsuuratomoya.com/blog/2016-05-08/maxmsp-pattr" data-layout="box_count" data-mobile-iframe="true"></div>
+          <div class="fb-share-button" data-href="https://matsuuratomoya.com/blog/2016-05-08/maxmsp-pattr" data-layout="box_count" data-mobile-iframe="true"></div>
           
           </div>
           <hr>
           
-          <div class="fb-comments" data-width="100%" data-href="http://matsuuratomoya.com/blog/2016-05-08/maxmsp-pattr" data-numposts="5"></div>
+          <div class="fb-comments" data-width="100%" data-href="https://matsuuratomoya.com/blog/2016-05-08/maxmsp-pattr" data-numposts="5"></div>
           <div class="pagination">
           
           <ul>

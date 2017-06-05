@@ -17,8 +17,8 @@
   <meta property="twitter:site" content="@tomoya_nonymous">
     <meta property="twitter:creator" content="@tomoya_nonymous">
     <meta property="twitter:creator:id" content="@tomoya_nonymous">
-<meta property="og:url" content="http://matsuuratomoya.com/" />
-<meta property="og:image" content="http://matsuuratomoya.com/assets/img/image_ogp.png" />
+<meta property="og:url" content="https://matsuuratomoya.com/" />
+<meta property="og:image" content="https://matsuuratomoya.com/assets/img/image_ogp.png" />
 <meta property="og:image:type" content="image/png" />
 <meta property="og:image:width" content="1200" />
 <meta property="og:image:height" content="630" />
@@ -114,7 +114,7 @@
 <p>球面上に並んだスピーカー群を三角形分割し、聴取位置から仮想音源位置までのベクトルをその音源を囲む３つのスピーカーまでのベクトルの足しあわせ(基底ベクトルの一次結合)で表現しようという考えです。</p>
 <p>すでにMax/Pd共通ソースのエクスターナルオブジェクトが配布されているので割と簡単に使えます。
 Pd-extendedには標準でこのvbapエクスターナルが入ってます（vanillaでもfind externalからvbapで検索すると出てきます）。</p>
-<p><img src="http://matsuuratomoya.com/assets/img/dbap/pd_vbap.png" alt=""></p>
+<p><img src="https://matsuuratomoya.com/assets/img/dbap/pd_vbap.png" alt=""></p>
 <p>VBAPでは先述したようにILDのみを使ったパンニング方法なので、すべてのスピーカーから同時に音が届くような前提で考えられています。</p>
 <p>そのために発生する問題が2つ。</p>
 <ul>
@@ -160,35 +160,35 @@ andré sier氏の制作した大量のエクスターナル群の中にa-dbap2d,
 <p>今回メインでお世話になるのはvexprオブジェクトです。scalarmodeというのをオンにすればスピーカーの数が複数個になってもアウトプットのリストが長くなるだけで動的に対応できるのでとても便利です。</p>
 <p>まず、仮想音源とスピーカー位置の距離をそれぞれ算出しましょう。</p>
 <p>x,yそれぞれの距離の二乗を足して、平方根を取ります。</p>
-<p><img src="http://matsuuratomoya.com/assets/img/dbap/dbap_example1.png" alt=""></p>
+<p><img src="https://matsuuratomoya.com/assets/img/dbap/dbap_example1.png" alt=""></p>
 <p>距離に反比例して音量が小さくなっていって欲しいので、逆数を取ればよさそうです。</p>
-<p><img src="http://matsuuratomoya.com/assets/img/dbap/dbap_example2.png" alt=""></p>
+<p><img src="https://matsuuratomoya.com/assets/img/dbap/dbap_example2.png" alt=""></p>
 <p>しかし、距離が離れるにつれて減衰していく割合のようなものを自由に変えられると便利です。そこで次のように考えます。
 今、距離が２倍になれば音量は1/2、デシベル値に直すと20*log10(1/2)≒-6.02dBです。これをロールオフ(dB/double)というパラメーターと考えるようにしましょう。</p>
 <p>ここで逆数というのはマイナス１乗という風にも捉えられますから、1/d = d^(-1) = d^(-6.02/6.02)という風に変形するとd^(-rolloff/20*log10(2))で好きなロールオフに設定することができるようになりました。</p>
-<p><img src="http://matsuuratomoya.com/assets/img/dbap/dbap_example3.png" alt=""></p>
+<p><img src="https://matsuuratomoya.com/assets/img/dbap/dbap_example3.png" alt=""></p>
 <p>ロールオフを3,6,9dBと変化させるとこのようになります。</p>
-<p><img src="http://matsuuratomoya.com/assets/img/dbap/rolloff_graph.png" alt=""></p>
+<p><img src="https://matsuuratomoya.com/assets/img/dbap/rolloff_graph.png" alt=""></p>
 <p>さて、ここで一つ疑問が浮かびます。スピーカー同士が近いところだけやたら音量が大きくなるのではないでしょうか？はい、そのとおりです。
 なので出てきたゲインの係数を一度すべて足し、その数でそれぞれのゲインを割ってあげましょう。</p>
-<p><img src="http://matsuuratomoya.com/assets/img/dbap/dbap_example4.png" alt=""></p>
+<p><img src="https://matsuuratomoya.com/assets/img/dbap/dbap_example4.png" alt=""></p>
 <p>こうすることで「全てのゲインの係数（正確にはエネルギーなのでその２乗）を合計すると1」になります。
 というわけで実装はこれだけで完了です。簡単ですね。</p>
 <p>さらにvexprをできるだけまとめるとこのように。</p>
-<p><img src="http://matsuuratomoya.com/assets/img/dbap/dbap_example5.png" alt=""></p>
+<p><img src="https://matsuuratomoya.com/assets/img/dbap/dbap_example5.png" alt=""></p>
 <p>基本的な実装はたったこれだけで済みます。シンプル！</p>
 <h1 id="-1-spatial-blur-">オプション1: Spatial Blur（空間広がり）</h1>
 <p>先程までは音源を点音源と仮定してましたが音源がぼわっと広がるような仮定をする場合はどうでしょう。
 この場合は割と簡単で、音源に半径を指定して距離の計算に組み込めば良いだけです。</p>
 <p><small>ちなみに仮想音源とスピーカーの距離が全く同じになるとゲインが無限大に発散するため一応半径を少しだけでも設定しておくのが吉だと思います。</small></p>
-<p><img src="http://matsuuratomoya.com/assets/img/dbap/dbap_example6.png" alt=""></p>
+<p><img src="https://matsuuratomoya.com/assets/img/dbap/dbap_example6.png" alt=""></p>
 <p>以上。</p>
 <h1 id="-2-">オプション2:スピーカー領域外の定位(未完)</h1>
 <p>さて、最後のゲインで割ってあげる処理のおかげで一つ困った問題が出てきます。</p>
 <p>スピーカー群から遠ざかるほど音量が全体的に平均的になっていくので、スピーカーに囲まれた領域より外側に定位させることが難しいのです。（というか、そもそもスピーカーより外側に定位させるというのは原理的に無理なんですが仮想音源が遠くから近づいてまた去っていく、のような表現を擬似的に行いたい、という要望はあると思います）</p>
 <p>元論文によるとこの場合は「スピーカーの凸包集合に対する最小距離で音量を割ってあげる」とのことです。</p>
 <p>凸包？</p>
-<p><img src="http://matsuuratomoya.com/assets/img/dbap/hull.jpg" alt=""></p>
+<p><img src="https://matsuuratomoya.com/assets/img/dbap/hull.jpg" alt=""></p>
 <p>凸包とは点の集合を紐でぐるっと巻いてやった時にできるような形のことです。
 オレンジ色がスピーカー群、緑色の丸が仮想音源だと思ってください。
 最小距離は辺に対する垂線の場合もあれば頂点の場合もあるし、そもそも凸包自体を求めるのも結構大変みたいなのでこれについては挫折しました（元論文にも説明だけで実装の数式などは書いてないようで、めんどくさいので挫折したのだと思っています）。</p>
@@ -197,7 +197,7 @@ andré sier氏の制作した大量のエクスターナル群の中にa-dbap2d,
 <p>先ほどのvexprで作ったものはスピーカーの数は動的に変更できますが動かしたい音源が増えるたびに先ほどのオブジェクトを作って対応しないといけません。
 poly~で複数可してもよいのですがなんだか冗長な気もしたのでまとめてやる方法はないかと思い、試しに使ってみようと思っていたjsオブジェクトで計算してみることにしました。</p>
 <p>ついでにSpatial Blurも実装して、結果としては以下の様な感じで。アウトレットの数をargumentから動的に変更できるのが便利です。</p>
-<p><img src="http://matsuuratomoya.com/assets/img/dbap/dbap_jsui.png" alt=""></p>
+<p><img src="https://matsuuratomoya.com/assets/img/dbap/dbap_jsui.png" alt=""></p>
 <p><blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">もうちと良くなりそう　<a href="https://twitter.com/hashtag/maxmsp?src=hash">#maxmsp</a> <a href="https://t.co/can3cvtZwA">pic.twitter.com/can3cvtZwA</a></p>&mdash; 松浦知也/Tomoya Matsuura (@tomoya_nonymous) <a href="https://twitter.com/tomoya_nonymous/status/743467236774469632">2016年6月16日</a></blockquote></p>
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
@@ -207,16 +207,16 @@ poly~で複数可してもよいのですがなんだか冗長な気もしたの
 
           <div class="share">
             <div class="tweet">
-          <a href="https://twitter.com/share" class="twitter-share-button" data-size="large" data-url="http://matsuuratomoya.com/blog/2016-06-17/dbap-implementation" data-related="tomoya_noynmous">Tweet</a>
+          <a href="https://twitter.com/share" class="twitter-share-button" data-size="large" data-url="https://matsuuratomoya.com/blog/2016-06-17/dbap-implementation" data-related="tomoya_noynmous">Tweet</a>
           <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
           </div>
           
-          <div class="fb-share-button" data-href="http://matsuuratomoya.com/blog/2016-06-17/dbap-implementation" data-layout="box_count" data-mobile-iframe="true"></div>
+          <div class="fb-share-button" data-href="https://matsuuratomoya.com/blog/2016-06-17/dbap-implementation" data-layout="box_count" data-mobile-iframe="true"></div>
           
           </div>
           <hr>
           
-          <div class="fb-comments" data-width="100%" data-href="http://matsuuratomoya.com/blog/2016-06-17/dbap-implementation" data-numposts="5"></div>
+          <div class="fb-comments" data-width="100%" data-href="https://matsuuratomoya.com/blog/2016-06-17/dbap-implementation" data-numposts="5"></div>
           <div class="pagination">
           
           <ul>
