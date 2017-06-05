@@ -352,52 +352,45 @@ textarea {
 }
 
 @font-face {
-  font-family: 'Noto Sans Japanese';
+  font-family: 'Noto Sans JP';
   font-style: normal;
   font-weight: 100;
-  src: url(//fonts.gstatic.com/ea/notosansjapanese/v6/NotoSansJP-Thin.woff2) format("woff2"), url(//fonts.gstatic.com/ea/notosansjapanese/v6/NotoSansJP-Thin.woff) format("woff"), url(//fonts.gstatic.com/ea/notosansjapanese/v6/NotoSansJP-Thin.otf) format("opentype");
+  src: local("Noto Sans CJK JP"), url(//fonts.gstatic.com/ea/notosansjp/v5/NotoSansJP-Thin.woff2) format("woff2"), url(//fonts.gstatic.com/ea/notosansjp/v5/NotoSansJP-Thin.woff) format("woff"), url(//fonts.gstatic.com/ea/notosansjp/v5/NotoSansJP-Thin.otf) format("opentype");
 }
 
 @font-face {
-  font-family: 'Noto Sans Japanese';
-  font-style: normal;
-  font-weight: 200;
-  src: url(//fonts.gstatic.com/ea/notosansjapanese/v6/NotoSansJP-Light.woff2) format("woff2"), url(//fonts.gstatic.com/ea/notosansjapanese/v6/NotoSansJP-Light.woff) format("woff"), url(//fonts.gstatic.com/ea/notosansjapanese/v6/NotoSansJP-Light.otf) format("opentype");
-}
-
-@font-face {
-  font-family: 'Noto Sans Japanese';
+  font-family: 'Noto Sans JP';
   font-style: normal;
   font-weight: 300;
-  src: url(//fonts.gstatic.com/ea/notosansjapanese/v6/NotoSansJP-DemiLight.woff2) format("woff2"), url(//fonts.gstatic.com/ea/notosansjapanese/v6/NotoSansJP-DemiLight.woff) format("woff"), url(//fonts.gstatic.com/ea/notosansjapanese/v6/NotoSansJP-DemiLight.otf) format("opentype");
+  src: local("Noto Sans CJK JP"), url(//fonts.gstatic.com/ea/notosansjp/v5/NotoSansJP-Light.woff2) format("woff2"), url(//fonts.gstatic.com/ea/notosansjp/v5/NotoSansJP-Light.woff) format("woff"), url(//fonts.gstatic.com/ea/notosansjp/v5/NotoSansJP-Light.otf) format("opentype");
 }
 
 @font-face {
-  font-family: 'Noto Sans Japanese';
+  font-family: 'Noto Sans JP';
   font-style: normal;
   font-weight: 400;
-  src: local("NotoSansJP-Regular.otf"), url(//fonts.gstatic.com/ea/notosansjapanese/v6/NotoSansJP-Regular.woff2) format("woff2"), url(//fonts.gstatic.com/ea/notosansjapanese/v6/NotoSansJP-Regular.woff) format("woff"), url(//fonts.gstatic.com/ea/notosansjapanese/v6/NotoSansJP-Regular.otf) format("opentype");
+  src: local("Noto Sans CJK JP"), url(//fonts.gstatic.com/ea/notosansjp/v5/NotoSansJP-Regular.woff2) format("woff2"), url(//fonts.gstatic.com/ea/notosansjp/v5/NotoSansJP-Regular.woff) format("woff"), url(//fonts.gstatic.com/ea/notosansjp/v5/NotoSansJP-Regular.otf) format("opentype");
 }
 
 @font-face {
-  font-family: 'Noto Sans Japanese';
+  font-family: 'Noto Sans JP';
   font-style: normal;
   font-weight: 500;
-  src: url(//fonts.gstatic.com/ea/notosansjapanese/v6/NotoSansJP-Medium.woff2) format("woff2"), url(//fonts.gstatic.com/ea/notosansjapanese/v6/NotoSansJP-Medium.woff) format("woff"), url(//fonts.gstatic.com/ea/notosansjapanese/v6/NotoSansJP-Medium.otf) format("opentype");
+  src: local("Noto Sans CJK JP"), url(//fonts.gstatic.com/ea/notosansjp/v5/NotoSansJP-Medium.woff2) format("woff2"), url(//fonts.gstatic.com/ea/notosansjp/v5/NotoSansJP-Medium.woff) format("woff"), url(//fonts.gstatic.com/ea/notosansjp/v5/NotoSansJP-Medium.otf) format("opentype");
 }
 
 @font-face {
-  font-family: 'Noto Sans Japanese';
+  font-family: 'Noto Sans JP';
   font-style: normal;
   font-weight: 700;
-  src: url(//fonts.gstatic.com/ea/notosansjapanese/v6/NotoSansJP-Bold.woff2) format("woff2"), url(//fonts.gstatic.com/ea/notosansjapanese/v6/NotoSansJP-Bold.woff) format("woff"), url(//fonts.gstatic.com/ea/notosansjapanese/v6/NotoSansJP-Bold.otf) format("opentype");
+  src: local("Noto Sans CJK JP"), url(//fonts.gstatic.com/ea/notosansjp/v5/NotoSansJP-Bold.woff2) format("woff2"), url(//fonts.gstatic.com/ea/notosansjp/v5/NotoSansJP-Bold.woff) format("woff"), url(//fonts.gstatic.com/ea/notosansjp/v5/NotoSansJP-Bold.otf) format("opentype");
 }
 
 @font-face {
-  font-family: 'Noto Sans Japanese';
+  font-family: 'Noto Sans JP';
   font-style: normal;
   font-weight: 900;
-  src: url(//fonts.gstatic.com/ea/notosansjapanese/v6/NotoSansJP-Black.woff2) format("woff2"), url(//fonts.gstatic.com/ea/notosansjapanese/v6/NotoSansJP-Black.woff) format("woff"), url(//fonts.gstatic.com/ea/notosansjapanese/v6/NotoSansJP-Black.otf) format("opentype");
+  src: local("Noto Sans CJK JP"), url(//fonts.gstatic.com/ea/notosansjp/v5/NotoSansJP-Black.woff2) format("woff2"), url(//fonts.gstatic.com/ea/notosansjp/v5/NotoSansJP-Black.woff) format("woff"), url(//fonts.gstatic.com/ea/notosansjp/v5/NotoSansJP-Black.otf) format("opentype");
 }
 
 /* line 1, /Users/Tomoya/Website/tomoyanonymous.github.io/theme/tomoya/scss/_fontsize.scss */
@@ -436,52 +429,45 @@ h6 {
 }
 
 @font-face {
-  font-family: 'Noto Sans Japanese';
+  font-family: 'Noto Sans JP';
   font-style: normal;
   font-weight: 100;
-  src: url(//fonts.gstatic.com/ea/notosansjapanese/v6/NotoSansJP-Thin.woff2) format("woff2"), url(//fonts.gstatic.com/ea/notosansjapanese/v6/NotoSansJP-Thin.woff) format("woff"), url(//fonts.gstatic.com/ea/notosansjapanese/v6/NotoSansJP-Thin.otf) format("opentype");
+  src: local("Noto Sans CJK JP"), url(//fonts.gstatic.com/ea/notosansjp/v5/NotoSansJP-Thin.woff2) format("woff2"), url(//fonts.gstatic.com/ea/notosansjp/v5/NotoSansJP-Thin.woff) format("woff"), url(//fonts.gstatic.com/ea/notosansjp/v5/NotoSansJP-Thin.otf) format("opentype");
 }
 
 @font-face {
-  font-family: 'Noto Sans Japanese';
-  font-style: normal;
-  font-weight: 200;
-  src: url(//fonts.gstatic.com/ea/notosansjapanese/v6/NotoSansJP-Light.woff2) format("woff2"), url(//fonts.gstatic.com/ea/notosansjapanese/v6/NotoSansJP-Light.woff) format("woff"), url(//fonts.gstatic.com/ea/notosansjapanese/v6/NotoSansJP-Light.otf) format("opentype");
-}
-
-@font-face {
-  font-family: 'Noto Sans Japanese';
+  font-family: 'Noto Sans JP';
   font-style: normal;
   font-weight: 300;
-  src: url(//fonts.gstatic.com/ea/notosansjapanese/v6/NotoSansJP-DemiLight.woff2) format("woff2"), url(//fonts.gstatic.com/ea/notosansjapanese/v6/NotoSansJP-DemiLight.woff) format("woff"), url(//fonts.gstatic.com/ea/notosansjapanese/v6/NotoSansJP-DemiLight.otf) format("opentype");
+  src: local("Noto Sans CJK JP"), url(//fonts.gstatic.com/ea/notosansjp/v5/NotoSansJP-Light.woff2) format("woff2"), url(//fonts.gstatic.com/ea/notosansjp/v5/NotoSansJP-Light.woff) format("woff"), url(//fonts.gstatic.com/ea/notosansjp/v5/NotoSansJP-Light.otf) format("opentype");
 }
 
 @font-face {
-  font-family: 'Noto Sans Japanese';
+  font-family: 'Noto Sans JP';
   font-style: normal;
   font-weight: 400;
-  src: local("NotoSansJP-Regular.otf"), url(//fonts.gstatic.com/ea/notosansjapanese/v6/NotoSansJP-Regular.woff2) format("woff2"), url(//fonts.gstatic.com/ea/notosansjapanese/v6/NotoSansJP-Regular.woff) format("woff"), url(//fonts.gstatic.com/ea/notosansjapanese/v6/NotoSansJP-Regular.otf) format("opentype");
+  src: local("Noto Sans CJK JP"), url(//fonts.gstatic.com/ea/notosansjp/v5/NotoSansJP-Regular.woff2) format("woff2"), url(//fonts.gstatic.com/ea/notosansjp/v5/NotoSansJP-Regular.woff) format("woff"), url(//fonts.gstatic.com/ea/notosansjp/v5/NotoSansJP-Regular.otf) format("opentype");
 }
 
 @font-face {
-  font-family: 'Noto Sans Japanese';
+  font-family: 'Noto Sans JP';
   font-style: normal;
   font-weight: 500;
-  src: url(//fonts.gstatic.com/ea/notosansjapanese/v6/NotoSansJP-Medium.woff2) format("woff2"), url(//fonts.gstatic.com/ea/notosansjapanese/v6/NotoSansJP-Medium.woff) format("woff"), url(//fonts.gstatic.com/ea/notosansjapanese/v6/NotoSansJP-Medium.otf) format("opentype");
+  src: local("Noto Sans CJK JP"), url(//fonts.gstatic.com/ea/notosansjp/v5/NotoSansJP-Medium.woff2) format("woff2"), url(//fonts.gstatic.com/ea/notosansjp/v5/NotoSansJP-Medium.woff) format("woff"), url(//fonts.gstatic.com/ea/notosansjp/v5/NotoSansJP-Medium.otf) format("opentype");
 }
 
 @font-face {
-  font-family: 'Noto Sans Japanese';
+  font-family: 'Noto Sans JP';
   font-style: normal;
   font-weight: 700;
-  src: url(//fonts.gstatic.com/ea/notosansjapanese/v6/NotoSansJP-Bold.woff2) format("woff2"), url(//fonts.gstatic.com/ea/notosansjapanese/v6/NotoSansJP-Bold.woff) format("woff"), url(//fonts.gstatic.com/ea/notosansjapanese/v6/NotoSansJP-Bold.otf) format("opentype");
+  src: local("Noto Sans CJK JP"), url(//fonts.gstatic.com/ea/notosansjp/v5/NotoSansJP-Bold.woff2) format("woff2"), url(//fonts.gstatic.com/ea/notosansjp/v5/NotoSansJP-Bold.woff) format("woff"), url(//fonts.gstatic.com/ea/notosansjp/v5/NotoSansJP-Bold.otf) format("opentype");
 }
 
 @font-face {
-  font-family: 'Noto Sans Japanese';
+  font-family: 'Noto Sans JP';
   font-style: normal;
   font-weight: 900;
-  src: url(//fonts.gstatic.com/ea/notosansjapanese/v6/NotoSansJP-Black.woff2) format("woff2"), url(//fonts.gstatic.com/ea/notosansjapanese/v6/NotoSansJP-Black.woff) format("woff"), url(//fonts.gstatic.com/ea/notosansjapanese/v6/NotoSansJP-Black.otf) format("opentype");
+  src: local("Noto Sans CJK JP"), url(//fonts.gstatic.com/ea/notosansjp/v5/NotoSansJP-Black.woff2) format("woff2"), url(//fonts.gstatic.com/ea/notosansjp/v5/NotoSansJP-Black.woff) format("woff"), url(//fonts.gstatic.com/ea/notosansjp/v5/NotoSansJP-Black.otf) format("opentype");
 }
 
 /* line 2, /Users/Tomoya/Website/tomoyanonymous.github.io/theme/tomoya/scss/_init.scss */
@@ -492,7 +478,7 @@ html {
 
 /* line 7, /Users/Tomoya/Website/tomoyanonymous.github.io/theme/tomoya/scss/_init.scss */
 body {
-  font-family: "Helvetica Neue", "Noto Sans Japanese", "Hiragino Sans", "Hiragino Kaku Gothic ProN", "游ゴシック  Medium", meiryo, sans-serif;
+  font-family: "Helvetica Neue", "Noto Sans JP", "Hiragino Sans", "Hiragino Kaku Gothic ProN", "游ゴシック  Medium", meiryo, sans-serif;
   width: 100%;
   min-width: 700px;
   font-size: 12pt;
@@ -555,15 +541,16 @@ td, th {
 /* line 9, stdin */
 body .markdown {
   padding: 0 20px;
+  font-feature-settings: "palt" 1;
 }
 
-/* line 11, stdin */
+/* line 12, stdin */
 body .markdown p {
   margin: 3rem 0;
   line-height: 1.7rem;
 }
 
-/* line 16, stdin */
+/* line 17, stdin */
 body .markdown em {
   padding: 0 10px;
   font-size: 90%;
@@ -572,78 +559,78 @@ body .markdown em {
   padding: 0 25px;
 }
 
-/* line 23, stdin */
+/* line 24, stdin */
 body .markdown a {
   display: inline-block;
   margin: 10px auto;
 }
 
-/* line 27, stdin */
+/* line 28, stdin */
 body .markdown > p a {
   text-decoration: underline;
 }
 
-/* line 30, stdin */
+/* line 31, stdin */
 body .markdown img {
   width: 100%;
   height: 100%;
   margin: 10px auto;
 }
 
-/* line 35, stdin */
+/* line 36, stdin */
 body .markdown p a {
   display: inline;
 }
 
-/* line 38, stdin */
+/* line 39, stdin */
 body .markdown h1, body .markdown h2, body .markdown h3, body .markdown h4, body .markdown h5, body .markdown h6 {
   margin: 4rem 0 2rem 0;
   line-height: 150%;
 }
 
-/* line 42, stdin */
+/* line 43, stdin */
 body .markdown h1 {
   padding: 2rem 0 0.3rem;
   border-top: 3px dashed #207E8F;
 }
 
-/* line 47, stdin */
+/* line 48, stdin */
 body .markdown ul {
   margin: 2rem 10px;
   font-size: 90%;
 }
 
-/* line 51, stdin */
+/* line 52, stdin */
 body .markdown li {
   margin: 1rem 0;
   color: #127281;
 }
 
-/* line 56, stdin */
+/* line 57, stdin */
 body .markdown hr {
   border-top: solid 1px #787d7e;
 }
 
-/* line 60, stdin */
+/* line 61, stdin */
 body .markdown iframe {
   text-align: center;
   margin: 10px auto;
 }
 
-/* line 65, stdin */
+/* line 66, stdin */
 body .title {
   overflow-wrap: break-word;
   word-wrap: break-word;
 }
 
-/* line 69, stdin */
+/* line 70, stdin */
 body .back {
   display: inline;
   padding: 10px 0;
   font-size: 1.2rem;
 }
 
-/* line 74, stdin */
+/* line 75, stdin */
 body .share {
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -651,19 +638,19 @@ body .share {
   margin: 20px 0;
 }
 
-/* line 77, stdin */
+/* line 78, stdin */
 body .share div {
   margin: auto 20px auto 0;
 }
 
-/* line 81, stdin */
+/* line 82, stdin */
 body .outer {
   position: relative;
   width: 100%;
   height: 100%;
 }
 
-/* line 85, stdin */
+/* line 86, stdin */
 body .outer div > .child, body .outer header > .child, body .outer footer > .child {
   width: 100%;
   max-width: 1000px;
@@ -672,13 +659,13 @@ body .outer div > .child, body .outer header > .child, body .outer footer > .chi
   border: none;
 }
 
-/* line 92, stdin */
+/* line 93, stdin */
 body .outer div {
   min-width: none;
   border: none;
 }
 
-/* line 96, stdin */
+/* line 97, stdin */
 body .outer header {
   width: 100%;
   border-top: 1px solid #ccc;
@@ -690,7 +677,7 @@ body .outer header {
   min-height: 5rem;
 }
 
-/* line 107, stdin */
+/* line 108, stdin */
 body .outer header > div {
   width: 100%;
   display: -webkit-flex;
@@ -711,7 +698,7 @@ body .outer header > div {
   position: relative;
 }
 
-/* line 120, stdin */
+/* line 121, stdin */
 body .outer header a {
   min-height: 5rem;
   display: table;
@@ -720,12 +707,12 @@ body .outer header a {
   margin-right: 20px;
 }
 
-/* line 127, stdin */
+/* line 128, stdin */
 body .outer header a:hover {
   box-shadow: 0px 1px 2px #a8aeb0;
 }
 
-/* line 132, stdin */
+/* line 133, stdin */
 body .outer header a .title {
   display: table-cell;
   text-align: center;
@@ -737,7 +724,7 @@ body .outer header a .title {
   letter-spacing: 0.15rem;
 }
 
-/* line 142, stdin */
+/* line 143, stdin */
 body .outer header div.menu {
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -747,7 +734,7 @@ body .outer header div.menu {
   letter-spacing: 0.07rem;
 }
 
-/* line 147, stdin */
+/* line 148, stdin */
 body .outer header div.menu a {
   display: table;
   margin: auto;
@@ -755,7 +742,7 @@ body .outer header div.menu a {
   min-height: 4rem;
 }
 
-/* line 152, stdin */
+/* line 153, stdin */
 body .outer header div.menu a div {
   padding: auto;
   display: table-cell;
@@ -764,17 +751,17 @@ body .outer header div.menu a div {
   padding: 0 18px;
 }
 
-/* line 160, stdin */
+/* line 161, stdin */
 body .outer header div.menu a:hover {
   box-shadow: 1px 1px 2px #a8aeb0;
 }
 
-/* line 165, stdin */
+/* line 166, stdin */
 body .outer header div.locales {
   min-height: 3rem;
 }
 
-/* line 167, stdin */
+/* line 168, stdin */
 body .outer header div.locales a {
   display: table;
   padding: 0 7px;
@@ -783,7 +770,7 @@ body .outer header div.locales a {
   font-size: 0.8rem;
 }
 
-/* line 173, stdin */
+/* line 174, stdin */
 body .outer header div.locales a span {
   height: 100%;
   display: table-cell;
@@ -791,7 +778,7 @@ body .outer header div.locales a span {
   letter-spacing: 0rem;
 }
 
-/* line 181, stdin */
+/* line 182, stdin */
 body .outer header div.social {
   width: 100%;
   max-width: 200px;
@@ -809,7 +796,7 @@ body .outer header div.social {
   top: 0px;
 }
 
-/* line 192, stdin */
+/* line 193, stdin */
 body .outer header div.social > div {
   min-height: 25px;
   display: table-cell;
@@ -820,7 +807,7 @@ body .outer header div.social > div {
   padding: 0;
 }
 
-/* line 201, stdin */
+/* line 202, stdin */
 body .outer header div.social div.logo {
   min-height: 25px;
   width: 25px;
@@ -830,7 +817,7 @@ body .outer header div.social div.logo {
   border-radius: 5px;
 }
 
-/* line 208, stdin */
+/* line 209, stdin */
 body .outer header div.social div.logo a {
   min-height: 25px;
   width: 25px;
@@ -843,13 +830,13 @@ body .outer header div.social div.logo a {
   border-radius: 5px;
 }
 
-/* line 218, stdin */
+/* line 219, stdin */
 body .outer header div.social div.logo a:hover {
   text-decoration: none;
   border: none;
 }
 
-/* line 223, stdin */
+/* line 224, stdin */
 body .outer header div.social div.logo a img {
   width: 25px;
   height: 25px;
@@ -859,22 +846,22 @@ body .outer header div.social div.logo a img {
   border: none;
 }
 
-/* line 233, stdin */
+/* line 234, stdin */
 body .outer header div.social .tw .logo {
   background-color: #55acee;
 }
 
-/* line 236, stdin */
+/* line 237, stdin */
 body .outer header div.social .fb .logo {
   background-color: #fff;
 }
 
-/* line 239, stdin */
+/* line 240, stdin */
 body .outer header div.social .github .logo {
   border-radius: 5px;
 }
 
-/* line 246, stdin */
+/* line 247, stdin */
 body .outer .inner {
   background-color: #e6eff2;
   margin: 20px 0;
@@ -882,7 +869,7 @@ body .outer .inner {
   box-shadow: 2px 2px 2px #a8aeb0;
 }
 
-/* line 251, stdin */
+/* line 252, stdin */
 body .outer .inner .content {
   background-color: #F0F9FC;
   border: 1px #a8aeb0;
@@ -891,19 +878,19 @@ body .outer .inner .content {
   box-shadow: 3px 3px 2px #a8aeb0;
 }
 
-/* line 258, stdin */
+/* line 259, stdin */
 body .outer .inner > .content {
   background-color: #F0F9FC;
   box-shadow: 3px 3px 3px #a8aeb0;
   padding: 10px 0;
 }
 
-/* line 263, stdin */
+/* line 264, stdin */
 body .outer .inner > .content > .child {
   padding: 0 25px;
 }
 
-/* line 267, stdin */
+/* line 268, stdin */
 body .outer .inner > .content2 {
   background-color: #ebf4f7;
   box-shadow: 2px 2px 2px #a8aeb0;
@@ -911,7 +898,7 @@ body .outer .inner > .content2 {
   margin: 10px 0;
 }
 
-/* line 274, stdin */
+/* line 275, stdin */
 body .outer .inner p.title {
   font-size: 2rem;
   font-weight: lighter;
@@ -920,45 +907,45 @@ body .outer .inner p.title {
   padding: 20px 0;
 }
 
-/* line 281, stdin */
+/* line 282, stdin */
 body .outer .inner p.date {
   font-size: 0.9rem;
   font-weight: lighter;
   padding: 10px 0 0 0;
 }
 
-/* line 292, stdin */
+/* line 293, stdin */
 body .outer .inner .index_inner {
   border-top: 1px solid #ccc;
   padding: 10px 0;
   margin: 0;
 }
 
-/* line 296, stdin */
+/* line 297, stdin */
 body .outer .inner .index_inner .content {
   background-color: #F0F9FC;
 }
 
-/* line 300, stdin */
+/* line 301, stdin */
 body .outer .inner .work {
   width: 100%;
   margin: 10px 0;
   position: relative;
 }
 
-/* line 304, stdin */
+/* line 305, stdin */
 body .outer .inner .work a {
   display: block;
   height: 100%;
 }
 
-/* line 309, stdin */
+/* line 310, stdin */
 body .outer .inner .work:hover {
   opacity: 0.9;
   border: none;
 }
 
-/* line 313, stdin */
+/* line 314, stdin */
 body .outer .inner .work .description {
   position: absolute;
   float: left;
@@ -967,30 +954,30 @@ body .outer .inner .work .description {
   padding: 0 10px;
 }
 
-/* line 321, stdin */
+/* line 322, stdin */
 body .outer .inner .work .description p {
   color: #FA8F2D;
   text-shadow: 1px 1px 2px #af6420;
   opacity: 0.8;
 }
 
-/* line 327, stdin */
+/* line 328, stdin */
 body .outer .inner .work .description .caption_title {
   font-size: 2rem;
   height: 4rem;
 }
 
-/* line 333, stdin */
+/* line 334, stdin */
 body .outer .inner .work img {
   box-shadow: 2px 2px 3px #bbb;
 }
 
-/* line 335, stdin */
+/* line 336, stdin */
 body .outer .inner .work img:hover {
   opacity: 1;
 }
 
-/* line 340, stdin */
+/* line 341, stdin */
 body .outer .inner .flex {
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -1003,7 +990,7 @@ body .outer .inner .flex {
   flex-wrap: wrap;
 }
 
-/* line 344, stdin */
+/* line 345, stdin */
 body .outer .inner .flex > div {
   background-color: #F0F9FC;
   border: 1px solid #ccc;
@@ -1012,36 +999,36 @@ body .outer .inner .flex > div {
   padding: 10px 20px;
 }
 
-/* line 352, stdin */
+/* line 353, stdin */
 body .outer .inner .index_left, body .outer .inner .index_right {
   width: 48%;
   min-width: 350px;
 }
 
-/* line 356, stdin */
+/* line 357, stdin */
 body .outer .inner .index_left a > .title, body .outer .inner .index_right a > .title {
   font-weight: normal;
 }
 
-/* line 359, stdin */
+/* line 360, stdin */
 body .outer .inner .index_left .content, body .outer .inner .index_right .content {
   padding: 5px 0;
   box-shadow: 0px 0px 0px #F0F9FC;
 }
 
-/* line 362, stdin */
+/* line 363, stdin */
 body .outer .inner .index_left .content .markdown, body .outer .inner .index_right .content .markdown {
   padding: 0;
 }
 
-/* line 369, stdin */
+/* line 370, stdin */
 body .outer .pagination {
   width: 100%;
   text-align: center;
   padding: 20px 0;
 }
 
-/* line 373, stdin */
+/* line 374, stdin */
 body .outer .pagination ul {
   list-style: none;
   width: 100%;
@@ -1060,7 +1047,7 @@ body .outer .pagination ul {
   align-items: center;
 }
 
-/* line 383, stdin */
+/* line 384, stdin */
 body .outer .pagination ul li {
   vertical-align: bottom;
   text-decoration: none;
@@ -1069,13 +1056,13 @@ body .outer .pagination ul li {
   width: 30%;
 }
 
-/* line 390, stdin */
+/* line 391, stdin */
 body .outer .pagination ul li:not(.number) {
   font-size: 1rem;
   text-decoration: none;
 }
 
-/* line 401, stdin */
+/* line 402, stdin */
 body .outer .pagination ul li a {
   background-color: #F0F9FC;
   box-shadow: 1px 1px 1px #787d7e;
@@ -1085,12 +1072,12 @@ body .outer .pagination ul li a {
   height: 100%;
 }
 
-/* line 408, stdin */
+/* line 409, stdin */
 body .outer .pagination ul li a:hover {
   box-shadow: 2px 2px 2px #787d7e;
 }
 
-/* line 414, stdin */
+/* line 415, stdin */
 body .outer .pagination ul .to_index {
   -webkit-flex-basis: 20%;
   -ms-flex-preferred-size: 20%;
@@ -1098,19 +1085,19 @@ body .outer .pagination ul .to_index {
   margin: 10px;
 }
 
-/* line 417, stdin */
+/* line 418, stdin */
 body .outer .pagination ul .to_index a {
   font-size: 2rem;
 }
 
-/* line 422, stdin */
+/* line 423, stdin */
 body .outer .pagination ul .none {
   pointer-events: none;
   font-color: #787d7e;
   box-shadow: none;
 }
 
-/* line 429, stdin */
+/* line 430, stdin */
 body .outer footer {
   border-top: 1px solid #ccc;
   background-color: #ebf4f7;
