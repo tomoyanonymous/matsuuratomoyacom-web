@@ -1,6 +1,6 @@
 ---
 layout: info.hbs
-title: 東京藝術大学 音環卒展2017に参加します
+title: 
 permalink: onkan_sotsuten2017
 date: 2017-01-08
 ---
