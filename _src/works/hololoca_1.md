@@ -1,25 +1,21 @@
 ---
 layout: work.hbs
-title: ホロロッカ第一回公演<br>「へそにたまるのは呪い、こころだけがあるわ」
-permalink: hololoca1
-thum: assets/img/hololoca/patch2.jpg
-date : 2015-05-24
+title: Live Performance with Feedback Mixer
+permalink: live_tsukuruto
+thum: assets/img/tsukuruto_thum.png
+date : 2017-06-10
 ---
 
-ホロロッカ第一回公演「へそにたまるのは呪い、こころだけがあるわ」音響
+<iframe src="https://player.vimeo.com/video/228039554" width="640" height="480" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 
-### [http://hololoca.tumblr.com/heso_info](http://hololoca.tumblr.com/heso_info)
+2017/06/10、[つくると！vol.3](vol3.tsukuruto.net)内ライブコーナーにて(九州大学大橋キャンパス　多次元デザインホール)
 
-キャスト
+ミキサー+スピーカー＋マイクのみで行ったライブパフォーマンス。
+No Input Mixerのようなミキサー内でのフィードバックに加えマイクからのフィードバックを加えることにより楽音からノイズまで多彩な音色を生み出す事を試みた。
 
-柏木純子・川島隆生・戸塚康崇・新田佑梨・三浦こなつ
 
-スタッフ
+2017/06/10 Live Performance at Tsukuruto in Kyushu University Ohashi Campus Multidimensional Hall.
 
-作・演出：塩田将也／美術：福田恵理／照明：椎橋蘭奈／音響：松浦知也／舞台監督：寺尾昂祐／舞台監督補佐：持田愛／衣装：末安千夏／文芸：久木野実玖／制作：谷陽歩／etc.：東彩織
+Live Performance with only Mixer,2 Microphone and 2 Speaker.
 
-#### ホロロッカ
-
-2015年。作・演出・主宰の塩田将也、俳優の新田佑梨、デザインの福田恵理が構成している演劇の団体。団体のコンセプトは未定ですが、オリジナル戯曲と、所属劇団員+集まってくれた人々の力を合わせて作品を上演します。次回公演は『スカイ・エクレアをさがしてみよう』。
-
-twitter:[@hololoca](https://twitter.com/hololoca)
+In addition to the feedback inside of mixer, Feedback from Speaker into Microphone was used. Attempted to generate varius tone from noise to musical sound.
