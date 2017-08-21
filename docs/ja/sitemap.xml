@@ -33,11 +33,6 @@
   </url>
   
   <url>
-    <loc>https://matsuuratomoya.com/blog/max_subjective/</loc>
-    <lastmod>2017-03-03T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://matsuuratomoya.com/works/post-past/</loc>
     <lastmod>2017-02-17T00:00:00+00:00</lastmod>
   </url>
@@ -85,16 +80,6 @@
   <url>
     <loc>https://matsuuratomoya.com/blog/dbap-implementation/</loc>
     <lastmod>2016-06-17T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://matsuuratomoya.com/en/blog/dbap-implementation/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ja"
-                href="https://matsuuratomoya.com/blog/dbap-implementation/"
-                />
   </url>
   
   <url>
@@ -228,18 +213,8 @@
   
   <url>
     <loc>https://matsuuratomoya.com/blog/</loc>
-    <lastmod>2017-03-03T00:00:00+00:00</lastmod>
+    <lastmod>2017-01-19T00:00:00+00:00</lastmod>
     <priority>0</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://matsuuratomoya.com/en/blog/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ja"
-                href="https://matsuuratomoya.com/blog/"
-                />
   </url>
   
   <url>

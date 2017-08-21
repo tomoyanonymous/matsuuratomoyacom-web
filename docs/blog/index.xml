@@ -6,25 +6,10 @@
     <description>Recent content in Blogs on Matsuura Tomoya</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <lastBuildDate>Fri, 03 Mar 2017 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 19 Jan 2017 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://matsuuratomoya.com/blog/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>cycling&#39;74 Maxで評価実験のパッチを作る</title>
-      <link>https://matsuuratomoya.com/blog/max_subjective/</link>
-      <pubDate>Fri, 03 Mar 2017 00:00:00 +0000</pubDate>
-      
-      <guid>https://matsuuratomoya.com/blog/max_subjective/</guid>
-      <description>&lt;p&gt;先日身内向けにMaxの基礎講座＋Maxで作る評価実験用のパッチの作り方をやったので、その資料も兼ねてここに置いておきます。&lt;/p&gt;
-
-&lt;p&gt;内容は主に&lt;a href=&#34;https://matsuuratomoya.com/blog/2016-04-27/puredata-subjective-test/&#34;&gt;Puredataでの評価実験パッチ&lt;/a&gt;作りで書いたものとほぼ同じです。&lt;/p&gt;
-
-&lt;p&gt;csvファイルの書き込み方やプレゼンテーションモードが異なる部分ですので参考にしていただければと思います。&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
-    </item>
     
     <item>
       <title>Faustのライブラリの使い方と標準ライブラリのオススメ</title>
