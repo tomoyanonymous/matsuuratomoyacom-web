@@ -1,0 +1,54 @@
+@import 'variables';
+html{
+  width:100%;
+  // height:100%;
+  background-color:$main2*0.94;
+}
+body{
+  font-family:$master-font;
+  // position:absolute;
+  width:100%;
+  // height:100%;
+min-width: 700px;
+  font-size:12pt;
+  letter-spacing: 0.14rem;
+  line-height: 150%;
+  background-color:$main2*0.94;
+  color:$main1;
+  list-style-position: inside;
+  img{
+    max-width:100%;
+    border:none;
+  }
+  a{
+    color:$main3;
+
+    border-bottom:0px $main2*0.9;
+    &:hover{
+      color:$main5;
+      text-decoration: none;
+      border-bottom: 2px solid $main5;
+      img{
+        transition: 0.1s cubic-bezier(0.4, 0.0, 0.2, 1);
+        &:hover{
+          opacity:0.9;
+            border-bottom:none;
+        }
+      }
+    }
+  }
+  div,a,img{
+    transition: 0.1s cubic-bezier(0.4, 0.0, 0.2, 1);
+  }
+}
+hr{
+  border-top:1px solid $main2*0.94;
+}
+
+td, th {
+  text-align:left;
+  vertical-align: center;
+  padding:5px;
+  border-width: 1px;
+  border-style: solid;
+}

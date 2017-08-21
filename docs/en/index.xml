@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Matsuura Tomoya</title>
+    <link>https://matsuuratomoya.com/en/</link>
+    <description>Recent content on Matsuura Tomoya</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Thu, 30 Mar 2017 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://matsuuratomoya.com/en/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>送れ | 遅れ / post | past (rev.2)</title>
+      <link>https://matsuuratomoya.com/en/works/post-past_sotsuten/</link>
+      <pubDate>Thu, 30 Mar 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://matsuuratomoya.com/en/works/post-past_sotsuten/</guid>
+      <description>2017/2/10~2&amp;frasl;12 At Tokyo University of the Arts Senju Campus
+Exhibited at Tokyo University of the Arts Graduation Exhibition(Music Creation and the Environments) 2017
+ Thanks to Kuroishi Sayako, Masuda Yoshiki, Tsuji Yurika and more   Acoustic Delay line memory is the memory apparatus used with early electronic computer in 1950s.
+Acoustic delay line memory is the system that detect pulse from speaker with microphone, and transmit that pulse to speaker again.</description>
+    </item>
+    
+    <item>
+      <title>簡単なマルチチャンネルパンナー、DBAPの実装</title>
+      <link>https://matsuuratomoya.com/en/blog/dbap-implementation/</link>
+      <pubDate>Fri, 17 Jun 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://matsuuratomoya.com/en/blog/dbap-implementation/</guid>
+      <description>&lt;p&gt;English&lt;/p&gt;
+
+&lt;p&gt;MaxやPuredataを使う理由のうちにマルチチャンネルの制御がしたいということがある人は少なく無いと思います。&lt;/p&gt;
+
+&lt;p&gt;一般的な5.1chの実装はVBAPというアルゴリズムで実装されていますが、聴取位置からスピーカーが等距離でないといけなかったり、結構制限が多くて大変です。
+そこでもう少しユルいアルゴリズムであるDBAPというのを使ってみようという話です。
+&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://matsuuratomoya.com/en/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://matsuuratomoya.com/en/about/</guid>
+      <description>Matsuura Tomoya マツウラトモヤ 松浦知也 (Photo by Noguchi Shohei) Sound Maker/Engineer/Designer/Programmer Making sound artworks, electric musical instruments, systems for live performance and also composing, playing and so on. The Main theme of works is &amp;ldquo;System&amp;rdquo; in varying media around the sound, in particular, the relationship between &amp;ldquo;Liveness/Communication&amp;rdquo; and &amp;ldquo;Archive/Record/Memory&amp;rdquo;. Making sound installation works and developping sound systems for installation works. Also do:</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://matsuuratomoya.com/en/license/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://matsuuratomoya.com/en/license/</guid>
+      <description>License Any contents of text on this website is under license of Creative Commons by-nc-nd.
+You can use any text contents in the limitation of license.
+Images on this website may not be my own copyrighted works. Contact me if you needed.
+http://creativecommons.org/licenses/by-nc-nd/4.0</description>
+    </item>
+    
+  </channel>
+</rss>
