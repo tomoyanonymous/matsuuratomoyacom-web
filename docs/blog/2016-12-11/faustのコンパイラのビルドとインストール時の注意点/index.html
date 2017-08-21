@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="ja" prefix="og: http://ogp.me/ns#">
+  <head>
+    <meta charset="utf-8">
+
+    <link rel="stylesheet" href="/assets/css/style.css">
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.3.0/styles/tomorrow.min.css">
+    <link rel="shortcut icon" href="/assets/img/favicon.ico">
+    <link rel="canonical" href="http://matsuuratomoya.com">
+    <meta name="viewport" content="width=700, initial-scale=1.0">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta property="og:type" content="website" />
+    <meta name="keyword" content="松浦知也,マツウラトモヤ,Matsuura Tomoya,Tomoya Matsuura,まつうらともや">
+  <meta name="description" content="Faustのコンパイラのビルドとインストール時の注意点">
+  <meta property="og:title" content="Matsuura Tomoya|松浦知也" />
+  <meta property="twitter:card" content="summary" />
+  <meta property="twitter:site" content="@tomoya_nonymous">
+    <meta property="twitter:creator" content="@tomoya_nonymous">
+    <meta property="twitter:creator:id" content="@tomoya_nonymous">
+<meta property="og:url" content="https://matsuuratomoya.com/" />
+<meta property="og:image" content="/assets/img/image_ogp.png" />
+<meta property="og:image:type" content="image/png" />
+<meta property="og:image:width" content="1200" />
+<meta property="og:image:height" content="630" />
+<meta property="fb:app_id" content="1756749324544053" />
+  <meta property="og:description" content="Faustのコンパイラのビルドとインストール時の注意点"/>
+    <title>Faustのコンパイラのビルドとインストール時の注意点 Matsuura Tomoya|松浦知也 </title>
+  </head>
+
+<body>
+  
+<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-KSWGLR"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-KSWGLR');</script>
+
+
+  <div class="outer">
+
+    
+<header>
+  <div>
+      <a href="https://matsuuratomoya.com/"><div class="title">Matsuura Tomoya</div></a>
+
+      <div class="menu">
+        
+        
+        <a href="https://matsuuratomoya.com/about"><div >about</div></a>
+        
+        <a href="https://matsuuratomoya.com/info"><div >info</div></a>
+        
+        <a href="https://matsuuratomoya.com/works"><div >works</div></a>
+        
+        <a href="https://matsuuratomoya.com/blog"><div >blog</div></a>
+        
+        <a href="https://matsuuratomoya.com/contact"><div >contact</div></a>
+        
+      </div>
+    <div class="locales">
+      
+    </div>
+
+    <div class="social">
+      <div class="tw">
+  <div class="logo">
+    <a href="https://twitter.com/tomoya_nonymous" target=”_blank”>
+      <img src="/assets/img/tw.png" alt="twitter">
+    </a>
+  </div>
+  </div>
+  <div class="fb">
+    <div class="logo">
+      <a href="https://www.facebook.com/tomoya.matsuura.98" target=”_blank”>
+        <img src="/assets/img/fb.png" alt="facebook">
+      </a>
+    </div>
+  </div>
+
+  <div class="github">
+    <div class="logo">
+      <a href="https://github.com/tomoyanonymous" target=”_blank”>
+        <img src="/assets/img/github.png" alt="github">
+      </a>
+    </div>
+  </div>
+
+  <div class="instagram">
+    <div class="logo">
+      <a href="https://www.instagram.com/tomoya_nonymous" target=”_blank”>
+        <img src="/assets/img/instagram.png" alt="instagram">
+      </a>
+    </div>
+  </div>
+
+    </div>
+    </div>
+</header>
+
+    <div class="inner">
+      <div class="child">
+
+        <div class="content">
+          <p class="date">Sun, Dec 11, 2016</p>
+          <p class="title"><a href="https://matsuuratomoya.com/blog/2016-12-11/faust%E3%81%AE%E3%82%B3%E3%83%B3%E3%83%91%E3%82%A4%E3%83%A9%E3%81%AE%E3%83%93%E3%83%AB%E3%83%89%E3%81%A8%E3%82%A4%E3%83%B3%E3%82%B9%E3%83%88%E3%83%BC%E3%83%AB%E6%99%82%E3%81%AE%E6%B3%A8%E6%84%8F%E7%82%B9/">Faustのコンパイラのビルドとインストール時の注意点</a></p>
+          <div class="markdown">
+            <p><em>この記事は<a href="http://qiita.com/advent-calendar/2016/faust">Faust(多分ひとり)Advent Calender</a>の3つ目の記事です。</em></p>
+
+<p>本日はFaustのコンパイラをビルドする時、インストールする時の注意点について書こうと思います。</p>
+
+<p></p>
+
+<h1 id="faustには2種類ある">Faustには2種類ある</h1>
+
+<p>さて、前の記事とかでも<strong>faust2ブランチ</strong>という言葉を使っていましたが、Faustのコンパイラは2種類存在します。</p>
+
+<p>一つは普通のfaust、こちらはfaustソースをC++にコンパイルするだけのシンプルなもの(mathdocとかは使えたはずですが)です。</p>
+
+<p>もう一つは<strong>faust2</strong>というもので、こちらがLLVMを利用して実行時コンパイルやasm.jsを利用したWebaudioエクスポートが可能になっています。</p>
+
+<h1 id="コンパイラをダウンロードしよう">コンパイラをダウンロードしよう</h1>
+
+<p>さて、コンパイラはFaustliveやfaustgen~と違って残念ながらビルド済みのバイナリは配布されていません。
+そのため自力でソースからビルドする必要があります。</p>
+
+<p>Faustのリポジトリはこちら。</p>
+
+<p><a href="https://github.com/grame-cncm/faust">https://github.com/grame-cncm/faust</a></p>
+
+<p>こちらは最近sourceforgeから移ったばっかりなので一応sourceforgeのアドレスも。</p>
+
+<p><a href="https://sourceforge.net/p/faudiostream/code/ci/master/tree/">https://sourceforge.net/p/faudiostream/code/ci/master/tree/</a></p>
+
+<p>通常版のfaustがmasterブランチ、faust2はfaust2ブランチという用にgitのブランチでバージョン違いがあるので、gitが入ってない方はインストールをオススメします。</p>
+
+<p>というわけでDLは</p>
+
+<pre><code class="language-bash">cd path/to/dldir
+
+git clone git@github.com:grame-cncm/faust.git
+
+</code></pre>
+
+<p>で落としてきます。</p>
+
+<h1 id="ビルド">ビルド</h1>
+
+<h2 id="前準備">前準備</h2>
+
+<p>Macの人はmakeコマンドを使うためにXcode Command Line Toolsが必要です。
+AppstoreからXcodeインストールした上で</p>
+
+<pre><code class="language-bash">xcode-select --install
+
+</code></pre>
+
+<p>でインストール。</p>
+
+<h2 id="faust-通常版">faust(通常版)</h2>
+
+<p>masterブランチに移動します（DL時は最初からそうだと思いますが念のため）。</p>
+
+<pre><code class="language-bash">cd path/to/faudiostream-code
+git checkout master
+</code></pre>
+
+<h3 id="mac-linux">Mac/Linux</h3>
+
+<pre><code class="language-bash">make
+</code></pre>
+
+<p>でビルドが走ります。特に何も依存ライブラリは無いはずです。</p>
+
+<pre><code class="language-bash">sudo make install
+</code></pre>
+
+<p>でUnixならusr/local/にインストールされます。(usr/local/binの中にfaustコマンドとfaust2xxxのスクリプト群、usr/local/includeに標準アーキテクチャファイルなどのヘッダ類が入ります。)</p>
+
+<h3 id="windows">Windows</h3>
+
+<p>Visual Studioでのインストールが推奨されているようです。（すみません、こちらはまだ試していません。）</p>
+
+<p>VS2012以上でfaudiostream-code/windows/faust_vs2012.slnというVisual Studio solutionファイルを開いてビルドします。ターゲットはデバッグ、リリースどちらでも行けるそうです(以下、筆者はMacでしかまだビルドしたことがないのでMacの情報中心に書かせてもらいます。すみません)。</p>
+
+<h2 id="faust2">faust2</h2>
+
+<h3 id="依存ライブラリ">依存ライブラリ</h3>
+
+<h4 id="llvm">LLVM</h4>
+
+<p>faust2はLLVMの実行時コンパイルを使うために当然ながらLLVMのインストールが必要です。
+LLVMのバージョンは</p>
+
+<p>3.1&lt;バージョン&lt;=3.9が対応済みです。安定版は3.8.1が最大のはず？です。私は3.8.1でインストールできています。</p>
+
+<p>Macの場合、</p>
+
+<pre><code class="language-bash">#Macports
+
+sudo port install llvm-3.xx +universal
+</code></pre>
+
+<pre><code class="language-bash">#Homebrew
+brew tap homebrew/versions
+sudo brew install llvm38 --universal
+</code></pre>
+
+<p>とかでいけます。</p>
+
+<p>※どちらもビルドするのに1時間半ほどCPUがフルパワーで回りっぱなしになりますので注意</p>
+
+<p>ユニバーサルバイナリである必要が有るので注意しましょう。homebrewはbrew install llvmでも同じく3.8.1が入るのですがこちらは最初から入っているclangと喧嘩しないようにコマンド名clang++3.8とか番号をつけてくれます。</p>
+
+<p>llvm関係のコマンドのパスを確定させるためにllvm-configというコマンドを使うのですが、Makefileでは最初に/usr/bin→opt/local/bin→/usr/local/binという順番でllvm-configを探し、なければllvm-config-3.9→llvm-config-3.8という順でバージョンの高い順番にサフィックスを付けて検索していくので、Homebrewでインストールした場合でも勝手に見つけてくれる用になってます。</p>
+
+<p>もしくはこちらからバイナリを落としてきて、
+<a href="http://llvm.org/releases/download.html">http://llvm.org/releases/download.html</a></p>
+
+<p>faudiostream-code/compiler/Makefile.unixの28行目を直接編集してしまい、</p>
+
+<pre><code class="language-makefile">#これを
+LLVM_CONFIG = $(lastword $(wildcard /usr/bin/llvm-config* /opt/local/bin/llvm-config* /usr/local/bin/llvm-config*) $(shell which llvm-config 2&gt; /dev/null))
+#こうする
+
+LLVM＿CONFIG = /dl/folder/of/llvm/bin/llvm-config
+
+</code></pre>
+
+<p>というように、DLしたLLVMのllvm-configのパスを直接指定するのも手っ取り早い方法です。</p>
+
+<h4 id="openssl">openssl</h4>
+
+<p>例によってMacびいきですみませんが、</p>
+
+<pre><code class="language-bash">#Macports
+
+sudo port install openssl +universal
+</code></pre>
+
+<pre><code class="language-bash">#Homebrew
+
+sudo brew install openssl --universal
+</code></pre>
+
+<p>とかでいけます。ただhomebrewでは標準で/usr/localにリンクしてくれず</p>
+
+<pre><code class="language-bash">brew link openssl --force
+</code></pre>
+
+<p>で入れてやらないとインクルードパスが通りません。
+しかもどうやら最近これも<a href="http://qiita.com/dasisyouyu/items/c9621c29b0fe79d2b7c4">brew link openssl &ndash;forceができない問題
+</a>というのがあるらしく、openssl関係でエラーが出た場合は、未検証ですがcompiler/Makefile.unixの135行目あたりに</p>
+
+<pre><code class="language-makefile">CXXFLAGS += -Wall -Wuninitialized -fvisibility=hidden -Wno-overloaded-virtual -Wno-parentheses $(addprefix -I, $(subprojects)) -DINSTALL_PREFIX='&quot;$(prefix)&quot;'
+CXXFLAGS += -I`$(LLVM_CONFIG) --includedir` -I../architecture -D$(LLVM_VERSION) -D__STDC_LIMIT_MACROS -D__STDC_CONSTANT_MACROS
+CXXFLAGS += $(ARCHFLAGS)
+#これ↓を追加
+OPENSSL = $(shell brew --prefix openssl)
+CXXFLAGS += -I`$(OPENSSL)`
+</code></pre>
+
+<p>で、多分行けるはず・・・</p>
+
+<h3 id="libmicrohttpd">libmicrohttpd</h3>
+
+<p>こちらは標準では必要ないですがmake dynamicで動的ライブラリを生成する時にhttpとOSCのサポートをするために必要です。</p>
+
+<pre><code class="language-bash">#Macports
+
+sudo port install libmicrohttpd +universal
+</code></pre>
+
+<pre><code class="language-bash">#Homebrew
+
+sudo brew install libmicrohttpd --universal
+</code></pre>
+
+<h3 id="faust2のビルド">faust2のビルド</h3>
+
+<p>やっとですがfaust2ブランチにチェックアウト。</p>
+
+<pre><code class="language-bash">cd path/to/faudiostream-code
+git checkout faust2
+</code></pre>
+
+<p>ここからは同様に</p>
+
+<pre><code class="language-bash">make
+</code></pre>
+
+<p>エラー無く行ければ通常版のfaustと違い<strong>compiler/内にlibfaust.aという静的ライブラリが出来ているはず</strong>です。</p>
+
+<pre><code class="language-bash">sudo make install
+</code></pre>
+
+<p>で同じように/usr/local内にコピーされます。</p>
+
+<h3 id="注意点">注意点</h3>
+
+<ul>
+<li><p>CMakeLists.txtがあるのでCMakeを使ったことがある人はこちらを実行しそうになりますがどうもコミットログを見る限りMakefileの方を直接更新してるようなので使うと逆にエラーが出まくって大変なことになります。この辺はメーリスでも問題になってたのでそのうち解決するとは思いますが触らないほうが無難です。</p></li>
+
+<li><p>最近でもLLVMのバージョンごとにビルドエラーが出たり出なかったりが結構あるみたいなのでLLVMのパスがちゃんと通ってそうでもLLVM関係のエラーが出る場合はバージョンを変えてみるのもありだと思います（LLVM自体のビルドがめちゃくちゃ時間かかるのが難ですが・・・）</p></li>
+</ul>
+
+<h1 id="次の記事では">次の記事では</h1>
+
+<p>ここまで書いても実際どういう感じでコードを書けばいいのかわかるまで結構時間がかかります。ので実践的にFaustのコードを書く時のコツやコードのスタイルなどを書いてみようと思います。</p>
+
+            <div class="share">
+  <div class="tweet">
+<a href="https://twitter.com/share" class="twitter-share-button" data-size="large" data-url="https://matsuuratomoya.com/blog/2016-12-11/faust%E3%81%AE%E3%82%B3%E3%83%B3%E3%83%91%E3%82%A4%E3%83%A9%E3%81%AE%E3%83%93%E3%83%AB%E3%83%89%E3%81%A8%E3%82%A4%E3%83%B3%E3%82%B9%E3%83%88%E3%83%BC%E3%83%AB%E6%99%82%E3%81%AE%E6%B3%A8%E6%84%8F%E7%82%B9/" data-related="tomoya_nonymous">Tweet</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+</div>
+
+<div class="fb-share-button" data-href="https://matsuuratomoya.com/blog/2016-12-11/faust%E3%81%AE%E3%82%B3%E3%83%B3%E3%83%91%E3%82%A4%E3%83%A9%E3%81%AE%E3%83%93%E3%83%AB%E3%83%89%E3%81%A8%E3%82%A4%E3%83%B3%E3%82%B9%E3%83%88%E3%83%BC%E3%83%AB%E6%99%82%E3%81%AE%E6%B3%A8%E6%84%8F%E7%82%B9/" data-layout="box_count" data-mobile-iframe="true"></div>
+
+</div>
+
+            <hr>
+
+<div class="fb-comments" data-width="100%" data-href="https://matsuuratomoya.com/blog/2016-12-11/faust%E3%81%AE%E3%82%B3%E3%83%B3%E3%83%91%E3%82%A4%E3%83%A9%E3%81%AE%E3%83%93%E3%83%AB%E3%83%89%E3%81%A8%E3%82%A4%E3%83%B3%E3%82%B9%E3%83%88%E3%83%BC%E3%83%AB%E6%99%82%E3%81%AE%E6%B3%A8%E6%84%8F%E7%82%B9/" data-numposts="5"></div>
+
+            <div class="pagination">
+
+<ul>
+  <li class="to_next">
+
+    <a href="
+    https://matsuuratomoya.com/blog/2017-01-07/faust%E3%81%AE%E5%9F%BA%E6%9C%AC%E6%96%87%E6%B3%95%E8%A7%A3%E8%AA%AC/
+    "  >
+        
+      Faustの基本文法解説
+  
+    &lt;&lt;
+
+    </a>
+
+  </li>
+  <li class="to_index">
+
+    <a href="../">^</a>
+
+  </li>
+  <li class="to_prev">
+
+    <a href="
+     https://matsuuratomoya.com/blog/2016-12-04/%E3%81%A8%E3%82%8A%E3%81%82%E3%81%88%E3%81%9Afaust%E3%82%92%E5%A7%8B%E3%82%81%E3%81%9F%E3%81%84%E4%BA%BA%E3%81%AE%E3%81%9F%E3%82%81%E3%81%AE4%E3%81%A4%E3%81%AE%E7%92%B0%E5%A2%83/
+    " >
+
+    >>
+    
+    とりあえずFaustを始めたい人のための4つの環境
+    
+    </a>
+  </li>
+
+
+</ul>
+</div>
+
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+    
+  <footer>
+<div class="child">
+
+<p class = "copyrights">
+
+<a href="https://matsuuratomoya.com/license">2016-2017 (CC BY-NC-ND 4.0) Matsuura Tomoya</a>
+</p>
+</div>
+</footer>
+
+  </div>
+</body>
+</html>

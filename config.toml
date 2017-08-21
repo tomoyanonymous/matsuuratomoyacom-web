@@ -5,6 +5,9 @@ title = "Matsuura Tomoya"
 enableMissingTranslationPlaceholders = false
 publishDir = "docs"
 theme = "tomoya"
+[permalinks]
+  blog = "/:section/:year-:month-:day/:title/"
+  info = "/:section/:year-:month-:day/:title/"
 [params]
   Twitter = "tomoya_nonymous"
   Facebook = "tomoya.matsuura.98"
