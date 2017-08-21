@@ -185,13 +185,13 @@ Faust上で定義されてるUIの種類は以下の通り。
 - vslider(label,initial,min,max,step):可変定数。垂直スライダ
 - nentry(label,initial,min,max,step):可変定数。数値入力
 - hbargraph(label,min,max):数値モニター、水平メータ
-- hbargraph(label,min,max):数値モニター、垂直メータ
+- vbargraph(label,min,max):数値モニター、垂直メータ
 - hgroup(label,block):グルーピング。水平配置
 - vgroup(label,blobk):グルーピング。垂直配置
 - tgroup(label,block):グルーピング。タブ切り替え配置
 
 しかし、実際にこれらがどうUIとして出力されるかはアーキテクチャファイル次第です。
-例えばQtアプリケーション出力ではほぼこの通り出力されますが、Maxのオブジェクトとして出力された場合はUIもなにもないので、オブジェクトに"label" (設定したい数値)というメッセージを送ることで全てのUIを同じように操作することになります（ちなみにMaxではhbargraphは機能しません）。
+例えばQtアプリケーション出力ではほぼこの通り出力されますが、Maxのオブジェクトとして出力された場合はUIもなにもないので、オブジェクトに"label" (設定したい数値)というメッセージを送ることで全てのUIを同じように操作することになります（ちなみにMaxではbargraphは機能しません）。
 
 またhslider("btn1 [style:knob]",0,0,100,1)のようにラベルの中に拡張メタデータを埋め込むことができ、アーキテクチャファイル側で対応した実装がされていれば、例えばこの例の場合はQtアプリ出力の際にスライダーではなくノブとして現れてくれます。
 スタイルの変更以外にも、MIDI入力の定義やOSCのアドレス設定などもできるものがあります。
@@ -420,9 +420,20 @@ Faustのコマンドラインをインストールすると、
 faust2xxxでfaustコードをアーキテクチャファイルを指定してコンパイル、その後cppをコンパイルするところまでを書いたシェルスクリプト群がくっついてきます。
 一覧は以下の通り。
 
-faust2alqt faust2alsa faust2alsaconsole faust2android faust2api faust2asmjs faust2au faust2bela faust2caqt faust2caqtios faust2csound faust2dssi faust2eps faust2faustvst faust2firefox faust2gen faust2graph faust2graphviewer faust2ios faust2iosKeyboard faust2jack faust2jackconsole faust2jackinternal faust2jackserver faust2jaqt faust2ladspa faust2lv2 faust2lv2synth faust2mathdoc faust2mathviewer faust2max6 faust2md faust2msp faust2netjackconsole faust2netjackqt faust2octave faust2owl faust2paqt faust2pdf faust2plot faust2png faust2puredata faust2raqt faust2ros faust2rosgtk faust2rpialsaconsole faust2rpinetjackconsole faust2sc faust2sig faust2sigviewer faust2supercollider faust2svg faust2vst faust2vsti faust2webaudio faust2webaudioasm
+faust2alqt               faust2dssi               faust2jackinternal       faust2msp64              faust2rosgtk             faust2w32max6
+faust2alsa               faust2dummy              faust2jackserver         faust2netjackconsole     faust2rpialsaconsole     faust2w32msp
+faust2alsaconsole        faust2eps                faust2jaqt               faust2netjackqt          faust2rpinetjackconsole  faust2w32puredata
+faust2android            faust2faustvst           faust2juce               faust2octave             faust2sc                 faust2w32vst
+faust2api                faust2firefox            faust2ladspa             faust2owl                faust2sig                faust2wasm
+faust2asmjs              faust2gen                faust2lv2                faust2paqt               faust2sigviewer          faust2webaudio
+faust2atomsnippets       faust2graph              faust2lv2synth           faust2pdf                faust2smartkeyb          faust2webaudioasm
+faust2au                 faust2graphviewer        faust2mathdoc            faust2plot               faust2supercollider      faust2webaudiowasm
+faust2bela               faust2ios                faust2mathviewer         faust2png                faust2svg                faust2webaudiowast
+faust2caqt               faust2iosKeyboard        faust2max6               faust2puredata           faust2unity
+faust2caqtios            faust2jack               faust2md                 faust2raqt               faust2vst
+faust2csound             faust2jackconsole        faust2msp                faust2ros                faust2vsti
 
-この他にWindows用のプラットフォーム依存のものがあるのですが多すぎるので省きました。面白いので言うと[OWL](http://hoxtonowl.com)や[Bela](http://bela.io/)などのハードウェアプラットフォームやWeb Audio用のもの（asm.js使用）などでしょうか。
+面白いので言うと[OWL](http://hoxtonowl.com)や[Bela](http://bela.io/)などのハードウェアプラットフォームやWeb Audio用のもの（asm.js使用とwabassembly仕様のもの）などでしょうか。
 
 なお、これはただのシェルスクリプトでしか無いのでQtアプリケーションを書き出すのであればQtSDKが入っていてqmakeコマンドが使えるようになっていたり、MaxオブジェクトであればMaxSDK、VSTプラグインならVST SDKを各自インストールしておく必要がありますのでご注意を。
 
