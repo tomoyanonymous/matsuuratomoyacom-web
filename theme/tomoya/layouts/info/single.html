@@ -1,24 +1,28 @@
-{{> head}}
+{{ partial  "head.html" . }}
 <body>
-  {{>tagmanager }}
+  {{ partial  "tagmanager.html" . }}
   <div class="outer">
 
-    {{>header}}
+    {{ partial "header.html" . }}
     <div class="inner">
       <div class="child">
-        <p class="date">{{date}}</p>
-
 
         <div class="content">
-          <p class="title"><a href="{{relative_path path path}}">{{title}}</a></p>
-          <div class="markdown">{{{contents}}}</div>
+          <p class="date">{{ .Date.Format "Mon, Jan 2, 2006" }}</p>
+          <p class="title"><a href="{{.Permalink}}">{{ .Title }}</a></p>
+          <div class="markdown">
+            {{.Content}}
+
+            {{ partial  "share.html" . }}
+            {{ partial  "comment.html" . }}
+            {{ partial  "pagination_indiv.html" . }}
+          </div>
         </div>
-          {{> share}}
-          {{> pagination_indiv}}
-        </div>
-        
+
       </div>
-      {{>footer}}
+
     </div>
-  </body>
-  </html>
+    {{ partial "footer.html" .}}
+  </div>
+</body>
+</html>

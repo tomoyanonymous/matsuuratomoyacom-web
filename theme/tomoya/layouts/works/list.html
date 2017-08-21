@@ -1,37 +1,37 @@
 
-{{> head }}
+{{ partial  "head.html" . }}
   <body>
-        {{>tagmanager }}
+        {{ partial "tagmanager.html" . }}
     <div class="outer">
 
-{{>header}}
+{{ partial "header.html" .}}
 
 
 <div class="inner">
 
 <div class="content">
     <div class="child">
-    {{{contents}}}
+    <h1>{{.Section|upper}}</h1>
   </div>
 </div>
 <div class="index_outer">
-    {{#each collections.works}}
-
+  {{ $paginator := .Paginate (where .Data.Pages "Section" .Section) }}
+      {{range $paginator.Pages}}
     <div class="index_inner">
         <div class="child">
-          <a href="{{relative_path ../path path}}">
+          <a href="{{.Permalink}}">
           <div class="content">
-          <p class="date">  {{date}}</p>
-      <p class="title">{{{title}}}</p>
-      <div class="image"><img src="{{relative_path ../path thum}}" alt=""></div>
+          <p class="date">  {{ .Date.Format "Mon, Jan 2, 2006" }}</p>
+      <p class="title">{{ .Title }}</p>
+      <div class="image"><img src="{{.Site.BaseURL}}{{.Params.thum}}" alt=""></div>
       </div>
       </a>
     </div>
 </div>
-    {{/each}}
+    {{ end }}
 </div>
     </div>
-        {{>footer}}
+        {{ partial "footer.html" .}}
     </div>
   </body>
 </html>

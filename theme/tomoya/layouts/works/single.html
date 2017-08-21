@@ -1,26 +1,26 @@
-{{> head}}
+{{ partial  "head.html" . }}
 <body>
-      {{> tagmanager }}
+      {{ partial  "tagmanager.html" . }}
   <div class="outer">
 
-    {{>header}}
+    {{ partial "header.html" .}}
     <div class="inner">
         <div class="child">
 <div class="content">
-        <p class="title"><a href="{{relative_path path path}}">{{{title}}}</a></p>
+        <p class="title"><a href="{{.Permalink}}">{{ .Title }}</a></p>
         <div class="image">
-          <a href="{{relative_path path thum}}"><img src="{{relative_path path thum}}" alt=""></a>
+          <a href="{{.Params.thum}}"><img src="{{.Params.thum}}" alt=""></a>
         </div>
         <div class="markdown">
-        {{{contents}}}</div></div>
+        {{.Content}}</div></div>
 
-        <p class="date">Updated on {{date}}.</p>
-        {{>pagination_indiv}}
+        <p class="date">Updated on {{ .Date.Format "Mon, Jan 2, 2006" }}.</p>
+        {{ partial "pagination_indiv.html" .}}
       </div>
 
 
 </div>
-    {{>footer}}
+    {{ partial "footer.html" .}}
 </div>
 </body>
 </html>
