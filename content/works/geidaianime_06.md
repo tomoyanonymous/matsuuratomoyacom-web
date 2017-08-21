@@ -1,8 +1,7 @@
 ---
-layout: work.hbs
 title: 東京藝術大学映像研究科アニメーション専攻 2014年度1年次制作
 permalink: geidaianime_06
-thum: assets/img/dawn6.jpg
+thum: /assets/img/dawn6.jpg
 date : 2015-03-05
 ---
 

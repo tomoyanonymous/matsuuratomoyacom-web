@@ -1,8 +1,7 @@
 ---
-layout: work.hbs
 title: How-ring
 permalink: how-ring
-thum: assets/img/how-ring/1.jpg
+thum: /assets/img/how-ring/1.jpg
 date : 2014-12-15
 ---
 千住 Art Path 2014（東京芸術大学千住キャンパス制作・論文発表会）にて展示
@@ -25,7 +24,7 @@ date : 2014-12-15
 振動の重なりである音を実体験として捉えることを試みた。
 
 
-<a href="{{config.root}}assets/img/how-ring/2.jpg"><img src="{{config.root}}assets/img/how-ring/2.jpg" alt=""></a>
+<a href="/assets/img/how-ring/2.jpg"><img src="/assets/img/how-ring/2.jpg" alt=""></a>
 
 # 文章(2017年補記)
 
@@ -35,5 +34,5 @@ date : 2014-12-15
 マイクとスピーカーの間に手をかざすと音が現れるが、この関係はある意味で偽物である。手をかざしたのを天井についてるカメラが検知してコンピュータを制御しているだけで、そこに直接的な、物理的連関は無い。しかし手をかざした時だけ音が現れると、そこに何かがあるように私たちは感じてしまう。そこには本当に「何も無い」のだろうか？出てくる音自体がマイクで拾った音を増幅し続けている事には変わりない。何も無い何かを拾い続けようとしている。
 
 
-<a href="{{config.root}}assets/img/how-ring/3.jpg"><img src="{{config.root}}assets/img/how-ring/3.jpg" alt=""></a>
-<a href="{{config.root}}assets/img/how-ring/4.jpg"><img src="{{config.root}}assets/img/how-ring/4.jpg" alt=""></a>
+<a href="/assets/img/how-ring/3.jpg"><img src="/assets/img/how-ring/3.jpg" alt=""></a>
+<a href="/assets/img/how-ring/4.jpg"><img src="/assets/img/how-ring/4.jpg" alt=""></a>

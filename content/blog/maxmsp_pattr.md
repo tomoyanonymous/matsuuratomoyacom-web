@@ -2,12 +2,11 @@
 date: 2016-05-08
 title: Cycling74-MaxのPattrをちゃんと使い倒す
 permalink: maxmsp-pattr
-layout: blog.hbs
 ---
 
 Max/MSP使っていると困るのが**パラメーターの管理**です。とりあえず適当にPresetで保存読み出ししておけばいいけど、テキストでも編集したいとなると古くから使われている**coll**とかjsonで保存できる**dict**とか、よくわからないpattrとかいろいろありすぎてわかりません。
 今回は一番良くわからなそうなpattrを真面目に使ってみようという話です。
-<!-- more -->
+<!--more-->
 
 # 目標
 
@@ -22,7 +21,7 @@ Max/MSP使っていると困るのが**パラメーターの管理**です。と
 
 まずpattrの一番シンプルにわかりやすい挙動について見てみましょう。
 
-<img src="{{config.root}}assets/img/max_pattr/pattr.gif" alt="" style = "width:300px;">
+<img src="/assets/img/max_pattr/pattr.gif" alt="" style = "width:300px;">
 
 分かりますでしょうか。
 注目すべきは**2番めのアウトレット**に繋がれたfloatはアウトレットに何も繋がっていないにも関わらず他のオブジェクトの値を変更しています。
@@ -32,11 +31,11 @@ Max/MSP使っていると困るのが**パラメーターの管理**です。と
 
 面白いのはサブパッチャーの中のパラメーターにもアクセスできることで、例えばディレイのモジュールを作り、中でパラメーターにpattrで名前をつけバインドしておきます。
 
-<img src="{{config.root}}assets/img/max_pattr/pattr2.png" alt="" style = "width:400px;">
+<img src="/assets/img/max_pattr/pattr2.png" alt="" style = "width:400px;">
 
 これを親パッチから2つそれぞれ呼び出して中のパラメーターを個別に操作することが出来ます。今回はfeedbackをコントロールしたい。
 
-<img src="{{config.root}}assets/img/max_pattr/pattr3.png" alt="" style = "width:400px;">
+<img src="/assets/img/max_pattr/pattr3.png" alt="" style = "width:400px;">
 
 ややこしいポイントとしては、サブパッチ、bpatcherにはpattrオブジェクトは**バインド出来ません**。
 \[p fuga\]のようなサブパッチなら\[bindto fuga::feedback\<、bpatcherならインスペクタを開いてScripting nameを編集し\[bindto (scriptingname)::feedback\<　というようにするとアクセスできます。
@@ -47,19 +46,19 @@ pattrのもう一つの特徴に、出てきたpattrオブジェクトの値を�
 
 とりあえず作ってみて、\[clientwindow\<というメッセージを送り保存される値を見てみましょう。
 
-<img src="{{config.root}}assets/img/max_pattr/pattr4.png" alt="">
+<img src="/assets/img/max_pattr/pattr4.png" alt="">
 
 上2つにu〜〜〜という変なのがいますね。これは名前をつけてないpattrオブジェクトが自動的に検出されているからです。
 コントローラー側は特に値を保存しなくてもいいのでこれは邪魔です。
 しかしちゃんとそのへんは考えられていて、
 
-<img src="{{config.root}}assets/img/max_pattr/pattr5.png" alt="">
+<img src="/assets/img/max_pattr/pattr5.png" alt="">
 
 @invisivleというアトリビュートをつけてやると解決します。
 
 さて、\[pattrstorage store\]と名前をつけたうえで\[preset @pattrstorage store \]というpattrstorageと結びつけたpresetオブジェクトを作り、1つ2つ値を保存してみます。
 
-<img src="{{config.root}}assets/img/max_pattr/pattr6.png" style = "width:300px;" alt="">
+<img src="/assets/img/max_pattr/pattr6.png" style = "width:300px;" alt="">
 
 
 その後\[writejson\<というメッセージをpattrstorageに送り、値を保存すると中身はこのようになっております。
@@ -119,8 +118,8 @@ pattrのもう一つの特徴に、出てきたpattrオブジェクトの値を�
 
 で、controllerの方はいきなりですがこうします。
 
-<img src="{{config.root}}assets/img/max_pattr/pattr7.png" style = "min-width:330px; width:45%;" alt="">
-<img src="{{config.root}}assets/img/max_pattr/pattr8.png" style = "min-width:330px; width:45%;" alt="">
+<img src="/assets/img/max_pattr/pattr7.png" style = "min-width:330px; width:45%;" alt="">
+<img src="/assets/img/max_pattr/pattr8.png" style = "min-width:330px; width:45%;" alt="">
 
 pattrの手前で\[sprintf ::main::%s\]となっていますが、これは名前がmain.maxpatだからこうなります。
 これで、ドロップダウンメニューから好きなパラメーターを選択してinletに好きな値を放り込めば完成です。
@@ -135,11 +134,11 @@ relativeモードでは回した速度によってインクリメント、デク
 
 ### 通常モード
 
-<img src="{{config.root}}assets/img/max_pattr/pattr9.png" alt="">
+<img src="/assets/img/max_pattr/pattr9.png" alt="">
 
 ### プレゼンテーションモード
 
-<img src="{{config.root}}assets/img/max_pattr/pattr10.png" alt="">
+<img src="/assets/img/max_pattr/pattr10.png" alt="">
 
 さらにコントローラーごとの値をpattrで保存して値のマッピング情報自体をjsonにインポート/エクスポート出来ます。
 使いまわせるほど現場で回数使ってないですが。。。

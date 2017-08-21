@@ -1,16 +1,14 @@
 ---
 date: 2017-01-19
-layout: blog.hbs
 title: Faustのライブラリの使い方と標準ライブラリのオススメ
 permalink: faust_library
-
 ---
 
 *この記事は[Faust(多分ひとり)Advent Calender](http://qiita.com/advent-calendar/2016/faust)の5つ目の記事です。*
 
 本日はFaustの外部ソースの取り込み方の説明と、標準でついてくるライブラリの中から使える関数を幾つか紹介しようと思います。
 
-<!-- more -->
+<!--more-->
 
 # 外部関数の読み込み
 
@@ -135,7 +133,7 @@ import("stdfaust.lib");
 ```java
 //################################ stdfaust.lib ##########################################
 // The purpose of this library is to give access to all the Faust standard libraries
-// through a series of environment. 
+// through a series of environment.
 //########################################################################################
 
 ma = library("math.lib");
@@ -244,7 +242,7 @@ interleavesample =4<:ro.interleave(4,2);
 process = crosssample,cross2sample,crossnnsample,interleavesample;
 ```
 
-<img src="{{config.root}}assets/img/faust/routesample.svg" alt="">
+<img src="/assets/img/faust/routesample.svg" alt="">
 
 ## filter.lib
 
@@ -267,7 +265,7 @@ fi.resonbp(fc,Q,gain) バンドパス
 
 // 次数指定可なバタワースフィルタ
 
-fi.lowpass(次数,fc) 
+fi.lowpass(次数,fc)
 fi.highpass(次数,fc)
 
 //バンドパス、バンドストップは次数が偶数なので、1を指定すると２段という形になります。
@@ -352,7 +350,7 @@ de.spectral_level_demo
 
 こういう感じになります。
 
-<img src="{{config.root}}assets/img/faust/faust_analyzer.png" alt="">
+<img src="/assets/img/faust/faust_analyzer.png" alt="">
 
 これ、若干パラメータがややこしいですが
 

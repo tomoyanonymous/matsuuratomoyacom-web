@@ -1,5 +1,4 @@
 ---
-layout: about.hbs
 ---
 # Contact
 

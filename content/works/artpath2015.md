@@ -1,8 +1,7 @@
 ---
-layout: work.hbs
 title: 千住 Art Path 2015
 permalink: senjuartpath2015
-thum: assets/img/senjuartpath2015web.png
+thum: /assets/img/senjuartpath2015web.png
 date : 2015-12-13
 ---
 
@@ -11,4 +10,4 @@ date : 2015-12-13
 <http://www.senjuartpath.com/2015>
 
 
-また、[Acoustic Delay (⇔) Memory]({{config.root}}works/acoustic-delay-memory)を展示した。
+また、[Acoustic Delay (⇔) Memory](/}works/acoustic-delay-memory)を展示した。

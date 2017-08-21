@@ -1,5 +1,4 @@
 ---
-layout: info.hbs
 title: ニコニコ超会議「Parallel Eyes」お手伝いしてます
 date: 2016-04-29
 ---
@@ -8,4 +7,4 @@ date: 2016-04-29
 
 [https://www.sonycsl.co.jp/news/3403/](https://www.sonycsl.co.jp/news/3403/)
 
-<!-- more -->
+<!--more-->

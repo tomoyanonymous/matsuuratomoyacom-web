@@ -1,9 +1,8 @@
 ---
 date: 2017-03-03
-layout: blog.hbs
 title: cycling'74 Maxで評価実験のパッチを作る
 permalink: max_subjective
-draft: true
+draft: false
 ---
 
 先日身内向けにMaxの基礎講座＋Maxで作る評価実験用のパッチの作り方をやったので、その資料も兼ねてここに置いておきます。
@@ -12,7 +11,7 @@ draft: true
 
 csvファイルの書き込み方やプレゼンテーションモードが異なる部分ですので参考にしていただければと思います。
 
-<!-- more -->
+<!--more-->
 
 # 本題の前に（型のお話）
 
@@ -49,18 +48,18 @@ Puredataは数字は基本全てfloat（32bit小数）型として扱われて�
 
 具体的にはこのような感じです。**剰余**と**商**（整数での割り算の答え）をうまく使いましょう。
 
-<img src="{{config.root}}assets/img/pd_subjective/patch1.png" alt="" style = "width:300px;">
+<img src="/assets/img/pd_subjective/patch1.png" alt="" style = "width:300px;">
 
 さて、これに加えて「音量を+2、+1、±0、-1、−2、-3dB変化させる」というパラメーターを加えたくなった場合はどうでしょう（妥当性があるかは相変わらず無視です）。
 
 こんな感じですね。
 
-<img src="{{config.root}}assets/img/pd_subjective/patch4.png" alt="" style = "width:300px;">
+<img src="/assets/img/pd_subjective/patch4.png" alt="" style = "width:300px;">
 
 実際に数値はArgumentに書くか右インレットに入れるかのどちらかでよいので、次の内どちらでも良いです。
 
-<img src="{{config.root}}assets/img/pd_subjective/patch2.png" alt="" style = "width:300px;">
-<img src="{{config.root}}assets/img/pd_subjective/patch3.png" alt="" style = "width:300px;">
+<img src="/assets/img/pd_subjective/patch2.png" alt="" style = "width:300px;">
+<img src="/assets/img/pd_subjective/patch3.png" alt="" style = "width:300px;">
 
 前者のほうがコンパクトなので今回はこちらにします。
 
@@ -101,6 +100,3 @@ urnオブジェクトは右インレットに指定した数が72なら、0~71�
 # UIを作る(プレゼンテーションモード)
 
 さて、Maxで便利なのはやはりプレゼンテーションモードで、GUIの並べる見た目を気にせずに実際のパッチのレイアウトができるところです。
-
-
-

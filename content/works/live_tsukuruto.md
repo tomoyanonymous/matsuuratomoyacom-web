@@ -1,5 +1,4 @@
 ---
-layout: work.hbs
 title: Live Performance with Feedback Mixer
 permalink: live_tsukuruto
 thum: /assets/img/tsukuruto_thum.png

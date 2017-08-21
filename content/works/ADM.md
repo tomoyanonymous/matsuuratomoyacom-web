@@ -1,7 +1,6 @@
 ---
-layout: work.hbs
 title: Acoustic Delay (⇔) Memory
-thum: assets/img/ADM/ADM2.JPG
+thum: /assets/img/ADM/ADM2.JPG
 date : 2016-04-11
 ---
 
@@ -28,12 +27,12 @@ date : 2016-04-11
 仕組みとしては、まず1/0のデータ列を音のパルスとして発する。もう一端のマイクロフォンでそれを受信する。受信するまでには距離÷音速の時間がかかる。その受信したパルス列を再び増幅し反対の端から再び発する。
 こうしてデータの列を変化させないまま循環させ続け、「時間を遅らせる」事によってデータを保存する。
 
-![]({{config.root}}assets/img/ADM/setsumei.png)
+![](/assets/img/ADM/setsumei.png)
 
 ---
 
-![]({{config.root}}assets/img/ADM/ADM4.JPG)
-![]({{config.root}}assets/img/ADM/ADM6.JPG)
+![](/assets/img/ADM/ADM4.JPG)
+![](/assets/img/ADM/ADM6.JPG)
 
 ---
 
@@ -53,8 +52,8 @@ date : 2016-04-11
 CDならばビットの1/0が盤面に刻まれていて、物体が劣化はしてもデータはある程度までは保存した時と全く同じ状態を保って現れる。
 では音響遅延線メモリーにおいては一体どこに何が保存されているのだろうか。
 
-![]({{config.root}}assets/img/ADM/ADM3.JPG)
-![]({{config.root}}assets/img/ADM/ADM5.JPG)
+![](/assets/img/ADM/ADM3.JPG)
+![](/assets/img/ADM/ADM5.JPG)
 
 ---
 
@@ -70,5 +69,5 @@ Googleドキュメントという文章をリアルタイムで共同編集で�
 
 僅か70年少しで圧倒的に増えた扱える情報量、通信量によってデジタルデータのテクスチャーとしてアナログっぽさが再び蘇ってきているのではないか、ということを作品を通して確かめられるのではないかと考えている。
 
-![]({{config.root}}assets/img/ADM/ADM8.JPG)
-![]({{config.root}}assets/img/ADM/ADM7.JPG)
+![](/assets/img/ADM/ADM8.JPG)
+![](/assets/img/ADM/ADM7.JPG)

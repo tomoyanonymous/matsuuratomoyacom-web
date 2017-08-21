@@ -1,5 +1,4 @@
 ---
-layout: info.hbs
 title: TOKYO MIDTOWN DESIGN TOUCHで「Eyefont」お手伝いしてます
 permalink: eyefont
 date: 2015-10-06

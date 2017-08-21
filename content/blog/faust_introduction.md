@@ -1,9 +1,7 @@
 ---
 date: 2016-12-01
-layout: blog.hbs
 title: 音声処理プログラミング言語、Faustの紹介
 permalink: faust_introduction
-
 ---
 
 *この記事は[Faust(多分ひとり)Advent Calender](http://qiita.com/advent-calendar/2016/faust)の1日目の記事です。*
@@ -11,12 +9,12 @@ permalink: faust_introduction
 さて、やろうと思っていて中々出来てなかった[Faust](http://faust.grame.fr)の紹介ですが、この際Advent Calenderでまとめて紹介して行こうと思います。
 今回はFaustの全体的な紹介です。
 
-<!-- more -->
+<!--more-->
 
 
 # この記事の流れ
 
-<img src="{{config.root}}assets/img/faust/faust_logo.png" alt="" style = "width :300px; margin:20px;">
+<img src="/assets/img/faust/faust_logo.png" alt="" style = "width :300px; margin:20px;">
 
 
 Faustとは*Functional-AUdio-STream*の略で、フランスの音響研究所GRAMEが中心になって2004年頃から開発を続けている**関数型音声処理言語**です。
@@ -86,14 +84,14 @@ Max、SuperCollider、Puredata、ChucKなど音声処理ができるプログラ
 
 例えば基本的な＋、-、×や/も「2入力1出力」のブロックです。
 
-<img src="{{config.root}}assets/img/faust/plus_mult_process.svg" alt="" style = "max-height:400px;">
+<img src="/assets/img/faust/plus_mult_process.svg" alt="" style = "max-height:400px;">
 
 
 ちなみにこの画像はFaustの出力の一つにSVG出力というのがあり、コードの構造を視覚的に確認することができるというものです。コードそのものが抽象的なFaustでは非常に重宝されます。
 
 その他基本ブロックとしては、_(アンダースコア)が「1入力1出力」で、入力をそのままパスするブロックです。また、!（エクスクラメーションマーク）が「1入力0出力」の入力をカットするブロックです。
 
-<img src="{{config.root}}assets/img/faust/ident_cut_process.svg" alt="" style = "max-height:400px;">
+<img src="/assets/img/faust/ident_cut_process.svg" alt="" style = "max-height:400px;">
 
 
 これ、使う意味あんの？と思いますが他のブロックとの入出力数の調整のためにめちゃくちゃ使います。
@@ -114,7 +112,7 @@ Max、SuperCollider、Puredata、ChucKなど音声処理ができるプログラ
 process = (10,*);
 ```
 
-<img src="{{config.root}}assets/img/faust/par1-svg/process.svg" alt="" style = "max-height:400px;">
+<img src="/assets/img/faust/par1-svg/process.svg" alt="" style = "max-height:400px;">
 
 ### Sequencial
 
@@ -122,7 +120,7 @@ process = (10,*);
 process = ((*,/):+);
 ```
 
-<img src="{{config.root}}assets/img/faust/seq1-svg/process.svg" alt="" style = "max-height:400px;">
+<img src="/assets/img/faust/seq1-svg/process.svg" alt="" style = "max-height:400px;">
 
 ### Split
 
@@ -131,7 +129,7 @@ process = ((10,20)<: (+,*,/));
 
 ```
 
-<img src="{{config.root}}assets/img/faust/split1-svg/process.svg" alt="" style = "max-height:400px;">
+<img src="/assets/img/faust/split1-svg/process.svg" alt="" style = "max-height:400px;">
 
 ### Merge
 ```java
@@ -139,7 +137,7 @@ process = ((10,20,30,40):> *);
 
 ```
 
-<img src="{{config.root}}assets/img/faust/merge1-svg/process.svg" alt="" style = "max-height:400px;">
+<img src="/assets/img/faust/merge1-svg/process.svg" alt="" style = "max-height:400px;">
 
 ### Recursive
 
@@ -148,7 +146,7 @@ process = +(12345)~ *(1103515245)
 
 ```
 
-<img src="{{config.root}}assets/img/faust/rec1-svg/process.svg" alt="" style = "max-height:400px;">
+<img src="/assets/img/faust/rec1-svg/process.svg" alt="" style = "max-height:400px;">
 
 ※これだけわけわからんコードだと思いますがこれは乱数列の生成をするコードです
 
@@ -170,7 +168,7 @@ process = +(12345)~ *(1103515245)
 
 # UI機能
 
-<img src="{{config.root}}assets/img/faust/UIs.png" alt="" style = "max-height:400px;">
+<img src="/assets/img/faust/UIs.png" alt="" style = "max-height:400px;">
 
 
 Faustでは例えばシンセを作るならオシレータのピッチやフィルターの周波数、Qなど実行中に変えたいパラメータが幾つかあると思います。
@@ -246,7 +244,7 @@ process = (_,hslider("volume1",0.5,0,1,0.01),_,hslider("volume2",0.5,0,1,0.01) )
 
 何が何やらさっぱりだと思いますが、これがこういうシグナルブロックになります。
 
-<img src="{{config.root}}assets/img/faust/simplemixer_process.svg" alt="" style = "max-height:400px;">
+<img src="/assets/img/faust/simplemixer_process.svg" alt="" style = "max-height:400px;">
 
 そしてこれをコンパイルするコマンドがこちら。
 

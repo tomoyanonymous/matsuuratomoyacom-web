@@ -1,16 +1,14 @@
 ---
-date: 2016-012-11
-layout: blog.hbs
+date: 2016-12-11
 title: Faustのコンパイラのビルドとインストール時の注意点
 permalink: faust_build_compiler
-
 ---
 
 *この記事は[Faust(多分ひとり)Advent Calender](http://qiita.com/advent-calendar/2016/faust)の3つ目の記事です。*
 
 本日はFaustのコンパイラをビルドする時、インストールする時の注意点について書こうと思います。
 
-<!-- more -->
+<!--more-->
 
 # Faustには2種類ある
 

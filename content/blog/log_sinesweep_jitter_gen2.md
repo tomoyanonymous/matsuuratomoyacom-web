@@ -1,15 +1,14 @@
 ---
 date: 2016-06-11
-layout: blog.hbs
 title: JitterとGenを活用してインパルス応答測定(2)
 permalink: log_sinsesweep_jitter_gen2
 draft: false
 ---
 
-インパルス応答計測の方法の概略は[前回]({{config.root}}blog/2016-06-11/log-sinsesweep-jitter-gen1/)説明しました。
+インパルス応答計測の方法の概略は[前回](/blog/2016-06-11/log-sinsesweep-jitter-gen1/)説明しました。
 今回は実際にインパルス応答測定のためのパッチ制作を、実際にJitterとGenで作ったパッチの中身を見ながら解説していこうと思います。
 
-<!-- more -->
+<!--more-->
 
 # インパルス応答測定の流れとMaxで作るメリット
 
@@ -43,7 +42,7 @@ Maxであればエクスターナル開発無しでも行けるかも、と思�
 
 # GenでのTSP信号、逆フィルタ生成
 
-<img src="{{config.root}}assets/img/max_IR/TSP_gen.png" alt="">
+<img src="/assets/img/max_IR/TSP_gen.png" alt="">
 
 Genではpokeを使えばbufferに書き込みが可能です。
 counterというサンプル単位で進むカウンターがあるので、外から1/0でカウンターのリセットをしてカウンターを回し始め、あとはほぼ定義通りの計算です。
@@ -52,14 +51,14 @@ counterというサンプル単位で進むカウンターがあるので、外�
 
 # Jitterでの逆畳込み
 
-<img src="{{config.root}}assets/img/max_IR/deconv_jitter1.png" alt="">
+<img src="/assets/img/max_IR/deconv_jitter1.png" alt="">
 さて、逆フィルタの処理部分です。
 jit.buffer~からbufferの中身を長さ*1のマトリックスとして読み出して計算します。左側が録音した波形、右側が逆フィルターです。
 float32で読み込まれるので一度jit.matrix @type float64で型変換します。jitterはアトリビュートの指定だらけになるのでオブジェクトが見にくい事この上ないです。
 
 録音した波形は複数回繰り返されて録音されているのでjit.scissorsで分割して足し合わせます。
 
-<img src="{{config.root}}assets/img/max_IR/deconv_jitter2.png" alt="">
+<img src="/assets/img/max_IR/deconv_jitter2.png" alt="">
 
 jit.glueで空の配列を足しているのは空き部分を作っておかないとはみ出した応答がマイナス時間に回りこむのを避けるため（円状畳込みを直線畳込みにするため）です。
 
@@ -67,14 +66,14 @@ jit.packで複素数（虚数成分は0）にしたうえでjit.fftに突っ込�
 
 そして周波数領域同士で掛け算をします。サブパッチの中身は複素数の掛け算です。
 
-<img src="{{config.root}}assets/img/max_IR/deconv_jitter3.png" alt="">
+<img src="/assets/img/max_IR/deconv_jitter3.png" alt="">
 
 その後jit.fft @inverse 1で時間領域に戻し、unpackで実数部のみを取り出します。
 
 bufferに戻すためにjit.matrix @type float32で型を戻し、jit.buffer~に書き込み。
 これでインパルス応答が復元されます。
 
-<img src="{{config.root}}assets/img/max_IR/main.png" alt="">
+<img src="/assets/img/max_IR/main.png" alt="">
 
 これに録音機能（とりあえず4ch録音したかったので4ch仕様です）、インパルス応答のノーマライズ、マイナス時間の削除機能などなどをつけてとりあえず自分が使う分には十分なアプリが完成です。一応公開しておきますがいろいろ足りない機能だらけだと思うので自分で改造する叩き台ということでお願いします。
 
@@ -87,4 +86,4 @@ bufferに戻すためにjit.matrix @type float32で型を戻し、jit.buffer~に
 
 完成までに出力された波形の数々
 
-<img src="{{config.root}}assets/img/max_IR/waves.png" alt="">
+<img src="/assets/img/max_IR/waves.png" alt="">
