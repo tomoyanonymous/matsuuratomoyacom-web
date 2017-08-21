@@ -1,0 +1,595 @@
+<!DOCTYPE html>
+<html lang="ja" prefix="og: http://ogp.me/ns#">
+  <head>
+    <meta charset="utf-8">
+
+    <link rel="stylesheet" href="/assets/css/style.css">
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.3.0/styles/tomorrow.min.css">
+    <link rel="shortcut icon" href="/assets/img/favicon.ico">
+    <link rel="canonical" href="http://matsuuratomoya.com">
+    <meta name="viewport" content="width=700, initial-scale=1.0">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta property="og:type" content="website" />
+    <meta name="keyword" content="松浦知也,マツウラトモヤ,Matsuura Tomoya,Tomoya Matsuura,まつうらともや">
+  <meta name="description" content="Faustの基本文法解説">
+  <meta property="og:title" content="Matsuura Tomoya|松浦知也" />
+  <meta property="twitter:card" content="summary" />
+  <meta property="twitter:site" content="@tomoya_nonymous">
+    <meta property="twitter:creator" content="@tomoya_nonymous">
+    <meta property="twitter:creator:id" content="@tomoya_nonymous">
+<meta property="og:url" content="https://matsuuratomoya.com/" />
+<meta property="og:image" content="/assets/img/image_ogp.png" />
+<meta property="og:image:type" content="image/png" />
+<meta property="og:image:width" content="1200" />
+<meta property="og:image:height" content="630" />
+<meta property="fb:app_id" content="1756749324544053" />
+  <meta property="og:description" content="Faustの基本文法解説"/>
+    <title>Faustの基本文法解説 Matsuura Tomoya|松浦知也 </title>
+  </head>
+
+<body>
+  
+<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-KSWGLR"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-KSWGLR');</script>
+
+
+  <div class="outer">
+
+    
+<header>
+  <div>
+      <a href="https://matsuuratomoya.com/"><div class="title">Matsuura Tomoya</div></a>
+
+      <div class="menu">
+        
+        
+        <a href="https://matsuuratomoya.com/about"><div >about</div></a>
+        
+        <a href="https://matsuuratomoya.com/info"><div >info</div></a>
+        
+        <a href="https://matsuuratomoya.com/works"><div >works</div></a>
+        
+        <a href="https://matsuuratomoya.com/blog"><div >blog</div></a>
+        
+        <a href="https://matsuuratomoya.com/contact"><div >contact</div></a>
+        
+      </div>
+    <div class="locales">
+      
+    </div>
+
+    <div class="social">
+      <div class="tw">
+  <div class="logo">
+    <a href="https://twitter.com/tomoya_nonymous" target=”_blank”>
+      <img src="/assets/img/tw.png" alt="twitter">
+    </a>
+  </div>
+  </div>
+  <div class="fb">
+    <div class="logo">
+      <a href="https://www.facebook.com/tomoya.matsuura.98" target=”_blank”>
+        <img src="/assets/img/fb.png" alt="facebook">
+      </a>
+    </div>
+  </div>
+
+  <div class="github">
+    <div class="logo">
+      <a href="https://github.com/tomoyanonymous" target=”_blank”>
+        <img src="/assets/img/github.png" alt="github">
+      </a>
+    </div>
+  </div>
+
+  <div class="instagram">
+    <div class="logo">
+      <a href="https://www.instagram.com/tomoya_nonymous" target=”_blank”>
+        <img src="/assets/img/instagram.png" alt="instagram">
+      </a>
+    </div>
+  </div>
+
+    </div>
+    </div>
+</header>
+
+    <div class="inner">
+      <div class="child">
+
+        <div class="content">
+          <p class="date">Sat, Jan 7, 2017</p>
+          <p class="title"><a href="https://matsuuratomoya.com/blog/2017-01-07/faust_grammer/">Faustの基本文法解説</a></p>
+          <div class="markdown">
+            <p><em>この記事は<a href="http://qiita.com/advent-calendar/2016/faust">Faust(多分ひとり)Advent Calender</a>の4つ目の記事です。</em></p>
+
+<p>年が明けてますがアドベントカレンダーです。
+本日はなんとも独特なFaustの記法について解説していきます。</p>
+
+<p></p>
+
+<h1 id="色々な書き方">色々な書き方</h1>
+
+<p>まず以下に<strong>「入力に0.5を掛ける」</strong>という簡単なゲイン調節のモジュールの書き方を示そうと思います。それぞれのダイヤグラムも載せます。</p>
+
+<h2 id="例1">例1</h2>
+
+<pre><code class="language-java">process = (_,0.5) : *;
+</code></pre>
+
+<p><img src="/assets/img/faust/mult0.5.svg" alt="" style = "max-height:300px;"></p>
+
+<h2 id="例2">例2</h2>
+
+<pre><code class="language-java">process = _ : *(0.5);
+</code></pre>
+
+<p><img src="/assets/img/faust/mult0.5.svg" alt="" style = "max-height:300px;"></p>
+
+<h2 id="例3">例3</h2>
+
+<pre><code class="language-java">process = *(_,0.5);
+</code></pre>
+
+<p><img src="/assets/img/faust/mult0.5.svg" alt="" style = "max-height:300px;"></p>
+
+<h2 id="例4">例4</h2>
+
+<pre><code class="language-java">process = _*0.5;
+</code></pre>
+
+<p><img src="/assets/img/faust/mult0.5.svg" alt="" style = "max-height:300px;"></p>
+
+<p>・・・は？って感じですよね。一番上の記法ほど普通の言語からすると謎な表現に見えますがFaustでは上から順に普遍的な書き方になります。</p>
+
+<p>例1が<strong>ダイヤグラム記法</strong>、例2は関数定義の記法、例3は演算子型での記法となります。</p>
+
+<h1 id="用語の定義">用語の定義</h1>
+
+<p>まだ日本語訳の資料が存在しないので幾つかここで用語を定義しておきます。</p>
+
+<h2 id="expression-ブロック">expression=ブロック</h2>
+
+<p>直訳するには変なのでこのようにします。expression/ブロックはFaustの中でのすべての最小単位で、先程の</p>
+
+<pre><code class="language-java">_
+0.5
+*
+*(0.5)
+(_:*(0.5))
+</code></pre>
+
+<p>などはすべて0以上の入力と出力を持つ機能ブロックで表現できます。</p>
+
+<h2 id="function-関数">function = 関数</h2>
+
+<p>そのまんまですが、<strong>Faustではすべてのブロックが関数とみなせる</strong>ので、明示的に「関数」と呼ぶのは<strong>引数つきのブロック定義をする場合</strong>において主に使われます。</p>
+
+<pre><code class="language-java">applygain(gain) = _ * gain;
+</code></pre>
+
+<h2 id="diagram-expression-ダイアグラム記法">diagram expression＝ダイアグラム記法</h2>
+
+<p>これもそのまんまですが、ブロック同士を<strong>接続、あるいは並列</strong>する場合の記法です。
+ダイアグラム記法には<strong>composition＝接続</strong>の記法と<strong>iteration＝反復接続</strong>の記法があります。</p>
+
+<pre><code class="language-java">// , : &lt;: :&gt; ~ の5つが接続の記法
+process = (_,0.5 : *)&lt;:(*,*):&gt;~(_);
+
+// par() seq() sum() prod()の4つが反復接続の記法
+
+fi = library(&quot;filter.lib&quot;);
+
+process = _&lt;:par(i,5,fi.bandpass(1,1,i*100));
+</code></pre>
+
+<p><img src="/assets/img/faust/compositions.svg" alt="" style = "max-height:400px;">
+<img src="/assets/img/faust/parallel.svg" alt="" style = "max-height:400px;"></p>
+
+<p>残りは後々出てきたらその時々訳すことにします。</p>
+
+<h1 id="接続の記法">接続の記法</h1>
+
+<p>とりあえず覚えておけば色々できるようになるのが接続(diagram-composition)記法です。</p>
+
+<p>前回も説明したとおり、5種類の接続法が有ります。それぞれの記法はつなげるブロック同士の出力/入力数の制限があり、それに反した場合コンパイルエラーになります。</p>
+
+<p>自分がつなげようとしているブロックたちがそれぞれいくつ入力があり、いくつ出力があるのかをイメージしておくことが大事です。</p>
+
+<h2 id="並列-parallel">並列/Parallel</h2>
+
+<p>ブロック同士をコンマで並べるとそのブロックは横並びで一括りのブロックになります。</p>
+
+<pre><code class="language-java">process = (10,*);
+</code></pre>
+
+<p><img src="/assets/img/faust/par1-svg/process.svg" alt="" style = "max-height:400px;"></p>
+
+<p>特に記法の制限はなし。
+上の例では0in1out+2in1outのブロックの組み合わせで2in2outのブロックが出来ました。</p>
+
+<h2 id="直列-sequencial">直列/Sequencial</h2>
+
+<p>ブロック同士をセミコロンで並べると直列接続。になります。</p>
+
+<pre><code class="language-java">process = ((*,/):+);
+</code></pre>
+
+<p><img src="/assets/img/faust/seq1-svg/process.svg" alt="" style = "max-height:400px;"></p>
+
+<p>制限:左側の出力数==右側の入力数</p>
+
+<p>上の例では4in2outと2in1outで一致しています。</p>
+
+<h2 id="分岐-split">分岐/Split</h2>
+
+<p>&lt;:で複数の入力に分岐するような書き方ができます。</p>
+
+<pre><code class="language-java">process = ((10,20)&lt;: (+,*,/));
+
+</code></pre>
+
+<p><img src="/assets/img/faust/split1-svg/process.svg" alt="" style = "max-height:400px;"></p>
+
+<p>制限：左側の出力数*(2,3,4&hellip;)==右側の入力数</p>
+
+<p>左が2outならば右側は4,6,8,10inなどのブロックが必要です。</p>
+
+<p>上の例は0in2out&lt;:6in3outで満たしています。</p>
+
+<h2 id="結合-merge">結合/Merge</h2>
+
+<p>さっきと逆向き、:&gt;で複数入力を少ない数にまとめるような書き方になります。</p>
+
+<pre><code class="language-java">process = ((10,20,30,40):&gt; *);
+
+</code></pre>
+
+<p><img src="/assets/img/faust/merge1-svg/process.svg" alt="" style = "max-height:400px;"></p>
+
+<p>制限:左側の出力数==右側の入力数*(2,3,4&hellip;)</p>
+
+<p>先程の逆ですね。</p>
+
+<p>注意点として、結合接続が集まったときは<strong>すべての入力の和</strong>として出力されます。
+つまり、上の例は明示的に表すとこうなります。</p>
+
+<p><img src="/assets/img/faust/merge2.svg" alt="" style = "max-height:400px;"></p>
+
+<h2 id="再帰-recursive">再帰/Recursive</h2>
+
+<p>一番ややこしいやつ、右側の出力を左側の入力へフィードバックするやつです。</p>
+
+<p>この例は44100サンプルのフィードバックディレイです。実際に鳴らすと多分発振するのでお気をつけて。。。</p>
+
+<p>なお、フィードバックされた信号は暗黙的に<strong>1サンプル遅れた信号</strong>になります。</p>
+
+<pre><code class="language-java">process = + ~ @(44100);
+
+</code></pre>
+
+<p><img src="/assets/img/faust/fdbkdelay.svg" alt="" style = "max-height:400px;"></p>
+
+<p>制限:左側の<strong>出力</strong>≧右側の<strong>入力</strong>　かつ　左側の<strong>入力</strong>≧右側の<strong>出力</strong></p>
+
+<p>右側のブロックはダイヤグラム上で上下左右が反転します。</p>
+
+<p>左側は2in1out、右側は1in1outなので、</p>
+
+<p>左の出力==右の入力かつ左の入力&gt;右の出力になっているので、条件満たしてますね。</p>
+
+<h1 id="優先順位">優先順位</h1>
+
+<p>それぞれの演算子には先に計算される優先順位と右左どちらを先に計算するかの決まりがあります。大体はカッコでグルーピングしていけば困らないのですが、気がつくとソースコードがカッコでネストされまくってて超読みづらい、という現象が発生するのでできるだけカッコを少なくするためにも覚えておいたほうが良いです。</p>
+
+<ul>
+<li>優先順位</li>
+</ul>
+
+<p><strong>再帰&gt;並列&gt;直列&gt;分岐＝結合</strong></p>
+
+<ul>
+<li>評価順</li>
+</ul>
+
+<p><strong>再帰のみ左から</strong>、他は右から</p>
+
+<p>（評価順は普段はそこまで気にしなくても良いが、パターンマッチングのときなどに影響してきます。）</p>
+
+<p>例えば以下のコードはこのぐらいカッコでくくっときたくなりますが、</p>
+
+<p><img src="/assets/img/faust/kakko_setsumei.svg" alt="" style = "max-height:400px;"></p>
+
+<pre><code class="language-java">process = (((_,0.5):*)&lt;: (*,*) :&gt; _) ~ _;
+</code></pre>
+
+<p>実際はコレだけでOKです。</p>
+
+<pre><code class="language-java">process = (_,0.5 : * &lt;: *,* :&gt;_ ) ~ _;
+</code></pre>
+
+<p>ただ、カッコがなければソースの可読性が上がるというわけでもないので実際には場合に応じてカッコを付けていくのが良いでしょう。</p>
+
+<h1 id="接続記法の応用">接続記法の応用</h1>
+
+<p>さて、以下のダイヤグラムはどのようにして書いたでしょうか？</p>
+
+<p><img src="/assets/img/faust/stereo_cross.svg" alt="" style = "max-height:400px;"></p>
+
+<p>普通に書こうと思うとこうですが、インプットがクロスしていますね。</p>
+
+<pre><code class="language-java">process = (_,_) : (*(0.5),*(0.3));
+</code></pre>
+
+<p>正解はこうです。</p>
+
+<pre><code class="language-java">process = (_,_)&lt;:(!,*(0.5),*(0.3),!);
+</code></pre>
+
+<p>!は何だったかというと、入力をカットする1in0outのブロックです。カットされた以降何もつながってない部分は、ダイヤグラム上からは省かれます。
+イメージ的にはこうなっているということです。</p>
+
+<p><img src="/assets/img/faust/stereo_cross2.svg" alt="" style = "max-height:400px;"></p>
+
+<p>こういった例以上に複雑なのは標準ライブラリのro.interleaveやro.crossなどを利用するとだいぶ見やすくなります。</p>
+
+<p>例えば4×2の入力を2×4のセットに変えるときは</p>
+
+<pre><code class="language-java">import(&quot;stdfaust.lib&quot;);
+process = si.bus(8):ro.interleave(4,2)
+</code></pre>
+
+<p><img src="/assets/img/faust/interleave.svg" alt="" style = "max-height:400px;"></p>
+
+<p>ちなみに手実装するとこうです。おわかりいただけますでしょうか。</p>
+
+<pre><code class="language-java">process = (_,_,_,_,_,_,_,_)&lt;:(_,!,!,!,!,!,!,!,!,!,_,!,!,!,!,!,!,!,!,!,_,!,!,!,!,!,!,!,!,!,_,!,!,_,!,!,!,!,!,!,!,!,!,_,!,!,!,!,!,!,!,!,!,_,!,!,!,!,!,!,!,!,!,_)
+</code></pre>
+
+<h1 id="反復接続">反復接続</h1>
+
+<p>他の言語でのforループに当たるのがこの反復接続です。</p>
+
+<h2 id="par-変数-回数-内容-並列">par(変数,回数,内容)　並列</h2>
+
+<p>正直コレ以外はあんまり使わないです。</p>
+
+<pre><code class="language-java">//これを
+process = _&lt;:(*(1),*(2),*(3),*(4));
+//こう書ける
+process = _&lt;:par(i,4,*(i));
+</code></pre>
+
+<h2 id="seq-変数-回数-内容-直列">seq(変数,回数,内容) 直列</h2>
+
+<pre><code class="language-java">//これを
+process = _:*(1):*(2):*(3):*(4);
+//こう書ける
+process = _:seq(i,4,*(i));
+</code></pre>
+
+<h2 id="sum-変数-回数-内容-全加算">sum(変数,回数,内容) 全加算</h2>
+
+<pre><code class="language-java">//これを
+process = 1+2+3+4;
+//こう書ける
+process = sum(i,4,i);
+</code></pre>
+
+<p>ただ、こいつは実は</p>
+
+<pre><code class="language-java">process = par(i,4,i):&gt;_;
+</code></pre>
+
+<p>で完全に表現できてしまう上にダイヤグラムもこちらが見やすいので、一番使いません。</p>
+
+<p>重要な点として、Faustでは基本的に全てがサンプル単位のfloatになりますが、反復で使う<strong>iはコンパイル時に定数の整数</strong>でなければいけません。普通はならないですが、複雑なコードになるとシグナルのインプットがこのiに代入されたりする状況が発生したりしてコンパイルエラーになることがあります。</p>
+
+<h2 id="prod-変数-回数-内容-全乗算">prod(変数,回数,内容) 全乗算</h2>
+
+<pre><code class="language-java">//これを
+process = 1*2*3*4;
+//こう書ける
+process = prod(i,4,i);
+</code></pre>
+
+<p>これ以上複雑な事をやる場合には実は後述するパターンマッチングを使うほうが上手く行ったりします。</p>
+
+<h1 id="関数定義">関数定義</h1>
+
+<p>さて、今度は関数定義です。</p>
+
+<pre><code class="language-java">gain_offset(gain,offset) = _:*(gain):+(offset);
+
+process = gain_offset(0.5,-0.3);
+</code></pre>
+
+<p><img src="/assets/img/faust/gainoffset1.svg" alt="" style = "max-height:400px;"></p>
+
+<p>この例はわかるでしょうか。入力を0.5倍してDCオフセットを0.3つけるという処理になります。</p>
+
+<p>なので、gain_offsetを引数無しで置いたりするとコンパイルエラーに、、、と思いきや、</p>
+
+<pre><code class="language-java">gain_offset(gain,offset) = _:*(gain):+(offset);
+
+process = gain_offset;
+</code></pre>
+
+<p><img src="/assets/img/faust/gainoffset2.svg" alt="" style = "max-height:400px;"></p>
+
+<p>はい、実は引数なしでも使えてしまうというのがFaustのもう一つややこしいところです。この場合、引数が左から順にインプットとして追加されます。</p>
+
+<p>ちなみに引数を一つで使うと、</p>
+
+<pre><code class="language-java">gain_offset(gain,offset) = _:*(gain):+(offset);
+
+process = gain_offset(0.5);
+</code></pre>
+
+<p><img src="/assets/img/faust/gainoffset3.svg" alt="" style = "max-height:400px;"></p>
+
+<p>このように、左の引数から代入され、残ったやつがインプットとして扱われます。</p>
+
+<p>コレを覚えておくと関数の設計でちょっと便利になります。</p>
+
+<h2 id="with-ローカル変数">with{} ローカル変数</h2>
+
+<p>その関数定義内だけで使えるローカル変数はwith{}内で定義できます。
+微妙なポイントとしてwithを使う場合は行末のセミコロンはwithの後に来るので注意しましょう。</p>
+
+<pre><code class="language-java">gain_offset(gain,offset) = _*gain+offset+initial_offset
+	with{
+			initial_offset = -0.5
+	};
+</code></pre>
+
+<h2 id="ラムダ式">ラムダ式</h2>
+
+<p>上のコードはこのようにも書くことが出来ます。</p>
+
+<pre><code class="language-java">gain_offset = \(gain,offset).(_*gain+offset+initial_offset)
+	with{
+			initial_offset = -0.5;
+		};
+</code></pre>
+
+<p>この記法をラムダ式と呼んでいて、後述するパターンマッチングなどのより複雑な表現にはこちらが向いていることもあります。</p>
+
+<h2 id="パターンマッチング">パターンマッチング</h2>
+
+<pre><code class="language-java">
+duplicate = case {
+                    (1,x) =&gt; x;
+                    (n,x) =&gt; duplicate(n-1,x);
+                };
+//もしくは
+duplicate(1,x) = x;
+duplicate(n,x) = (x, duplicate(n-1,x) );
+
+process = duplicate(3)
+</code></pre>
+
+<p><img src="/assets/img/faust/patternmatch1.svg" alt="" style = "max-height:400px;"></p>
+
+<p>このように、関数内で自分の関数を使う再帰関数のような定義の仕方が出来ます。慣れないとすぐコンパイルエラーを起こしますが、慣れると反復接続だけでは出来ない、入れ子であったり並列と直列が組み合わさったような表現が可能になります。</p>
+
+<p>例えば5タップのFIRフィルター(1サンプルずつのディレイにそれぞれゲインを掛けて加算したもの)が以下のように表現できます。</p>
+
+<p>コレがわかれば大体のFaustのコードは読めるんではないでしょうか。</p>
+
+<pre><code class="language-java">import(&quot;stdfaust.lib&quot;);
+
+fir(taps,gainlist) =  (_,gainlist):routes(taps):&gt;_
+			with{
+				swap=(_,_)&lt;:(!,_,_,!);
+				routes = case{
+					(1) =&gt; *;
+					(taps) =&gt; ((_&lt;:_,_),si.bus(taps)):(_,swap,si.bus(taps-1)):(*,mem,si.bus(taps-1)):(_,routes(taps-1));
+				};
+
+			};
+
+gainlist = (0.1,0.2,0.3,0.3,0.4);
+
+process =fir(5,gainlist);
+</code></pre>
+
+<p><img src="/assets/img/faust/fir.svg" alt="" style = "max-height:600px;"></p>
+
+<h1 id="演算子">演算子</h1>
+
+<p>さて、ここまで見れば実は+や＊などの演算子はブロックであり関数であり演算子的な記法もできる特殊な奴なのでアレだけたくさんの書き方ができるということです。</p>
+
+<pre><code class="language-java">process = A*B;
+process = (A,B):*;
+process = *(A,B);
+process = A:*(B);
+</code></pre>
+
+<p>すべてをブロック的な記法でやることも出来ますが、コードの可読性的に関数記法や演算子っぽい記法を使ったほうが良いこともあります。</p>
+
+<p>慣れるまではできるだけ接続文法だけで書いてみて、慣れてきたところで演算子の用法も使うようにしていくと良いでしょう。</p>
+
+<hr />
+
+<p>本当はディレイやテーブルなども紹介したかったんですが長くなりすぎたのでこのぐらいにします。</p>
+
+<p>次はライブラリの使い方について説明するので、library()やcomponent()、environment()、import()などはそちらで説明しようと思います。</p>
+
+            <div class="share">
+  <div class="tweet">
+<a href="https://twitter.com/share" class="twitter-share-button" data-size="large" data-url="https://matsuuratomoya.com/blog/2017-01-07/faust_grammer/" data-related="tomoya_nonymous">Tweet</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+</div>
+
+<div class="fb-share-button" data-href="https://matsuuratomoya.com/blog/2017-01-07/faust_grammer/" data-layout="box_count" data-mobile-iframe="true"></div>
+
+</div>
+
+            <hr>
+
+<div class="fb-comments" data-width="100%" data-href="https://matsuuratomoya.com/blog/2017-01-07/faust_grammer/" data-numposts="5"></div>
+
+            <div class="pagination">
+
+<ul>
+  <li class="to_next">
+
+    <a href="
+    https://matsuuratomoya.com/blog/2017-01-19/faust_library/
+    "  >
+        
+      Faustのライブラリの使い方と標準ライブラリのオススメ
+  
+    &lt;&lt;
+
+    </a>
+
+  </li>
+  <li class="to_index">
+
+    <a href="../">^</a>
+
+  </li>
+  <li class="to_prev">
+
+    <a href="
+     https://matsuuratomoya.com/blog/2016-12-11/faust_build_compiler/
+    " >
+
+    >>
+    
+    Faustのコンパイラのビルドとインストール時の注意点
+    
+    </a>
+  </li>
+
+
+</ul>
+</div>
+
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+    
+  <footer>
+<div class="child">
+
+<p class = "copyrights">
+
+<a href="https://matsuuratomoya.com/license">2016-2017 (CC BY-NC-ND 4.0) Matsuura Tomoya</a>
+</p>
+</div>
+</footer>
+
+  </div>
+</body>
+</html>
