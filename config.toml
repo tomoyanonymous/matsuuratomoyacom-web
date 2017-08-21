@@ -6,8 +6,8 @@ enableMissingTranslationPlaceholders = false
 publishDir = "docs"
 theme = "tomoya"
 [permalinks]
-  blog = "/:section/:year-:month-:day/:title/"
-  info = "/:section/:year-:month-:day/:title/"
+  blog = "/:section/:year-:month-:day/:filename/"
+  info = "/:section/:year-:month-:day/:filename/"
 [params]
   Twitter = "tomoya_nonymous"
   Facebook = "tomoya.matsuura.98"
