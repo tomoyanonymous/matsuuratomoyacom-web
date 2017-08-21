@@ -2,6 +2,7 @@
 date: 2016-06-17
 title: 簡単なマルチチャンネルパンナー、DBAPの実装
 permalink: dbap-implementation
+draft: true
 ---
 
 English
