@@ -1,0 +1,1107 @@
+@charset "UTF-8";
+/*! sanitize.css v3.3.0 | CC0 1.0 Public Domain | github.com/10up/sanitize.css */
+/*
+ * Normalization
+ */
+/* line 9, /Users/Tomoya/Website/tomoyanonymous.github.io/theme/tomoya/scss/_sanitize.scss */
+abbr[title] {
+  text-decoration: underline;
+  text-decoration: underline dotted;
+}
+
+/* line 14, /Users/Tomoya/Website/tomoyanonymous.github.io/theme/tomoya/scss/_sanitize.scss */
+audio:not([controls]) {
+  display: none;
+}
+
+/* line 18, /Users/Tomoya/Website/tomoyanonymous.github.io/theme/tomoya/scss/_sanitize.scss */
+b,
+strong {
+  font-weight: bolder;
+}
+
+/* line 23, /Users/Tomoya/Website/tomoyanonymous.github.io/theme/tomoya/scss/_sanitize.scss */
+button {
+  -webkit-appearance: button;
+  overflow: visible;
+}
+
+/* line 30, /Users/Tomoya/Website/tomoyanonymous.github.io/theme/tomoya/scss/_sanitize.scss */
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+}
+
+/* line 35, /Users/Tomoya/Website/tomoyanonymous.github.io/theme/tomoya/scss/_sanitize.scss */
+button:-moz-focusring,
+input:-moz-focusring {
+  outline: 1px dotted ButtonText;
+}
+
+/* line 40, /Users/Tomoya/Website/tomoyanonymous.github.io/theme/tomoya/scss/_sanitize.scss */
+button,
+select {
+  text-transform: none;
+}
+
+/* line 45, /Users/Tomoya/Website/tomoyanonymous.github.io/theme/tomoya/scss/_sanitize.scss */
+details {
+  display: block;
+}
+
+/* line 49, /Users/Tomoya/Website/tomoyanonymous.github.io/theme/tomoya/scss/_sanitize.scss */
+hr {
+  overflow: visible;
+}
+
+/* line 53, /Users/Tomoya/Website/tomoyanonymous.github.io/theme/tomoya/scss/_sanitize.scss */
+html {
+  -ms-overflow-style: -ms-autohiding-scrollbar;
+  overflow-y: scroll;
+  -webkit-text-size-adjust: 100%;
+}
+
+/* line 59, /Users/Tomoya/Website/tomoyanonymous.github.io/theme/tomoya/scss/_sanitize.scss */
+input {
+  -webkit-border-radius: 0;
+}
+
+/* line 62, /Users/Tomoya/Website/tomoyanonymous.github.io/theme/tomoya/scss/_sanitize.scss */
+input[type="button"], input[type="reset"], input[type="submit"] {
+  -webkit-appearance: button;
+}
+
+/* line 68, /Users/Tomoya/Website/tomoyanonymous.github.io/theme/tomoya/scss/_sanitize.scss */
+input[type="number"] {
+  width: auto;
+}
+
+/* line 72, /Users/Tomoya/Website/tomoyanonymous.github.io/theme/tomoya/scss/_sanitize.scss */
+input[type="search"] {
+  -webkit-appearance: textfield;
+}
+
+/* line 75, /Users/Tomoya/Website/tomoyanonymous.github.io/theme/tomoya/scss/_sanitize.scss */
+input[type="search"]::-webkit-search-cancel-button, input[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+/* line 82, /Users/Tomoya/Website/tomoyanonymous.github.io/theme/tomoya/scss/_sanitize.scss */
+main {
+  display: block;
+}
+
+/* line 86, /Users/Tomoya/Website/tomoyanonymous.github.io/theme/tomoya/scss/_sanitize.scss */
+pre {
+  overflow: auto;
+}
+
+/* line 90, /Users/Tomoya/Website/tomoyanonymous.github.io/theme/tomoya/scss/_sanitize.scss */
+progress {
+  display: inline-block;
+}
+
+/* line 94, /Users/Tomoya/Website/tomoyanonymous.github.io/theme/tomoya/scss/_sanitize.scss */
+summary {
+  display: block;
+}
+
+/* line 98, /Users/Tomoya/Website/tomoyanonymous.github.io/theme/tomoya/scss/_sanitize.scss */
+svg:not(:root) {
+  overflow: hidden;
+}
+
+/* line 102, /Users/Tomoya/Website/tomoyanonymous.github.io/theme/tomoya/scss/_sanitize.scss */
+template {
+  display: none;
+}
+
+/* line 106, /Users/Tomoya/Website/tomoyanonymous.github.io/theme/tomoya/scss/_sanitize.scss */
+textarea {
+  overflow: auto;
+}
+
+/* line 110, /Users/Tomoya/Website/tomoyanonymous.github.io/theme/tomoya/scss/_sanitize.scss */
+[hidden] {
+  display: none;
+}
+
+/*
+ * Universal inheritance
+ */
+/* line 118, /Users/Tomoya/Website/tomoyanonymous.github.io/theme/tomoya/scss/_sanitize.scss */
+*,
+::before,
+::after {
+  box-sizing: inherit;
+}
+
+/* line 124, /Users/Tomoya/Website/tomoyanonymous.github.io/theme/tomoya/scss/_sanitize.scss */
+* {
+  font-size: inherit;
+  line-height: inherit;
+}
+
+/* line 129, /Users/Tomoya/Website/tomoyanonymous.github.io/theme/tomoya/scss/_sanitize.scss */
+::before,
+::after {
+  text-decoration: inherit;
+  vertical-align: inherit;
+}
+
+/* line 135, /Users/Tomoya/Website/tomoyanonymous.github.io/theme/tomoya/scss/_sanitize.scss */
+button,
+input,
+select,
+textarea {
+  font-family: inherit;
+  font-style: inherit;
+  font-weight: inherit;
+}
+
+/*
+ * Opinionated defaults
+ */
+/* line 152, /Users/Tomoya/Website/tomoyanonymous.github.io/theme/tomoya/scss/_sanitize.scss */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* line 159, /Users/Tomoya/Website/tomoyanonymous.github.io/theme/tomoya/scss/_sanitize.scss */
+*,
+::before,
+::after {
+  border-style: solid;
+  border-width: 0;
+}
+
+/* line 168, /Users/Tomoya/Website/tomoyanonymous.github.io/theme/tomoya/scss/_sanitize.scss */
+a,
+area,
+button,
+input,
+label,
+select,
+textarea,
+[tabindex] {
+  -ms-touch-action: manipulation;
+  touch-action: manipulation;
+}
+
+/* line 181, /Users/Tomoya/Website/tomoyanonymous.github.io/theme/tomoya/scss/_sanitize.scss */
+select {
+  -moz-appearance: none;
+  -webkit-appearance: none;
+}
+
+/* line 185, /Users/Tomoya/Website/tomoyanonymous.github.io/theme/tomoya/scss/_sanitize.scss */
+select::-ms-expand {
+  display: none;
+}
+
+/* line 189, /Users/Tomoya/Website/tomoyanonymous.github.io/theme/tomoya/scss/_sanitize.scss */
+select::-ms-value {
+  color: currentColor;
+}
+
+/* line 196, /Users/Tomoya/Website/tomoyanonymous.github.io/theme/tomoya/scss/_sanitize.scss */
+svg {
+  fill: currentColor;
+}
+
+/* line 202, /Users/Tomoya/Website/tomoyanonymous.github.io/theme/tomoya/scss/_sanitize.scss */
+[aria-busy="true"] {
+  cursor: progress;
+}
+
+/* line 208, /Users/Tomoya/Website/tomoyanonymous.github.io/theme/tomoya/scss/_sanitize.scss */
+[aria-controls] {
+  cursor: pointer;
+}
+
+/* line 214, /Users/Tomoya/Website/tomoyanonymous.github.io/theme/tomoya/scss/_sanitize.scss */
+[aria-disabled] {
+  cursor: default;
+}
+
+/* line 220, /Users/Tomoya/Website/tomoyanonymous.github.io/theme/tomoya/scss/_sanitize.scss */
+[hidden][aria-hidden="false"] {
+  clip: rect(0 0 0 0);
+  display: inherit;
+  position: absolute;
+}
+
+/* line 225, /Users/Tomoya/Website/tomoyanonymous.github.io/theme/tomoya/scss/_sanitize.scss */
+[hidden][aria-hidden="false"]:focus {
+  clip: auto;
+}
+
+/*
+ * Configurable defaults
+ */
+/* line 238, /Users/Tomoya/Website/tomoyanonymous.github.io/theme/tomoya/scss/_sanitize.scss */
+* {
+  background-repeat: no-repeat;
+}
+
+/* line 244, /Users/Tomoya/Website/tomoyanonymous.github.io/theme/tomoya/scss/_sanitize.scss */
+:root {
+  background-color: #ffffff;
+  box-sizing: border-box;
+  color: #000000;
+  cursor: default;
+  font: 100% / 1.5 sans-serif;
+}
+
+/* line 254, /Users/Tomoya/Website/tomoyanonymous.github.io/theme/tomoya/scss/_sanitize.scss */
+a {
+  text-decoration: none;
+}
+
+/* line 260, /Users/Tomoya/Website/tomoyanonymous.github.io/theme/tomoya/scss/_sanitize.scss */
+audio,
+canvas,
+iframe,
+img,
+svg,
+video {
+  vertical-align: middle;
+}
+
+/* line 271, /Users/Tomoya/Website/tomoyanonymous.github.io/theme/tomoya/scss/_sanitize.scss */
+button,
+input,
+select,
+textarea {
+  background-color: transparent;
+  color: inherit;
+}
+
+/* line 281, /Users/Tomoya/Website/tomoyanonymous.github.io/theme/tomoya/scss/_sanitize.scss */
+button,
+[type="button"],
+[type="date"],
+[type="datetime"],
+[type="datetime-local"],
+[type="email"],
+[type="month"],
+[type="number"],
+[type="password"],
+[type="reset"],
+[type="search"],
+[type="submit"],
+[type="tel"],
+[type="text"],
+[type="time"],
+[type="url"],
+[type="week"],
+select,
+textarea {
+  min-height: 1.5em;
+}
+
+/* line 305, /Users/Tomoya/Website/tomoyanonymous.github.io/theme/tomoya/scss/_sanitize.scss */
+code,
+kbd,
+pre,
+samp {
+  font-family: monospace, monospace;
+}
+
+/* line 314, /Users/Tomoya/Website/tomoyanonymous.github.io/theme/tomoya/scss/_sanitize.scss */
+nav ol,
+nav ul {
+  list-style: none;
+}
+
+/* line 321, /Users/Tomoya/Website/tomoyanonymous.github.io/theme/tomoya/scss/_sanitize.scss */
+small {
+  font-size: 75%;
+}
+
+/* line 327, /Users/Tomoya/Website/tomoyanonymous.github.io/theme/tomoya/scss/_sanitize.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 334, /Users/Tomoya/Website/tomoyanonymous.github.io/theme/tomoya/scss/_sanitize.scss */
+textarea {
+  resize: vertical;
+}
+
+/* line 340, /Users/Tomoya/Website/tomoyanonymous.github.io/theme/tomoya/scss/_sanitize.scss */
+::-moz-selection {
+  background-color: #b3d4fc;
+  color: #ffffff;
+  text-shadow: none;
+}
+
+/* line 346, /Users/Tomoya/Website/tomoyanonymous.github.io/theme/tomoya/scss/_sanitize.scss */
+::-moz-selection {
+  background-color: #b3d4fc;
+  color: #ffffff;
+  text-shadow: none;
+}
+::selection {
+  background-color: #b3d4fc;
+  color: #ffffff;
+  text-shadow: none;
+}
+
+@font-face {
+  font-family: 'Noto Sans JP';
+  font-style: normal;
+  font-weight: 100;
+  src: local("Noto Sans CJK JP"), url(//fonts.gstatic.com/ea/notosansjp/v5/NotoSansJP-Thin.woff2) format("woff2"), url(//fonts.gstatic.com/ea/notosansjp/v5/NotoSansJP-Thin.woff) format("woff"), url(//fonts.gstatic.com/ea/notosansjp/v5/NotoSansJP-Thin.otf) format("opentype");
+}
+
+@font-face {
+  font-family: 'Noto Sans JP';
+  font-style: normal;
+  font-weight: 300;
+  src: local("Noto Sans CJK JP"), url(//fonts.gstatic.com/ea/notosansjp/v5/NotoSansJP-Light.woff2) format("woff2"), url(//fonts.gstatic.com/ea/notosansjp/v5/NotoSansJP-Light.woff) format("woff"), url(//fonts.gstatic.com/ea/notosansjp/v5/NotoSansJP-Light.otf) format("opentype");
+}
+
+@font-face {
+  font-family: 'Noto Sans JP';
+  font-style: normal;
+  font-weight: 400;
+  src: local("Noto Sans CJK JP"), url(//fonts.gstatic.com/ea/notosansjp/v5/NotoSansJP-Regular.woff2) format("woff2"), url(//fonts.gstatic.com/ea/notosansjp/v5/NotoSansJP-Regular.woff) format("woff"), url(//fonts.gstatic.com/ea/notosansjp/v5/NotoSansJP-Regular.otf) format("opentype");
+}
+
+@font-face {
+  font-family: 'Noto Sans JP';
+  font-style: normal;
+  font-weight: 500;
+  src: local("Noto Sans CJK JP"), url(//fonts.gstatic.com/ea/notosansjp/v5/NotoSansJP-Medium.woff2) format("woff2"), url(//fonts.gstatic.com/ea/notosansjp/v5/NotoSansJP-Medium.woff) format("woff"), url(//fonts.gstatic.com/ea/notosansjp/v5/NotoSansJP-Medium.otf) format("opentype");
+}
+
+@font-face {
+  font-family: 'Noto Sans JP';
+  font-style: normal;
+  font-weight: 700;
+  src: local("Noto Sans CJK JP"), url(//fonts.gstatic.com/ea/notosansjp/v5/NotoSansJP-Bold.woff2) format("woff2"), url(//fonts.gstatic.com/ea/notosansjp/v5/NotoSansJP-Bold.woff) format("woff"), url(//fonts.gstatic.com/ea/notosansjp/v5/NotoSansJP-Bold.otf) format("opentype");
+}
+
+@font-face {
+  font-family: 'Noto Sans JP';
+  font-style: normal;
+  font-weight: 900;
+  src: local("Noto Sans CJK JP"), url(//fonts.gstatic.com/ea/notosansjp/v5/NotoSansJP-Black.woff2) format("woff2"), url(//fonts.gstatic.com/ea/notosansjp/v5/NotoSansJP-Black.woff) format("woff"), url(//fonts.gstatic.com/ea/notosansjp/v5/NotoSansJP-Black.otf) format("opentype");
+}
+
+/* line 1, /Users/Tomoya/Website/tomoyanonymous.github.io/theme/tomoya/scss/_fontsize.scss */
+h1 {
+  font-size: 2rem;
+  margin: 1rem 0;
+}
+
+/* line 5, /Users/Tomoya/Website/tomoyanonymous.github.io/theme/tomoya/scss/_fontsize.scss */
+h2 {
+  font-size: 1.75rem;
+  margin: 0.8rem 0;
+}
+
+/* line 9, /Users/Tomoya/Website/tomoyanonymous.github.io/theme/tomoya/scss/_fontsize.scss */
+h3 {
+  font-size: 1.5rem;
+  margin: 0.6rem 0;
+}
+
+/* line 13, /Users/Tomoya/Website/tomoyanonymous.github.io/theme/tomoya/scss/_fontsize.scss */
+h4 {
+  font-size: 1.25rem;
+  margin: 0.4rem 0;
+}
+
+/* line 17, /Users/Tomoya/Website/tomoyanonymous.github.io/theme/tomoya/scss/_fontsize.scss */
+h5 {
+  font-size: 1.125rem;
+  margin: 0.3rem 0;
+}
+
+/* line 21, /Users/Tomoya/Website/tomoyanonymous.github.io/theme/tomoya/scss/_fontsize.scss */
+h6 {
+  font-size: 1rem;
+}
+
+@font-face {
+  font-family: 'Noto Sans JP';
+  font-style: normal;
+  font-weight: 100;
+  src: local("Noto Sans CJK JP"), url(//fonts.gstatic.com/ea/notosansjp/v5/NotoSansJP-Thin.woff2) format("woff2"), url(//fonts.gstatic.com/ea/notosansjp/v5/NotoSansJP-Thin.woff) format("woff"), url(//fonts.gstatic.com/ea/notosansjp/v5/NotoSansJP-Thin.otf) format("opentype");
+}
+
+@font-face {
+  font-family: 'Noto Sans JP';
+  font-style: normal;
+  font-weight: 300;
+  src: local("Noto Sans CJK JP"), url(//fonts.gstatic.com/ea/notosansjp/v5/NotoSansJP-Light.woff2) format("woff2"), url(//fonts.gstatic.com/ea/notosansjp/v5/NotoSansJP-Light.woff) format("woff"), url(//fonts.gstatic.com/ea/notosansjp/v5/NotoSansJP-Light.otf) format("opentype");
+}
+
+@font-face {
+  font-family: 'Noto Sans JP';
+  font-style: normal;
+  font-weight: 400;
+  src: local("Noto Sans CJK JP"), url(//fonts.gstatic.com/ea/notosansjp/v5/NotoSansJP-Regular.woff2) format("woff2"), url(//fonts.gstatic.com/ea/notosansjp/v5/NotoSansJP-Regular.woff) format("woff"), url(//fonts.gstatic.com/ea/notosansjp/v5/NotoSansJP-Regular.otf) format("opentype");
+}
+
+@font-face {
+  font-family: 'Noto Sans JP';
+  font-style: normal;
+  font-weight: 500;
+  src: local("Noto Sans CJK JP"), url(//fonts.gstatic.com/ea/notosansjp/v5/NotoSansJP-Medium.woff2) format("woff2"), url(//fonts.gstatic.com/ea/notosansjp/v5/NotoSansJP-Medium.woff) format("woff"), url(//fonts.gstatic.com/ea/notosansjp/v5/NotoSansJP-Medium.otf) format("opentype");
+}
+
+@font-face {
+  font-family: 'Noto Sans JP';
+  font-style: normal;
+  font-weight: 700;
+  src: local("Noto Sans CJK JP"), url(//fonts.gstatic.com/ea/notosansjp/v5/NotoSansJP-Bold.woff2) format("woff2"), url(//fonts.gstatic.com/ea/notosansjp/v5/NotoSansJP-Bold.woff) format("woff"), url(//fonts.gstatic.com/ea/notosansjp/v5/NotoSansJP-Bold.otf) format("opentype");
+}
+
+@font-face {
+  font-family: 'Noto Sans JP';
+  font-style: normal;
+  font-weight: 900;
+  src: local("Noto Sans CJK JP"), url(//fonts.gstatic.com/ea/notosansjp/v5/NotoSansJP-Black.woff2) format("woff2"), url(//fonts.gstatic.com/ea/notosansjp/v5/NotoSansJP-Black.woff) format("woff"), url(//fonts.gstatic.com/ea/notosansjp/v5/NotoSansJP-Black.otf) format("opentype");
+}
+
+/* line 2, /Users/Tomoya/Website/tomoyanonymous.github.io/theme/tomoya/scss/_init.scss */
+html {
+  width: 100%;
+  background-color: #e2eaed;
+}
+
+/* line 7, /Users/Tomoya/Website/tomoyanonymous.github.io/theme/tomoya/scss/_init.scss */
+body {
+  font-family: "Helvetica Neue", "Noto Sans JP", "Hiragino Sans", "Hiragino Kaku Gothic ProN", "游ゴシック  Medium", meiryo, sans-serif;
+  width: 100%;
+  min-width: 700px;
+  font-size: 12pt;
+  letter-spacing: 0.14rem;
+  line-height: 150%;
+  background-color: #e2eaed;
+  color: #06262B;
+  list-style-position: inside;
+}
+
+/* line 19, /Users/Tomoya/Website/tomoyanonymous.github.io/theme/tomoya/scss/_init.scss */
+body img {
+  max-width: 100%;
+  border: none;
+}
+
+/* line 23, /Users/Tomoya/Website/tomoyanonymous.github.io/theme/tomoya/scss/_init.scss */
+body a {
+  color: #207E8F;
+  border-bottom: 0px #d8e0e3;
+}
+
+/* line 27, /Users/Tomoya/Website/tomoyanonymous.github.io/theme/tomoya/scss/_init.scss */
+body a:hover {
+  color: #02B2D4;
+  text-decoration: none;
+  border-bottom: 2px solid #02B2D4;
+}
+
+/* line 31, /Users/Tomoya/Website/tomoyanonymous.github.io/theme/tomoya/scss/_init.scss */
+body a:hover img {
+  transition: 0.1s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* line 33, /Users/Tomoya/Website/tomoyanonymous.github.io/theme/tomoya/scss/_init.scss */
+body a:hover img:hover {
+  opacity: 0.9;
+  border-bottom: none;
+}
+
+/* line 40, /Users/Tomoya/Website/tomoyanonymous.github.io/theme/tomoya/scss/_init.scss */
+body div, body a, body img {
+  transition: 0.1s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* line 44, /Users/Tomoya/Website/tomoyanonymous.github.io/theme/tomoya/scss/_init.scss */
+hr {
+  border-top: 1px solid #e2eaed;
+}
+
+/* line 48, /Users/Tomoya/Website/tomoyanonymous.github.io/theme/tomoya/scss/_init.scss */
+td, th {
+  text-align: left;
+  vertical-align: center;
+  padding: 5px;
+  border-width: 1px;
+  border-style: solid;
+}
+
+/* line 9, stdin */
+body .markdown {
+  padding: 0 20px;
+  font-feature-settings: "palt" 1;
+}
+
+/* line 12, stdin */
+body .markdown p {
+  margin: 3rem 0;
+  line-height: 1.7rem;
+}
+
+/* line 17, stdin */
+body .markdown em {
+  padding: 0 10px;
+  font-size: 90%;
+  color: #0f5f6c;
+  display: block;
+  padding: 0 25px;
+}
+
+/* line 24, stdin */
+body .markdown a {
+  display: inline-block;
+  margin: 10px auto;
+}
+
+/* line 28, stdin */
+body .markdown > p a {
+  text-decoration: underline;
+}
+
+/* line 31, stdin */
+body .markdown img {
+  width: 100%;
+  height: 100%;
+  margin: 10px auto;
+}
+
+/* line 36, stdin */
+body .markdown p a {
+  display: inline;
+}
+
+/* line 39, stdin */
+body .markdown h1, body .markdown h2, body .markdown h3, body .markdown h4, body .markdown h5, body .markdown h6 {
+  margin: 4rem 0 2rem 0;
+  line-height: 150%;
+}
+
+/* line 43, stdin */
+body .markdown h1 {
+  padding: 2rem 0 0.3rem;
+  border-top: 3px dashed #207E8F;
+}
+
+/* line 48, stdin */
+body .markdown ul {
+  margin: 2rem 10px;
+  font-size: 90%;
+}
+
+/* line 52, stdin */
+body .markdown li {
+  margin: 1rem 0;
+  color: #127281;
+}
+
+/* line 57, stdin */
+body .markdown hr {
+  border-top: solid 1px #787d7e;
+}
+
+/* line 61, stdin */
+body .markdown iframe {
+  text-align: center;
+  margin: 10px auto;
+}
+
+/* line 66, stdin */
+body .title {
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+}
+
+/* line 70, stdin */
+body .back {
+  display: inline;
+  padding: 10px 0;
+  font-size: 1.2rem;
+}
+
+/* line 75, stdin */
+body .share {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 20px 0;
+}
+
+/* line 78, stdin */
+body .share div {
+  margin: auto 20px auto 0;
+}
+
+/* line 82, stdin */
+body .outer {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+/* line 86, stdin */
+body .outer div > .child, body .outer header > .child, body .outer footer > .child {
+  width: 100%;
+  max-width: 1000px;
+  min-width: 700px;
+  margin: 0 auto;
+  border: none;
+}
+
+/* line 93, stdin */
+body .outer div {
+  min-width: none;
+  border: none;
+}
+
+/* line 97, stdin */
+body .outer header {
+  width: 100%;
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+  padding: 0px;
+  min-height: 5rem;
+  box-shadow: 0px 1px 1px #a8aeb0;
+  background-color: #ebf4f7;
+  min-height: 5rem;
+}
+
+/* line 108, stdin */
+body .outer header > div {
+  width: 100%;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-content: flex-start;
+  -ms-flex-line-pack: start;
+  align-content: flex-start;
+  height: 100%;
+  padding: 0 5px;
+  padding-right: 200px;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  max-width: 1000px;
+  min-width: 700px;
+  margin: 0 auto;
+  position: relative;
+}
+
+/* line 121, stdin */
+body .outer header a {
+  min-height: 5rem;
+  display: table;
+  height: 100%;
+  padding: 0px;
+  margin-right: 20px;
+}
+
+/* line 128, stdin */
+body .outer header a:hover {
+  box-shadow: 0px 1px 2px #a8aeb0;
+}
+
+/* line 133, stdin */
+body .outer header a .title {
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+  min-width: 300px;
+  padding: 0px;
+  font-size: 2rem;
+  font-weight: 200;
+  letter-spacing: 0.15rem;
+}
+
+/* line 143, stdin */
+body .outer header div.menu {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  vertical-align: baseline;
+  margin-right: 20px;
+  letter-spacing: 0.07rem;
+}
+
+/* line 148, stdin */
+body .outer header div.menu a {
+  display: table;
+  margin: auto;
+  height: 100%;
+  min-height: 4rem;
+}
+
+/* line 153, stdin */
+body .outer header div.menu a div {
+  padding: auto;
+  display: table-cell;
+  vertical-align: middle;
+  width: auto;
+  padding: 0 18px;
+}
+
+/* line 161, stdin */
+body .outer header div.menu a:hover {
+  box-shadow: 1px 1px 2px #a8aeb0;
+}
+
+/* line 166, stdin */
+body .outer header div.locales {
+  min-height: 3rem;
+}
+
+/* line 168, stdin */
+body .outer header div.locales a {
+  display: table;
+  padding: 0 7px;
+  height: 100%;
+  margin: auto 0;
+  font-size: 0.8rem;
+}
+
+/* line 174, stdin */
+body .outer header div.locales a span {
+  height: 100%;
+  display: table-cell;
+  vertical-align: middle;
+  letter-spacing: 0rem;
+}
+
+/* line 182, stdin */
+body .outer header div.social {
+  width: 100%;
+  max-width: 200px;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  min-height: 3rem;
+  height: 100%;
+  padding: 0px;
+  position: absolute;
+  right: 0px;
+  top: 0px;
+}
+
+/* line 193, stdin */
+body .outer header div.social > div {
+  min-height: 25px;
+  display: table-cell;
+  vertical-align: middle;
+  margin: auto 10px;
+  width: 30px;
+  height: 30px;
+  padding: 0;
+}
+
+/* line 202, stdin */
+body .outer header div.social div.logo {
+  min-height: 25px;
+  width: 25px;
+  height: 25px;
+  margin: 2.5px;
+  padding: 0;
+  border-radius: 5px;
+}
+
+/* line 209, stdin */
+body .outer header div.social div.logo a {
+  min-height: 25px;
+  width: 25px;
+  height: 25px;
+  display: table;
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  border: none;
+  border-radius: 5px;
+}
+
+/* line 219, stdin */
+body .outer header div.social div.logo a:hover {
+  text-decoration: none;
+  border: none;
+}
+
+/* line 224, stdin */
+body .outer header div.social div.logo a img {
+  width: 25px;
+  height: 25px;
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  border: none;
+}
+
+/* line 234, stdin */
+body .outer header div.social .tw .logo {
+  background-color: #55acee;
+}
+
+/* line 237, stdin */
+body .outer header div.social .fb .logo {
+  background-color: #fff;
+}
+
+/* line 240, stdin */
+body .outer header div.social .github .logo {
+  border-radius: 5px;
+}
+
+/* line 247, stdin */
+body .outer .inner {
+  background-color: #e6eff2;
+  margin: 20px 0;
+  padding: 10px 5px;
+  box-shadow: 2px 2px 2px #a8aeb0;
+}
+
+/* line 252, stdin */
+body .outer .inner .content {
+  background-color: #F0F9FC;
+  border: 1px #a8aeb0;
+  margin: 10px 0;
+  padding: 10px 25px;
+  box-shadow: 3px 3px 2px #a8aeb0;
+}
+
+/* line 259, stdin */
+body .outer .inner > .content {
+  background-color: #F0F9FC;
+  box-shadow: 3px 3px 3px #a8aeb0;
+  padding: 10px 0;
+}
+
+/* line 264, stdin */
+body .outer .inner > .content > .child {
+  padding: 0 25px;
+}
+
+/* line 268, stdin */
+body .outer .inner > .content2 {
+  background-color: #ebf4f7;
+  box-shadow: 2px 2px 2px #a8aeb0;
+  padding: 10px 0;
+  margin: 10px 0;
+}
+
+/* line 275, stdin */
+body .outer .inner p.title {
+  font-size: 2rem;
+  font-weight: lighter;
+  letter-spacing: 0.4rem;
+  line-height: 140%;
+  padding: 20px 0;
+}
+
+/* line 282, stdin */
+body .outer .inner p.date {
+  font-size: 0.9rem;
+  font-weight: lighter;
+  padding: 10px 0 0 0;
+}
+
+/* line 293, stdin */
+body .outer .inner .index_inner {
+  border-top: 1px solid #ccc;
+  padding: 10px 0;
+  margin: 0;
+}
+
+/* line 297, stdin */
+body .outer .inner .index_inner .content {
+  background-color: #F0F9FC;
+}
+
+/* line 301, stdin */
+body .outer .inner .work {
+  width: 100%;
+  margin: 10px 0;
+  position: relative;
+}
+
+/* line 305, stdin */
+body .outer .inner .work a {
+  display: block;
+  height: 100%;
+}
+
+/* line 310, stdin */
+body .outer .inner .work:hover {
+  opacity: 0.9;
+  border: none;
+}
+
+/* line 314, stdin */
+body .outer .inner .work .description {
+  position: absolute;
+  float: left;
+  top: 10px;
+  z-index: 999;
+  padding: 0 10px;
+}
+
+/* line 322, stdin */
+body .outer .inner .work .description p {
+  color: #FA8F2D;
+  text-shadow: 1px 1px 2px #af6420;
+  opacity: 0.8;
+}
+
+/* line 328, stdin */
+body .outer .inner .work .description .caption_title {
+  font-size: 2rem;
+  height: 4rem;
+}
+
+/* line 334, stdin */
+body .outer .inner .work img {
+  box-shadow: 2px 2px 3px #bbb;
+}
+
+/* line 336, stdin */
+body .outer .inner .work img:hover {
+  opacity: 1;
+}
+
+/* line 341, stdin */
+body .outer .inner .flex {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
+/* line 345, stdin */
+body .outer .inner .flex > div {
+  background-color: #F0F9FC;
+  border: 1px solid #ccc;
+  box-shadow: 1px 1px 1px #a8aeb0;
+  margin: 10px 0;
+  padding: 10px 20px;
+}
+
+/* line 353, stdin */
+body .outer .inner .index_left, body .outer .inner .index_right {
+  width: 48%;
+  min-width: 350px;
+}
+
+/* line 357, stdin */
+body .outer .inner .index_left a > .title, body .outer .inner .index_right a > .title {
+  font-weight: normal;
+}
+
+/* line 360, stdin */
+body .outer .inner .index_left .content, body .outer .inner .index_right .content {
+  padding: 5px 0;
+  box-shadow: 0px 0px 0px #F0F9FC;
+}
+
+/* line 363, stdin */
+body .outer .inner .index_left .content .markdown, body .outer .inner .index_right .content .markdown {
+  padding: 0;
+}
+
+/* line 370, stdin */
+body .outer .pagination {
+  width: 100%;
+  text-align: center;
+  padding: 20px 0;
+}
+
+/* line 374, stdin */
+body .outer .pagination ul {
+  list-style: none;
+  width: 100%;
+  margin: 0 auto;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-align-content: center;
+  -ms-flex-line-pack: center;
+  align-content: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+/* line 384, stdin */
+body .outer .pagination ul li {
+  vertical-align: bottom;
+  text-decoration: none;
+  color: #a8aeb0;
+  transition: 0.1s cubic-bezier(0.4, 0, 0.2, 1);
+  width: 30%;
+}
+
+/* line 391, stdin */
+body .outer .pagination ul li:not(.number) {
+  font-size: 1rem;
+  text-decoration: none;
+}
+
+/* line 402, stdin */
+body .outer .pagination ul li a {
+  background-color: #F0F9FC;
+  box-shadow: 1px 1px 1px #787d7e;
+  padding: 1rem;
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+/* line 409, stdin */
+body .outer .pagination ul li a:hover {
+  box-shadow: 2px 2px 2px #787d7e;
+}
+
+/* line 415, stdin */
+body .outer .pagination ul .to_index {
+  -webkit-flex-basis: 20%;
+  -ms-flex-preferred-size: 20%;
+  flex-basis: 20%;
+  margin: 10px;
+}
+
+/* line 418, stdin */
+body .outer .pagination ul .to_index a {
+  font-size: 2rem;
+}
+
+/* line 423, stdin */
+body .outer .pagination ul .none {
+  pointer-events: none;
+  font-color: #787d7e;
+  box-shadow: none;
+}
+
+/* line 430, stdin */
+body .outer footer {
+  border-top: 1px solid #ccc;
+  background-color: #ebf4f7;
+  padding: 10px;
+  bottom: 0;
+  font-size: 0.9rem;
+}
