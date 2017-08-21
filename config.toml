@@ -4,7 +4,7 @@ baseURL = "https://matsuuratomoya.com/"
 title = "Matsuura Tomoya"
 enableMissingTranslationPlaceholders = false
 publishDir = "docs"
-theme = tomoya
+theme = "tomoya"
 [params]
   Twitter = "tomoya_nonymous"
   Facebook = "tomoya.matsuura.98"
