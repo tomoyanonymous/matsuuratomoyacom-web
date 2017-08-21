@@ -1,9 +1,7 @@
 ---
 date: 2017-01-07
-layout: blog.hbs
 title: Faustの基本文法解説
 permalink: faust_grammer
-
 ---
 
 *この記事は[Faust(多分ひとり)Advent Calender](http://qiita.com/advent-calendar/2016/faust)の4つ目の記事です。*
@@ -11,7 +9,7 @@ permalink: faust_grammer
 年が明けてますがアドベントカレンダーです。
 本日はなんとも独特なFaustの記法について解説していきます。
 
-<!-- more -->
+<!--more-->
 
 # 色々な書き方
 
@@ -23,7 +21,7 @@ permalink: faust_grammer
 process = (_,0.5) : *;
 ```
 
-<img src="{{config.root}}assets/img/faust/mult0.5.svg" alt="" style = "max-height:300px;">
+<img src="/assets/img/faust/mult0.5.svg" alt="" style = "max-height:300px;">
 
 ## 例2
 
@@ -31,7 +29,7 @@ process = (_,0.5) : *;
 process = _ : *(0.5);
 ```
 
-<img src="{{config.root}}assets/img/faust/mult0.5.svg" alt="" style = "max-height:300px;">
+<img src="/assets/img/faust/mult0.5.svg" alt="" style = "max-height:300px;">
 
 ## 例3
 
@@ -39,7 +37,7 @@ process = _ : *(0.5);
 process = *(_,0.5);
 ```
 
-<img src="{{config.root}}assets/img/faust/mult0.5.svg" alt="" style = "max-height:300px;">
+<img src="/assets/img/faust/mult0.5.svg" alt="" style = "max-height:300px;">
 
 ## 例4
 
@@ -47,7 +45,7 @@ process = *(_,0.5);
 process = _*0.5;
 ```
 
-<img src="{{config.root}}assets/img/faust/mult0.5.svg" alt="" style = "max-height:300px;">
+<img src="/assets/img/faust/mult0.5.svg" alt="" style = "max-height:300px;">
 
 
 ・・・は？って感じですよね。一番上の記法ほど普通の言語からすると謎な表現に見えますがFaustでは上から順に普遍的な書き方になります。
@@ -63,7 +61,7 @@ process = _*0.5;
 直訳するには変なのでこのようにします。expression/ブロックはFaustの中でのすべての最小単位で、先程の
 
 ```java
-_ 
+_
 0.5
 *
 *(0.5)
@@ -96,8 +94,8 @@ fi = library("filter.lib");
 process = _<:par(i,5,fi.bandpass(1,1,i*100));
 ```
 
-<img src="{{config.root}}assets/img/faust/compositions.svg" alt="" style = "max-height:400px;">
-<img src="{{config.root}}assets/img/faust/parallel.svg" alt="" style = "max-height:400px;">
+<img src="/assets/img/faust/compositions.svg" alt="" style = "max-height:400px;">
+<img src="/assets/img/faust/parallel.svg" alt="" style = "max-height:400px;">
 
 残りは後々出てきたらその時々訳すことにします。
 
@@ -118,7 +116,7 @@ process = _<:par(i,5,fi.bandpass(1,1,i*100));
 process = (10,*);
 ```
 
-<img src="{{config.root}}assets/img/faust/par1-svg/process.svg" alt="" style = "max-height:400px;">
+<img src="/assets/img/faust/par1-svg/process.svg" alt="" style = "max-height:400px;">
 
 特に記法の制限はなし。
 上の例では0in1out+2in1outのブロックの組み合わせで2in2outのブロックが出来ました。
@@ -131,7 +129,7 @@ process = (10,*);
 process = ((*,/):+);
 ```
 
-<img src="{{config.root}}assets/img/faust/seq1-svg/process.svg" alt="" style = "max-height:400px;">
+<img src="/assets/img/faust/seq1-svg/process.svg" alt="" style = "max-height:400px;">
 
 制限:左側の出力数==右側の入力数
 
@@ -146,7 +144,7 @@ process = ((10,20)<: (+,*,/));
 
 ```
 
-<img src="{{config.root}}assets/img/faust/split1-svg/process.svg" alt="" style = "max-height:400px;">
+<img src="/assets/img/faust/split1-svg/process.svg" alt="" style = "max-height:400px;">
 
 制限：左側の出力数*(2,3,4...)==右側の入力数
 
@@ -164,7 +162,7 @@ process = ((10,20,30,40):> *);
 
 ```
 
-<img src="{{config.root}}assets/img/faust/merge1-svg/process.svg" alt="" style = "max-height:400px;">
+<img src="/assets/img/faust/merge1-svg/process.svg" alt="" style = "max-height:400px;">
 
 制限:左側の出力数==右側の入力数*(2,3,4...)
 
@@ -173,7 +171,7 @@ process = ((10,20,30,40):> *);
 注意点として、結合接続が集まったときは**すべての入力の和**として出力されます。
 つまり、上の例は明示的に表すとこうなります。
 
-<img src="{{config.root}}assets/img/faust/merge2.svg" alt="" style = "max-height:400px;">
+<img src="/assets/img/faust/merge2.svg" alt="" style = "max-height:400px;">
 
 ## 再帰/Recursive
 
@@ -188,7 +186,7 @@ process = + ~ @(44100);
 
 ```
 
-<img src="{{config.root}}assets/img/faust/fdbkdelay.svg" alt="" style = "max-height:400px;">
+<img src="/assets/img/faust/fdbkdelay.svg" alt="" style = "max-height:400px;">
 
 制限:左側の**出力**≧右側の**入力**　かつ　左側の**入力**≧右側の**出力**
 
@@ -214,7 +212,7 @@ process = + ~ @(44100);
 
 例えば以下のコードはこのぐらいカッコでくくっときたくなりますが、
 
-<img src="{{config.root}}assets/img/faust/kakko_setsumei.svg" alt="" style = "max-height:400px;">
+<img src="/assets/img/faust/kakko_setsumei.svg" alt="" style = "max-height:400px;">
 
 
 ```java
@@ -226,14 +224,14 @@ process = (((_,0.5):*)<: (*,*) :> _) ~ _;
 ```java
 process = (_,0.5 : * <: *,* :>_ ) ~ _;
 ```
- 
+
 ただ、カッコがなければソースの可読性が上がるというわけでもないので実際には場合に応じてカッコを付けていくのが良いでしょう。
 
 # 接続記法の応用
 
 さて、以下のダイヤグラムはどのようにして書いたでしょうか？
 
-<img src="{{config.root}}assets/img/faust/stereo_cross.svg" alt="" style = "max-height:400px;">
+<img src="/assets/img/faust/stereo_cross.svg" alt="" style = "max-height:400px;">
 
 普通に書こうと思うとこうですが、インプットがクロスしていますね。
 
@@ -250,7 +248,7 @@ process = (_,_)<:(!,*(0.5),*(0.3),!);
 !は何だったかというと、入力をカットする1in0outのブロックです。カットされた以降何もつながってない部分は、ダイヤグラム上からは省かれます。
 イメージ的にはこうなっているということです。
 
-<img src="{{config.root}}assets/img/faust/stereo_cross2.svg" alt="" style = "max-height:400px;">
+<img src="/assets/img/faust/stereo_cross2.svg" alt="" style = "max-height:400px;">
 
 こういった例以上に複雑なのは標準ライブラリのro.interleaveやro.crossなどを利用するとだいぶ見やすくなります。
 
@@ -261,7 +259,7 @@ import("stdfaust.lib");
 process = si.bus(8):ro.interleave(4,2)
 ```
 
-<img src="{{config.root}}assets/img/faust/interleave.svg" alt="" style = "max-height:400px;">
+<img src="/assets/img/faust/interleave.svg" alt="" style = "max-height:400px;">
 
 ちなみに手実装するとこうです。おわかりいただけますでしょうか。
 
@@ -333,7 +331,7 @@ gain_offset(gain,offset) = _:*(gain):+(offset);
 process = gain_offset(0.5,-0.3);
 ```
 
-<img src="{{config.root}}assets/img/faust/gainoffset1.svg" alt="" style = "max-height:400px;">
+<img src="/assets/img/faust/gainoffset1.svg" alt="" style = "max-height:400px;">
 
 この例はわかるでしょうか。入力を0.5倍してDCオフセットを0.3つけるという処理になります。
 
@@ -345,7 +343,7 @@ gain_offset(gain,offset) = _:*(gain):+(offset);
 process = gain_offset;
 ```
 
-<img src="{{config.root}}assets/img/faust/gainoffset2.svg" alt="" style = "max-height:400px;">
+<img src="/assets/img/faust/gainoffset2.svg" alt="" style = "max-height:400px;">
 
 はい、実は引数なしでも使えてしまうというのがFaustのもう一つややこしいところです。この場合、引数が左から順にインプットとして追加されます。
 
@@ -357,7 +355,7 @@ gain_offset(gain,offset) = _:*(gain):+(offset);
 process = gain_offset(0.5);
 ```
 
-<img src="{{config.root}}assets/img/faust/gainoffset3.svg" alt="" style = "max-height:400px;">
+<img src="/assets/img/faust/gainoffset3.svg" alt="" style = "max-height:400px;">
 
 このように、左の引数から代入され、残ったやつがインプットとして扱われます。
 
@@ -373,7 +371,7 @@ gain_offset(gain,offset) = _*gain+offset+initial_offset
 	with{
 			initial_offset = -0.5
 	};
-```	
+```
 
 ## ラムダ式
 
@@ -392,7 +390,7 @@ gain_offset = \(gain,offset).(_*gain+offset+initial_offset)
 
 ```java
 
-duplicate = case {                    (1,x) => x;                    (n,x) => duplicate(n-1,x); 
+duplicate = case {                    (1,x) => x;                    (n,x) => duplicate(n-1,x);
                 };
 //もしくは
 duplicate(1,x) = x;duplicate(n,x) = (x, duplicate(n-1,x) );
@@ -400,7 +398,7 @@ duplicate(1,x) = x;duplicate(n,x) = (x, duplicate(n-1,x) );
 process = duplicate(3)
 ```
 
-<img src="{{config.root}}assets/img/faust/patternmatch1.svg" alt="" style = "max-height:400px;">
+<img src="/assets/img/faust/patternmatch1.svg" alt="" style = "max-height:400px;">
 
 このように、関数内で自分の関数を使う再帰関数のような定義の仕方が出来ます。慣れないとすぐコンパイルエラーを起こしますが、慣れると反復接続だけでは出来ない、入れ子であったり並列と直列が組み合わさったような表現が可能になります。
 
@@ -426,7 +424,7 @@ gainlist = (0.1,0.2,0.3,0.3,0.4);
 process =fir(5,gainlist);
 ```
 
-<img src="{{config.root}}assets/img/faust/fir.svg" alt="" style = "max-height:600px;">
+<img src="/assets/img/faust/fir.svg" alt="" style = "max-height:600px;">
 
 # 演算子
 

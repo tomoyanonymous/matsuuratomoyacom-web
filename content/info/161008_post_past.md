@@ -1,5 +1,4 @@
 ---
-layout: info.hbs
 title: 展示「送れ|遅れ / post|past」を開催します
 permalink: post_past
 date: 2016-10-08
@@ -11,9 +10,9 @@ date: 2016-10-08
 
 2016年11月4日~9日にかけて、展示「送れ|遅れ / post|past」を開催します。
 
-<img src="{{config.root}}assets/img/ADM2_chirashi.png" alt="">
+<img src="/assets/img/ADM2_chirashi.png" alt="">
 
-<!-- more -->
+<!--more-->
 
 (english below)
 
@@ -124,5 +123,5 @@ Although the capacity is increased from it of last year, it is far behind of tha
 
 "Information" is discussed as "Probability" when occurs something in Information Theory, the base of today's computer. "Meaning" is not considered.
 
-I think I can't,but at the same time I think perhaps I can calculate how many bytes of information you can obtain by seeing this exhibition.
+I think I can't, but at the same time I think perhaps I can calculate how many bytes of information you can obtain by seeing this exhibition.
 Similarly, In order to build this work I researched archived document of apparatus in early days of digital calculator and I got a feeling that understand something, but in actual, I might understand nothing.

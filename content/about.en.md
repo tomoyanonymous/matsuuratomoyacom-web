@@ -1,6 +1,4 @@
 ---
-layout: about.hbs
-locale: en
 ---
 
 <p style="font-size:300%; font-weight:bolder;">
@@ -13,9 +11,9 @@ Matsuura Tomoya
 松浦知也
 </p>
 
-![]({{config.root}}assets/img/profile2.jpg)
+![](/assets/img/profile2.jpg)
 
-![]({{config.root}}assets/img/profile.jpg)
+![](/assets/img/profile.jpg)
 
 (Photo by Noguchi Shohei)
 

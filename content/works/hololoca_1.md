@@ -1,8 +1,7 @@
 ---
-layout: work.hbs
 title: ホロロッカ第一回公演<br>「へそにたまるのは呪い、こころだけがあるわ」
 permalink: hololoca1
-thum: assets/img/hololoca/patch2.jpg
+thum: /assets/img/hololoca/patch2.jpg
 date : 2015-05-24
 ---
 

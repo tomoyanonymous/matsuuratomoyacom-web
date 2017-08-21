@@ -1,6 +1,4 @@
 ---
-layout: about.hbs
-locale: en
 ---
 
 ## License
@@ -15,4 +13,4 @@ Images on this website may not be my own copyrighted works. Contact me if you ne
 [http://creativecommons.org/licenses/by-nc-nd/4.0](http://creativecommons.org/licenses/by-nc-nd/4.0)
 
 
-<a href="http://creativecommons.org/licenses/by-nc-nd/4.0/deed.ja"><img src="../../assets/img/license.svg" style="max-width:300px;"></a>
+<a href="http://creativecommons.org/licenses/by-nc-nd/4.0/deed.ja"><img src="/assets/img/license.svg" style="max-width:300px;"></a>

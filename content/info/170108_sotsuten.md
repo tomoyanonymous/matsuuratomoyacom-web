@@ -1,6 +1,5 @@
 ---
-layout: info.hbs
-title: 
+title: 東京藝術大学 音環卒展2017
 permalink: onkan_sotsuten2017
 date: 2017-01-08
 ---
@@ -13,7 +12,7 @@ date: 2017-01-08
 
 また、卒展全体の運営の実行委員長とWebサイト運営を行っています。
 
-<!-- more -->
+<!--more-->
 
 # 概要
 
@@ -43,9 +42,9 @@ Follow @onkan_sotsuten</a>
 
 <div style = "display:flex;flex-wrap:wrap;">
 
-<img src = "{{config.root}}assets/img/sotsuten2017/sotsuten2017_omote.png" style ="width:50%; min-width:350px;">
+<img src = "/assets/img/sotsuten2017/sotsuten2017_omote.png" style ="width:50%; min-width:350px;">
 
-<img src = "{{config.root}}assets/img/sotsuten2017/sotsuten2017_ura.png" style ="width:50%; min-width:350px;">
+<img src = "/assets/img/sotsuten2017/sotsuten2017_ura.png" style ="width:50%; min-width:350px;">
 
 
 </div>

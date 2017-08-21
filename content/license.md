@@ -1,5 +1,4 @@
 ---
-layout: about.hbs
 ---
 
 ## License
@@ -13,4 +12,4 @@ layout: about.hbs
 [http://creativecommons.org/licenses/by-nc-nd/4.0/deed.ja](http://creativecommons.org/licenses/by-nc-nd/4.0/deed.ja)
 
 
-<a href="http://creativecommons.org/licenses/by-nc-nd/4.0/deed.ja"><img src="../assets/img/license.svg" style="max-width:300px;"></a>
+<a href="http://creativecommons.org/licenses/by-nc-nd/4.0/deed.ja"><img src="/assets/img/license.svg" style="max-width:300px;"></a>

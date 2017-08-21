@@ -1,5 +1,4 @@
 ---
-layout: info.hbs
 title: 6/10「つくると！vol.3」にてライブ
 permalink: tsukuruto_live
 date: 2017-06-08
@@ -15,10 +14,10 @@ date: 2017-06-08
 
 ぜひご来場下さい。
 
-![]({{config.root}}assets/img/info/tsukuruto_matsuura.JPG)
+![](/assets/img/info/tsukuruto_matsuura.JPG)
 
 
-<!-- more -->
+<!--more-->
 
 # 会場
 
@@ -29,5 +28,5 @@ JR竹下駅 より徒歩10分
 
 西鉄大橋駅 より徒歩5分
 
-ご来場の際は公共交通機関をご利用ください。 
+ご来場の際は公共交通機関をご利用ください。
 お車で来場される方は近隣の駐車場(有料)をご利用ください。

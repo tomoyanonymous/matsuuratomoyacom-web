@@ -1,16 +1,14 @@
 ---
 date: 2016-06-11
-layout: blog.hbs
 title: JitterとGenを活用してインパルス応答測定(1)
 permalink: log_sinsesweep_jitter_gen1
-draft: false
 ---
 
 皆さん、インパルス応答は好きですか？僕は大好きです。
 
 今回はMax/MSP/Jitter/Genのみを使ってIR測定ツールを作るということをしました。
 
-<!-- more -->
+<!--more-->
 
 # インパルス応答とは？
 
@@ -45,7 +43,7 @@ draft: false
 
 イメージで言うとこうです。実のところJitterとかGenとか持ち出さずともこれだけでも測定信号としてはほとんど十分だったりします、、、
 
-<img src="{{config.root}}assets/img/max_IR/TSP_sample.png" alt="" style = "width:400px;">
+<img src="/assets/img/max_IR/TSP_sample.png" alt="" style = "width:400px;">
 
 そして、この信号をスピーカーなどで出力して、システム（エフェクターとか、部屋とか）を通しマイクで録音し、TSPを周波数領域で割り算して取り出してあげます。説明がややこしいので省略しますが、周波数領域でTSPで割り算するのは、TSPを時間軸上で反転した波形（up-TSPに対してdown-TSP）を周波数領域上で掛け算（畳み込み）することに当たります。
 
@@ -58,14 +56,14 @@ TSP信号において、周波数を直線上に変化させるやり方には�
 <small>ついでに言うと、対数カーブではなく折れ線型の周波数カーブを作るoptimized-Sinesweepというのもあります。</small>
 
 
-<img src="{{config.root}}assets/img/max_IR/TSP_sample2.png" alt="">
+<img src="/assets/img/max_IR/TSP_sample2.png" alt="">
 
 
 Pink-TSPの逆フィルタはPink-TSPを前後に反転したあと、高域の減衰を補正するような+6db/octの振幅を掛けた形になります。
 -3db/octの信号に、-3+6db/oct=+3db/octの信号を畳み込むと±0db/octの信号になるわけです。
 こんな感じです。間違えて名前逆になってますけど上が逆フィルター、下がスイープ信号です。
 
-<img src="{{config.root}}assets/img/max_IR/audacity.png" alt="">
+<img src="/assets/img/max_IR/audacity.png" alt="">
 
 TSP信号は定常性ノイズに強いとの記述をしましたが、スイープ時間を長くするほどノイズ成分は平均化され少なくなります。また複数回録音した波形を平均化することでもノイズが減らせます。(ただ、あまりに何度も足し合わせると高域側ほど相関が低いためロールオフしてしまう、とのことで少ない数で長い信号を使うのが最近の傾向だそうです。)
 
@@ -86,4 +84,4 @@ MEASUREMENTS BY MEASUREMENTS BY EXPONENTIAL SINE SWEEPS EXPONENTIAL SINE SWEEPS]
 
 長くなりすぎたので実際のパッチ作成は次に進みます。
 
-[JitterとGenを活用してインパルス応答測定(2)]({{config.root}}blog/2016-06-11/log-sinsesweep-jitter-gen2/)
+[JitterとGenを活用してインパルス応答測定(2)](/blog/2016-06-11/log-sinsesweep-jitter-gen2/)

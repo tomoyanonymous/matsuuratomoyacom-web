@@ -1,6 +1,4 @@
 ---
-layout: infos.hbs
-
 ---
 
 ## Infomation

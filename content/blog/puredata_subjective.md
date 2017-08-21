@@ -2,7 +2,6 @@
 date: 2016-04-27
 title: Puredataで評価実験(サンプルパッチあり)
 permalink: Puredata_subjective_test
-layout: blog.hbs
 ---
 
 微妙な需要ですが、Puredataはアルゴリズム作曲とか、シンセやエフェクター作ったりする以外にも（特に音を使う）主観評価実験に使うと便利だったりします。
@@ -19,9 +18,9 @@ layout: blog.hbs
 という手順になったりするのですがこの内の**iTunes、紙、エクセル**の部分をPuredataを使えば一つにまとめることが出来ます。
 
 当然実験内容によって作り方が変わるので万能のパッチは存在しないのですが、ある程度共通して使えるメソッドはあるのでここに書き記しておこうと思います。
-<!-- more -->
+<!--more-->
 
-<img src="{{config.root}}assets/img/pd_subjective/patch0.png" style = "width :300px;"alt="">
+<img src="/assets/img/pd_subjective/patch0.png" style = "width :300px;"alt="">
 
 <small>今回の完成目標。</small>
 
@@ -51,18 +50,18 @@ layout: blog.hbs
 
 具体的にはこのような感じです。
 
-<img src="{{config.root}}assets/img/pd_subjective/patch1.png" alt="" style = "width:300px;">
+<img src="/assets/img/pd_subjective/patch1.png" alt="" style = "width:300px;">
 
 さて、これに加えて「音量を+2、+1、±0、-1、−2、-3dB変化させる」というパラメーターを加えたくなった場合はどうでしょう（妥当性があるかは相変わらず無視です）。
 
 こんな感じですね。
 
-<img src="{{config.root}}assets/img/pd_subjective/patch4.png" alt="" style = "width:300px;">
+<img src="/assets/img/pd_subjective/patch4.png" alt="" style = "width:300px;">
 
 実際に数値はArgumentに書くか右インレットに入れるかのどちらかでよいので、次の内どちらでも良いです。
 
-<img src="{{config.root}}assets/img/pd_subjective/patch2.png" alt="" style = "width:300px;">
-<img src="{{config.root}}assets/img/pd_subjective/patch3.png" alt="" style = "width:300px;">
+<img src="/assets/img/pd_subjective/patch2.png" alt="" style = "width:300px;">
+<img src="/assets/img/pd_subjective/patch3.png" alt="" style = "width:300px;">
 
 前者のほうがコンパクトなので今回はこちらにします。
 
@@ -76,20 +75,20 @@ layout: blog.hbs
 \[urn\]というオブジェクトがそれに相当します。
 というわけでこんな感じです。
 
-<img src="{{config.root}}assets/img/pd_subjective/patch5.png" alt="" style = "width:300px;">
+<img src="/assets/img/pd_subjective/patch5.png" alt="" style = "width:300px;">
 
 \[import cyclone\]は作らなくても平気ですがたまにurnオブジェクトが行方不明になったりするので明示的につけておいたほうが安心です。
 
 ついでに色を付けて、少しづつモジュールとして分離してくために各パラメーターを\[send\]で送っておきましょう。
 
-<img src="{{config.root}}assets/img/pd_subjective/patch5.5.png" alt="" style = "width:300px;">
+<img src="/assets/img/pd_subjective/patch5.5.png" alt="" style = "width:300px;">
 
 
 # 信号処理部分
 
 この辺は本当に実験内容によりけりなのでサクッと行きます。各パラメーターを受け取ってselで実際の値にマッピング、実際の処理に反映。
 
-<img src="{{config.root}}assets/img/pd_subjective/patch13.png" alt="リスタートつきプレイヤー" style = "width:500px;">
+<img src="/assets/img/pd_subjective/patch13.png" alt="リスタートつきプレイヤー" style = "width:500px;">
 
 # UIを作る
 
@@ -104,7 +103,7 @@ Pdで一番面倒くさいところですが、回答のインターフェース
 
 で平気そうです。実際に並べるとこんな感じです。
 
-<img src="{{config.root}}assets/img/pd_subjective/patch8.png" alt="UI" style = "width:400px;">
+<img src="/assets/img/pd_subjective/patch8.png" alt="UI" style = "width:400px;">
 
 あとはオブジェクトを右クリック→プロパティからひたすら見た目を変更していきます。日本語は**直接入力できないがコピペなら入る**ので頑張りましょう。pdには寛容さが大切です。
 
@@ -112,11 +111,11 @@ Pdで一番面倒くさいところですが、回答のインターフェース
 
 次になにもないところで右クリック→プロパティを開き「親パッチに表示する」にチェックを入れ、表示範囲のサイズとマージンをポチポチ手打ちで赤い線がうまくUIを囲うように変更します。
 
-<img src="{{config.root}}assets/img/pd_subjective/patch9.png" alt="UI" style = "width:500px;">
+<img src="/assets/img/pd_subjective/patch9.png" alt="UI" style = "width:500px;">
 
 で、sendでまた分離しておきましょう。
 
-<img src="{{config.root}}assets/img/pd_subjective/patch10.png" alt="UI" style = "width:500px;">
+<img src="/assets/img/pd_subjective/patch10.png" alt="UI" style = "width:500px;">
 
 # 記録部分を作る
 
@@ -129,7 +128,7 @@ openframeworks用のPdアドオンofxPdの作者[Dan Wilcox](http://danomatika.c
 
 今回の場合、結論から言うとこうです。
 
-<img src="{{config.root}}assets/img/pd_subjective/patch11.png" alt="UI" style = "width:500px;">
+<img src="/assets/img/pd_subjective/patch11.png" alt="UI" style = "width:500px;">
 
 あまり詳しい説明するのは~~めんどくさい~~時間がかかるのでやめておきますが、
 
@@ -141,13 +140,13 @@ openframeworks用のPdアドオンofxPdの作者[Dan Wilcox](http://danomatika.c
 
 今回の例をザクっと手続き風に図にすると(ちゃんとUML書ける人からめっちゃ怒られそうですが)
 
-<img src="{{config.root}}assets/img/pd_subjective/step.jpg" alt="UI" style = "width:500px;">
+<img src="/assets/img/pd_subjective/step.jpg" alt="UI" style = "width:500px;">
 
 雰囲気的にはこんな感じです。
 
 これをパッチにするとこうなります。
 
-<img src="{{config.root}}assets/img/pd_subjective/patch12.png" alt="UI" style = "width:200px;">
+<img src="/assets/img/pd_subjective/patch12.png" alt="UI" style = "width:200px;">
 
 # 呼び出し用パッチを作る
 
@@ -156,7 +155,7 @@ openframeworks用のPdアドオンofxPdの作者[Dan Wilcox](http://danomatika.c
 
 そうしたらplayer.pdには\[main\]というオブジェクトを作ればいきなりさっき作ったUIが出てくるはずです。
 
-<img src="{{config.root}}assets/img/pd_subjective/patch14.png" alt="UI" >
+<img src="/assets/img/pd_subjective/patch14.png" alt="UI" >
 
 後は実際に使うときはplayer.pdを立ち上げるようにすればOKです。
 

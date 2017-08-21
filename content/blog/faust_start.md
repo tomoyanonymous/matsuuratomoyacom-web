@@ -1,16 +1,14 @@
 ---
-date: 2016-012-04
-layout: blog.hbs
+date: 2016-12-04
 title: とりあえずFaustを始めたい人のための4つの環境
 permalink: faust_start
-
 ---
 
 *この記事は[Faust(多分ひとり)Advent Calender](http://qiita.com/advent-calendar/2016/faust)の2個めの記事です。*
 
 今回は「なんでもいいからとりあえずFaust触ってみたいんだけど」という人のための開発環境について書こうと思います。
 
-<!-- more -->
+<!--more-->
 
 
 # 環境一覧
@@ -36,7 +34,7 @@ FaustLiveはFaustのソースコードを読み込んでリアルタイムでGUI
 
 ソースコードの読み込み自体も変更を自動監視してコンパイルし直してくれます。ご丁寧に再コンパイル時には音が1秒ほどクロスフェードして切り替わるのでクリックノイズなどで再生機器を痛める心配もありません。
 
-<img src="{{config.root}}assets/img/faust/faust_fl.png" alt="" style ="width:80%; ">
+<img src="/assets/img/faust/faust_fl.png" alt="" style ="width:80%; ">
 
 こちらはfilterbankのサンプルを開いた状態です。
 Edit SourceはFinderでdspをダブルクリックするのと同じなので、システムで.dspに紐付けられたアプリが開きます（なので.dspにFaustLiveを指定してるともう一個アプリが立ち上がるだけです）。
@@ -95,11 +93,11 @@ MacでかつMax7ならば~/Documents/Max 7/PackagesのフォルダにZipを展�
 
 [https://sourceforge.net/projects/faudiostream/files/?source=navbar](https://sourceforge.net/projects/faudiostream/files/?source=navbar)
 
-<img src="{{config.root}}assets/img/faust/faustgen1.png" alt="" style ="width:80%; ">
+<img src="/assets/img/faust/faustgen1.png" alt="" style ="width:80%; ">
 
 普通のオブジェクトにはあまりないですが、オブジェクトをダブルクリック（編集モードはCmd+ダブルクリック）でこのようなメニューが出てきます。
 
-<img src="{{config.root}}assets/img/faust/faustgen2.png" alt="" style ="">
+<img src="/assets/img/faust/faustgen2.png" alt="" style ="">
 
 faustgen~に限らずfaustで出力したMaxオブジェクトは全てそうですが、Faustのコード上のインプット、アウトプットの数だけインレット、アウトレットが作られ、UIのコントロールを全て第1インレットにUIのラベルと数値のメッセージを送ることでコントロールします。
 
@@ -124,7 +122,7 @@ UIのラベルに長過ぎる文字列が入ってると「view DSP Parameters�
 
 流用する場合には一番オススメなのはJavaなんですが、「'」（シングルクォーテーション）を「1サンプルディレイ」として扱うためにこれが含まれているコードを読もうとするとディレイが入ったところからちゃんと表示されなくなってしまいます。
 
-<img src="{{config.root}}assets/img/faust/badsyntax.png" alt="" style ="width:80%;">
+<img src="/assets/img/faust/badsyntax.png" alt="" style ="width:80%;">
 
 なので、シンタックスハイライトのDLは強くオススメします。（実際、シングルクォーテーションは全て「mem」というブロックに置き換えられるので自分のコードだけしか見ない場合には使わず頑張るという手も無くはないですが。）
 
@@ -147,7 +145,7 @@ FaustLiveやfaustgen~だけでいいやという方はこちらから直にDLし
 
 残念ながら**音は出ません**。のでSVGダイアグラムを確認しながらぽちぽちと拾ったサンプルなどをいじっていくのが現実的です。
 
-<img src="{{config.root}}assets/img/faust/faust_oc.png" alt="" style ="width:80%;">
+<img src="/assets/img/faust/faust_oc.png" alt="" style ="width:80%;">
 
 ## Faust Playground
 
@@ -158,7 +156,7 @@ FaustLiveやfaustgen~だけでいいやという方はこちらから直にDLし
 FaustPlaygroundはFaustのWebオーディオ出力機能を活用したWebアプリケーションで、**Faust製のモジュールをMaxの様にパッチングしたり、モジュールそのものをFaustで書き換えたりする**ことが出来ます。
 
 
-<img src="{{config.root}}assets/img/faust/faust_pg.png" alt="" style ="width:80%;">
+<img src="/assets/img/faust/faust_pg.png" alt="" style ="width:80%;">
 
 …なんですが、おそらくFaustのライブラリの形態が変わったのに伴ってExampleのコードが対応しきれてないっぽく、幾つか動かないのがたくさんあるみたいです。
 それから僕の環境ではマイクが無効になってしまいました。
