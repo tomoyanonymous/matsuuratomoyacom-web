@@ -1,0 +1,11 @@
+name = "tomoya"
+license = "MIT"
+
+description = "Theme for matsuuratomoya.com Website"
+homepage = "https://github.com/tomoyanonymous/tomoyanonymous.github.io"
+tags = ["blog", "portfolio"]
+min_version = 0.1
+
+[author]
+  name = "tomoya_nonymous"
+  homepage = "http://matsuuratomoya.com"
