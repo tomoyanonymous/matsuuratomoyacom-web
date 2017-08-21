@@ -1,0 +1,42 @@
+hasCJKLanguage = true
+DefaultContentLanguage = "ja"
+baseURL = "https://matsuuratomoya.com/"
+title = "Matsuura Tomoya"
+enableMissingTranslationPlaceholders = false
+publishDir = "docs"
+theme = tomoya
+[params]
+  Twitter = "tomoya_nonymous"
+  Facebook = "tomoya.matsuura.98"
+  Github = "tomoyanonymous"
+  Instagram = "tomoya_nonymous"
+
+[[menu.main]]
+  name = "about"
+  url = "about"
+  weight = 1
+[[menu.main]]
+  name = "info"
+  url = "info"
+  weight = 2
+[[menu.main]]
+  name = "works"
+  url = "works"
+  weight = 3
+[[menu.main]]
+  name = "blog"
+  url = "blog"
+  weight = 4
+[[menu.main]]
+  name = "contact"
+  url = "contact"
+  weight = 5
+
+
+[Languages]
+[Languages.ja]
+weight = 1
+languageCode = "ja"
+
+[Languages.en]
+weight = 2
