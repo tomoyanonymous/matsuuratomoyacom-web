@@ -1,14 +1,14 @@
 
-{{> head }}
+{{ partial "head.html" . }}
 <body>
-      {{> tagmanager }}
+      {{ partial "tagmanager.html" . }}
   <div class="outer">
 
-    {{>header}}
+    {{ partial "header.html" . }}
 
 
     <div class="inner">
-  {{!
+  {{/*
       <div class="content">
 
         <div class="child">
@@ -17,59 +17,64 @@
     {{!
         </div>
       </div>
-        }}
+      */}}
       <div class="content2">
       <div class="child">
         <div class="work">
-          {{#forloop collections.works 1}}
+          {{ range first 1 (where .Data.Pages "Section" "works" ) }}
+
           <div class="image">
-            <a href="{{relative_path ../path path}}">
+            <a href="{{.URL}}">
               <div class="description">
           <p>recent work</p>
-          <p class="caption_title">{{title}}</p>
+          <p class="caption_title">{{ .Title }}</p>
           </div>
-              <img src="{{relative_path ../path thum ../this}}" alt=""></a>
+              <img src="{{.Params.thum}}" alt=""></a>
 
           </div>
-          {{/forloop}}
+
+          {{ end }}
         </div>
         <div class="flex">
           <div class="index_left">
             <a href="./info"><p class="title">Updated infomation</p></a>
-            {{#forloop collections.infos 3}}
-
+            {{ range first 4 (where .Data.Pages "Section" "info" ) }}
             <div class="index_inner">
-              <p class="date">{{date}}</p>
-              <p class="title"><a href="{{relative_path ../path path ../this}}">{{title}}</a></p>
+              <p class="date">{{ .Date.Format "Mon, Jan 2, 2006" }}</p>
+              <p class="title"><a href="{{.URL}}">{{ .Title }}</a></p>
 
               <div class="content">
-            <div class="markdown">{{{excerpt}}}</div>
+            <div class="markdown">{{ .Summary }}</div>
+            <a href="{{.URL}}">read more</a>
               </div>
+
             </div>
 
-            {{/forloop}}
+            {{ end }}
           </div>
           <div class="index_right">
           <a href="./blog">  <p class="title">Blog</p></a>
-            {{#forloop collections.blogs 3}}
-            <div class="index_inner">
-              <p class="date">{{date}}</p>
+          {{ range first 4 (where .Data.Pages "Section" "blog" ) }}
 
-              <p class="title"><a href="{{relative_path ../path path ../this}}">{{title}}</a></p>
+            <div class="index_inner">
+              <p class="date">{{ .Date.Format "Mon, Jan 2, 2006" }}</p>
+
+              <p class="title"><a href="{{.URL}}">{{ .Title }}</a></p>
 
               <div class="content">
-                <div class="markdown">{{{excerpt}}}</div>
+                <div class="markdown">{{ .Summary }}</div>
+                <a href="{{.URL}}">read more</a>
               </div>
             </div>
 
-            {{/forloop}}
+            {{ end }}
           </div>
 
         </div>
         </div>
       </div>
     </div>
-    {{>footer}}
+    {{ partial "footer.html" .}}
   </div>
 </body>
 </html>

@@ -1,21 +1,21 @@
 
-{{> head }}
+{{ partial  "head.html" . }}
   <body>
-    {{> tagmanager }}
+    {{ partial  "tagmanager.html" . }}
     <div class="outer">
-{{>header}}
+{{ partial "header.html" . }}
 <div class="inner">
 
 <div class="content">
     <div class="child">
       <div class="markdown">
-    {{{rawcontents}}}
+    {{.Content}}
 </div>
 
 </div>
 </div>
     </div>
-        {{>footer}}
+        {{ partial "footer.html" .}}
     </div>
   </body>
 </html>

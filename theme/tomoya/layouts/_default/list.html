@@ -1,0 +1,42 @@
+
+{{ partial  "head.html" .  }}
+  <body>
+        {{ partial "tagmanager.html" .  }}
+    <div class="outer">
+
+{{ partial "header.html" . }}
+
+
+<div class="inner">
+
+<div class="content">
+    <div class="child">
+    <h1>{{.Section|upper}}</h1>
+  </div>
+    </div>
+<div class="index_outer">
+    {{ $paginator := .Paginate (where .Data.Pages "Section" .Section) 10 }}
+    {{ range $paginator.Pages }}
+    <div class="index_inner">
+      <div class="child">
+        <div class="content">
+        <p class="date">  {{ .Date.Format "Mon, Jan 2, 2006" }}</p>
+
+      <p class="title"><a href="{{ .URL }}">{{ .Title }}</a></p>
+  <div class="markdown">
+      {{ .Summary }}
+      </div>
+      <p class="more"><a href="{{ .URL }}">read more</a></p>
+    </div>
+
+    </div>
+</div>
+    {{ end }}
+    {{ partial  "pagination.html" . }}
+</div>
+
+    </div>
+        {{ partial "footer.html" . }}
+    </div>
+  </body>
+</html>

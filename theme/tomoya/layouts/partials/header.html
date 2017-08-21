@@ -1,26 +1,27 @@
 
 <header>
   <div>
-      <a href="{{relative_path path ""}}"><div class="title">Matsuura Tomoya</div></a>
+      <a href="{{.Site.BaseURL | absLangURL}}"><div class="title">Matsuura Tomoya</div></a>
 
       <div class="menu">
-        {{#each config.menu}}
-        <a href="{{relative_path ../path link ../this}}"><div>{{i18n ../this name}}</div></a>
-        {{/each}}
+        {{ $currentPage := . }}
+        {{range .Site.Menus.main}}
+        <a href="{{$.Site.BaseURL}}{{.URL}}"><div {{if $currentPage.IsMenuCurrent "main" . }} class="active"{{end}}>{{.Name}}</div></a>
+        {{ end }}
       </div>
     <div class="locales">
-      {{#locale_path locales locale this}}
-      <a href="{{path}}">
+      {{range .Translations}}
+      <a href="{{.URL}}">
         <span>
-          {{name}}
+          {{.Lang}}
 
         </span>
       </a>
-      {{/locale_path}}
+      {{ end }}
     </div>
 
     <div class="social">
-      {{> socials}}
+      {{ partial "socials.html" . }}
     </div>
     </div>
 </header>
