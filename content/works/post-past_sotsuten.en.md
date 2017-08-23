@@ -2,6 +2,7 @@
 title: 送れ | 遅れ / post | past (rev.2)
 thum: /assets/img/post-past-sotsuten/sotsuten_1.JPG
 date : 2017-03-30
+aliases: [/en/works/post-past-rev-2]
 ---
 
 2017/2/10~2/12 At Tokyo University of the Arts Senju Campus
