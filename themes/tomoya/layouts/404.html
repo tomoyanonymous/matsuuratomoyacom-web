@@ -1,0 +1,26 @@
+
+{{ partial "head.html" . }}
+<body>
+      {{ partial "tagmanager.html" . }}
+  <div class="outer">
+
+    {{ partial "header.html" . }}
+
+
+    <div class="inner">
+
+      <div class="content2">
+        <div class="child">
+          <div class="description">
+      <p>404 Not Found</p>
+      <p class="caption_title">
+          お探しのページは見つかりませんでした。URLが間違っている可能性があります。/Sorry, The site configured at this address does not contain the requested file.
+      </p>
+      <p><a href="/">トップに戻る/Back to top page</a></p>
+      </div>
+        </div>
+    </div>
+    {{ partial "footer.html" .}}
+  </div>
+</body>
+</html>
