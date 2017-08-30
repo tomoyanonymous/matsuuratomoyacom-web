@@ -3,6 +3,7 @@ title: 送れ | 遅れ / post | past (rev.2)
 thum: /assets/img/post-past-sotsuten/sotsuten_1.JPG
 date : 2017-03-30
 aliases: [/works/post-past-rev-2]
+ogpimage: /assets/img/post-past-sotsuten/ogp.png
 ---
 
 2017/2/10~2/12 東京藝術大学 千住キャンパス
