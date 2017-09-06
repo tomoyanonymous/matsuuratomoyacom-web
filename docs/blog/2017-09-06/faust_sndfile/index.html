@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="ja" prefix="og: http://ogp.me/ns#">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="/assets/css/style.css">
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.3.0/styles/tomorrow.min.css">
+    <link rel="shortcut icon" href="/assets/img/favicon.ico">
+    <link rel="canonical" href="http://matsuuratomoya.com">
+    
+  <link rel="prev" href="Page%28%22Faust%e3%81%ae%e3%83%a9%e3%82%a4%e3%83%96%e3%83%a9%e3%83%aa%e3%81%ae%e4%bd%bf%e3%81%84%e6%96%b9%e3%81%a8%e6%a8%99%e6%ba%96%e3%83%a9%e3%82%a4%e3%83%96%e3%83%a9%e3%83%aa%e3%81%ae%e3%82%aa%e3%82%b9%e3%82%b9%e3%83%a1%22%29">
+    <meta name="viewport" content="width=700">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="keyword" content="松浦知也,Matsuura Tomoya,">
+  <meta name="description" content="今回は最近追加されたFaustで書いたエフェクトをwavファイルに対して掛ける方法を紹介します。
+
+">
+  <meta http-equiv="content-language" content="ja" />
+  <meta property="og:title" content="Faustで出来る限り簡単にwavファイルにエフェクトを掛ける | Matsuura Tomoya|松浦知也" />
+  <meta property="og:type" content="article">
+  <meta property="twitter:card" content="summary" />
+  <meta property="twitter:site" content="@tomoya_nonymous">
+    <meta property="twitter:creator" content="@tomoya_nonymous">
+    <meta property="twitter:creator:id" content="@tomoya_nonymous">
+<meta property="og:url" content="https://matsuuratomoya.com/blog/2017-09-06/faust_sndfile/" />
+<meta property="og:image" content="https://matsuuratomoya.com/assets/img/image_ogp.png" />
+<meta property="og:image:type" content="image/png" />
+<meta property="og:image:width" content="1200" />
+<meta property="og:image:height" content="630" />
+<meta property="fb:app_id" content="1756749324544053" />
+  <meta property="og:description" content="
+  今回は最近追加されたFaustで書いたエフェクトをwavファイルに対して掛ける方法を紹介します。
+
+"/>
+    <title>Faustで出来る限り簡単にwavファイルにエフェクトを掛ける | Matsuura Tomoya|松浦知也 </title>
+  </head>
+
+<body>
+  
+<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-KSWGLR"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-KSWGLR');</script>
+
+
+  <div class="outer">
+
+    
+<header>
+  <div>
+      <a href="https://matsuuratomoya.com/"><div class="title">Matsuura Tomoya</div></a>
+
+      <div class="menu">
+        
+        
+        <a href="https://matsuuratomoya.com/about"><div >about</div></a>
+        
+        <a href="https://matsuuratomoya.com/info"><div >info</div></a>
+        
+        <a href="https://matsuuratomoya.com/works"><div >works</div></a>
+        
+        <a href="https://matsuuratomoya.com/blog"><div >blog</div></a>
+        
+        <a href="https://matsuuratomoya.com/contact"><div >contact</div></a>
+        
+      </div>
+    <div class="locales">
+      
+    </div>
+
+    <div class="social">
+      <div class="tw">
+  <div class="logo">
+    <a href="https://twitter.com/tomoya_nonymous" target=”_blank”>
+      <img src="/assets/img/tw.png" alt="twitter">
+    </a>
+  </div>
+  </div>
+  <div class="fb">
+    <div class="logo">
+      <a href="https://www.facebook.com/tomoya.matsuura.98" target=”_blank”>
+        <img src="/assets/img/fb.png" alt="facebook">
+      </a>
+    </div>
+  </div>
+
+  <div class="github">
+    <div class="logo">
+      <a href="https://github.com/tomoyanonymous" target=”_blank”>
+        <img src="/assets/img/github.png" alt="github">
+      </a>
+    </div>
+  </div>
+
+  <div class="instagram">
+    <div class="logo">
+      <a href="https://www.instagram.com/tomoya_nonymous" target=”_blank”>
+        <img src="/assets/img/instagram.png" alt="instagram">
+      </a>
+    </div>
+  </div>
+
+    </div>
+    </div>
+</header>
+
+    <div class="inner">
+      <div class="child">
+
+        <div class="content">
+          <p class="date">2017-09-06(Wed)</p>
+          
+          <p class="title"><a href="https://matsuuratomoya.com/blog/2017-09-06/faust_sndfile/">Faustで出来る限り簡単にwavファイルにエフェクトを掛ける</a></p>
+          <div class="markdown">
+            <p>今回は最近追加されたFaustで書いたエフェクトをwavファイルに対して掛ける方法を紹介します。</p>
+
+<p></p>
+
+<h1 id="faustでファイルを処理するメリット">Faustでファイルを処理するメリット</h1>
+
+<p><strong>MatlabやPython</strong>などREPLで処理するバッチ処理の高速化が大きいのではないかなと思います。ある程度複雑な処理(統計的な処理や、複数ファイルの相関を取ったりするような)になると無理ですが、事前の下処理などでまとめてエフェクトを掛けるのにffmpegのフィルターやDAWのオートメーションを駆使して大量処理するなどがあり得ますが、そういった雑処理を厳密性を保ちつつも高速に出来ることがウリだと思います。</p>
+
+<h2 id="デメリット">デメリット</h2>
+
+<p>現状出力ファイルの長さは入力ファイルに一致するようです。つまりディレイやリバーブなどテールの長いものはぶった切られてしまうようです。</p>
+
+<hr />
+
+<h1 id="faust2sndfile">faust2sndfile</h1>
+
+<p>結論から言うと今回はこのfaust2sndfileというのを使います。これは残念ながらFaustLiveやオンラインコンパイラのリモートビルドに対応していないので、ローカルのコマンドラインでfaustコマンドが使えるようになっている必要があります。</p>
+
+<h2 id="faustをローカルで使えるようにしよう">Faustをローカルで使えるようにしよう</h2>
+
+<p><a href="blog/2016-12-11/faust_build_compiler">Faustのコンパイラのビルドとインストール時の注意点</a>を参照して下さい。releaseの中のv2.1.0にはまだfaust2sndfileがありませんので、Homebrewで入れる人は&ndash;HEADオプションを付けることを推奨します。</p>
+
+<h2 id="スクリプトの中身">スクリプトの中身</h2>
+
+<p><a href="https://github.com/grame-cncm/faust/blob/master-dev/tools/faust2appls/faust2sndfile">https://github.com/grame-cncm/faust/blob/master-dev/tools/faust2appls/faust2sndfile</a></p>
+
+<p>中身はまんまこのシェルスクリプトです。
+まず.dspファイルをCLIツールに変換してから、そのツールにwavファイルのパスを与えてあげると、Faustでエフェクトの掛かったwavファイルが出て来るというわけです</p>
+
+<p>バイナリをビルドするのにはlibsndfileがインストールされてる必要があります。</p>
+
+<pre><code class="language-bash">pkg-config --cflags --static --libs sndfile
+</code></pre>
+
+<p>でエラーがなければ問題ないでしょう。もしエラーが出るようであれば</p>
+
+<pre><code>brew install libsndfile
+</code></pre>
+
+<p>などで入れれば良いと思います。</p>
+
+<h1 id="使ってみよう">使ってみよう</h1>
+
+<pre><code class="language-bash">faust2sndfile -h
+</code></pre>
+
+<p>で<code>faust2sndfile &lt;file.dsp&gt;</code>と帰ってきたらきちんとインストールされてます。</p>
+
+<p>早速試しに、</p>
+
+<pre><code class="language-java">import(&quot;stdfaust.lib&quot;);
+process = fi.lowpass(1,1000),fi.lowpass(1,1000);
+</code></pre>
+
+<p>という、ステレオの1000Hz以上を切るローパスフィルターのエフェクトを作って、<code>lowpass.dsp</code>という名前などで保存しましょう。そして</p>
+
+<pre><code class="language-bash">faust2sndfile lowpass.dsp -double
+</code></pre>
+
+<p>dspファイルをバイナリにコンパイル、ビルドします。注意点としてはfaustコンパイラへのオプションはこの時点で通さなければならないということです。おそらく使うのは-double -quadなどの制度指定くらいではないかと思いますが。</p>
+
+<p>そうすると<code>lowpass</code>というバイナリが出てくると思います。あとは</p>
+
+<pre><code class="language-bash">./lowpass test.wav test_processed.wav
+</code></pre>
+
+<p>のように、入力ファイルのパス、出力ファイルのパスの順で入れてあげると、ファイルがでてきます。試しにAudacityに突っ込んでみると、</p>
+
+<p><img src="/assets/img/faust/faust_simplelowpass.png" alt="" /></p>
+
+<p>上が処理前、下が処理後です。1000Hz以下はきちんとカットされてる感じしますね。</p>
+
+<p>出力フォーマットは入力ファイルの拡張子と同じものに強制的に変換されます。
+libsndfileを使っているのでwav、aiffの他flacなんかもいけます。</p>
+
+<p>ちなみにいくつか試した限りでは、Faust側の入出力が1chでオーディオファイルがステレオだった場合Lchのみ処理されるなど、エラーは返さずある程度上手いこと処理してくれるようです。</p>
+
+<h1 id="もっとまとめて処理する">もっとまとめて処理する</h1>
+
+<p>こんな感じでしょうか。これで最初に挙げた高速バッチ処理みたいなことが出来るのではないかと（あまりちゃんと動作確認してないですが・・・）。</p>
+
+<pre><code class="language-bash">#!/bin/bash
+
+dsp='./lowpass'
+
+src=($(find src -name '*.wav' -o -name '*.aif'))
+
+mkdir out
+
+faust2sndfile $(echo $dsp'.dsp') -double
+
+for obj in &quot;${array[@]}&quot;; do
+  echo $obj
+  out=$(echo $obj | sed s/src/out/g)
+  dsp $obj $out
+done
+
+</code></pre>
+
+            <div class="share">
+  <div class="tweet">
+<a href="https://twitter.com/share" class="twitter-share-button" data-size="large" data-url="https://matsuuratomoya.com/blog/2017-09-06/faust_sndfile/" data-related="tomoya_nonymous">Tweet</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+</div>
+
+<div class="fb-share-button" data-href="https://matsuuratomoya.com/blog/2017-09-06/faust_sndfile/" data-layout="box_count" data-mobile-iframe="true"></div>
+
+</div>
+
+            <hr>
+
+<div class="fb-comments" data-width="100%" data-href="https://matsuuratomoya.com/blog/2017-09-06/faust_sndfile/" data-numposts="5"></div>
+
+            <div class="pagination">
+
+<ul>
+  <li class="to_next">
+
+    <a href=""  class="none">
+        
+    &lt;&lt;
+
+    </a>
+
+  </li>
+  <li class="to_index">
+
+    <a href="../">^</a>
+
+  </li>
+  <li class="to_prev">
+
+    <a href="
+     https://matsuuratomoya.com/blog/2017-01-19/faust_library/
+    " >
+
+    >>
+    
+    Faustのライブラリの使い方と標準ライブラリのオススメ
+    
+    </a>
+  </li>
+
+
+</ul>
+</div>
+
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+    
+  <footer>
+<div class="child">
+
+<p class = "copyrights">
+
+<a href="https://matsuuratomoya.com/license">2016-2017 (CC BY-NC-ND 4.0) Matsuura Tomoya</a>
+</p>
+</div>
+</footer>
+
+  </div>
+</body>
+</html>

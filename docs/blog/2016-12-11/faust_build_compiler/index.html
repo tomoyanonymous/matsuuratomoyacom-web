@@ -114,7 +114,10 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
       <div class="child">
 
         <div class="content">
-          <p class="date">Sun, Dec 11, 2016</p>
+          <p class="date">2016-12-11(Sun)</p>
+          
+          <p class="date"><small>2017-09-06(Sun) last update</small></p>
+          
           <p class="title"><a href="https://matsuuratomoya.com/blog/2016-12-11/faust_build_compiler/">Faustのコンパイラのビルドとインストール時の注意点</a></p>
           <div class="markdown">
             <p><em>この記事は<a href="http://qiita.com/advent-calendar/2016/faust">Faust(多分ひとり)Advent Calender</a>の3つ目の記事です。</em></p>
@@ -131,7 +134,42 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
 <p>もう一つは<strong>faust2</strong>というもので、こちらがLLVMを利用して実行時コンパイルやasm.jsを利用したWebaudioエクスポートが可能になっています。</p>
 
-<h1 id="コンパイラをダウンロードしよう">コンパイラをダウンロードしよう</h1>
+<h1 id="homebrew-formula作りました-2017-09-06追記">Homebrew Formula作りました(2017/09/06追記)</h1>
+
+<p>これです。faust2のみ対応です（2バージョンを1Formulaに入れるのはダメらしいので）。</p>
+
+<p><a href="https://github.com/tomoyanonymous/homebrew-faust">https://github.com/tomoyanonymous/homebrew-faust</a></p>
+
+<h2 id="インストール">インストール</h2>
+
+<pre><code class="language-bash">brew tap tomoyanonymous/faust 
+brew install faust [option]
+</code></pre>
+
+<h2 id="オプション">オプション</h2>
+
+<p>標準ではstable releaseのv2.1.0がインストールされます。</p>
+
+<ul>
+<li>&ndash;HEAD:faust2ブランチの最新版がインストールされます。</li>
+<li>&ndash;without-httpd,&ndash;without-sound2faust,&ndash;without-dynamic いずれも、標準ではhttpを使えるようなオプション、libfaustの動的リンクライブラリ、wavファイルをfaustのwaveformによるテキストに出力するsound2faustというツールを勝手にインストールします。要らなければこれらのオプションを付けて下さい。</li>
+</ul>
+
+<h2 id="依存">依存</h2>
+
+<ul>
+<li>llvm(現状は4.0.1です)</li>
+<li>openssl</li>
+<li>pkg-config</li>
+<li>libmicrohttpd(httpdで必要)</li>
+<li>libsndfile(sound2faustで必要)</li>
+</ul>
+
+<p>いずれも入ってなければHomebrewが勝手にインストールします。</p>
+
+<h1 id="自力インストール">自力インストール</h1>
+
+<h2 id="コンパイラをダウンロードしよう">コンパイラをダウンロードしよう</h2>
 
 <p>さて、コンパイラはFaustliveやfaustgen~と違って残念ながらビルド済みのバイナリは配布されていません。
 そのため自力でソースからビルドする必要があります。</p>
@@ -139,10 +177,6 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <p>Faustのリポジトリはこちら。</p>
 
 <p><a href="https://github.com/grame-cncm/faust">https://github.com/grame-cncm/faust</a></p>
-
-<p>こちらは最近sourceforgeから移ったばっかりなので一応sourceforgeのアドレスも。</p>
-
-<p><a href="https://sourceforge.net/p/faudiostream/code/ci/master/tree/">https://sourceforge.net/p/faudiostream/code/ci/master/tree/</a></p>
 
 <p>通常版のfaustがmasterブランチ、faust2はfaust2ブランチという用にgitのブランチでバージョン違いがあるので、gitが入ってない方はインストールをオススメします。</p>
 
@@ -156,9 +190,9 @@ git clone git@github.com:grame-cncm/faust.git
 
 <p>で落としてきます。</p>
 
-<h1 id="ビルド">ビルド</h1>
+<h2 id="ビルド">ビルド</h2>
 
-<h2 id="前準備">前準備</h2>
+<h3 id="前準備">前準備</h3>
 
 <p>Macの人はmakeコマンドを使うためにXcode Command Line Toolsが必要です。
 AppstoreからXcodeインストールした上で</p>
@@ -169,15 +203,15 @@ AppstoreからXcodeインストールした上で</p>
 
 <p>でインストール。</p>
 
-<h2 id="faust-通常版">faust(通常版)</h2>
+<h3 id="faust-通常版">faust(通常版)</h3>
 
 <p>masterブランチに移動します（DL時は最初からそうだと思いますが念のため）。</p>
 
-<pre><code class="language-bash">cd path/to/faudiostream-code
+<pre><code class="language-bash">cd path/to/faust
 git checkout master
 </code></pre>
 
-<h3 id="mac-linux">Mac/Linux</h3>
+<h4 id="mac-linux">Mac/Linux</h4>
 
 <pre><code class="language-bash">make
 </code></pre>
@@ -189,11 +223,13 @@ git checkout master
 
 <p>でUnixならusr/local/にインストールされます。(usr/local/binの中にfaustコマンドとfaust2xxxのスクリプト群、usr/local/includeに標準アーキテクチャファイルなどのヘッダ類が入ります。)</p>
 
-<h3 id="windows">Windows</h3>
+<p>また、DockerfileもあるのでDockerで使うことも可能です。</p>
+
+<h4 id="windows">Windows</h4>
 
 <p>Visual Studioでのインストールが推奨されているようです。（すみません、こちらはまだ試していません。）</p>
 
-<p>VS2012以上でfaudiostream-code/windows/faust_vs2012.slnというVisual Studio solutionファイルを開いてビルドします。ターゲットはデバッグ、リリースどちらでも行けるそうです(以下、筆者はMacでしかまだビルドしたことがないのでMacの情報中心に書かせてもらいます。すみません)。</p>
+<p>VS2012以上でfaust/windows/faust_vs2012.slnというVisual Studio solutionファイルを開いてビルドします。ターゲットはデバッグ、リリースどちらでも行けるそうです(以下、筆者はMacでしかまだビルドしたことがないのでMacの情報中心に書かせてもらいます。すみません)。</p>
 
 <h2 id="faust2">faust2</h2>
 
@@ -204,25 +240,25 @@ git checkout master
 <p>faust2はLLVMの実行時コンパイルを使うために当然ながらLLVMのインストールが必要です。
 LLVMのバージョンは</p>
 
-<p>3.1&lt;バージョン&lt;=3.9が対応済みです。安定版は3.8.1が最大のはず？です。私は3.8.1でインストールできています。</p>
+<p>3.1&lt;バージョン&lt;=4.0.0が対応済みです。私は3.8.1でインストールできています。</p>
 
 <p>Macの場合、</p>
 
 <pre><code class="language-bash">#Macports
 
-sudo port install llvm-3.xx +universal
+sudo port install llvm-3.xx
 </code></pre>
 
 <pre><code class="language-bash">#Homebrew
 brew tap homebrew/versions
-sudo brew install llvm38 --universal
+sudo brew install llvm38
 </code></pre>
 
 <p>とかでいけます。</p>
 
 <p>※どちらもビルドするのに1時間半ほどCPUがフルパワーで回りっぱなしになりますので注意</p>
 
-<p>ユニバーサルバイナリである必要が有るので注意しましょう。homebrewはbrew install llvmでも同じく3.8.1が入るのですがこちらは最初から入っているclangと喧嘩しないようにコマンド名clang++3.8とか番号をつけてくれます。</p>
+<p>ユニバーサルバイナリである必要が有る、とのことでしたが最近はHomebrewからuniversalオプションがいつからか消えています。私の環境では特にそのままでもインストールできています。。brew install llvmをすると現在は4.0.1がインストールされるようになっています。こちらはfaust2ブランチのHEADは対応していますがstableリリースのv2.1.0では4.0.0までしか対応しておりません（Makefileに番号が入ってないだけなので、自力で書き換えれば多分出来ますが。）</p>
 
 <p>llvm関係のコマンドのパスを確定させるためにllvm-configというコマンドを使うのですが、Makefileでは最初に/usr/bin→opt/local/bin→/usr/local/binという順番でllvm-configを探し、なければllvm-config-3.9→llvm-config-3.8という順でバージョンの高い順番にサフィックスを付けて検索していくので、Homebrewでインストールした場合でも勝手に見つけてくれる用になってます。</p>
 
@@ -292,7 +328,7 @@ sudo brew install libmicrohttpd --universal
 
 <p>やっとですがfaust2ブランチにチェックアウト。</p>
 
-<pre><code class="language-bash">cd path/to/faudiostream-code
+<pre><code class="language-bash">cd path/to/faust
 git checkout faust2
 </code></pre>
 
@@ -311,7 +347,7 @@ git checkout faust2
 <h3 id="注意点">注意点</h3>
 
 <ul>
-<li><p>CMakeLists.txtがあるのでCMakeを使ったことがある人はこちらを実行しそうになりますがどうもコミットログを見る限りMakefileの方を直接更新してるようなので使うと逆にエラーが出まくって大変なことになります。この辺はメーリスでも問題になってたのでそのうち解決するとは思いますが触らないほうが無難です。</p></li>
+<li><p>CMakeLists.txtがありますがこちらは使われておらず直接Makefileを更新しているようです。うっかりcmakeを走らせると全然対応してないMakefileが出てきて大変なことになります。</p></li>
 
 <li><p>最近でもLLVMのバージョンごとにビルドエラーが出たり出なかったりが結構あるみたいなのでLLVMのパスがちゃんと通ってそうでもLLVM関係のエラーが出る場合はバージョンを変えてみるのもありだと思います（LLVM自体のビルドがめちゃくちゃ時間かかるのが難ですが・・・）</p></li>
 </ul>
