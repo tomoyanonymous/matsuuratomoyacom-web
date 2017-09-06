@@ -33,34 +33,6 @@
   </url>
   
   <url>
-    <loc>https://matsuuratomoya.com/en/about/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="ja"
-                href="https://matsuuratomoya.com/about/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://matsuuratomoya.com/en/about/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://matsuuratomoya.com/en/license/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="ja"
-                href="https://matsuuratomoya.com/license/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://matsuuratomoya.com/en/license/"
-                />
-  </url>
-  
-  <url>
     <loc>https://matsuuratomoya.com/en/blog/</loc>
     <lastmod>2017-09-06T00:00:00+00:00</lastmod>
     <priority>0</priority>
@@ -88,6 +60,20 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://matsuuratomoya.com/en/categories/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://matsuuratomoya.com/en/license/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ja"
+                href="https://matsuuratomoya.com/license/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://matsuuratomoya.com/en/license/"
                 />
   </url>
   
@@ -135,6 +121,20 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://matsuuratomoya.com/en/works/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://matsuuratomoya.com/en/about/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ja"
+                href="https://matsuuratomoya.com/about/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://matsuuratomoya.com/en/about/"
                 />
   </url>
   

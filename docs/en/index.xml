@@ -34,16 +34,7 @@ Acoustic delay line memory is the system that detect pulse from speaker with mic
     </item>
     
     <item>
-      <title></title>
-      <link>https://matsuuratomoya.com/en/about/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://matsuuratomoya.com/en/about/</guid>
-      <description>Matsuura Tomoya マツウラトモヤ 松浦知也 (Photo by Noguchi Shohei) Sound Maker/Engineer/Designer/Programmer Making sound artworks, electric musical instruments, systems for live performance and also composing, playing and so on. The Main theme of works is &amp;ldquo;System&amp;rdquo; in varying media around the sound, in particular, the relationship between &amp;ldquo;Liveness/Communication&amp;rdquo; and &amp;ldquo;Archive/Record/Memory&amp;rdquo;. Making sound installation works and developping sound systems for installation works. Also do:</description>
-    </item>
-    
-    <item>
-      <title></title>
+      <title>License</title>
       <link>https://matsuuratomoya.com/en/license/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -52,6 +43,15 @@ Acoustic delay line memory is the system that detect pulse from speaker with mic
 You can use any text contents in the limitation of license.
 Images on this website may not be my own copyrighted works. Contact me if you needed.
 http://creativecommons.org/licenses/by-nc-nd/4.0</description>
+    </item>
+    
+    <item>
+      <title>about</title>
+      <link>https://matsuuratomoya.com/en/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://matsuuratomoya.com/en/about/</guid>
+      <description>Matsuura Tomoya マツウラトモヤ 松浦知也 (Photo by Noguchi Shohei) Sound Maker/Engineer/Designer/Programmer Making sound artworks, electric musical instruments, systems for live performance and also composing, playing and so on. The Main theme of works is &amp;ldquo;System&amp;rdquo; in varying media around the sound, in particular, the relationship between &amp;ldquo;Liveness/Communication&amp;rdquo; and &amp;ldquo;Archive/Record/Memory&amp;rdquo;. Making sound installation works and developping sound systems for installation works. Also do:</description>
     </item>
     
   </channel>

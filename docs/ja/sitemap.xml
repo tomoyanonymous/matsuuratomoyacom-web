@@ -183,20 +183,6 @@
   </url>
   
   <url>
-    <loc>https://matsuuratomoya.com/about/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://matsuuratomoya.com/en/about/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ja"
-                href="https://matsuuratomoya.com/about/"
-                />
-  </url>
-  
-  <url>
     <loc>https://matsuuratomoya.com/contact/</loc>
   </url>
   
@@ -206,20 +192,6 @@
   
   <url>
     <loc>https://matsuuratomoya.com/info/</loc>
-  </url>
-  
-  <url>
-    <loc>https://matsuuratomoya.com/license/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://matsuuratomoya.com/en/license/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ja"
-                href="https://matsuuratomoya.com/license/"
-                />
   </url>
   
   <url>
@@ -261,6 +233,20 @@
     <loc>https://matsuuratomoya.com/info/</loc>
     <lastmod>2017-08-08T00:00:00+00:00</lastmod>
     <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://matsuuratomoya.com/license/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://matsuuratomoya.com/en/license/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ja"
+                href="https://matsuuratomoya.com/license/"
+                />
   </url>
   
   <url>
@@ -307,6 +293,20 @@
                 rel="alternate"
                 hreflang="ja"
                 href="https://matsuuratomoya.com/works/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://matsuuratomoya.com/about/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://matsuuratomoya.com/en/about/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ja"
+                href="https://matsuuratomoya.com/about/"
                 />
   </url>
   

@@ -1,4 +1,5 @@
 ---
+title: about
 ---
 
 <p style="font-size:300%; font-weight:bolder;">
@@ -16,7 +17,7 @@ Matsuura Tomoya
 
 ![](/assets/img/profile.jpg)
 
-(撮影：野口翔平)
+(撮影：[野口翔平](http://ngcsh.tumblr.com))
 
 Sound Maker/Engineer/Designer/Programmer
 
@@ -34,15 +35,15 @@ Web Site : <https://matsuuratomoya.com>
 
 1994年神奈川県茅ヶ崎市生まれ 福岡県在住
 
-2010/04~2013/03 神奈川県立神奈川総合高等学校 普通科個性化コース
+2010.04~2013.03 神奈川県立神奈川総合高等学校 普通科個性化コース
 
-2013/04~2016~03 東京藝術大学 音楽学部音楽環境創造科 プロジェクト３(録音/サウンドデザイン専攻)、亀川徹研究室 学士（音楽）
+2013.04~2016.03 東京藝術大学 音楽学部音楽環境創造科 プロジェクト３(録音/サウンドデザイン専攻)、亀川徹研究室 学士（音楽）
 
-2015/02~2017/03 teamlab サウンドエンジニア
+2015.02~2017.03 teamlab サウンドエンジニア
 
-2015/08~09 YCAM（山口情報芸術センター） interlab インターンシップ
+2015.08~09 YCAM（山口情報芸術センター） interlab インターンシップ
 
-2017/04~ 九州大学 大学院芸術工学府 修士課程芸術工学専攻 コンテンツ・クリエーティブデザインコース デジタルコンテンツデザイン講座（城一裕研究室）
+2017.04~ 九州大学 大学院芸術工学府 修士課程芸術工学専攻 コンテンツ・クリエーティブデザインコース デジタルコンテンツデザイン講座（城一裕研究室）
 
 ### 受賞歴
 
@@ -57,21 +58,21 @@ Web Site : <https://matsuuratomoya.com>
 
 ### よく使う
 
-- Puredata
 - Max/MSP
+- Faust
 - HTML5/CSS3
 - Cubase
-- Faust
+- Puredata
 - Javascript(Node.jsも)
 
 ### 使う
 
+- Openframeworks
+- Julia
 - Protools
 - R
-- Openframeworks
-
+- Processing
 
 ### 勉強中
 
-- Julia
 - Unity
