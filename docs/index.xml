@@ -6,10 +6,21 @@
     <description>Recent content on Matsuura Tomoya</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <lastBuildDate>Tue, 08 Aug 2017 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 06 Sep 2017 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://matsuuratomoya.com/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Faustで出来る限り簡単にwavファイルにエフェクトを掛ける</title>
+      <link>https://matsuuratomoya.com/blog/2017-09-06/faust_sndfile/</link>
+      <pubDate>Wed, 06 Sep 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://matsuuratomoya.com/blog/2017-09-06/faust_sndfile/</guid>
+      <description>&lt;p&gt;今回は最近追加されたFaustで書いたエフェクトをwavファイルに対して掛ける方法を紹介します。&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>音声処理言語Faust勉強会#1を開催します</title>

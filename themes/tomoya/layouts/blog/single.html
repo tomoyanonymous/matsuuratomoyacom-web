@@ -8,7 +8,10 @@
       <div class="child">
 
         <div class="content">
-          <p class="date">{{ .Date.Format "Mon, Jan 2, 2006" }}</p>
+          <p class="date">{{ .Date.Format "2006-01-02" }}({{ .Date.Format "Mon" }})</p>
+          {{if ne .Date .Lastmod}}
+          <p class="date"><small>{{ .Lastmod.Format "2006-01-02" }}({{ .Date.Format "Mon" }}) last update</small></p>
+          {{end}}
           <p class="title"><a href="{{.Permalink}}">{{ .Title }}</a></p>
           <div class="markdown">
             {{.Content}}

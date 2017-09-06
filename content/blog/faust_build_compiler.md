@@ -1,7 +1,7 @@
 ---
 date: 2016-12-11
 title: Faustのコンパイラのビルドとインストール時の注意点
-permalink: faust_build_compiler
+lastmod: 2017-09-06
 ---
 
 *この記事は[Faust(多分ひとり)Advent Calender](http://qiita.com/advent-calendar/2016/faust)の3つ目の記事です。*
@@ -18,7 +18,40 @@ permalink: faust_build_compiler
 
 もう一つは**faust2**というもので、こちらがLLVMを利用して実行時コンパイルやasm.jsを利用したWebaudioエクスポートが可能になっています。
 
-# コンパイラをダウンロードしよう
+# Homebrew Formula作りました(2017/09/06追記)
+
+これです。faust2のみ対応です（2バージョンを1Formulaに入れるのはダメらしいので）。
+
+<https://github.com/tomoyanonymous/homebrew-faust>
+
+## インストール
+
+```bash
+brew tap tomoyanonymous/faust 
+brew install faust [option]
+```
+
+## オプション
+
+標準ではstable releaseのv2.1.0がインストールされます。
+
+- --HEAD:faust2ブランチの最新版がインストールされます。
+- --without-httpd,--without-sound2faust,--without-dynamic いずれも、標準ではhttpを使えるようなオプション、libfaustの動的リンクライブラリ、wavファイルをfaustのwaveformによるテキストに出力するsound2faustというツールを勝手にインストールします。要らなければこれらのオプションを付けて下さい。
+
+## 依存
+
+- llvm(現状は4.0.1です)
+- openssl
+- pkg-config
+- libmicrohttpd(httpdで必要)
+- libsndfile(sound2faustで必要)
+
+いずれも入ってなければHomebrewが勝手にインストールします。
+
+
+# 自力インストール
+
+## コンパイラをダウンロードしよう
 
 さて、コンパイラはFaustliveやfaustgen~と違って残念ながらビルド済みのバイナリは配布されていません。
 そのため自力でソースからビルドする必要があります。
@@ -26,10 +59,6 @@ permalink: faust_build_compiler
 Faustのリポジトリはこちら。
 
 <https://github.com/grame-cncm/faust>
-
-こちらは最近sourceforgeから移ったばっかりなので一応sourceforgeのアドレスも。
-
-<https://sourceforge.net/p/faudiostream/code/ci/master/tree/>
 
 通常版のfaustがmasterブランチ、faust2はfaust2ブランチという用にgitのブランチでバージョン違いがあるので、gitが入ってない方はインストールをオススメします。
 
@@ -44,9 +73,9 @@ git clone git@github.com:grame-cncm/faust.git
 
 で落としてきます。
 
-# ビルド
+## ビルド
 
-## 前準備
+### 前準備
 
 Macの人はmakeコマンドを使うためにXcode Command Line Toolsが必要です。
 AppstoreからXcodeインストールした上で
@@ -58,16 +87,16 @@ xcode-select --install
 
 でインストール。
 
-## faust(通常版)
+### faust(通常版)
 
 masterブランチに移動します（DL時は最初からそうだと思いますが念のため）。
 
 ```bash
-cd path/to/faudiostream-code
+cd path/to/faust
 git checkout master
 ```
 
-### Mac/Linux
+#### Mac/Linux
 
 ```bash
 make
@@ -81,11 +110,13 @@ sudo make install
 
 でUnixならusr/local/にインストールされます。(usr/local/binの中にfaustコマンドとfaust2xxxのスクリプト群、usr/local/includeに標準アーキテクチャファイルなどのヘッダ類が入ります。)
 
-### Windows
+また、DockerfileもあるのでDockerで使うことも可能です。
+
+#### Windows
 
 Visual Studioでのインストールが推奨されているようです。（すみません、こちらはまだ試していません。）
 
-VS2012以上でfaudiostream-code/windows/faust_vs2012.slnというVisual Studio solutionファイルを開いてビルドします。ターゲットはデバッグ、リリースどちらでも行けるそうです(以下、筆者はMacでしかまだビルドしたことがないのでMacの情報中心に書かせてもらいます。すみません)。
+VS2012以上でfaust/windows/faust_vs2012.slnというVisual Studio solutionファイルを開いてビルドします。ターゲットはデバッグ、リリースどちらでも行けるそうです(以下、筆者はMacでしかまだビルドしたことがないのでMacの情報中心に書かせてもらいます。すみません)。
 
 ## faust2
 
@@ -96,20 +127,20 @@ VS2012以上でfaudiostream-code/windows/faust_vs2012.slnというVisual Studio 
 faust2はLLVMの実行時コンパイルを使うために当然ながらLLVMのインストールが必要です。
 LLVMのバージョンは
 
-3.1<バージョン<=3.9が対応済みです。安定版は3.8.1が最大のはず？です。私は3.8.1でインストールできています。
+3.1<バージョン<=4.0.0が対応済みです。私は3.8.1でインストールできています。
 
 Macの場合、
 
 ```bash
 #Macports
 
-sudo port install llvm-3.xx +universal
+sudo port install llvm-3.xx
 ```
 
 ```bash
 #Homebrew
 brew tap homebrew/versions
-sudo brew install llvm38 --universal
+sudo brew install llvm38
 ```
 
 
@@ -118,7 +149,7 @@ sudo brew install llvm38 --universal
 
 ※どちらもビルドするのに1時間半ほどCPUがフルパワーで回りっぱなしになりますので注意
 
-ユニバーサルバイナリである必要が有るので注意しましょう。homebrewはbrew install llvmでも同じく3.8.1が入るのですがこちらは最初から入っているclangと喧嘩しないようにコマンド名clang++3.8とか番号をつけてくれます。
+ユニバーサルバイナリである必要が有る、とのことでしたが最近はHomebrewからuniversalオプションがいつからか消えています。私の環境では特にそのままでもインストールできています。。brew install llvmをすると現在は4.0.1がインストールされるようになっています。こちらはfaust2ブランチのHEADは対応していますがstableリリースのv2.1.0では4.0.0までしか対応しておりません（Makefileに番号が入ってないだけなので、自力で書き換えれば多分出来ますが。）
 
 llvm関係のコマンドのパスを確定させるためにllvm-configというコマンドを使うのですが、Makefileでは最初に/usr/bin→opt/local/bin→/usr/local/binという順番でllvm-configを探し、なければllvm-config-3.9→llvm-config-3.8という順でバージョンの高い順番にサフィックスを付けて検索していくので、Homebrewでインストールした場合でも勝手に見つけてくれる用になってます。
 
@@ -194,7 +225,7 @@ sudo brew install libmicrohttpd --universal
 やっとですがfaust2ブランチにチェックアウト。
 
 ```bash
-cd path/to/faudiostream-code
+cd path/to/faust
 git checkout faust2
 ```
 
@@ -214,7 +245,7 @@ sudo make install
 
 ### 注意点
 
-- CMakeLists.txtがあるのでCMakeを使ったことがある人はこちらを実行しそうになりますがどうもコミットログを見る限りMakefileの方を直接更新してるようなので使うと逆にエラーが出まくって大変なことになります。この辺はメーリスでも問題になってたのでそのうち解決するとは思いますが触らないほうが無難です。
+- CMakeLists.txtがありますがこちらは使われておらず直接Makefileを更新しているようです。うっかりcmakeを走らせると全然対応してないMakefileが出てきて大変なことになります。
 
 - 最近でもLLVMのバージョンごとにビルドエラーが出たり出なかったりが結構あるみたいなのでLLVMのパスがちゃんと通ってそうでもLLVM関係のエラーが出る場合はバージョンを変えてみるのもありだと思います（LLVM自体のビルドがめちゃくちゃ時間かかるのが難ですが・・・）
 
