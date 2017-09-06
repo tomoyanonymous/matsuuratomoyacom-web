@@ -1,4 +1,5 @@
 ---
+title: about
 ---
 
 <p style="font-size:300%; font-weight:bolder;">
@@ -15,7 +16,7 @@ Matsuura Tomoya
 
 ![](/assets/img/profile.jpg)
 
-(Photo by Noguchi Shohei)
+(Photo by [Noguchi Shohei](http://ngcsh.tumblr.com))
 
 Sound Maker/Engineer/Designer/Programmer
 
@@ -34,17 +35,17 @@ Also do: developing sound systems/program for installation art works as a techni
 
 ## CV
 
-Born in 1994 in Chigasaki city, Kanagawa Pref. Living in Fukuoka Pref. Japan.
+Born in 1994 in Chigasaki City, Kanagawa Pref. Living in Fukuoka Pref. Japan.
 
-2010/04~2013/03 Kanagawa Sohgoh Highschool
+2010.04~2013.03 Kanagawa Sohgoh Highschool
 
-2013/04~2016/03 Tokyo University of the Arts Music Creation and Environment in Music Program(Project 3:Sound Engineering, Kamekawa Toru lab.) Bachelor(Music)
+2013.04~2016.03 Tokyo University of the Arts Music Creation and Environment in Music Program(Project 3:Sound Engineering, Kamekawa Toru lab.) Bachelor(Music)
 
-2015/02~2017/03 teamlab Sound Engineer
+2015.02~2017.03 teamlab Sound Engineer
 
-2015/08~09 YCAM(Yamaguchi Center for Art and Media) interlab Internship
+2015.08~09 YCAM(Yamaguchi Center for Art and Media) interlab Internship
 
-2016/04~ Kyushu University Graduate School of Design, Master Program Department of Design, Content and Creative Design Course, Digital Content Design Division(Jo Kazuhiro lab.)
+2016.04~ Kyushu University Graduate School of Design, Master Program Department of Design, Content and Creative Design Course, Digital Content Design Division(Jo Kazuhiro lab.)
 
 ### Prize
 
@@ -55,24 +56,25 @@ Born in 1994 in Chigasaki city, Kanagawa Pref. Living in Fukuoka Pref. Japan.
 
 ---
 
-## Skill
+## Tools
 
 ### Frequently Use
 
-- Puredata
 - Max/MSP
+- Faust
 - HTML5/CSS3
 - Cubase
-- Faust
+- Puredata
 - Javascript(including Node.js)
 
 ### Use
 
+- Openframeworks
+- Julia
+- Processing
 - Protools
 - R
-- Openframeworks
 
 ### Studying
 
-- Julia
 - Unity
