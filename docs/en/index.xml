@@ -5,10 +5,21 @@
     <link>https://matsuuratomoya.com/en/</link>
     <description>Recent content on Matsuura Tomoya</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Thu, 30 Mar 2017 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 06 Sep 2017 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://matsuuratomoya.com/en/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>process wav file simply with faust2sndfile</title>
+      <link>https://matsuuratomoya.com/en/blog/2017-09-06/faust_sndfile/</link>
+      <pubDate>Wed, 06 Sep 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://matsuuratomoya.com/en/blog/2017-09-06/faust_sndfile/</guid>
+      <description>&lt;p&gt;This article is introduction how to apply effects written in faust to wave files.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>送れ | 遅れ / post | past (rev.2)</title>

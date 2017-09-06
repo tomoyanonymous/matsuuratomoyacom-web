@@ -5,6 +5,16 @@
   <url>
     <loc>https://matsuuratomoya.com/blog/2017-09-06/faust_sndfile/</loc>
     <lastmod>2017-09-06T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://matsuuratomoya.com/en/blog/2017-09-06/faust_sndfile/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ja"
+                href="https://matsuuratomoya.com/blog/2017-09-06/faust_sndfile/"
+                />
   </url>
   
   <url>
@@ -220,6 +230,16 @@
     <loc>https://matsuuratomoya.com/blog/</loc>
     <lastmod>2017-09-06T00:00:00+00:00</lastmod>
     <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://matsuuratomoya.com/en/blog/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ja"
+                href="https://matsuuratomoya.com/blog/"
+                />
   </url>
   
   <url>
