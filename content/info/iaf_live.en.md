@@ -49,7 +49,7 @@ In the tape work and the group improvisation, I want to show a border between vo
 
 In the group-improvisation work, if you bring some musical instrument, you can join the works. if so, contact me.
 
-#### 松浦知也
+#### Matsuura Tomoya
 
 Hello I'm Matsuura Tomoya. I'm making some artworks about the "Live" and "Archive" in sound, in particular, with the perspective of "instrument" recently.
 
