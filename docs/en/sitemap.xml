@@ -3,6 +3,21 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://matsuuratomoya.com/en/info/2017-09-16/iaf_live/</loc>
+    <lastmod>2017-09-16T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ja"
+                href="https://matsuuratomoya.com/info/2017-09-16/iaf_live/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://matsuuratomoya.com/en/info/2017-09-16/iaf_live/"
+                />
+  </url>
+  
+  <url>
     <loc>https://matsuuratomoya.com/en/blog/2017-09-06/faust_sndfile/</loc>
     <lastmod>2017-09-06T00:00:00+00:00</lastmod>
     <xhtml:link
@@ -64,6 +79,22 @@
   </url>
   
   <url>
+    <loc>https://matsuuratomoya.com/en/info/</loc>
+    <lastmod>2017-09-16T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ja"
+                href="https://matsuuratomoya.com/info/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://matsuuratomoya.com/en/info/"
+                />
+  </url>
+  
+  <url>
     <loc>https://matsuuratomoya.com/en/license/</loc>
     <xhtml:link
                 rel="alternate"
@@ -79,7 +110,7 @@
   
   <url>
     <loc>https://matsuuratomoya.com/en/</loc>
-    <lastmod>2017-09-06T00:00:00+00:00</lastmod>
+    <lastmod>2017-09-16T00:00:00+00:00</lastmod>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
