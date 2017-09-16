@@ -1,6 +1,5 @@
 ---
-title: 6/10「つくると！vol.3」にてライブ
-permalink: tsukuruto_live
+title: 10/01「つくると！vol.3」にてライブ
 date: 2017-06-08
 ---
 
