@@ -48,6 +48,51 @@
   </url>
   
   <url>
+    <loc>https://matsuuratomoya.com/en/works/spectraspectacular/</loc>
+    <lastmod>2015-01-29T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ja"
+                href="https://matsuuratomoya.com/works/spectraspectacular/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://matsuuratomoya.com/en/works/spectraspectacular/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://matsuuratomoya.com/en/works/audiovisualfeedback/</loc>
+    <lastmod>2015-01-22T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ja"
+                href="https://matsuuratomoya.com/works/audiovisualfeedback/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://matsuuratomoya.com/en/works/audiovisualfeedback/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://matsuuratomoya.com/en/works/how-ring/</loc>
+    <lastmod>2014-12-15T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ja"
+                href="https://matsuuratomoya.com/works/how-ring/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://matsuuratomoya.com/en/works/how-ring/"
+                />
+  </url>
+  
+  <url>
     <loc>https://matsuuratomoya.com/en/blog/</loc>
     <lastmod>2017-09-06T00:00:00+00:00</lastmod>
     <priority>0</priority>

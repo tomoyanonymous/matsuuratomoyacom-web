@@ -22,5 +22,40 @@ Exhibited at Tokyo University of the Arts Graduation Exhibition(Music Creation a
 Acoustic delay line memory is the system that detect pulse from speaker with microphone, and transmit that pulse to speaker again.</description>
     </item>
     
+    <item>
+      <title>Spectraspectacular(AMC Soundproject 2014)</title>
+      <link>https://matsuuratomoya.com/en/works/spectraspectacular/</link>
+      <pubDate>Thu, 29 Jan 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://matsuuratomoya.com/en/works/spectraspectacular/</guid>
+      <description>At AMC SOUND PROJECT 2014
+AMC（Tokyo University of the Arts, Art Media Center）Archive Website
+ Sound Application work made in a Project &amp;ldquo;AMC SOUND PROJECT 2014&amp;rdquo;
+Project Description (Translation by me)
+ We started this workshop project with the theme &amp;ldquo;Music adapted to the enviroments&amp;rdquo;, that makes the interactive Music application/works available on iPhone from last half of 2014. Its purpose is explore the possibilities of future music/sound in today&amp;rsquo;s situation, including portablity of music player or the way to treat the sound media in which we can easily play music via streaming.</description>
+    </item>
+    
+    <item>
+      <title>Audio⇔Visual</title>
+      <link>https://matsuuratomoya.com/en/works/audiovisualfeedback/</link>
+      <pubDate>Thu, 22 Jan 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://matsuuratomoya.com/en/works/audiovisualfeedback/</guid>
+      <description>at Tokyo University of the Arts Class in 2014 &amp;ldquo;Interactive Music 2&amp;rdquo; AMC Archive Page General Info The sound takes visual&amp;rsquo;s infomation, the visuals draw sound&amp;rsquo;s wave. Each of information are transformed interactively. Application was developed with Openframeworks (both of sound and visual). GUI was made with Puredata. Screenshot Pd patch System Audio→Visual The visual was constructed with 6</description>
+    </item>
+    
+    <item>
+      <title>How-ring</title>
+      <link>https://matsuuratomoya.com/en/works/how-ring/</link>
+      <pubDate>Mon, 15 Dec 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://matsuuratomoya.com/en/works/how-ring/</guid>
+      <description>Exihibited at Senju Art Path 2014（Tokyo University of the Arts, Senju Campus annual exhibition）
+Description The circular cable, hanged on the space, is connected from a microphone to (actually, via PC,) to Speaker.
+When people intercept between the microphone to the speaker, howling(audio-feedback,Larsen effect) occurs. The volume was set to be stable, not overdrived.
+A timber of the effect varys from the things or state of interception.
+Usually a micophone and speaker will not be set to face-to-face.</description>
+    </item>
+    
   </channel>
 </rss>
