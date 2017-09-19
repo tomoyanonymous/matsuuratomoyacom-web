@@ -617,6 +617,13 @@ body .markdown iframe {
   margin: 10px auto;
 }
 
+body .markdown blockquote {
+  font-style:italic;
+  color:#0f5f6c;
+  background-color: rgba(255,255,255, 0.4);
+  border-left:solid 5px #127281;
+  padding:1px 20px;
+}
 /* line 66, stdin */
 body .title {
   overflow-wrap: break-word;
