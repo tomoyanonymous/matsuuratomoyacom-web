@@ -1,5 +1,5 @@
 ---
-title: Sound Installation「Ahysical Unmodeling Instrument」in Hanarart Plus 2017
+title: Sound Installation「Aphysical Unmodeling Instrument」in Hanarart Plus 2017
 date: 2017-10-09
 ogpimage: assets/img/info/hanarart_ogp.png
 ---
