@@ -14,8 +14,8 @@ And also do a live performance "don't play", use the installation equipments.
 
 <!--more-->
 
-![](/assets/img/info/hanarart_chirashi.png)
-![](/assets/img/info/hanarart_chirashi2.png)
+![](/assets/img/info/hanarart_chirashi.jpg)
+![](/assets/img/info/hanarart_chirashi2.jpg)
 
 # (Arch | L)ive #1 Aphysical Unmodeling Instrument
 
