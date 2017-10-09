@@ -1,5 +1,5 @@
 ---
-title: はならぁと ぷらす2017にて新作「Ahysical Unmodeling Instrument」を展示
+title: はならぁと ぷらす2017にて新作「Aphysical Unmodeling Instrument」を展示
 date: 2017-10-09
 ogpimage: assets/img/info/hanarart_ogp.png
 ---
