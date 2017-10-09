@@ -14,8 +14,8 @@ ogpimage: assets/img/info/hanarart_ogp.png
 
 <!--more-->
 
-![](/assets/img/info/hanarart_chirashi.png)
-![](/assets/img/info/hanarart_chirashi2.png)
+![](/assets/img/info/hanarart_chirashi.jpg)
+![](/assets/img/info/hanarart_chirashi2.jpg)
 
 # (Arch | L)ive #1 Aphysical Unmodeling Instrument
 
