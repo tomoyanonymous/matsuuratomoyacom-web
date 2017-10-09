@@ -41,6 +41,7 @@ Rethink Transmission/Record/Play/Compose from a perspective of Instrument and Mo
 
 Yagi Fudanotsuji Kouryuukan 2nd Floor
 
+fee:free
 
 ## Access
 
@@ -60,3 +61,4 @@ A Live performance which uses the equipments of "Aphysical Unmodeling Instrument
 
 10/28(sat) 16:30~
 
+don't require a reservation. fee:free
