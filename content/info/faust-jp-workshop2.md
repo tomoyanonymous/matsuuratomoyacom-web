@@ -5,7 +5,7 @@ ogpimage: assets/img/info/new_faustjp_ogp.png
 
 ---
 
-![](assets/img/info/new_faustjp.png)
+![](/assets/img/info/new_faustjp.png)
 
 2017/11/26(Sun)に2回めの音声処理言語[Faust](http://faust.grame.fr)の勉強会+meetupを行います。
 
