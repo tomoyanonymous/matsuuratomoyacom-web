@@ -6,7 +6,7 @@
     <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.3.0/styles/tomorrow.min.css">
     <link rel="shortcut icon" href="/assets/img/favicon.ico">
     <link rel="canonical" href="http://matsuuratomoya.com">
-    
+    <link rel="next" href="Page%28%22faust_jp%20workshop&amp;meetup#2%22%29">
   <link rel="prev" href="Page%28%2210/01%20live@Yakuin%20IAF%20SHOP*%20%5c%22make%20instrument,%20make%20score%5c%22%22%29">
     <meta name="viewport" content="width=700">
     <meta name="apple-mobile-web-app-capable" content="yes">
@@ -149,12 +149,12 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
 <h2 id="statement">Statement</h2>
 
-<p>In a synthesizer, there is the way of &ldquo;Physical modeling synthesis&rdquo; that imitates the timber of a real musical instruments by numarical computation.
-In early works of that, there was &ldquo;Whirlwind&rdquo;, the abstract model of the wind instruments which has no targets to imitate.</p>
+<p>There is the way of &ldquo;Physical modeling synthesis&rdquo; in a field of sound synthesis,which imitates the timber of a actual musical instruments with numarical computation.
+One of the early works of that uses this method, &ldquo;Whirlwind&rdquo; , is the abstract model of the wind instruments which has no targets to imitate.</p>
 
-<p>In this work, I&rsquo;ll reconstruct Whirlwind with physical components, Microphone, Speaker or electric parts, deform it to be adapted into environments and codify into numerical model again, and repeat them.</p>
+<p>In this work, I&rsquo;ll reconstruct Whirlwind with physical componentslike , Microphone, Speaker or electric parts, deform it to be adapted into environments and codify into numerical model again, and repeat them.</p>
 
-<p>Rethink Transmission/Record/Play/Compose from a perspective of Instrument and Model.</p>
+<p>This works reconfigure transmission, recording, playing, composition from the perspective of Instrument and Model.</p>
 
 <h2 id="date">Date</h2>
 
@@ -187,7 +187,71 @@ and also there&rsquo;s a <a href="(http://www.narakotsu.co.jp/kousoku/limousine/
 
 <p><sup>10</sup>&frasl;<sub>28</sub>(sat) 16:30~</p>
 
-<p>don&rsquo;t require a reservation. fee:free</p>
+<p>don&rsquo;t need a reservation. fee:free</p>
+
+<hr />
+
+<h1 id="document">Document</h1>
+
+<p>There was a &ldquo;Whirlwind&rdquo;, hybrid wind instrument model in the history of the physical modeling synthsis, one way of digital sound synthesis which imitates a timber of the real musical instruments.
+Originally there were 3 models, trumpet, flute and clarinet. Whirlwind is a union model of them. It was developed with special controller which is designed to morph timber between 3 instruments. However there was no research follows to Whirlwind.</p>
+
+<p>&ldquo;Modeling&rdquo; is one of the human&rsquo;s basic activity, observing modeling target, and imagine the structure or behaviour of the target and implement into mathmatical formula which depicts target&rsquo;s specification well or into some real object which has some different feature (for example, scale, materials).</p>
+
+<p>Try to implement, and observe the difference from imagined model, and implement again.</p>
+
+<p>Usually, &ldquo;Model&rdquo; means implemented object itself but in this document, let me call it &ldquo;Realized Model&rdquo; and  call the imagined object in our brain, to &ldquo;Model&rdquo;.</p>
+
+<p><img src="/assets/img/AUI/model1.png" alt="model_of_model" /></p>
+
+<hr />
+
+<p>If the &ldquo;Realized Model&rdquo; is not such the mathmatical formula but scaled architecture model, there is also &ldquo;Model Description&rdquo; such as the text &ldquo;The scale of this model is <sup>1</sup>&frasl;<sub>100</sub>, material is the hard paper&hellip;&rdquo; or the blueprint of the model.</p>
+
+<p>So correctly saying, in the model described with mathmatical formula, mathmatical formula itself is &ldquo;Model Description&rdquo; and the paper, the formula was written is &ldquo;Realized Model&rdquo;.</p>
+
+<p>We can consider it as nested structure, Scaled Architecture has a blueprint and such a description is written on the paper&hellip;</p>
+
+<p>Let&rsquo;s think about this in section of the music or the sound.</p>
+
+<hr />
+
+<p>For instance, how about the model of the musical instruments.
+We let the digital synthesizer on the computer to behave like a real instrument. So we analyze the phenomena happend in a real instrument, and write the formula, try to play it and compare the behavior.
+However if there is real instrument like Trumpet, we can compare the difference from the recorded Trumpet numerically.</p>
+
+<p>How about considering Composition,Musical Notation,Playing Music?</p>
+
+<p>There is some imagined music in the composer. He or she describe it with a format &ldquo;Musical Score&rdquo; to depicts imagined music well.</p>
+
+<p>Conducter or player read the score, play it, and try to decrease the difference from imagined in their mind.</p>
+
+<p>However, the imagined music in composer and it in player is apparently different. Played music is not reconstructed model completely.</p>
+
+<p>In this situation, Player is &ldquo;modeling the model&rdquo;.</p>
+
+<p>The certain old fuzz effector(one of the distortion effect) is developed to answer the order of a guitarist, &ldquo;imitates the Saxphone tone with a Guitar&rdquo;
+.
+So, if the Guitar tone was getting similar to the sax tone, is it &ldquo;distorted&rdquo;? Rather we canthink it more like getting &ldquo;clear&rdquo; Sax tone.
+Today there are many reissue model of this fuzz effector but there is none of the &ldquo;Sax imitation&rdquo; effector.</p>
+
+<p>On the way of the modeling, we sometimes forget the target of the model, dropping the original way and the music or musical instruments sometimes  get evolution, or we can say this degeneration but anyway keep changing.</p>
+
+<p><img src="/assets/img/AUI/model2.png" alt="model_of_model" /></p>
+
+<hr />
+
+<p>Back to the topic of Whirlwind. Having no following research of whirwind, is in some means not strange.
+When the modeling technic of Trumpet, Flute or Clarinet is getting better, the character or structure of each models getting more distant.
+So making union model is getting harder. It means, Whirlwind&rsquo;s modeling target doesn&rsquo;t exist.</p>
+
+<p>In this work, I try to imagine and inter/extrapolate whirlwind&rsquo;s modeling target or originally imagined model in mind arbitrarily and try to construct Realized Model.</p>
+
+<p>It&rsquo;s like that &ldquo;imagine imagined model from model description&rdquo;:Playing,or or like that &ldquo;Realize imagined model in one&rsquo;s mind&rdquo;:Composition.</p>
+
+<p>(End of Document)</p>
+
+<hr />
 
             <div class="share">
   <div class="tweet">
@@ -208,8 +272,12 @@ and also there&rsquo;s a <a href="(http://www.narakotsu.co.jp/kousoku/limousine/
 <ul>
   <li class="to_next">
 
-    <a href=""  class="none">
+    <a href="
+    https://matsuuratomoya.com/en/info/2017-10-30/faust-jp-workshop2/
+    "  >
         
+      faust_jp workshop&amp;meetup#2
+  
     &lt;&lt;
 
     </a>

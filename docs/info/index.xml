@@ -6,10 +6,25 @@
     <description>Recent content in Infos on Matsuura Tomoya</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <lastBuildDate>Mon, 09 Oct 2017 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 30 Oct 2017 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://matsuuratomoya.com/info/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>音声処理言語Faust勉強会&amp;meetup#2を開催します</title>
+      <link>https://matsuuratomoya.com/info/2017-10-30/faust-jp-workshop2/</link>
+      <pubDate>Mon, 30 Oct 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://matsuuratomoya.com/info/2017-10-30/faust-jp-workshop2/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;assets/img/info/new_faustjp.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;2017/11/26(Sun)に2回めの音声処理言語&lt;a href=&#34;http://faust.grame.fr&#34;&gt;Faust&lt;/a&gt;の勉強会+meetupを行います。&lt;/p&gt;
+
+&lt;p&gt;今回は前回の勉強会の内容の圧縮版+LTの2段構成で行こうと思います。&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>はならぁと ぷらす2017にて新作「Aphysical Unmodeling Instrument」を展示</title>
@@ -17,7 +32,9 @@
       <pubDate>Mon, 09 Oct 2017 00:00:00 +0000</pubDate>
       
       <guid>https://matsuuratomoya.com/info/2017-10-09/hanarart2017/</guid>
-      <description>&lt;p&gt;2017/10/27~11/5に行われる、奈良の町家を使った芸術祭「はならぁと ぷらす」で新作のサウンドインスタレーションである「Ahysical Unmodeling Instrument」と言う作品を展示します。&lt;/p&gt;
+      <description>&lt;p&gt;(10/27追記：文章を追加しました。)&lt;/p&gt;
+
+&lt;p&gt;2017/10/27~11/5に行われる、奈良の町家を使った芸術祭「はならぁと ぷらす」で新作のサウンドインスタレーションである「Ahysical Unmodeling Instrument」と言う作品を展示します。&lt;/p&gt;
 
 &lt;p&gt;また10/28には展示会場でのライブ「don&amp;rsquo;t play」を開催します。&lt;/p&gt;
 

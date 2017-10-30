@@ -21,12 +21,13 @@ And also do a live performance "don't play", use the installation equipments.
 
 ## Statement
 
-In a synthesizer, there is the way of "Physical modeling synthesis" that imitates the timber of a real musical instruments by numarical computation.
-In early works of that, there was "Whirlwind", the abstract model of the wind instruments which has no targets to imitate.
+There is the way of "Physical modeling synthesis" in a field of sound synthesis,which imitates the timber of a actual musical instruments with numarical computation.
+One of the early works of that uses this method, "Whirlwind" , is the abstract model of the wind instruments which has no targets to imitate.
 
-In this work, I'll reconstruct Whirlwind with physical components, Microphone, Speaker or electric parts, deform it to be adapted into environments and codify into numerical model again, and repeat them.
+In this work, I'll reconstruct Whirlwind with physical componentslike , Microphone, Speaker or electric parts, deform it to be adapted into environments and codify into numerical model again, and repeat them.
 
-Rethink Transmission/Record/Play/Compose from a perspective of Instrument and Model.
+This works reconfigure transmission, recording, playing, composition from the perspective of Instrument and Model.
+
 
 
 ## Date
