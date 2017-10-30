@@ -4,7 +4,7 @@ date: 2017-10-30
 ogpimage: assets/img/info/new_faustjp_ogp.png
 ---
 
-![](assets/img/info/new_faustjp.png)
+![](/assets/img/info/new_faustjp.png)
 
 
 In 2017/11/26(Sun),2nd faust_jp workshop&meetup will be held.
