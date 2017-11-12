@@ -6,6 +6,13 @@ aliases: [/works/post-past-rev-2]
 ogpimage: assets/img/post-past-sotsuten/ogp.png
 ---
 
+
+---
+
+[第23回学生CGコンテスト アート部門にノミネートされました。](/info/23rdcampusgeniusnominate)
+
+---
+
 2017/2/10~2/12 東京藝術大学 千住キャンパス
 
 東京藝術大学 音楽環境創造科 大学院 音楽音響創造・芸術環境創造 卒業制作・論文 修了制作・論文発表会2017にて展示

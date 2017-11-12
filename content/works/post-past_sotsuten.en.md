@@ -5,6 +5,12 @@ date : 2017-03-30
 aliases: [/en/works/post-past-rev-2]
 ---
 
+---
+
+[Nominated for 23rd Campus Genius Award(Art Section).](/info/23rdcampusgeniusnominate)
+
+---
+
 2017/2/10~2/12 At Tokyo University of the Arts Senju Campus
 
 Exhibited at Tokyo University of the Arts Graduation Exhibition(Music Creation and the Environments) 2017
