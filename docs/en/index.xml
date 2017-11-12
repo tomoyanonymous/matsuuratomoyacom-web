@@ -5,10 +5,19 @@
     <link>https://matsuuratomoya.com/en/</link>
     <description>Recent content on Matsuura Tomoya</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Mon, 30 Oct 2017 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 12 Nov 2017 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://matsuuratomoya.com/en/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Nominated for 23rd Campus Genius Award(Art Section)</title>
+      <link>https://matsuuratomoya.com/en/info/2017-11-12/23rdcampusgeniusnominate/</link>
+      <pubDate>Sun, 12 Nov 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://matsuuratomoya.com/en/info/2017-11-12/23rdcampusgeniusnominate/</guid>
+      <description>CG-ARTS（公益財団法人 画像情報教育振興協会）の主催する第23回学生CG(Campus Genius)コンテストで、2016年度の卒業制作</description>
+    </item>
     
     <item>
       <title>faust_jp workshop&amp;meetup#2</title>
@@ -70,7 +79,8 @@
       <pubDate>Thu, 30 Mar 2017 00:00:00 +0000</pubDate>
       
       <guid>https://matsuuratomoya.com/en/works/post-past_sotsuten/</guid>
-      <description>2017/2/10~2&amp;frasl;12 At Tokyo University of the Arts Senju Campus
+      <description>Nominated for 23rd Campus Genius Award(Art Section).
+2017/2/10~2&amp;frasl;12 At Tokyo University of the Arts Senju Campus
 Exhibited at Tokyo University of the Arts Graduation Exhibition(Music Creation and the Environments) 2017
  Thanks to Kuroishi Sayako, Masuda Yoshiki, Tsuji Yurika and more   Acoustic Delay line memory is the memory apparatus used with early electronic computer in 1950s.
 Acoustic delay line memory is the system that detect pulse from speaker with microphone, and transmit that pulse to speaker again.</description>
