@@ -16,5 +16,8 @@ Final selection meeting will be held on December 2nd.
 
 #### Upcoming Exhibition Info
 
+<!--more-->
+
+
 I will be exhibit my sound installation work "Aphysical Unmodeling Instrument" at [Intercollege Sonic Arts Festival(ICSAF)](http://ic.jssa.info/) in 2017/12/16,17.
 It's revised version of the works exhibited in [Hanarart 2017]((/info/hanarart2017))
