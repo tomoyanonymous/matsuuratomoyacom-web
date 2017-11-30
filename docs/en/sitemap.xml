@@ -3,6 +3,51 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://matsuuratomoya.com/en/info/2017-11-30/rokushou_0/</loc>
+    <lastmod>2017-11-30T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ja"
+                href="https://matsuuratomoya.com/info/2017-11-30/rokushou_0/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://matsuuratomoya.com/en/info/2017-11-30/rokushou_0/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://matsuuratomoya.com/en/info/2017-11-30/icsaf2017_jssa34th/</loc>
+    <lastmod>2017-11-30T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ja"
+                href="https://matsuuratomoya.com/info/2017-11-30/icsaf2017_jssa34th/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://matsuuratomoya.com/en/info/2017-11-30/icsaf2017_jssa34th/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://matsuuratomoya.com/en/info/2017-11-30/hasunuma_fullfill/</loc>
+    <lastmod>2017-11-30T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ja"
+                href="https://matsuuratomoya.com/info/2017-11-30/hasunuma_fullfill/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://matsuuratomoya.com/en/info/2017-11-30/hasunuma_fullfill/"
+                />
+  </url>
+  
+  <url>
     <loc>https://matsuuratomoya.com/en/info/2017-11-12/23rdcampusgeniusnominate/</loc>
     <lastmod>2017-11-12T00:00:00+00:00</lastmod>
     <xhtml:link
@@ -170,7 +215,7 @@
   
   <url>
     <loc>https://matsuuratomoya.com/en/info/</loc>
-    <lastmod>2017-11-12T00:00:00+00:00</lastmod>
+    <lastmod>2017-11-30T00:00:00+00:00</lastmod>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
@@ -200,7 +245,7 @@
   
   <url>
     <loc>https://matsuuratomoya.com/en/</loc>
-    <lastmod>2017-11-12T00:00:00+00:00</lastmod>
+    <lastmod>2017-11-30T00:00:00+00:00</lastmod>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
