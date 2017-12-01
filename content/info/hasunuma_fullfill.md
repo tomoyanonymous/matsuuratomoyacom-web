@@ -1,11 +1,8 @@
 ---
 title: 蓮沼執太フルフィルに参加します
 date: 2017-11-30
-<<<<<<< HEAD
 ogpimage: assets/img/info/hasunumafullphil_ogp.png
-=======
-ogpimage: assets/img/info/hasunumafullphil_ogp_.png
->>>>>>> 99960c6a139c57024def280487ade5a196ec5936
+
 ---
 
 蓮沼執太さんの主催する蓮沼執太フルフィルのメンバーオーディションに参加していたのですが、メンバーになることが決定しました。来年の8月に公演が行われる予定です。

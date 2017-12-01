@@ -6,17 +6,12 @@
     <description>Recent content on Matsuura Tomoya</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-<<<<<<< HEAD
     <lastBuildDate>Sat, 02 Dec 2017 00:00:00 +0000</lastBuildDate>
-=======
-    <lastBuildDate>Thu, 30 Nov 2017 00:00:00 +0000</lastBuildDate>
->>>>>>> 99960c6a139c57024def280487ade5a196ec5936
     
 	<atom:link href="https://matsuuratomoya.com/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-<<<<<<< HEAD
       <title>Faust&amp;JUCEによる超高速VST開発</title>
       <link>https://matsuuratomoya.com/blog/2017-12-02/faust-juce/</link>
       <pubDate>Sat, 02 Dec 2017 00:00:00 +0000</pubDate>
@@ -34,8 +29,6 @@
     </item>
     
     <item>
-=======
->>>>>>> 99960c6a139c57024def280487ade5a196ec5936
       <title>12/24ライブ「緑青」#0</title>
       <link>https://matsuuratomoya.com/info/2017-11-30/rokushou_0/</link>
       <pubDate>Thu, 30 Nov 2017 00:00:00 +0000</pubDate>

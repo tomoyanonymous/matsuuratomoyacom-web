@@ -1,11 +1,8 @@
 ---
 title: Joined to Shuta Hasunuma Fill Philharmonic Orchestra
 date: 2017-11-30
-<<<<<<< HEAD
 ogpimage: assets/img/info/hasunumafullphil_ogp.png
-=======
-ogpimage: assets/img/info/hasunumafullphil_ogp_.png
->>>>>>> 99960c6a139c57024def280487ade5a196ec5936
+
 ---
 
 I joined to Shuta Hasunuma Fill Philharmonic Orchestra.
