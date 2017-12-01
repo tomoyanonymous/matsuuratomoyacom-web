@@ -17,7 +17,7 @@ audio:not([controls]) {
 /* line 18, /Users/Tomoya/Website/tomoyanonymous.github.io/theme/tomoya/scss/_sanitize.scss */
 b,
 strong {
-  font-weight: bolder;
+  font-weight: 400;
 }
 
 /* line 23, /Users/Tomoya/Website/tomoyanonymous.github.io/theme/tomoya/scss/_sanitize.scss */
@@ -395,36 +395,42 @@ textarea {
 
 /* line 1, /Users/Tomoya/Website/tomoyanonymous.github.io/theme/tomoya/scss/_fontsize.scss */
 h1 {
-  font-size: 2rem;
-  margin: 1rem 0;
+  font-weight : 500;
+  font-size: 2.5rem;
+  margin: 0.6rem 0;
 }
 
 /* line 5, /Users/Tomoya/Website/tomoyanonymous.github.io/theme/tomoya/scss/_fontsize.scss */
 h2 {
+  font-weight : 500;
   font-size: 1.75rem;
-  margin: 0.8rem 0;
+  margin: 0.5rem 0;
 }
 
 /* line 9, /Users/Tomoya/Website/tomoyanonymous.github.io/theme/tomoya/scss/_fontsize.scss */
 h3 {
+  font-weight : 400;
   font-size: 1.5rem;
-  margin: 0.6rem 0;
+  margin: 0.3rem 0;
 }
 
 /* line 13, /Users/Tomoya/Website/tomoyanonymous.github.io/theme/tomoya/scss/_fontsize.scss */
 h4 {
+  font-weight : 400;
   font-size: 1.25rem;
-  margin: 0.4rem 0;
+  margin: 0.3rem 0;
 }
 
 /* line 17, /Users/Tomoya/Website/tomoyanonymous.github.io/theme/tomoya/scss/_fontsize.scss */
 h5 {
+  font-weight : 300;
   font-size: 1.125rem;
-  margin: 0.3rem 0;
+  margin: 0.2rem 0;
 }
 
 /* line 21, /Users/Tomoya/Website/tomoyanonymous.github.io/theme/tomoya/scss/_fontsize.scss */
 h6 {
+  font-weight : 300;
   font-size: 1rem;
 }
 
@@ -480,10 +486,11 @@ html {
 body {
   font-family: "Helvetica Neue", "Noto Sans JP", "Hiragino Sans", "Hiragino Kaku Gothic ProN", "游ゴシック  Medium", meiryo, sans-serif;
   width: 100%;
-  min-width: 700px;
+  /*min-width: 700px;*/
   font-size: 12pt;
   letter-spacing: 0.12rem;
   line-height: 150%;
+  font-weight:400;
   background-color: #e2eaed;
   color: #06262B;
   list-style-position: inside;
@@ -546,7 +553,7 @@ body .markdown {
 
 /* line 12, stdin */
 body .markdown p {
-  margin: 3rem 0;
+  margin: 1.5rem 0;
   line-height: 1.7rem;
 }
 
@@ -561,37 +568,47 @@ body .markdown em {
 
 /* line 24, stdin */
 body .markdown a {
+  word-break: break-all;
   display: inline-block;
   margin: 10px auto;
 }
 
 /* line 28, stdin */
 body .markdown > p a {
+  word-break: break-all;
   text-decoration: underline;
 }
 
 /* line 31, stdin */
 body .markdown img {
-  width: 100%;
-  height: 100%;
+  max-width: 100%;
+  display: block;
   margin: 10px auto;
 }
 
 /* line 36, stdin */
 body .markdown p a {
+  word-break: break-all;
   display: inline;
+  color: #FA8F2D;
+  border-bottom: 0px #DA6F0D;
+}
+body .markdown p a:hover{
+  color: #FA8F2D;
+  text-decoration: none;
+  border-bottom: 2px solid #FA8F2D;
 }
 
 /* line 39, stdin */
 body .markdown h1, body .markdown h2, body .markdown h3, body .markdown h4, body .markdown h5, body .markdown h6 {
-  margin: 4rem 0 2rem 0;
-  line-height: 150%;
+  margin: 1.6rem 0 1.6rem 0;
+  line-height: 130%;
 }
 
 /* line 43, stdin */
 body .markdown h1 {
-  padding: 2rem 0 0.3rem;
-  border-top: 3px dashed #207E8F;
+  padding: 1rem 0 1rem;
+  border-top: 1px solid #207E8F;
 }
 
 /* line 48, stdin */
@@ -660,8 +677,8 @@ body .outer {
 /* line 86, stdin */
 body .outer div > .child, body .outer header > .child, body .outer footer > .child {
   width: 100%;
-  max-width: 1000px;
-  min-width: 700px;
+  max-width: 800px;
+  /*min-width: 800px;*/
   margin: 0 auto;
   border: none;
 }
@@ -694,13 +711,13 @@ body .outer header > div {
   -ms-flex-line-pack: start;
   align-content: flex-start;
   height: 100%;
-  padding: 0 5px;
-  padding-right: 200px;
+  padding: 0px;
+  padding-right: 160px;
   -webkit-flex-wrap: wrap;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
-  max-width: 1000px;
-  min-width: 700px;
+  max-width: 800px;
+  /*min-width: 800px;*/
   margin: 0 auto;
   position: relative;
 }
@@ -712,11 +729,13 @@ body .outer header a {
   height: 100%;
   padding: 0px;
   margin-right: 20px;
+  border-left:1px solid #ebf4f7;
 }
 
 /* line 128, stdin */
 body .outer header a:hover {
-  box-shadow: 0px 1px 2px #a8aeb0;
+border-bottom: none;
+border-left:3px solid #02B2D4;
 }
 
 /* line 133, stdin */
@@ -760,7 +779,7 @@ body .outer header div.menu a div {
 
 /* line 161, stdin */
 body .outer header div.menu a:hover {
-  box-shadow: 1px 1px 2px #a8aeb0;
+  /*box-shadow: 1px 1px 2px #a8aeb0;*/
 }
 
 /* line 166, stdin */
@@ -788,7 +807,7 @@ body .outer header div.locales a span {
 /* line 182, stdin */
 body .outer header div.social {
   width: 100%;
-  max-width: 200px;
+  max-width: 160px;
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
@@ -808,7 +827,7 @@ body .outer header div.social > div {
   min-height: 25px;
   display: table-cell;
   vertical-align: middle;
-  margin: auto 10px;
+  margin: auto 5px;
   width: 30px;
   height: 30px;
   padding: 0;
@@ -872,8 +891,8 @@ body .outer header div.social .github .logo {
 body .outer .inner {
   background-color: #e6eff2;
   margin: 20px 0;
-  padding: 10px 5px;
-  box-shadow: 2px 2px 2px #a8aeb0;
+  padding: 0px;
+  box-shadow: 2px 2px 1px #a8aeb0;
 }
 
 /* line 252, stdin */
@@ -882,13 +901,13 @@ body .outer .inner .content {
   border: 1px #a8aeb0;
   margin: 10px 0;
   padding: 10px 25px;
-  box-shadow: 3px 3px 2px #a8aeb0;
+  box-shadow: 3px 3px 1px #a8aeb0;
 }
 
 /* line 259, stdin */
 body .outer .inner > .content {
   background-color: #F0F9FC;
-  box-shadow: 3px 3px 3px #a8aeb0;
+  box-shadow: 3px 3px 1px #a8aeb0;
   padding: 10px 0;
 }
 
@@ -900,7 +919,7 @@ body .outer .inner > .content > .child {
 /* line 268, stdin */
 body .outer .inner > .content2 {
   background-color: #ebf4f7;
-  box-shadow: 2px 2px 2px #a8aeb0;
+  box-shadow: 2px 2px 1px #a8aeb0;
   padding: 10px 0;
   margin: 10px 0;
 }
@@ -1111,4 +1130,15 @@ body .outer footer {
   padding: 10px;
   bottom: 0;
   font-size: 0.9rem;
+}
+
+p.more{
+  text-align:center;
+  border:1px solid #0f5f6c;
+
+}
+p.more a{
+  display: inline-block;
+  width:100%;
+  padding:10px;
 }
