@@ -68,7 +68,7 @@ process = dm.parametric_eq_demo,dm.parametric_eq_demo;
 - stdfaust.libは全部のライブラリを呼び出すための親ライブラリで、demo.libの中の変数/関数をdm.hogehogeというかたちで呼び出せます。
 - なのでdm.parametric_eq_demoで呼び出せるのですが、これだけだとモノラルになってしまうので二つ並列してあげるとステレオになります。
 
-このあたりは詳しくは[文法解説](https://matsuuratomoya.com/blog/2017-01-17/faust_grammer_)をお読み下さい。とりあえず左上のRUNボタンを押すとこのような画面になると思います。
+このあたりは詳しくは[文法解説](https://matsuuratomoya.com/blog/2017-01-17/faust_grammer)をお読み下さい。とりあえず左上のRUNボタンを押すとこのような画面になると思います。
 
 ![オンラインエディタでのGUI画面](/assets/img/faust/faust_editor.png)
 
