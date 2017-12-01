@@ -2,13 +2,13 @@
 title: about
 ---
 
-<p style="font-size:300%; font-weight:bolder;">
+<p style="font-size:300%; margin:1em 0;">
 Matsuura Tomoya
 </p>
-<p style="font-size:300%; font-weight:bolder;">
+<p style="font-size:300%; margin:1em 0;">
 マツウラトモヤ
 </p>
-<p style="font-size:300%; font-weight:bolder;">
+<p style="font-size:300%; margin:1em 0;">
 松浦知也
 </p>
 
