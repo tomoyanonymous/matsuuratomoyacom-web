@@ -6,10 +6,27 @@
     <description>Recent content in Blogs on Matsuura Tomoya</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <lastBuildDate>Mon, 20 Nov 2017 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 02 Dec 2017 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://matsuuratomoya.com/blog/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Faust&amp;JUCEによる超高速VST開発</title>
+      <link>https://matsuuratomoya.com/blog/2017-12-02/faust-juce/</link>
+      <pubDate>Sat, 02 Dec 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://matsuuratomoya.com/blog/2017-12-02/faust-juce/</guid>
+      <description>&lt;p&gt;&lt;em&gt;この記事はFaust Advent Calender 2017の2日目の記事とJUCE Advent Calenderの合同記事です（手抜きと呼ばないで）。&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://qiita.com/advent-calendar/2017/faust&#34;&gt;https://qiita.com/advent-calendar/2017/faust&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://qiita.com/advent-calendar/2017/juce&#34;&gt;https://qiita.com/advent-calendar/2017/juce&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;2017年、FaustもJUCEも色々アップデートが進みまして連携も取りやすくなったので、Faust&amp;amp;JUCEで簡単にGUIつきVSTを作るチュートリアル記事を書いていきます。&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>美大・音大系学生イベントのWebサイトどうにかなんないのか問題</title>

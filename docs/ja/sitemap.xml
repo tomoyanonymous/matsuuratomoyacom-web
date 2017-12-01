@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://matsuuratomoya.com/blog/2017-12-02/faust-juce/</loc>
+    <lastmod>2017-12-02T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://matsuuratomoya.com/info/2017-11-30/rokushou_0/</loc>
     <lastmod>2017-11-30T00:00:00+00:00</lastmod>
     <xhtml:link
@@ -350,7 +355,7 @@
   
   <url>
     <loc>https://matsuuratomoya.com/blog/</loc>
-    <lastmod>2017-11-20T00:00:00+00:00</lastmod>
+    <lastmod>2017-12-02T00:00:00+00:00</lastmod>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
@@ -411,7 +416,7 @@
   
   <url>
     <loc>https://matsuuratomoya.com/</loc>
-    <lastmod>2017-11-30T00:00:00+00:00</lastmod>
+    <lastmod>2017-12-02T00:00:00+00:00</lastmod>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
