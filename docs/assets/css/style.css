@@ -17,7 +17,7 @@ audio:not([controls]) {
 /* line 18, /Users/Tomoya/Website/tomoyanonymous.github.io/theme/tomoya/scss/_sanitize.scss */
 b,
 strong {
-  font-weight: 400;
+  font-weight: bolder;
 }
 
 /* line 23, /Users/Tomoya/Website/tomoyanonymous.github.io/theme/tomoya/scss/_sanitize.scss */
