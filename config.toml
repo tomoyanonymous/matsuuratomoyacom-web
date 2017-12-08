@@ -13,6 +13,8 @@ theme = "tomoya"
   Facebook = "tomoya.matsuura.98"
   Github = "tomoyanonymous"
   Instagram = "tomoya_nonymous"
+  Vimeo = "tomoyamatsuura"
+  Soundcloud = "tomoya_matsuura"
   description = "松浦知也のWebサイトです。"
   en_description = "Website of Matsuura Tomoya."
 [[menu.main]]
