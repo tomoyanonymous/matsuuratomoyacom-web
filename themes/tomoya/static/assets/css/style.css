@@ -666,7 +666,9 @@ body .share {
 body .share div {
   margin: auto 20px auto 0;
 }
-
+body .share div iframe{
+margin:0;
+}
 /* line 82, stdin */
 body .outer {
   position: relative;
