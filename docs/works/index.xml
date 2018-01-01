@@ -6,10 +6,19 @@
     <description>Recent content in Works on Matsuura Tomoya</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <lastBuildDate>Fri, 08 Dec 2017 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 01 Jan 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://matsuuratomoya.com/works/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Aphysical Unmodeling Instrument モデリングから音・音楽を再考するサウンドインスタレーション</title>
+      <link>https://matsuuratomoya.com/works/jssapaper/</link>
+      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://matsuuratomoya.com/works/jssapaper/</guid>
+      <description>この論文は、2017/12/16に行われた先端芸術音楽創作学会(JSSA)研究会で発表した内容をWeb上で見られるように編集したものです。ラ</description>
+    </item>
     
     <item>
       <title>Aphysical Unmodeling Instrument</title>

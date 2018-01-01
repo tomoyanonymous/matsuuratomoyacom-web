@@ -1,7 +1,7 @@
 ---
 title: Aphysical Unmodeling Instrument
 thum: /assets/img/AUI/1.jpg
-date : 2017-12-08
+date: 2017-12-08
 ogpimage:
 ---
 

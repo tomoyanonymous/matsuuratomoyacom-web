@@ -3,6 +3,16 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://matsuuratomoya.com/works/jssapaper/</loc>
+    <lastmod>2018-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://matsuuratomoya.com/blog/2018-01-01/introduction2018/</loc>
+    <lastmod>2018-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://matsuuratomoya.com/blog/2017-12-27/njp-artcenter/</loc>
     <lastmod>2017-12-27T00:00:00+00:00</lastmod>
   </url>
@@ -376,7 +386,7 @@
   
   <url>
     <loc>https://matsuuratomoya.com/blog/</loc>
-    <lastmod>2017-12-27T00:00:00+00:00</lastmod>
+    <lastmod>2018-01-01T00:00:00+00:00</lastmod>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
@@ -437,7 +447,7 @@
   
   <url>
     <loc>https://matsuuratomoya.com/</loc>
-    <lastmod>2017-12-27T00:00:00+00:00</lastmod>
+    <lastmod>2018-01-01T00:00:00+00:00</lastmod>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
@@ -468,7 +478,7 @@
   
   <url>
     <loc>https://matsuuratomoya.com/works/</loc>
-    <lastmod>2017-12-08T00:00:00+00:00</lastmod>
+    <lastmod>2018-01-01T00:00:00+00:00</lastmod>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
