@@ -19,6 +19,12 @@ ogpimage: assets/img/AUI_icsaf/ogp.jpeg
 
 会場：昭和音楽大学
 
+<iframe src="https://player.vimeo.com/video/253094723?color=ffffff" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style ="width:100%; min-height:360px; max-height:400px;"></iframe>
+
+<small>動画右下CCボタンで日本語字幕</small>
+
+<https://vimeo.com/253094723>
+
 # 文章
 
 「Aphysical Unmodeling Instrument」は物理モデリング合成を実空間で、物理的に再実装する作品である。
