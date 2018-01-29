@@ -20,16 +20,12 @@ Matsuura Tomoya
 
 Sound Maker/Engineer/Designer/Programmer
 
-Making sound artworks, electric musical instruments, systems for live performance and also composing, playing and so on.
+I make sound artworks, electric musical instruments, systems for live performance and also composing, playing and so on.
 
-The Main theme of works is "System" in varying media around the sound, in particular, the relationship between "Liveness/Communication" and "Archive/Record/Memory".
-
-
-
-Making sound installation works and developping sound systems for installation works.
+A strong interest in making works is "System" in varying media around sound, in particular, the relationship between "Liveness/Communication" and "Archive/Record/Memory".
 
 
-Also do: developing sound systems/program for installation art works as a technical support, recording, sound design of animation, theatre sound design/SR and so on.
+In addition, I also develop sound systems/program for installation art works as a technical support, recording, sound design of animation, theatre sound design/SR and so on.
 
 ---
 
@@ -53,10 +49,13 @@ Born in 1994 in Chigasaki City, Kanagawa Pref. Living in Fukuoka Pref. Japan.
 
 2017(on the Graduation of the Bachelor) [Acanthus Music Prize](http://www.geidai.ac.jp/information/prize/acanthus)
 
+2017 23rd Campus Genius Award Nominate ([送れ | 遅れ / post | past](/works/post-past_sotsuten))
+
+2017 Asia Digital Art Award 2017 Interactive Art(Student) Section Finalist Award ([送れ | 遅れ / post | past](/works/post-past_sotsuten))
 
 ---
 
-## Tools
+## Skills
 
 ### Frequently Use
 
@@ -74,7 +73,4 @@ Born in 1994 in Chigasaki City, Kanagawa Pref. Living in Fukuoka Pref. Japan.
 - Processing
 - Protools
 - R
-
-### Studying
-
-- Unity
+- JUCE
