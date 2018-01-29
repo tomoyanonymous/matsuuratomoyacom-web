@@ -2,12 +2,16 @@
 title: Aphysical Unmodeling Instrument
 thum: /assets/img/AUI/1.jpg
 date: 2017-12-08
-ogpimage:
+ogpimage: assets/img/AUI/ogp.jpg
 ---
 
 ---
 
-[2017/12/16,17、インターカレッジ・ソニックアーツフェスティバル(ICSAF)にて本作品を展示します。また本作品に関する論文発表「Aphysical Unmodeling Instrument　―モデリングからデジタルの概念を再考するサウンドインスタレーション―」があります。](/info/2017-11-30/icsaf2017_jssa34th)
+関連記事
+
+[Aphysical Unmodeling Instrument rev.2(同作品の2度目の展示記録)](/works/aphysical_icsaf17)
+
+[Aphysical Unmodeling Instrument モデリングから音・音楽を再考するサウンドインスタレーション(本作品についての研究発表)](/works/jssapaper/)
 
 ---
 
@@ -51,7 +55,7 @@ Aphysical Unmodeling Instrumentはこのような考え方でWhirlwindを物理�
 
 ![はならぁと展示図](/assets/img/AUI/hanarartdiagram.png)
 
-例えば掛け算はLEDと、光の強さで抵抗値が変わるセンサを組み合わせたり、ラジオの変調に使われる電気回路などで置き換えられている。
+例えば掛け算はLEDと、光の強さで抵抗値が変わるセンサを組み合わせたり、ラジオの変調に使われる電気回路（ダブルバランスドミキサ）などで置き換えられている。
 
 ![Mult1](/assets/img/AUI/10.jpg)
 
@@ -79,7 +83,7 @@ Aphysical Unmodeling Instrumentはこのような考え方でWhirlwindを物理�
 
 ![reson](/assets/img/AUI/19.jpg)
 
-このような置き換えで、風車が風で回るとLEDが光り、マイクからスピーカーへ流れるまでの音量を変化させ音が出たりでなかったりする。
+このような置き換えで、風車が風で回るとLEDが光り、マイクからスピーカーへ流れるまでの音量を変化させハウリングのように音が出たり出なかったりする。
 
 ------
 
