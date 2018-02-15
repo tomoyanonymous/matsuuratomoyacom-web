@@ -5,7 +5,7 @@ ogpimage: assets/img/info/hasunumafullphil_ogp.png
 
 ---
 
-I joined to Shuta Hasunuma Fill Philharmonic Orchestra.
+I joined to Shuta Hasunuma Full Philharmonic Orchestra.
 
 The new member audition was held and I applied to it.
 
