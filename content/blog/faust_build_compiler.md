@@ -27,7 +27,7 @@ lastmod: 2017-09-06
 ## インストール
 
 ```bash
-brew tap tomoyanonymous/faust 
+brew tap tomoyanonymous/faust
 brew install faust [option]
 ```
 

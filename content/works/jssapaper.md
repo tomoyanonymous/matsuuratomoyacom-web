@@ -237,7 +237,7 @@ Cook, P. R. (1992). A meta-wind-instrument physical model, and a meta-controller
 
 Masuda, H. and Y. Suenaga (2011, September 15). Pipe structure of wind instrument. https://www.google.co.jp/patents/US20110219936  US Patent App. 13/023,793.
 
-Matsuura, T. (2017). faust-whirwind. https://github.com/tomoyanonymous/faust-whirlwind 
+Matsuura, T. (2017). faust-whirwind. https://github.com/tomoyanonymous/faust-whirlwind
 
 Puckette, M. (2015). The sampling theorem and its discontents. keynote speech in ICMC 2015.
 
@@ -254,7 +254,7 @@ Wiseberg, M. (2017). 科学とモデル シミュレーション哲学入門. �
 
 松 浦 知 也, 2017 Live Performance with
 Feedback Mixer , つくると!vol.3[https://matsuuratomoya.com/works/live\_tsukuruto/](https://matsuuratomoya.com/works/live\_tsukuruto/).
-Andrea Valle, 2012 Rumentario autoedule ,Conservatorio G. Verdi, Como, for Elettrosensi 2012,https://vimeo.com/37148011 
+Andrea Valle, 2012 Rumentario autoedule ,Conservatorio G. Verdi, Como, for Elettrosensi 2012,https://vimeo.com/37148011
 
 # 著者プロフィール
 

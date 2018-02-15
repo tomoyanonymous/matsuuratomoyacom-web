@@ -17,11 +17,11 @@ Sound Application work made in a Project "AMC SOUND PROJECT 2014"
 Project Description (Translation by me)
 
 > We started this workshop project with the theme "Music adapted to the enviroments", that makes the interactive Music application/works available on iPhone from last half of 2014. Its purpose is explore the possibilities of future music/sound in today's situation, including portablity of music player or the way to treat the sound media in which we can easily play music via streaming.
-> 
+>
 > In this time, We held a open tour that demo of the works made in last half of year.
-> 
+>
 > The works are only 3 but they are varying, a site/time specific work using the gps infomation, a work using an acceleration and a works using direction.
-> 
+>
 >  General Info
 >  
 >  - Start Place： AMC lab rounge

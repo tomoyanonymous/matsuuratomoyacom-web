@@ -80,5 +80,3 @@ How is there difference between adjacent gear is truly machine to human or some 
 ![]({{config.root}}assets/img/post-past/postpast-7.jpg)
 ![]({{config.root}}assets/img/post-past/postpast-8.jpg)
 ![]({{config.root}}assets/img/post-past/postpast-9.jpg)
-
-
