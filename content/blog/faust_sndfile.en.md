@@ -25,7 +25,7 @@ Currently, the length of samples generated are the same as input file. This mean
 
 In this time, We use this tool faust2sndfile. Unfortunately We can't use this with FaustLive or Online Compiler yet. So We have to install faust locally.
 
-## Install Faust locally 
+## Install Faust locally
 
 Follow the instruction in the [readme](https://github.com/grame-cncm/faust) of faust.
 If you are Homebrew user,[I made the formula](https://github.com/tomoyanonymous/homebrew-faust). Please try this.
