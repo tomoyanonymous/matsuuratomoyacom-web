@@ -3,6 +3,21 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://matsuuratomoya.com/info/2018-03-23/freq2018/</loc>
+    <lastmod>2018-03-23T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://matsuuratomoya.com/en/info/2018-03-23/freq2018/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ja"
+                href="https://matsuuratomoya.com/info/2018-03-23/freq2018/"
+                />
+  </url>
+  
+  <url>
     <loc>https://matsuuratomoya.com/info/2018-02-15/campusgeniusmeeting2018/</loc>
     <lastmod>2018-02-15T00:00:00+00:00</lastmod>
     <xhtml:link
@@ -455,7 +470,7 @@
   
   <url>
     <loc>https://matsuuratomoya.com/info/</loc>
-    <lastmod>2018-02-15T00:00:00+00:00</lastmod>
+    <lastmod>2018-03-23T00:00:00+00:00</lastmod>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
@@ -485,7 +500,7 @@
   
   <url>
     <loc>https://matsuuratomoya.com/</loc>
-    <lastmod>2018-02-15T00:00:00+00:00</lastmod>
+    <lastmod>2018-03-23T00:00:00+00:00</lastmod>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
