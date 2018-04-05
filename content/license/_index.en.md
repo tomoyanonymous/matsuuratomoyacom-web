@@ -1,5 +1,6 @@
 ---
 title: License
+layout: single
 ---
 
 ## License
