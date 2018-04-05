@@ -1,6 +1,6 @@
 hasCJKLanguage = true
 DefaultContentLanguage = "ja"
-baseURL = "https://matsuuratomoya.com/"
+baseURL = "http://matsuuratomoya.com/"
 title = "Matsuura Tomoya"
 enableMissingTranslationPlaceholders = false
 publishDir = "docs"
