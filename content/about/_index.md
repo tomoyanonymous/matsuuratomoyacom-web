@@ -1,5 +1,6 @@
 ---
 title: about
+layout: single
 ---
 
 <p style="font-size:300%; margin:1em 0;">
