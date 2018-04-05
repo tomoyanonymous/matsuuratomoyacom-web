@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+ <!DOCTYPE html>
 <html lang="{{.Lang}}" prefix="og: http://ogp.me/ns#">
   <head>
     <meta charset="utf-8">
@@ -26,6 +26,6 @@
 <meta property="og:image:height" content="630" />
 <meta property="fb:app_id" content="1756749324544053" />
   <meta property="og:description" content="
-  {{if .Description}}{{ .Description }}{{ else if .Summary}}{{ .Summary }}{{else if eq .Lang "ja"}}{{ $.Site.Params.description }}{{else}}{{$.Site.Params.en_description}}{{ end }}"/>
+  {{if .Summary}}{{ .Summary }} | {{end}} {{ .Description }}"/>
     <title>{{ .Title }} | Matsuura Tomoya|松浦知也 </title>
   </head>

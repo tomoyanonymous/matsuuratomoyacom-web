@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Blogs on Matsuura Tomoya</title>
-    <link>https://matsuuratomoya.com/blog/</link>
-    <description>Recent content in Blogs on Matsuura Tomoya</description>
+    <title>blog on Matsuura Tomoya</title>
+    <link>http://matsuuratomoya.com/blog/</link>
+    <description>Recent content in blog on Matsuura Tomoya</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
     <lastBuildDate>Mon, 01 Jan 2018 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://matsuuratomoya.com/blog/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://matsuuratomoya.com/blog/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>福岡に来て9ヶ月経った/これまでと2017年とこれから</title>
-      <link>https://matsuuratomoya.com/blog/2018-01-01/introduction2018/</link>
+      <link>http://matsuuratomoya.com/blog/2018-01-01/introduction2018/</link>
       <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://matsuuratomoya.com/blog/2018-01-01/introduction2018/</guid>
+      <guid>http://matsuuratomoya.com/blog/2018-01-01/introduction2018/</guid>
       <description>&lt;p&gt;2017年4月から福岡に来て、ひとまず年が終わった。と言っても今は神奈川の実家にいるのだが。&lt;/p&gt;
 
 &lt;p&gt;そもそもなんで藝大卒業して九州に？ということをいろいろな人に聞かれるようになったので、少しは今に至るまでの流れをちゃんと説明しとこうと思い、2017年のまとめ記事も兼ねて書いて見ようと思う。&lt;/p&gt;
@@ -26,23 +26,23 @@
     
     <item>
       <title>ナムジュン・パイク・アートセンターに行った話:参加型アート/アーカイブ/地域のアートセンター</title>
-      <link>https://matsuuratomoya.com/blog/2017-12-27/njp-artcenter/</link>
+      <link>http://matsuuratomoya.com/blog/2017-12-27/njp-artcenter/</link>
       <pubDate>Wed, 27 Dec 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://matsuuratomoya.com/blog/2017-12-27/njp-artcenter/</guid>
+      <guid>http://matsuuratomoya.com/blog/2017-12-27/njp-artcenter/</guid>
       <description>&lt;p&gt;先日、韓国に行く機会があり帰りがけにナムジュン・パイク・アートセンターに行ってきました。行った時にはTwitterにパラっと上げておしまいでいいかなと思ってたのですがその後色々考えることがあったので短いレポートのような感じにしてみました。&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://matsuuratomoya.com/assets/img/pikeartcenter/NJP_2.JPG/&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://matsuuratomoya.com/assets/img/pikeartcenter/NJP_2.JPG/&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Faust&amp;JUCEによる超高速VST開発</title>
-      <link>https://matsuuratomoya.com/blog/2017-12-02/faust-juce/</link>
+      <link>http://matsuuratomoya.com/blog/2017-12-02/faust-juce/</link>
       <pubDate>Sat, 02 Dec 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://matsuuratomoya.com/blog/2017-12-02/faust-juce/</guid>
+      <guid>http://matsuuratomoya.com/blog/2017-12-02/faust-juce/</guid>
       <description>&lt;p&gt;&lt;em&gt;この記事はFaust Advent Calender 2017の2日目の記事とJUCE Advent Calenderの合同記事です（手抜きと呼ばないで）。&lt;/em&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&#34;https://qiita.com/advent-calendar/2017/faust&#34;&gt;https://qiita.com/advent-calendar/2017/faust&lt;/a&gt;&lt;/p&gt;
@@ -56,10 +56,10 @@
     
     <item>
       <title>美大・音大系学生イベントのWebサイトどうにかなんないのか問題</title>
-      <link>https://matsuuratomoya.com/blog/2017-11-20/gakusei_event_web/</link>
+      <link>http://matsuuratomoya.com/blog/2017-11-20/gakusei_event_web/</link>
       <pubDate>Mon, 20 Nov 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://matsuuratomoya.com/blog/2017-11-20/gakusei_event_web/</guid>
+      <guid>http://matsuuratomoya.com/blog/2017-11-20/gakusei_event_web/</guid>
       <description>&lt;p&gt;突発的な話ですがオチのない憂いについて書きます。&lt;/p&gt;
 
 &lt;p&gt;タイトルの通り、美大・音大系学生イベントのWebサイトの製作、あと運用についてどうにかなんないのか?と言う話です。&lt;/p&gt;
@@ -69,10 +69,10 @@
     
     <item>
       <title>Faustで出来る限り簡単にwavファイルにエフェクトを掛ける</title>
-      <link>https://matsuuratomoya.com/blog/2017-09-06/faust_sndfile/</link>
+      <link>http://matsuuratomoya.com/blog/2017-09-06/faust_sndfile/</link>
       <pubDate>Wed, 06 Sep 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://matsuuratomoya.com/blog/2017-09-06/faust_sndfile/</guid>
+      <guid>http://matsuuratomoya.com/blog/2017-09-06/faust_sndfile/</guid>
       <description>&lt;p&gt;今回は最近追加されたFaustで書いたエフェクトをwavファイルに対して掛ける方法を紹介します。&lt;/p&gt;
 
 &lt;p&gt;&lt;/p&gt;</description>
@@ -80,10 +80,10 @@
     
     <item>
       <title>Faustのライブラリの使い方と標準ライブラリのオススメ</title>
-      <link>https://matsuuratomoya.com/blog/2017-01-19/faust_library/</link>
+      <link>http://matsuuratomoya.com/blog/2017-01-19/faust_library/</link>
       <pubDate>Thu, 19 Jan 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://matsuuratomoya.com/blog/2017-01-19/faust_library/</guid>
+      <guid>http://matsuuratomoya.com/blog/2017-01-19/faust_library/</guid>
       <description>&lt;p&gt;&lt;em&gt;この記事は&lt;a href=&#34;http://qiita.com/advent-calendar/2016/faust&#34;&gt;Faust(多分ひとり)Advent Calender&lt;/a&gt;の5つ目の記事です。&lt;/em&gt;&lt;/p&gt;
 
 &lt;p&gt;本日はFaustの外部ソースの取り込み方の説明と、標準でついてくるライブラリの中から使える関数を幾つか紹介しようと思います。&lt;/p&gt;
@@ -93,10 +93,10 @@
     
     <item>
       <title>Faustの基本文法解説</title>
-      <link>https://matsuuratomoya.com/blog/2017-01-07/faust_grammer/</link>
+      <link>http://matsuuratomoya.com/blog/2017-01-07/faust_grammer/</link>
       <pubDate>Sat, 07 Jan 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://matsuuratomoya.com/blog/2017-01-07/faust_grammer/</guid>
+      <guid>http://matsuuratomoya.com/blog/2017-01-07/faust_grammer/</guid>
       <description>&lt;p&gt;&lt;em&gt;この記事は&lt;a href=&#34;http://qiita.com/advent-calendar/2016/faust&#34;&gt;Faust(多分ひとり)Advent Calender&lt;/a&gt;の4つ目の記事です。&lt;/em&gt;&lt;/p&gt;
 
 &lt;p&gt;年が明けてますがアドベントカレンダーです。
@@ -107,10 +107,10 @@
     
     <item>
       <title>Faustのコンパイラのビルドとインストール時の注意点</title>
-      <link>https://matsuuratomoya.com/blog/2016-12-11/faust_build_compiler/</link>
+      <link>http://matsuuratomoya.com/blog/2016-12-11/faust_build_compiler/</link>
       <pubDate>Sun, 11 Dec 2016 00:00:00 +0000</pubDate>
       
-      <guid>https://matsuuratomoya.com/blog/2016-12-11/faust_build_compiler/</guid>
+      <guid>http://matsuuratomoya.com/blog/2016-12-11/faust_build_compiler/</guid>
       <description>&lt;p&gt;&lt;em&gt;この記事は&lt;a href=&#34;http://qiita.com/advent-calendar/2016/faust&#34;&gt;Faust(多分ひとり)Advent Calender&lt;/a&gt;の3つ目の記事です。&lt;/em&gt;&lt;/p&gt;
 
 &lt;p&gt;本日はFaustのコンパイラをビルドする時、インストールする時の注意点について書こうと思います。&lt;/p&gt;
@@ -120,10 +120,10 @@
     
     <item>
       <title>とりあえずFaustを始めたい人のための4つの環境</title>
-      <link>https://matsuuratomoya.com/blog/2016-12-04/faust_start/</link>
+      <link>http://matsuuratomoya.com/blog/2016-12-04/faust_start/</link>
       <pubDate>Sun, 04 Dec 2016 00:00:00 +0000</pubDate>
       
-      <guid>https://matsuuratomoya.com/blog/2016-12-04/faust_start/</guid>
+      <guid>http://matsuuratomoya.com/blog/2016-12-04/faust_start/</guid>
       <description>&lt;p&gt;&lt;em&gt;この記事は&lt;a href=&#34;http://qiita.com/advent-calendar/2016/faust&#34;&gt;Faust(多分ひとり)Advent Calender&lt;/a&gt;の2個めの記事です。&lt;/em&gt;&lt;/p&gt;
 
 &lt;p&gt;今回は「なんでもいいからとりあえずFaust触ってみたいんだけど」という人のための開発環境について書こうと思います。&lt;/p&gt;
@@ -133,10 +133,10 @@
     
     <item>
       <title>音声処理プログラミング言語、Faustの紹介</title>
-      <link>https://matsuuratomoya.com/blog/2016-12-01/faust_introduction/</link>
+      <link>http://matsuuratomoya.com/blog/2016-12-01/faust_introduction/</link>
       <pubDate>Thu, 01 Dec 2016 00:00:00 +0000</pubDate>
       
-      <guid>https://matsuuratomoya.com/blog/2016-12-01/faust_introduction/</guid>
+      <guid>http://matsuuratomoya.com/blog/2016-12-01/faust_introduction/</guid>
       <description>&lt;p&gt;&lt;em&gt;この記事は&lt;a href=&#34;http://qiita.com/advent-calendar/2016/faust&#34;&gt;Faust(多分ひとり)Advent Calender&lt;/a&gt;の1日目の記事です。&lt;/em&gt;&lt;/p&gt;
 
 &lt;p&gt;さて、やろうと思っていて中々出来てなかった&lt;a href=&#34;http://faust.grame.fr&#34;&gt;Faust&lt;/a&gt;の紹介ですが、この際Advent Calenderでまとめて紹介して行こうと思います。
@@ -147,10 +147,10 @@
     
     <item>
       <title>簡単なマルチチャンネルパンナー、DBAPの実装</title>
-      <link>https://matsuuratomoya.com/blog/2016-06-17/dbap-implementation/</link>
+      <link>http://matsuuratomoya.com/blog/2016-06-17/dbap-implementation/</link>
       <pubDate>Fri, 17 Jun 2016 00:00:00 +0000</pubDate>
       
-      <guid>https://matsuuratomoya.com/blog/2016-06-17/dbap-implementation/</guid>
+      <guid>http://matsuuratomoya.com/blog/2016-06-17/dbap-implementation/</guid>
       <description>&lt;p&gt;MaxやPuredataを使う理由のうちにマルチチャンネルの制御がしたいということがある人は少なく無いと思います。&lt;/p&gt;
 
 &lt;p&gt;一般的な5.1chの実装はVBAPというアルゴリズムで実装されていますが、聴取位置からスピーカーが等距離でないといけなかったり、結構制限が多くて大変です。
@@ -160,10 +160,10 @@
     
     <item>
       <title>JitterとGenを活用してインパルス応答測定(1)</title>
-      <link>https://matsuuratomoya.com/blog/2016-06-11/log_sinesweep_jitter_gen/</link>
+      <link>http://matsuuratomoya.com/blog/2016-06-11/log_sinesweep_jitter_gen/</link>
       <pubDate>Sat, 11 Jun 2016 00:00:00 +0000</pubDate>
       
-      <guid>https://matsuuratomoya.com/blog/2016-06-11/log_sinesweep_jitter_gen/</guid>
+      <guid>http://matsuuratomoya.com/blog/2016-06-11/log_sinesweep_jitter_gen/</guid>
       <description>&lt;p&gt;皆さん、インパルス応答は好きですか？僕は大好きです。&lt;/p&gt;
 
 &lt;p&gt;今回はMax/MSP/Jitter/Genのみを使ってIR測定ツールを作るということをしました。&lt;/p&gt;
@@ -173,11 +173,11 @@
     
     <item>
       <title>JitterとGenを活用してインパルス応答測定(2)</title>
-      <link>https://matsuuratomoya.com/blog/2016-06-11/log_sinesweep_jitter_gen2/</link>
+      <link>http://matsuuratomoya.com/blog/2016-06-11/log_sinesweep_jitter_gen2/</link>
       <pubDate>Sat, 11 Jun 2016 00:00:00 +0000</pubDate>
       
-      <guid>https://matsuuratomoya.com/blog/2016-06-11/log_sinesweep_jitter_gen2/</guid>
-      <description>&lt;p&gt;インパルス応答計測の方法の概略は&lt;a href=&#34;https://matsuuratomoya.com/blog/2016-06-11/log-sinsesweep-jitter-gen1/&#34;&gt;前回&lt;/a&gt;説明しました。
+      <guid>http://matsuuratomoya.com/blog/2016-06-11/log_sinesweep_jitter_gen2/</guid>
+      <description>&lt;p&gt;インパルス応答計測の方法の概略は&lt;a href=&#34;http://matsuuratomoya.com/blog/2016-06-11/log-sinsesweep-jitter-gen1/&#34;&gt;前回&lt;/a&gt;説明しました。
 今回は実際にインパルス応答測定のためのパッチ制作を、実際にJitterとGenで作ったパッチの中身を見ながら解説していこうと思います。&lt;/p&gt;
 
 &lt;p&gt;&lt;/p&gt;</description>
@@ -185,10 +185,10 @@
     
     <item>
       <title>Cycling74-MaxのPattrをちゃんと使い倒す</title>
-      <link>https://matsuuratomoya.com/blog/2016-05-08/maxmsp_pattr/</link>
+      <link>http://matsuuratomoya.com/blog/2016-05-08/maxmsp_pattr/</link>
       <pubDate>Sun, 08 May 2016 00:00:00 +0000</pubDate>
       
-      <guid>https://matsuuratomoya.com/blog/2016-05-08/maxmsp_pattr/</guid>
+      <guid>http://matsuuratomoya.com/blog/2016-05-08/maxmsp_pattr/</guid>
       <description>&lt;p&gt;Max/MSP使っていると困るのが&lt;strong&gt;パラメーターの管理&lt;/strong&gt;です。とりあえず適当にPresetで保存読み出ししておけばいいけど、テキストでも編集したいとなると古くから使われている&lt;strong&gt;coll&lt;/strong&gt;とかjsonで保存できる&lt;strong&gt;dict&lt;/strong&gt;とか、よくわからないpattrとかいろいろありすぎてわかりません。
 今回は一番良くわからなそうなpattrを真面目に使ってみようという話です。
 &lt;/p&gt;</description>
@@ -196,10 +196,10 @@
     
     <item>
       <title>Github pagesで意地でもサブディレクトリをルートにする</title>
-      <link>https://matsuuratomoya.com/blog/2016-05-07/githubpage-subdirectory/</link>
+      <link>http://matsuuratomoya.com/blog/2016-05-07/githubpage-subdirectory/</link>
       <pubDate>Sat, 07 May 2016 00:00:00 +0000</pubDate>
       
-      <guid>https://matsuuratomoya.com/blog/2016-05-07/githubpage-subdirectory/</guid>
+      <guid>http://matsuuratomoya.com/blog/2016-05-07/githubpage-subdirectory/</guid>
       <description>&lt;p&gt;このページ自体をGithub Pagesでホストしているのですが、&lt;/p&gt;
 
 &lt;ul&gt;
@@ -215,10 +215,10 @@
     
     <item>
       <title>Puredataで評価実験(サンプルパッチあり)</title>
-      <link>https://matsuuratomoya.com/blog/2016-04-27/puredata_subjective/</link>
+      <link>http://matsuuratomoya.com/blog/2016-04-27/puredata_subjective/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
       
-      <guid>https://matsuuratomoya.com/blog/2016-04-27/puredata_subjective/</guid>
+      <guid>http://matsuuratomoya.com/blog/2016-04-27/puredata_subjective/</guid>
       <description>&lt;p&gt;微妙な需要ですが、Puredataはアルゴリズム作曲とか、シンセやエフェクター作ったりする以外にも（特に音を使う）主観評価実験に使うと便利だったりします。&lt;/p&gt;
 
 &lt;p&gt;大体の実験で、&lt;/p&gt;

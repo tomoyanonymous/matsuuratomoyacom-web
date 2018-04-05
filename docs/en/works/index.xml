@@ -2,20 +2,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Works on Matsuura Tomoya</title>
-    <link>https://matsuuratomoya.com/en/works/</link>
+    <link>http://matsuuratomoya.com/en/works/</link>
     <description>Recent content in Works on Matsuura Tomoya</description>
     <generator>Hugo -- gohugo.io</generator>
     <lastBuildDate>Thu, 30 Mar 2017 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://matsuuratomoya.com/en/works/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://matsuuratomoya.com/en/works/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>送れ | 遅れ / post | past (rev.2)</title>
-      <link>https://matsuuratomoya.com/en/works/post-past_sotsuten/</link>
+      <link>http://matsuuratomoya.com/en/works/post-past_sotsuten/</link>
       <pubDate>Thu, 30 Mar 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://matsuuratomoya.com/en/works/post-past_sotsuten/</guid>
+      <guid>http://matsuuratomoya.com/en/works/post-past_sotsuten/</guid>
       <description>Nominated for 23rd Campus Genius Award(Art Section).
 2017/2/10~2&amp;frasl;12 At Tokyo University of the Arts Senju Campus
 Exhibited at Tokyo University of the Arts Graduation Exhibition(Music Creation and the Environments) 2017
@@ -25,10 +25,10 @@ Acoustic delay line memory is the system that detect pulse from speaker with mic
     
     <item>
       <title>Spectraspectacular(AMC Soundproject 2014)</title>
-      <link>https://matsuuratomoya.com/en/works/spectraspectacular/</link>
+      <link>http://matsuuratomoya.com/en/works/spectraspectacular/</link>
       <pubDate>Thu, 29 Jan 2015 00:00:00 +0000</pubDate>
       
-      <guid>https://matsuuratomoya.com/en/works/spectraspectacular/</guid>
+      <guid>http://matsuuratomoya.com/en/works/spectraspectacular/</guid>
       <description>At AMC SOUND PROJECT 2014
 AMC（Tokyo University of the Arts, Art Media Center）Archive Website
  Sound Application work made in a Project &amp;ldquo;AMC SOUND PROJECT 2014&amp;rdquo;
@@ -38,19 +38,19 @@ Project Description (Translation by me)
     
     <item>
       <title>Audio⇔Visual</title>
-      <link>https://matsuuratomoya.com/en/works/audiovisualfeedback/</link>
+      <link>http://matsuuratomoya.com/en/works/audiovisualfeedback/</link>
       <pubDate>Thu, 22 Jan 2015 00:00:00 +0000</pubDate>
       
-      <guid>https://matsuuratomoya.com/en/works/audiovisualfeedback/</guid>
+      <guid>http://matsuuratomoya.com/en/works/audiovisualfeedback/</guid>
       <description>at Tokyo University of the Arts Class in 2014 &amp;ldquo;Interactive Music 2&amp;rdquo; AMC Archive Page General Info The sound takes visual&amp;rsquo;s infomation, the visuals draw sound&amp;rsquo;s wave. Each of information are transformed interactively. Application was developed with Openframeworks (both of sound and visual). GUI was made with Puredata. Screenshot Pd patch System Audio→Visual The visual was constructed with 6</description>
     </item>
     
     <item>
       <title>How-ring</title>
-      <link>https://matsuuratomoya.com/en/works/how-ring/</link>
+      <link>http://matsuuratomoya.com/en/works/how-ring/</link>
       <pubDate>Mon, 15 Dec 2014 00:00:00 +0000</pubDate>
       
-      <guid>https://matsuuratomoya.com/en/works/how-ring/</guid>
+      <guid>http://matsuuratomoya.com/en/works/how-ring/</guid>
       <description>Exihibited at Senju Art Path 2014（Tokyo University of the Arts, Senju Campus annual exhibition）
 Description The circular cable, hanged on the space, is connected from a microphone to (actually, via PC,) to Speaker.
 When people intercept between the microphone to the speaker, howling(audio-feedback,Larsen effect) occurs. The volume was set to be stable, not overdrived.
