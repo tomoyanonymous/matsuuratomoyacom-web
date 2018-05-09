@@ -47,15 +47,17 @@ Web Site : <https://matsuuratomoya.com>
 
 2017.04~ 九州大学 大学院芸術工学府 修士課程芸術工学専攻 コンテンツ・クリエーティブデザインコース デジタルコンテンツデザイン講座（城一裕研究室）
 
-### 受賞歴
+### 受賞歴・奨学金
 
-2015年 [安宅賞奨学金](http://www.geidai.ac.jp/life/scholarship/geidai_scholarship)
+2018年 公益財団かけはし芸術文化振興財団 奨学生
 
-2017年 東京藝術大学卒業時[アカンサス音楽賞](http://www.geidai.ac.jp/information/prize/acanthus)授賞
+2017年 アジアデジタルアート大賞 インタラクティブアート・学生部門入賞 ([送れ | 遅れ / post | past](/works/post-past_sotsuten))
 
 2017年 学生CGコンテスト アート部門ノミネート([送れ | 遅れ / post | past](/works/post-past_sotsuten))
 
-2017年 アジアデジタルアート大賞 インタラクティブアート・学生部門入賞 ([送れ | 遅れ / post | past](/works/post-past_sotsuten))
+2017年 東京藝術大学卒業時[アカンサス音楽賞](http://www.geidai.ac.jp/information/prize/acanthus)授賞
+
+2015年 [安宅賞奨学金](http://www.geidai.ac.jp/life/scholarship/geidai_scholarship)
 
 ---
 
