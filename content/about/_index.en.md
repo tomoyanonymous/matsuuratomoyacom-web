@@ -44,15 +44,17 @@ Born in 1994 in Chigasaki City, Kanagawa Pref. Living in Fukuoka Pref. Japan.
 
 2016.04~ Kyushu University Graduate School of Design, Master Program Department of Design, Content and Creative Design Course, Digital Content Design Division(Jo Kazuhiro lab.)
 
-### Prize
+### Prize/Scholarship/Grant
 
-2015 [Ataka-Scholarship](http://www.geidai.ac.jp/life/scholarship/geidai_scholarship)
+2018 KAKEHASHI foundation Scholarship
 
-2017(on the Graduation of the Bachelor) [Acanthus Music Prize](http://www.geidai.ac.jp/information/prize/acanthus)
+2017 Asia Digital Art Award 2017 Interactive Art(Student) Section Finalist Award ([送れ | 遅れ / post | past](/works/post-past_sotsuten))
 
 2017 23rd Campus Genius Award Nominate ([送れ | 遅れ / post | past](/works/post-past_sotsuten))
 
-2017 Asia Digital Art Award 2017 Interactive Art(Student) Section Finalist Award ([送れ | 遅れ / post | past](/works/post-past_sotsuten))
+2017(on the Graduation of the Bachelor) [Acanthus Music Prize](http://www.geidai.ac.jp/information/prize/acanthus)
+
+2015 [Ataka-Scholarship](http://www.geidai.ac.jp/life/scholarship/geidai_scholarship)
 
 ---
 
