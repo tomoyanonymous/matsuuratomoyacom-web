@@ -3,6 +3,71 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>http://matsuuratomoya.com/info/2018-06-01/nime2018/</loc>
+    <lastmod>2018-06-01T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://matsuuratomoya.com/en/info/2018-06-01/nime2018/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ja"
+                href="http://matsuuratomoya.com/info/2018-06-01/nime2018/"
+                />
+  </url>
+  
+  <url>
+    <loc>http://matsuuratomoya.com/info/2018-06-01/kinkgongtour2018/</loc>
+    <lastmod>2018-06-01T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://matsuuratomoya.com/en/info/2018-06-01/kinkgongtour2018/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ja"
+                href="http://matsuuratomoya.com/info/2018-06-01/kinkgongtour2018/"
+                />
+  </url>
+  
+  <url>
+    <loc>http://matsuuratomoya.com/info/2018-05-30/fullphil_rehearsal/</loc>
+    <lastmod>2018-05-30T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://matsuuratomoya.com/en/info/2018-05-30/fullphil_rehearsal/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ja"
+                href="http://matsuuratomoya.com/info/2018-05-30/fullphil_rehearsal/"
+                />
+  </url>
+  
+  <url>
+    <loc>http://matsuuratomoya.com/blog/2018-05-09/magenron/</loc>
+    <lastmod>2018-05-09T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://matsuuratomoya.com/info/2018-04-17/milano-yakusugi/</loc>
+    <lastmod>2018-04-17T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://matsuuratomoya.com/en/info/2018-04-17/milano-yakusugi/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ja"
+                href="http://matsuuratomoya.com/info/2018-04-17/milano-yakusugi/"
+                />
+  </url>
+  
+  <url>
     <loc>http://matsuuratomoya.com/info/2018-04-03/aa_tpf/</loc>
     <lastmod>2018-04-03T00:00:00+00:00</lastmod>
     <xhtml:link
@@ -424,6 +489,16 @@
   
   <url>
     <loc>http://matsuuratomoya.com/contact/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://matsuuratomoya.com/en/contact/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ja"
+                href="http://matsuuratomoya.com/contact/"
+                />
   </url>
   
   <url>
@@ -472,7 +547,7 @@
   
   <url>
     <loc>http://matsuuratomoya.com/</loc>
-    <lastmod>2018-04-03T00:00:00+00:00</lastmod>
+    <lastmod>2018-06-01T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -501,7 +576,7 @@
   
   <url>
     <loc>http://matsuuratomoya.com/blog/</loc>
-    <lastmod>2018-01-01T00:00:00+00:00</lastmod>
+    <lastmod>2018-05-09T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -516,7 +591,7 @@
   
   <url>
     <loc>http://matsuuratomoya.com/info/</loc>
-    <lastmod>2018-04-03T00:00:00+00:00</lastmod>
+    <lastmod>2018-06-01T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
