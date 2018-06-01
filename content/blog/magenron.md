@@ -1,7 +1,7 @@
 ---
 date: 2018-05-09
 title: メディア・アートの原論は可能か？（「メディア・アート原論」の感想文）
-ogpimage: assets/img/pikeartcenter/NJP_2_ogp.JPG
+ogpimage: assets/img/ogp_magenron.jpg
 ---
 
 
