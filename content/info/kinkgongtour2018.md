@@ -1,11 +1,14 @@
 ---
 title: 【LIVE】 7/8 KINK GONG JAPAN TOUR 2018 電磁的音族
 date: 2018-06-01
+ogpimage: assets/img/info/kinkgong_ogp.jpg
 ---
 
 2018年7月8日にフィールドレコーディングなどで活躍するKINK GONG氏の日本ツアーで、福岡薬院IAF SHOP*でのライブに参加します。
 
 Sublime Frequenciesを始め様々なところで活躍するKINK GONG氏、アンビエントヤクザを名乗り膨大な量のレビューを書きまくっているよろすずさんことShuta Hirakiさん、レコードショップカラヴィンカミュージックのコテカさんとなかなか濃い組み合わせで非常に楽しみです。松浦は少しづつアップデートしている自作楽器Exidiophoneを持っていくつもりですが、せっかくフィールドレコーディングなどが話題に上がりそうなのでなにか別のことを試してもいいかも、などと考え中です。よろしくおねがいします。
+
+![](/assets/img/info/kinkgong.jpg)
 
 <!--more-->
 

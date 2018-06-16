@@ -3,6 +3,51 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>http://matsuuratomoya.com/en/info/2018-06-15/rokushou-v1and2/</loc>
+    <lastmod>2018-06-15T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ja"
+                href="http://matsuuratomoya.com/info/2018-06-15/rokushou-v1and2/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://matsuuratomoya.com/en/info/2018-06-15/rokushou-v1and2/"
+                />
+  </url>
+  
+  <url>
+    <loc>http://matsuuratomoya.com/en/info/2018-06-15/ftarri-satogaeri/</loc>
+    <lastmod>2018-06-15T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ja"
+                href="http://matsuuratomoya.com/info/2018-06-15/ftarri-satogaeri/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://matsuuratomoya.com/en/info/2018-06-15/ftarri-satogaeri/"
+                />
+  </url>
+  
+  <url>
+    <loc>http://matsuuratomoya.com/en/info/2018-06-13/sfpcfall2018/</loc>
+    <lastmod>2018-06-13T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ja"
+                href="http://matsuuratomoya.com/info/2018-06-13/sfpcfall2018/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://matsuuratomoya.com/en/info/2018-06-13/sfpcfall2018/"
+                />
+  </url>
+  
+  <url>
     <loc>http://matsuuratomoya.com/en/info/2018-06-01/nime2018/</loc>
     <lastmod>2018-06-01T00:00:00+00:00</lastmod>
     <xhtml:link
@@ -349,7 +394,7 @@
   
   <url>
     <loc>http://matsuuratomoya.com/en/info/</loc>
-    <lastmod>2018-06-01T00:00:00+00:00</lastmod>
+    <lastmod>2018-06-15T00:00:00+00:00</lastmod>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
@@ -379,7 +424,7 @@
   
   <url>
     <loc>http://matsuuratomoya.com/en/</loc>
-    <lastmod>2018-06-01T00:00:00+00:00</lastmod>
+    <lastmod>2018-06-15T00:00:00+00:00</lastmod>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
