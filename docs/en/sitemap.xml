@@ -3,6 +3,81 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>http://matsuuratomoya.com/en/info/2018-07-29/algorave-tokyo/</loc>
+    <lastmod>2018-07-29T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ja"
+                href="http://matsuuratomoya.com/info/2018-07-29/algorave-tokyo/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://matsuuratomoya.com/en/info/2018-07-29/algorave-tokyo/"
+                />
+  </url>
+  
+  <url>
+    <loc>http://matsuuratomoya.com/en/info/2018-07-21/ftarri-6thconcert/</loc>
+    <lastmod>2018-07-21T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ja"
+                href="http://matsuuratomoya.com/info/2018-07-21/ftarri-6thconcert/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://matsuuratomoya.com/en/info/2018-07-21/ftarri-6thconcert/"
+                />
+  </url>
+  
+  <url>
+    <loc>http://matsuuratomoya.com/en/info/2018-07-20/hasunuma_fullphony/</loc>
+    <lastmod>2018-07-20T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ja"
+                href="http://matsuuratomoya.com/info/2018-07-20/hasunuma_fullphony/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://matsuuratomoya.com/en/info/2018-07-20/hasunuma_fullphony/"
+                />
+  </url>
+  
+  <url>
+    <loc>http://matsuuratomoya.com/en/info/2018-07-18/hasunuma_remix/</loc>
+    <lastmod>2018-07-18T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ja"
+                href="http://matsuuratomoya.com/info/2018-07-18/hasunuma_remix/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://matsuuratomoya.com/en/info/2018-07-18/hasunuma_remix/"
+                />
+  </url>
+  
+  <url>
+    <loc>http://matsuuratomoya.com/en/info/2018-07-13/msj-nishinihon/</loc>
+    <lastmod>2018-07-13T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ja"
+                href="http://matsuuratomoya.com/info/2018-07-13/msj-nishinihon/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://matsuuratomoya.com/en/info/2018-07-13/msj-nishinihon/"
+                />
+  </url>
+  
+  <url>
     <loc>http://matsuuratomoya.com/en/info/2018-06-15/rokushou-v1and2/</loc>
     <lastmod>2018-06-15T00:00:00+00:00</lastmod>
     <xhtml:link
@@ -394,7 +469,7 @@
   
   <url>
     <loc>http://matsuuratomoya.com/en/info/</loc>
-    <lastmod>2018-06-15T00:00:00+00:00</lastmod>
+    <lastmod>2018-07-29T00:00:00+00:00</lastmod>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
@@ -424,7 +499,7 @@
   
   <url>
     <loc>http://matsuuratomoya.com/en/</loc>
-    <lastmod>2018-06-15T00:00:00+00:00</lastmod>
+    <lastmod>2018-07-29T00:00:00+00:00</lastmod>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
