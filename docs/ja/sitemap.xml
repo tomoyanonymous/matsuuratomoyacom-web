@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>http://matsuuratomoya.com/blog/2018-07-30/diary-one/</loc>
+    <lastmod>2018-07-30T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://matsuuratomoya.com/info/2018-07-29/algorave-tokyo/</loc>
     <lastmod>2018-07-29T00:00:00+00:00</lastmod>
     <xhtml:link
@@ -667,7 +672,7 @@
   
   <url>
     <loc>http://matsuuratomoya.com/</loc>
-    <lastmod>2018-07-29T00:00:00+00:00</lastmod>
+    <lastmod>2018-07-30T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -696,7 +701,7 @@
   
   <url>
     <loc>http://matsuuratomoya.com/blog/</loc>
-    <lastmod>2018-05-09T00:00:00+00:00</lastmod>
+    <lastmod>2018-07-30T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"

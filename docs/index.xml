@@ -6,10 +6,25 @@
     <description>Recent content in Toppage on Matsuura Tomoya</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <lastBuildDate>Sun, 29 Jul 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 30 Jul 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="http://matsuuratomoya.com/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>演奏をしていたらいろいろ変わってきたこと</title>
+      <link>http://matsuuratomoya.com/blog/2018-07-30/diary-one/</link>
+      <pubDate>Mon, 30 Jul 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://matsuuratomoya.com/blog/2018-07-30/diary-one/</guid>
+      <description>&lt;p&gt;今年に入ってすぐExidiophoneという電子音響楽器を作り始めた。&lt;/p&gt;
+
+&lt;p&gt;この楽器はオーディオフィードバック（ハウリング）の間に音量が大きくなったらボリュームを絞る回路を挟んで、フィードバックに自律的な拍動を発生させるような仕組みだ(詳しくは&lt;a href=&#34;https://speakerdeck.com/tomoyanonymous/odeiohuidobatukuniji-dukudian-zi-yin-xiang-le-qi-exidiophone&#34;&gt;このスライド&lt;/a&gt;とかを見て欲しい)。&lt;/p&gt;
+
+&lt;p&gt;この仕組はもともと昨年末の緑青というライブイベントでラップトップのライブをしたときにそういうアルゴリズムのソフトウェアを作ってあったのをアナログ回路で作り直したようなものだった。&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>Algorave Tokyo 2018 Augustに参加</title>
