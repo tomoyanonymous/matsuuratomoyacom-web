@@ -5,8 +5,9 @@ DefaultContentLanguage = "ja"
 baseURL = "http://matsuuratomoya.com/"
 title = "Matsuura Tomoya"
 enableMissingTranslationPlaceholders = false
+enableGitInfo = true
 publishDir = "docs"
-theme = "tomoya"
+theme = "tomoya-2019"
 [permalinks]
   blog = "/:section/:year-:month-:day/:filename/"
   info = "/:section/:year-:month-:day/:filename/"
@@ -19,25 +20,29 @@ theme = "tomoya"
   Soundcloud = "tomoya_matsuura"
   description = "松浦知也のWebサイトです。"
 [[menu.main]]
-  name = "about"
+  name = "About"
   url = "about"
   weight = 1
 [[menu.main]]
-  name = "info"
+  name = "Info"
   url = "info"
   weight = 2
 [[menu.main]]
-  name = "works"
+  name = "Works"
   url = "works"
   weight = 3
+# [[menu.main]]
+#   name = "Research"
+#   url = "research"
+#   weight = 4
 [[menu.main]]
-  name = "blog"
+  name = "Blog"
   url = "blog"
-  weight = 4
-[[menu.main]]
-  name = "contact"
-  url = "contact"
   weight = 5
+[[menu.main]]
+  name = "Contact"
+  url = "contact"
+  weight = 6
 
 [languages]
 [languages.ja]
