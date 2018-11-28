@@ -1,0 +1,4 @@
+[submodule "themes/tomoya-2019"]
+	path = themes/tomoya-2019
+	url = git@github.com:tomoyanonymous/hugo-theme-tomoya-2019.git
+	branch = master
