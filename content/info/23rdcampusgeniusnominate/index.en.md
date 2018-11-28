@@ -8,7 +8,7 @@ CG-ARTS（公益財団法人 画像情報教育振興協会）の主催する第
 
 My graduation work 『送れ | 遅れ / post | past』 is nominated for 23rd Campus Genius Award.
 
-<http://campusgenius.jp/2017/events/アート部門のノミネート作品が決定しました！>
+<https://campusgenius.jp/2017/events/アート部門のノミネート作品が決定しました！>
 
 **[『送れ | 遅れ / post | past』Archive Page](/works/post-past-sotsuten)**
 
@@ -19,5 +19,5 @@ Final selection meeting will be held on December 2nd.
 <!--more-->
 
 
-I will be exhibit my sound installation work "Aphysical Unmodeling Instrument" at [Intercollege Sonic Arts Festival(ICSAF)](http://ic.jssa.info/) in 2017/12/16,17.
+I will be exhibit my sound installation work "Aphysical Unmodeling Instrument" at [Intercollege Sonic Arts Festival(ICSAF)](https://ic.jssa.info/) in 2017/12/16,17.
 It's revised version of the works exhibited in [Hanarart 2017]((/info/hanarart2017))

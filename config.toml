@@ -2,7 +2,7 @@ hasCJKLanguage = true
 DefaultContentLanguage = "ja"
 
 
-baseURL = "http://matsuuratomoya.com/"
+baseURL = "https://matsuuratomoya.com/"
 title = "Matsuura Tomoya"
 enableMissingTranslationPlaceholders = false
 enableGitInfo = true

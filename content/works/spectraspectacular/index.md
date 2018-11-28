@@ -11,7 +11,7 @@ tags:
 
 AMC SOUND PROJECT 2014 成果発表-上野公園作品巡り- にて発表
 
-[AMC（東京藝術大学情報芸術センター）アーカイブページ](http://geidaiamc.tumblr.com/post/114569954667/amc-sound-project-2014-%E6%88%90%E6%9E%9C%E7%99%BA%E8%A1%A8-%E4%B8%8A%E9%87%8E%E5%85%AC%E5%9C%92%E4%BD%9C%E5%93%81%E5%B7%A1%E3%82%8A-%E6%8B%85%E5%BD%93%E8%AC%9B%E5%B8%AB%E5%8F%A4%E6%BE%A4-%E9%BE%8D)
+[AMC（東京藝術大学情報芸術センター）アーカイブページ](https://geidaiamc.tumblr.com/post/114569954667/amc-sound-project-2014-%E6%88%90%E6%9E%9C%E7%99%BA%E8%A1%A8-%E4%B8%8A%E9%87%8E%E5%85%AC%E5%9C%92%E4%BD%9C%E5%93%81%E5%B7%A1%E3%82%8A-%E6%8B%85%E5%BD%93%E8%AC%9B%E5%B8%AB%E5%8F%A4%E6%BE%A4-%E9%BE%8D)
 
 <iframe width="610" height="400" src="https://www.youtube.com/embed/ea4RPf-Qzak" frameborder="0" allowfullscreen></iframe>
 

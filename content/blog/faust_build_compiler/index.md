@@ -4,7 +4,7 @@ title: Faustのコンパイラのビルドとインストール時の注意点
 lastmod: 2017-09-06
 ---
 
-*この記事は[Faust(多分ひとり)Advent Calender](http://qiita.com/advent-calendar/2016/faust)の3つ目の記事です。*
+*この記事は[Faust(多分ひとり)Advent Calender](https://qiita.com/advent-calendar/2016/faust)の3つ目の記事です。*
 
 本日はFaustのコンパイラをビルドする時、インストールする時の注意点について書こうと思います。
 
@@ -154,7 +154,7 @@ sudo brew install llvm38
 llvm関係のコマンドのパスを確定させるためにllvm-configというコマンドを使うのですが、Makefileでは最初に/usr/bin→opt/local/bin→/usr/local/binという順番でllvm-configを探し、なければllvm-config-3.9→llvm-config-3.8という順でバージョンの高い順番にサフィックスを付けて検索していくので、Homebrewでインストールした場合でも勝手に見つけてくれる用になってます。
 
 もしくはこちらからバイナリを落としてきて、
-<http://llvm.org/releases/download.html>
+<https://llvm.org/releases/download.html>
 
 faudiostream-code/compiler/Makefile.unixの28行目を直接編集してしまい、
 
@@ -191,7 +191,7 @@ brew link openssl --force
 ```
 で入れてやらないとインクルードパスが通りません。
 しかもどうやら最近これも[brew link openssl --forceができない問題
-](http://qiita.com/dasisyouyu/items/c9621c29b0fe79d2b7c4)というのがあるらしく、openssl関係でエラーが出た場合は、未検証ですがcompiler/Makefile.unixの135行目あたりに
+](https://qiita.com/dasisyouyu/items/c9621c29b0fe79d2b7c4)というのがあるらしく、openssl関係でエラーが出た場合は、未検証ですがcompiler/Makefile.unixの135行目あたりに
 
 ```makefile
 CXXFLAGS += -Wall -Wuninitialized -fvisibility=hidden -Wno-overloaded-virtual -Wno-parentheses $(addprefix -I, $(subprojects)) -DINSTALL_PREFIX='"$(prefix)"'

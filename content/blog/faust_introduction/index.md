@@ -4,9 +4,9 @@ title: 音声処理プログラミング言語、Faustの紹介
 permalink: faust_introduction
 ---
 
-*この記事は[Faust(多分ひとり)Advent Calender](http://qiita.com/advent-calendar/2016/faust)の1日目の記事です。*
+*この記事は[Faust(多分ひとり)Advent Calender](https://qiita.com/advent-calendar/2016/faust)の1日目の記事です。*
 
-さて、やろうと思っていて中々出来てなかった[Faust](http://faust.grame.fr)の紹介ですが、この際Advent Calenderでまとめて紹介して行こうと思います。
+さて、やろうと思っていて中々出来てなかった[Faust](https://faust.grame.fr)の紹介ですが、この際Advent Calenderでまとめて紹介して行こうと思います。
 今回はFaustの全体的な紹介です。
 
 <!--more-->
@@ -27,7 +27,7 @@ Faustとは*Functional-AUdio-STream*の略で、フランスの音響研究所GR
 
 スライドもLarkin氏のサイトに上がってます。
 
-[http://olilarkin.co.uk/misc/JUCE_Summit.pdf](http://olilarkin.co.uk/misc/JUCE_Summit.pdf)
+[https://olilarkin.co.uk/misc/JUCE_Summit.pdf](https://olilarkin.co.uk/misc/JUCE_Summit.pdf)
 
 # Faustとは？
 
@@ -54,7 +54,7 @@ Max、SuperCollider、Puredata、ChucKなど音声処理ができるプログラ
 
 - 非常に抽象的な記法ができるので、グラフィカルプログラミングでは度々面倒になる多数のブロックが並列あるいは直列/入れ子のように繋がる場合でも簡潔に記述ができる。
 - フィルタやオシレータなど、全てのライブラリが揃っているが**全てがFaustで記述されている**ので信号処理にブラックボックスが無い。信号処理のお勉強にもなる。
-- さらにWebエクスポートとかもできる。（サンプルは[こちら](http://faust.grame.fr/images/noise/noise.html)音が出ますので注意。）
+- さらにWebエクスポートとかもできる。（サンプルは[こちら](https://faust.grame.fr/images/noise/noise.html)音が出ますので注意。）
 
 # Faustのメリット・デメリット
 
@@ -199,7 +199,7 @@ Faust上で定義されてるUIの種類は以下の通り。
 こちらにライブラリのドキュメントがあります。
 また別記事での詳細解説の際に触れますが、最近ライブラリが刷新されインポート方法に若干変化が出たのと、スライドにあるものより更に種類が増えました。
 
-[http://faust.grame.fr/library.html](http://faust.grame.fr/library.html)
+[https://faust.grame.fr/library.html](https://faust.grame.fr/library.html)
 
 ここではとりあえず名前と簡単な説明のみ。
 
@@ -226,7 +226,7 @@ Faust上で定義されてるUIの種類は以下の通り。
 - tube.lib
 - tonestack.lib:この2つはドキュメント化されてないがギターアンプとそれに使われる真空管のモデリング。IRのサンプルと思われる数値が直書きしてあってやばい
 
-今年のFaust Awardで賞取った[ambitools](http://www.sekisushai.net/ambitools/)はhoa.libをガンガン使っているはずですし、tonestackとtube.libははLinux用アンプシミュレーター[Guitarix](http://guitarix.org/)のために作られたやつだったはずで、iOS用アプリ[moForte](http://www.moforte.com/moforte-guitar-app/)でも使われているはずです。
+今年のFaust Awardで賞取った[ambitools](https://www.sekisushai.net/ambitools/)はhoa.libをガンガン使っているはずですし、tonestackとtube.libははLinux用アンプシミュレーター[Guitarix](https://guitarix.org/)のために作られたやつだったはずで、iOS用アプリ[moForte](https://www.moforte.com/moforte-guitar-app/)でも使われているはずです。
 
 # Faustでの実際のワークフロー
 
@@ -265,7 +265,7 @@ faust simplemixer.dsp -o simplemixer.cpp
 
 ```cpp
 /* ------------------------------------------------------------
-Code generated with Faust 2.0.a53 (http://faust.grame.fr)
+Code generated with Faust 2.0.a53 (https://faust.grame.fr)
 ------------------------------------------------------------ */
 
 #ifndef  __mydsp_H__
@@ -431,7 +431,7 @@ faust2caqt               faust2iosKeyboard        faust2max6               faust
 faust2caqtios            faust2jack               faust2md                 faust2raqt               faust2vst
 faust2csound             faust2jackconsole        faust2msp                faust2ros                faust2vsti
 
-面白いので言うと[OWL](http://hoxtonowl.com)や[Bela](http://bela.io/)などのハードウェアプラットフォームやWeb Audio用のもの（asm.js使用とwabassembly仕様のもの）などでしょうか。
+面白いので言うと[OWL](https://hoxtonowl.com)や[Bela](https://bela.io/)などのハードウェアプラットフォームやWeb Audio用のもの（asm.js使用とwabassembly仕様のもの）などでしょうか。
 
 なお、これはただのシェルスクリプトでしか無いのでQtアプリケーションを書き出すのであればQtSDKが入っていてqmakeコマンドが使えるようになっていたり、MaxオブジェクトであればMaxSDK、VSTプラグインならVST SDKを各自インストールしておく必要がありますのでご注意を。
 
@@ -440,11 +440,11 @@ faust2csound             faust2jackconsole        faust2msp                faust
 しかし毎回コードを手動でコマンド打ってコンパイルするのも何かと面倒です。
 そのための開発環境としては、次の記事で詳しく紹介しますが
 
-[http://faust.grame.fr/download/](http://faust.grame.fr/download/)
+[https://faust.grame.fr/download/](https://faust.grame.fr/download/)
 
 - FaustLive:Qt製の.dspファイルの更新を検出して自動でライブコンパイルしてアプリケーションとして確認可能な環境（リモートコンパイル機能でMaxオブジェクトやVSTプラグインはエクスポートされたものをDLすることが可能）
-- [オンラインコンパイラー](http://faust.grame.fr/onlinecompiler/)： ブラウザ上でリアルタイムにコードをダイヤグラムで確認しながら開発可能、FaustLive同様にリモートビルドしたバイナリをDL可能
-- [Faust PlayGround](http://faust.grame.fr/faustplayground/)： オンラインコンパイラーと似ているがブラウザ上で実際に音を出しながらFaustの様々なライブラリをMaxのようにパッチングしながら確認可能な環境
+- [オンラインコンパイラー](https://faust.grame.fr/onlinecompiler/)： ブラウザ上でリアルタイムにコードをダイヤグラムで確認しながら開発可能、FaustLive同様にリモートビルドしたバイナリをDL可能
+- [Faust PlayGround](https://faust.grame.fr/faustplayground/)： オンラインコンパイラーと似ているがブラウザ上で実際に音を出しながらFaustの様々なライブラリをMaxのようにパッチングしながら確認可能な環境
 - faustgen~:Max上でFaustのコードをライブコンパイルできるオブジェクト。たまに融通効かないがMaxのGUIやデバッグ機能などと一緒に使える、慣れると強力な開発環境
 
 の4つがあります。

@@ -4,7 +4,7 @@ title: Faustの基本文法解説
 permalink: faust_grammer
 ---
 
-*この記事は[Faust(多分ひとり)Advent Calender](http://qiita.com/advent-calendar/2016/faust)の4つ目の記事です。*
+*この記事は[Faust(多分ひとり)Advent Calender](https://qiita.com/advent-calendar/2016/faust)の4つ目の記事です。*
 
 年が明けてますがアドベントカレンダーです。
 本日はなんとも独特なFaustの記法について解説していきます。

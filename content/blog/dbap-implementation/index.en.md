@@ -32,7 +32,7 @@ VBAPはアールト大のVille Pukki氏の開発したアルゴリズムで、�
 
 *Vector base amplitude panning  TKK Acoustics / Research / Spatial sound*
 
-[http://legacy.spa.aalto.fi/research/cat/vbap/](http://legacy.spa.aalto.fi/research/cat/vbap/)
+[https://legacy.spa.aalto.fi/research/cat/vbap/](https://legacy.spa.aalto.fi/research/cat/vbap/)
 
 球面上に並んだスピーカー群を三角形分割し、聴取位置から仮想音源位置までのベクトルをその音源を囲む３つのスピーカーまでのベクトルの足しあわせ(基底ベクトルの一次結合)で表現しようという考えです。
 
@@ -56,9 +56,9 @@ VBAPでは先述したようにILDのみを使ったパンニング方法なの�
 以上の問題点を改善するというか、もうちょっと妥協した条件でそれっぽくなるのを目指した（と解釈しました）のがDBAPです。
 VBAPが98年に誕生したのに比べてDBAPは論文にまとまったので言えば2009年ぐらいなので、そこそこ新しいもののようです。
 
-空間音響の表現のプロトコルの標準化を図る[SpatDIF](http://www.spatdif.org/)の中にもDBAPの記述が見られます。
+空間音響の表現のプロトコルの標準化を図る[SpatDIF](https://www.spatdif.org/)の中にもDBAPの記述が見られます。
 
-[http://redmine.spatdif.org/projects/spatdif/wiki/DBAP_-_Distance_Based_Amplitude_Panning](http://redmine.spatdif.org/projects/spatdif/wiki/DBAP_-_Distance_Based_Amplitude_Panning)
+[https://redmine.spatdif.org/projects/spatdif/wiki/DBAP_-_Distance_Based_Amplitude_Panning](https://redmine.spatdif.org/projects/spatdif/wiki/DBAP_-_Distance_Based_Amplitude_Panning)
 
 VBAPに必要な条件は
 
@@ -77,10 +77,10 @@ VBAPに必要な条件は
 
 すでに実装されているものとしては
 
-- [Jamoma](http://www.jamoma.org/)
+- [Jamoma](https://www.jamoma.org/)
 DBAPを考案したBEK（Bergen Center for Electronic Arts）が中心になって作っているらしい？Max/Pd/C++用オーディオフレームワークの中にdbap用のオブジェクトがあります。ただJamoma自体がオーディオプロセッシング用MVCフレームワーク(!?)というかなりクセのあるライブラリのため、DBAPのみを使いたい時に気軽に使えるとも言い難いです。
 
-- <a href="http://www.s373.net/code/a-objects/a-objects.html">a-objectシリーズ</a>
+- <a href="https://www.s373.net/code/a-objects/a-objects.html">a-objectシリーズ</a>
 andré sier氏の制作した大量のエクスターナル群の中にa-dbap2d,a-dbap3dオブジェクトというのがある。最終更新は2007とちょっと古め
 
 - [Pd用のdbap2d,dbap3dオブジェクト](https://github.com/kronihias/dbap)
@@ -94,7 +94,7 @@ Max上ではnodesオブジェクトを使ったパンニングも思想として
 
 今回はJamomaのページにある論文をほぼそのまま実装したものですので、より詳しい情報が見たいという方はこちらを参考にするのがよいと思います。
 
-[http://jamoma.org/publications/attachments/icmc2009-dbap-rev1.pdf](http://jamoma.org/publications/attachments/icmc2009-dbap-rev1.pdf)
+[https://jamoma.org/publications/attachments/icmc2009-dbap-rev1.pdf](https://jamoma.org/publications/attachments/icmc2009-dbap-rev1.pdf)
 
 今回メインでお世話になるのはvexprオブジェクトです。scalarmodeというのをオンにすればスピーカーの数が複数個になってもアウトプットのリストが長くなるだけで動的に対応できるのでとても便利です。
 

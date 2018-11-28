@@ -7,7 +7,7 @@ date: 2018-06-01
 
 I will attend  International Conference NIME(New Interface for Musical Expression) 2018. Also exhibit my latest installation work "Aphysical Unmodeling Instrument" and do a poster presentation about the work.
 
-http://nime2018.org/
+https://nime2018.org/
 
 https://nime2018.sched.com/exhibitor/matsuura.nonymous
 

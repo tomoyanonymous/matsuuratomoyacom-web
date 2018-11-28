@@ -6,7 +6,7 @@ date: 2017-06-08
 
 2017/06/10(Sat)に、九州大学大橋キャンパスで行われる、Maker系のイベント「つくると！vol.3」内のライブパフォーマンスコーナーにてライブをします。
 
-<http://vol3.tsukuruto.net/session/archives/9>
+<https://vol3.tsukuruto.net/session/archives/9>
 
 松浦の出番は多分19:15とかそのあたりだと思われます。
 アナログのフィードバックミキサーを使用したライブをする予定です。

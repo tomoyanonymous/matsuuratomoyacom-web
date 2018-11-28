@@ -11,7 +11,7 @@ draft: false
 
 **<https://2018.alternative-act.tokyo>**
 
-2018年4月14日(土)−15日(日) に、東京は[北千住BUoY](http://buoy.or.jp/)にて**Alternative Act 1.0 Tech Performance Fes.**というイベントに出演します。また、企画運営にも関わっています。松浦は先日の”FREQ2018 - 21世紀初頭の音と音楽”で披露した自作電子音響楽器"Exidiophone"でのパフォーマンスを行います。
+2018年4月14日(土)−15日(日) に、東京は[北千住BUoY](https://buoy.or.jp/)にて**Alternative Act 1.0 Tech Performance Fes.**というイベントに出演します。また、企画運営にも関わっています。松浦は先日の”FREQ2018 - 21世紀初頭の音と音楽”で披露した自作電子音響楽器"Exidiophone"でのパフォーマンスを行います。
 
 <!--more-->
 

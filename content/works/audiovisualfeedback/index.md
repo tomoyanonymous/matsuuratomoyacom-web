@@ -12,7 +12,7 @@ tags:
 
 東京藝術大学 2014年度 AMC開設講座「インタラクティブ・ミュージック2」にて
 
-[AMC（東京藝術大学情報芸術センター）アーカイブページ](http://geidaiamc.tumblr.com/post/114567474767/%E3%82%A4%E3%83%B3%E3%82%BF%E3%83%A9%E3%82%AF%E3%83%86%E3%82%A3%E3%83%B4%E3%83%9F%E3%83%A5%E3%83%BC%E3%82%B8%E3%83%83%E3%82%AF%E2%85%A1%E6%88%90%E6%9E%9C%E7%99%BA%E8%A1%A8%E4%BC%9A-%E4%BC%9A%E5%A0%B4%E8%8A%B8%E8%A1%93%E6%83%85%E5%A0%B1%E3%82%BB%E3%83%B3%E3%82%BF%E3%83%BC-%E3%83%A9%E3%83%9C%E3%83%A9%E3%82%A6%E3%83%B3%E3%82%B8)
+[AMC（東京藝術大学情報芸術センター）アーカイブページ](https://geidaiamc.tumblr.com/post/114567474767/%E3%82%A4%E3%83%B3%E3%82%BF%E3%83%A9%E3%82%AF%E3%83%86%E3%82%A3%E3%83%B4%E3%83%9F%E3%83%A5%E3%83%BC%E3%82%B8%E3%83%83%E3%82%AF%E2%85%A1%E6%88%90%E6%9E%9C%E7%99%BA%E8%A1%A8%E4%BC%9A-%E4%BC%9A%E5%A0%B4%E8%8A%B8%E8%A1%93%E6%83%85%E5%A0%B1%E3%82%BB%E3%83%B3%E3%82%BF%E3%83%BC-%E3%83%A9%E3%83%9C%E3%83%A9%E3%82%A6%E3%83%B3%E3%82%B8)
 
 <iframe width="610" height="400" src="https://www.youtube.com/embed/k5f98FPbETc?rel=0&amp;start=1530" frameborder="0" allowfullscreen></iframe>
 

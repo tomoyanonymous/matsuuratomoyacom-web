@@ -14,7 +14,7 @@ Sublime Frequenciesを始め様々なところで活躍するKINK GONG氏、ア�
 
 > ## 7/8 KINK GONG JAPAN TOUR 2018 電磁的音族
 >
-> http://iafshop.tumblr.com/post/174370620408/kink-gong-japan-tour-2018%E9%9B%BB%E7%A3%81%E7%9A%84%E9%9F%B3%E6%97%8F
+> https://iafshop.tumblr.com/post/174370620408/kink-gong-japan-tour-2018%E9%9B%BB%E7%A3%81%E7%9A%84%E9%9F%B3%E6%97%8F
 >
 > 第一部 TALK　18:30～19:30
 > Interview with KINK GONG

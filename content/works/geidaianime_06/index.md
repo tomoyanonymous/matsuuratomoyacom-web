@@ -15,15 +15,15 @@ tags:
 
 1年次制作上映会「SHICHITEN」公式サイト
 
-[http://animation.geidai.ac.jp/1styear/](http://animation.geidai.ac.jp/1styear/)
+[https://animation.geidai.ac.jp/1styear/](https://animation.geidai.ac.jp/1styear/)
 
 第6期修了制作上映会「DAWN」公式サイト(1年次作品も同時上映)
 
-[http://animation.geidai.ac.jp/06dawn/](http://animation.geidai.ac.jp/06dawn/)
+[https://animation.geidai.ac.jp/06dawn/](https://animation.geidai.ac.jp/06dawn/)
 
 ### 清家美佳「黒い猫」
 
-![http://animation.geidai.ac.jp/1styear/img/still_seike.jpg](http://animation.geidai.ac.jp/1styear/img/still_seike.jpg)
+![https://animation.geidai.ac.jp/1styear/img/still_seike.jpg](https://animation.geidai.ac.jp/1styear/img/still_seike.jpg)
 
 - 監督:清家美佳
 - 音楽:駒井一輝
@@ -32,7 +32,7 @@ tags:
 
 ### 鈴木沙織「シミアソビ」
 
-![http://animation.geidai.ac.jp/1styear/img/still_suzuki.jpg](http://animation.geidai.ac.jp/1styear/img/still_suzuki.jpg)
+![https://animation.geidai.ac.jp/1styear/img/still_suzuki.jpg](https://animation.geidai.ac.jp/1styear/img/still_suzuki.jpg)
 
 - 監督:鈴木沙織
 - 音楽:櫻井美希

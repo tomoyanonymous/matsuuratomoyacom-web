@@ -11,7 +11,7 @@ layout: single
 画像などは筆者が著作権を持たない場合もあるので、個別にご連絡をお願いします。
 
 
-[http://creativecommons.org/licenses/by-nc-nd/4.0/deed.ja](http://creativecommons.org/licenses/by-nc-nd/4.0/deed.ja)
+[https://creativecommons.org/licenses/by-nc-nd/4.0/deed.ja](https://creativecommons.org/licenses/by-nc-nd/4.0/deed.ja)
 
 
-<a href="http://creativecommons.org/licenses/by-nc-nd/4.0/deed.ja"><img src="/assets/img/license.svg" style="max-width:300px;"></a>
+<a href="https://creativecommons.org/licenses/by-nc-nd/4.0/deed.ja"><img src="/assets/img/license.svg" style="max-width:300px;"></a>

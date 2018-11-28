@@ -18,7 +18,7 @@ Matsuura Tomoya
 
 ![](profile.jpg)
 
-(撮影：[野口翔平](http://ngcsh.tumblr.com))
+(撮影：[野口翔平](https://ngcsh.tumblr.com))
 
 Sound Maker/Engineer/Designer/Programmer
 
@@ -55,9 +55,9 @@ Web Site : <https://matsuuratomoya.com>
 
 2017年 学生CGコンテスト アート部門ノミネート([送れ | 遅れ / post | past](/works/post-past_sotsuten))
 
-2017年 東京藝術大学卒業時[アカンサス音楽賞](http://www.geidai.ac.jp/information/prize/acanthus)授賞
+2017年 東京藝術大学卒業時[アカンサス音楽賞](https://www.geidai.ac.jp/information/prize/acanthus)授賞
 
-2015年 [安宅賞奨学金](http://www.geidai.ac.jp/life/scholarship/geidai_scholarship)
+2015年 [安宅賞奨学金](https://www.geidai.ac.jp/life/scholarship/geidai_scholarship)
 
 ---
 

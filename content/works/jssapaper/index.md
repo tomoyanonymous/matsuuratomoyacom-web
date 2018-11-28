@@ -13,9 +13,9 @@ tags:
 
 [『Aphysical Unmodeling Instrument』作品紹介ページ](/works/aphysical_hanarart/)
 
-[JSSA 会報リンク(オープンアクセス)](http://jssa.info/publication#ja) vol.9に収録されています。
+[JSSA 会報リンク(オープンアクセス)](https://jssa.info/publication#ja) vol.9に収録されています。
 
-[PDF版リンク](http://data.jssa.info/paper/2017v09n03/3.Matsuura.pdf)
+[PDF版リンク](https://data.jssa.info/paper/2017v09n03/3.Matsuura.pdf)
 
 # 概要
 
@@ -115,7 +115,7 @@ Whirlwindの演算は、入力される仮想の息の強さを表すエンベ�
 
 ## 事前実験
 
-作品の制作に際し、コンピュータ上でWhirlwindを再実装した。この実装には音響処理言語Faust(<http://faust.grame.fr>)およびCycling' 74 Maxを使用し(松浦 2017)、エンベロープなどの演奏パラメータを変更した際の音色の変化を確認した。
+作品の制作に際し、コンピュータ上でWhirlwindを再実装した。この実装には音響処理言語Faust(<https://faust.grame.fr>)およびCycling' 74 Maxを使用し(松浦 2017)、エンベロープなどの演奏パラメータを変更した際の音色の変化を確認した。
 
 次にディレイ部分のみをスピーカーによる空気伝播に置き換える実験を行った。オーディオインターフェースの入出力における遅延を考慮しその音速に応じた遅延時間を差し引いてマイクとスピーカーの距離を設定したところ、ソフトウェア上での再実装と近似した音色が出ることを確認した。この実験を踏まえWhirlwindの各要素を以下のように実空間内にて展開させた(図3、図4)。
 
@@ -236,7 +236,7 @@ WhirlwindというモデルをWisebergの対象なしモデリングという概
 
 Allen, A. S. (2014). Ruratae: a physics-based audio engine. Ph. D. thesis, University of California, San Diego. https://escholarship.org/uc/item/2cq7z9kv .
 
-Applied-Acoustics-Systems (2017). About us. https://www.applied-acoustics.com/about ATV-Corporation (2017). aframe reference guide. <http://www.atvcorporation.com/support/drums/aframe/le/628/aFrameReference_jp_01.pdf> . p24.
+Applied-Acoustics-Systems (2017). About us. https://www.applied-acoustics.com/about ATV-Corporation (2017). aframe reference guide. <https://www.atvcorporation.com/support/drums/aframe/le/628/aFrameReference_jp_01.pdf> . p24.
 
 Cook, P. R. (1992). A meta-wind-instrument physical model, and a meta-controller for real-time performance control. In ICMC Proceedings.
 
@@ -246,7 +246,7 @@ Matsuura, T. (2017). faust-whirwind. https://github.com/tomoyanonymous/faust-whi
 
 Puckette, M. (2015). The sampling theorem and its discontents. keynote speech in ICMC 2015.
 
-Roland-U.S. (2014). What is analog circuit behavior(acb)? http://www.rolandus.com/blog/2014/02/14/analog-circuit-behavior-acb/ . accessed 2017/12/11.
+Roland-U.S. (2014). What is analog circuit behavior(acb)? https://www.rolandus.com/blog/2014/02/14/analog-circuit-behavior-acb/ . accessed 2017/12/11.
 
 Sanfilippo, D. and A. Valle (2013). Feedback systems: An analytical framework. Computer Music Journal 37(2), 12–27.
 

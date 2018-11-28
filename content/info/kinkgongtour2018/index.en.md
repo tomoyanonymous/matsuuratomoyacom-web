@@ -11,7 +11,7 @@ I will play in KINK GONG JAPAN TOUR 2018 at IAF SHOP*, Yakuin, Fukuoka in 8th Ju
 
 > ## 7/8 KINK GONG JAPAN TOUR 2018 電磁的音族
 >
-> http://iafshop.tumblr.com/post/174370620408/kink-gong-japan-tour-2018%E9%9B%BB%E7%A3%81%E7%9A%84%E9%9F%B3%E6%97%8F
+> https://iafshop.tumblr.com/post/174370620408/kink-gong-japan-tour-2018%E9%9B%BB%E7%A3%81%E7%9A%84%E9%9F%B3%E6%97%8F
 >
 > PART1: TALK　18:30～19:30
 > Interview with KINK GONG

@@ -5,7 +5,7 @@ date: 2018-06-13
 
 今年の9月〜11月の3ヶ月の間、ニューヨークでSchool for Poetic Computationという学校に参加してきます。
 
-http://sfpc.io/
+https://sfpc.io/
 
 <!--more-->
 
@@ -17,11 +17,11 @@ School for Poetic Computationというのは、Openframeworksの開発を立ち�
 
 > ニューヨークにある“詩的プログラマー”の楽園、SFPC 
 >
-> http://boundbaw.com/world-topics/articles/4
+> https://boundbaw.com/world-topics/articles/4
 
 第一回目に参加した清水基さんによるブログや、
 
-http://www.cbc-net.com/blog/motoishmz/category/sfpc/
+https://www.cbc-net.com/blog/motoishmz/category/sfpc/
 
 同じく卒業生で映像作家の橋本麦さんがつくったWikipediaの記事など
 

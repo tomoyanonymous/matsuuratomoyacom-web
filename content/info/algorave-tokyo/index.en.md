@@ -5,7 +5,7 @@ date: 2018-07-29
 
 I'll play in Algorave Tokyo held in 19th Aug. at ANAGRA TOKYO.
 
-http://algorave.tokyo/
+https://algorave.tokyo/
 
 A reservation form is [here](https://docs.google.com/forms/d/e/1FAIpQLSeaXuaXGp3TJLiKqCuPxVliaYGP9xMWQy5UWuZDdX3yBUT3Yw/viewform)
 
@@ -17,7 +17,7 @@ I'll play with my laptop set after a long time. If I can, I'll do live-coding wi
 
 18:00 open / 18:30 start
 
-at [ANAGRA Tokyo](http://www.anagra-tokyo.com/)
+at [ANAGRA Tokyo](https://www.anagra-tokyo.com/)
 
 #### - adv. \1500 + 1drink
 

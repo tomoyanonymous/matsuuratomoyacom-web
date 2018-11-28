@@ -30,7 +30,7 @@ ogpimage: iaf_chirashi_ogp.png
 ### 会場
 
 薬院 IAF SHOP*<br>
-<http://iafshop.tumblr.com/>
+<https://iafshop.tumblr.com/>
 
 住所：福岡市中央区薬院3-7-19 2F
 
