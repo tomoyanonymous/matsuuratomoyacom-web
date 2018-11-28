@@ -13,10 +13,10 @@ Matsuura Tomoya
 松浦知也
 </p>
 
-![](/assets/img/profile2.jpg)
+![](profile2.jpg)
 
 
-![](/assets/img/profile.jpg)
+![](profile.jpg)
 
 (撮影：[野口翔平](http://ngcsh.tumblr.com))
 
