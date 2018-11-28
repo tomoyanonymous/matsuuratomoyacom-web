@@ -77,10 +77,10 @@ TSPを作る方法は周波数領域で振幅と位相を予め計算して逆�
 
 主にこの方法で有名なのはスペインのAngero Farina先生で、彼のサイトにはたくさんPDFで資料が載ってますので、もっと詳しい話を見たい場合はここを見るのが有益です。
 
-[Angelo Farina's Home Page http://pcfarina.eng.unipr.it/](http://pcfarina.eng.unipr.it/)
+[Angelo Farina's Home Page https://pcfarina.eng.unipr.it/](https://pcfarina.eng.unipr.it/)
 
 [\[pdf\] IMPULSE RESPONSE IMPULSE RESPONSE
-MEASUREMENTS BY MEASUREMENTS BY EXPONENTIAL SINE SWEEPS EXPONENTIAL SINE SWEEPS](http://pcfarina.eng.unipr.it/Public/Presentations/audioprecision-workshop.pdf)
+MEASUREMENTS BY MEASUREMENTS BY EXPONENTIAL SINE SWEEPS EXPONENTIAL SINE SWEEPS](https://pcfarina.eng.unipr.it/Public/Presentations/audioprecision-workshop.pdf)
 
 長くなりすぎたので実際のパッチ作成は次に進みます。
 

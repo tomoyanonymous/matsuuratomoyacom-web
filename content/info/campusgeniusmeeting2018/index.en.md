@@ -13,7 +13,7 @@ I'll participate a talk session in a 「Campus Genius Meeting」, a special even
 
 date: 2018/2/17 12:30~14:00 performance/interactive art/installation session
 
-<http://campusgenius.jp/2017/events/216～218-第23回学生cgコンテスト受賞作品イベント開催/>
+<https://campusgenius.jp/2017/events/216～218-第23回学生cgコンテスト受賞作品イベント開催/>
 
 Fee free but you need a reservation from peatix.
 

@@ -23,7 +23,7 @@ draft: false
 
 ちなみに、それをPuredataで作ったExpoChirpToolboxというのがあります。
 
-[http://www.katjaas.nl/expochirp/expochirp.html](http://www.katjaas.nl/expochirp/expochirp.html)
+[https://www.katjaas.nl/expochirp/expochirp.html](https://www.katjaas.nl/expochirp/expochirp.html)
 これは\[expochirp~\]というエクスターナルオブジェクトとセットにしたpdパッチで、信号の生成、録音からIRの編集、分析まで全部できます。
 
 <small>ちなみに自分でエクスターナル無しでPdで開発しようとしたところ小数点精度の問題などであえなく挫折しました</small>

@@ -10,7 +10,7 @@ I'll exhibit my new sound installation work "Ahysical Unmodeling Instrument".
 
 And also do a live performance "don't play", use the installation equipments.
 
-<http://hanarart.jp/2017/archives/2185>
+<https://hanarart.jp/2017/archives/2185>
 
 <!--more-->
 
@@ -51,7 +51,7 @@ fee:free
 5 minutes from JR "畝傍(Unebi)" Station.
 
 Yamato Yagi station is about 40 minutes from Namba Station in Osaka.
-and also there's a [limousine bus]((http://www.narakotsu.co.jp/kousoku/limousine/yagi_kanku.html)) from Kansai International Airport(KIX). It takes about 1 hour.
+and also there's a [limousine bus]((https://www.narakotsu.co.jp/kousoku/limousine/yagi_kanku.html)) from Kansai International Airport(KIX). It takes about 1 hour.
 
 
 # Live Performance 「don't play」

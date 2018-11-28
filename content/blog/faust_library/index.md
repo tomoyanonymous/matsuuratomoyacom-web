@@ -4,7 +4,7 @@ title: Faustのライブラリの使い方と標準ライブラリのオスス�
 aliases: [blog/2017-01-19/faust-library]
 ---
 
-*この記事は[Faust(多分ひとり)Advent Calender](http://qiita.com/advent-calendar/2016/faust)の5つ目の記事です。*
+*この記事は[Faust(多分ひとり)Advent Calender](https://qiita.com/advent-calendar/2016/faust)の5つ目の記事です。*
 
 本日はFaustの外部ソースの取り込み方の説明と、標準でついてくるライブラリの中から使える関数を幾つか紹介しようと思います。
 
@@ -174,7 +174,7 @@ process = fi.resonbp(1000,3,1.0);
 
 リファレンスはこちらにあるので読んでみてください。
 
-<http://faust.grame.fr/library.html>
+<https://faust.grame.fr/library.html>
 
 余談ですが、このライブラリはfaust2mdという、コメントをMarkdownで組んでおくと簡単にドキュメントを出力してくれるシステムを使ってライブラリファイルから自動出力されているみたいです。
 

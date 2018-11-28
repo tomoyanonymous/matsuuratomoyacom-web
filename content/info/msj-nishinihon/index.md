@@ -7,13 +7,13 @@ date: 2018-07-13
 
 
 
-http://www.musicology-japan.org/activity/meeting.html
+https://www.musicology-japan.org/activity/meeting.html
 
 
 
 <!--more-->
 
-[西日本支部第42回（通算393回）例会](http://www.lit.osaka-cu.ac.jp/asia/msj/#393) 
+[西日本支部第42回（通算393回）例会](https://www.lit.osaka-cu.ac.jp/asia/msj/#393) 
 
 2018年7月14日（土）14:00～17:00 
 

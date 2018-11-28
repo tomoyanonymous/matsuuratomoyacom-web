@@ -4,7 +4,7 @@ title: とりあえずFaustを始めたい人のための4つの環境
 aliases: [blog/2016-12-04/faust-start]
 ---
 
-*この記事は[Faust(多分ひとり)Advent Calender](http://qiita.com/advent-calendar/2016/faust)の2個めの記事です。*
+*この記事は[Faust(多分ひとり)Advent Calender](https://qiita.com/advent-calendar/2016/faust)の2個めの記事です。*
 
 今回は「なんでもいいからとりあえずFaust触ってみたいんだけど」という人のための開発環境について書こうと思います。
 
@@ -139,7 +139,7 @@ FaustLiveやfaustgen~だけでいいやという方はこちらから直にDLし
 
 そのうちの一つがこれ、オンラインコンパイラーです。
 
-[http://faust.grame.fr/onlinecompiler/](http://faust.grame.fr/onlinecompiler/)
+[https://faust.grame.fr/onlinecompiler/](https://faust.grame.fr/onlinecompiler/)
 
 オンラインコンパイラでは、シンタックスハイライト付きのコードエディタ、それがコンパイルされたC++などのコード、SVGダイアグラムなどを確認しながら、コードを最終的にVSTやMaxオブジェクトなどにしてDLすることが出来ます。
 
@@ -151,7 +151,7 @@ FaustLiveやfaustgen~だけでいいやという方はこちらから直にDLし
 
 音声処理言語なんだから音が出なきゃ意味が無いだろ、という方にはこちらです。
 
-[http://faust.grame.fr/faustplayground/](http://faust.grame.fr/faustplayground/)
+[https://faust.grame.fr/faustplayground/](https://faust.grame.fr/faustplayground/)
 
 FaustPlaygroundはFaustのWebオーディオ出力機能を活用したWebアプリケーションで、**Faust製のモジュールをMaxの様にパッチングしたり、モジュールそのものをFaustで書き換えたりする**ことが出来ます。
 
@@ -182,11 +182,11 @@ FaustPlaygroundは今年稼働し始めたばかりなのでまだまだこれ�
 
 リファレンス
 
-<http://faust.grame.fr/Documentation/>
+<https://faust.grame.fr/Documentation/>
 
 公式チュートリアル
 
-<http://faust.grame.fr/examples.html>
+<https://faust.grame.fr/examples.html>
 
 フィルタライブラリを作ったスタンフォード大学CCRMAのJurius.O.Smith氏（DSP界隈の大御所です）の解説
 

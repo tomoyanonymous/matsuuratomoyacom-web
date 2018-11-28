@@ -4,7 +4,7 @@ permalink: onkan_sotsuten2017
 date: 2017-01-08
 ---
 
-2017/2/10~12に開催される、[東京藝術大学音楽環境創造科 大学院 音楽音響創造・芸術環境創造 卒業制作・論文 修了制作・論文発表会](http://onkansotsuten.com/)に参加します。
+2017/2/10~12に開催される、[東京藝術大学音楽環境創造科 大学院 音楽音響創造・芸術環境創造 卒業制作・論文 修了制作・論文発表会](https://onkansotsuten.com/)に参加します。
 
 松浦は11月に展示しました[「送れ｜遅れ / post｜past」]({{config.root}}info/2016-10-08/post-past)をアップデートして再展示する予定です。
 
@@ -16,13 +16,13 @@ date: 2017-01-08
 
 # 概要
 
-Webサイト: <http://onkansotsuten.com/>
+Webサイト: <https://onkansotsuten.com/>
 
-作品情報: <http://onkansotsuten.com/#/works/matsuura>
+作品情報: <https://onkansotsuten.com/#/works/matsuura>
 
 作品のことなどについて話したインタビューが掲載されています。
 
-<http://onkansotsuten.com/#/interviews/3>
+<https://onkansotsuten.com/#/interviews/3>
 
 東京藝術大学 音楽環境創造科
 

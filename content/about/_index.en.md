@@ -17,7 +17,7 @@ Matsuura Tomoya
 
 ![](profile.jpg)
 
-(Photo by [Noguchi Shohei](http://ngcsh.tumblr.com))
+(Photo by [Noguchi Shohei](https://ngcsh.tumblr.com))
 
 Tomoya Matsuura (Fukuoka, Japan) is a sound artist who builds systems that describe and generate sound. These take the form of music, sound installations, and instruments.
 
@@ -53,9 +53,9 @@ Born in 1994 in Chigasaki City, Kanagawa Pref. Living in Fukuoka Pref. Japan.
 
 2017 23rd Campus Genius Award Nominate ([送れ | 遅れ / post | past](/works/post-past_sotsuten))
 
-2017(on the Graduation of the Bachelor) [Acanthus Music Prize](http://www.geidai.ac.jp/information/prize/acanthus)
+2017(on the Graduation of the Bachelor) [Acanthus Music Prize](https://www.geidai.ac.jp/information/prize/acanthus)
 
-2015 [Ataka-Scholarship](http://www.geidai.ac.jp/life/scholarship/geidai_scholarship)
+2015 [Ataka-Scholarship](https://www.geidai.ac.jp/life/scholarship/geidai_scholarship)
 
 ---
 

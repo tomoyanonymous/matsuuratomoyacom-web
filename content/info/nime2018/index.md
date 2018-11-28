@@ -5,7 +5,7 @@ date: 2018-06-01
 
 2018/06/03~06/08までアメリカのバージニア工科大学で開催されている国際学会NIME（New Interface for Musical Expression）で作品「Aphysical Unmodeling Instrument」の展示を行います。
 
-http://nime2018.org/
+https://nime2018.org/
 
 https://nime2018.sched.com/exhibitor/matsuura.nonymous
 

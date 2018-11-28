@@ -11,7 +11,7 @@ ogpimage: hanarart_ogp.png
 また10/28には展示会場でのライブ「don't play」を開催します。
 
 
-<http://hanarart.jp/2017/archives/2185>
+<https://hanarart.jp/2017/archives/2185>
 
 <!--more-->
 
@@ -46,7 +46,7 @@ JR畝傍駅から徒歩5分
 
 <https://www.city.kashihara.nara.jp/bunkazai/yagifudanotuzikouruukann.html>
 
-大和八木駅へは大阪のなんば駅から電車で40分ほど、また関西空港から1時間ほどの[直通バス](http://www.narakotsu.co.jp/kousoku/limousine/yagi_kanku.html)が出ています。
+大和八木駅へは大阪のなんば駅から電車で40分ほど、また関西空港から1時間ほどの[直通バス](https://www.narakotsu.co.jp/kousoku/limousine/yagi_kanku.html)が出ています。
 
 # ライブ 「don't play」
 
@@ -110,7 +110,7 @@ JR畝傍駅から徒歩5分
 
 
 
-10/21~29の宇陀松山エリアで行われる「[はならぁと こあ](http://hanarart.jp/2017/uda-2)」では電子音楽系の展示やコンサートが開催されているので27,28,29が個人的にはおすすめです。
+10/21~29の宇陀松山エリアで行われる「[はならぁと こあ](https://hanarart.jp/2017/uda-2)」では電子音楽系の展示やコンサートが開催されているので27,28,29が個人的にはおすすめです。
 
 
 前回の作品とは違い少し音楽的な内容の展示になる予定ですので、前回より気楽にお楽しみいただける感じにはなると思います。よろしくお願いします。  

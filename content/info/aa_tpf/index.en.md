@@ -11,7 +11,7 @@ draft: false
 
 **<https://2018.alternative-act.tokyo>**
 
-In 2018/04/14(Sat)−15(Sun) at [Kitasenju BUoY](http://buoy.or.jp/), I will perform at **Alternative Act 1.0 Tech Performance Fes. ** Also I am one of core member to run this event.
+In 2018/04/14(Sat)−15(Sun) at [Kitasenju BUoY](https://buoy.or.jp/), I will perform at **Alternative Act 1.0 Tech Performance Fes. ** Also I am one of core member to run this event.
 
 I'll perform with my self-made electroacoustic instrument "Exidiophone".
 

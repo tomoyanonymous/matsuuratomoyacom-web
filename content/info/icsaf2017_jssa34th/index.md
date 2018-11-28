@@ -6,11 +6,11 @@ ogpimage: icsaf-2017_ogp.jpg
 
 2017年12月16,17日に行われますインターカレッジ・ソニックアーツフェスティバル(ICSAF)にてサウンドインスタレーション「Aphysical Unmodeling Instrument」を展示します。
 
-<http://ic.jssa.info>
+<https://ic.jssa.info>
 
 また同時に12/16日の先端芸術音楽創作学会(JSSA)研究会にて"『Aphysical Unmodeling Instrument』―モデリングから音・音楽を再考するサウンドインスタレーション― "というタイトルで作品に関する論考を発表いたします。
 
-<http://jssa.info>
+<https://jssa.info>
 
 <!--more-->
 
@@ -19,7 +19,7 @@ ogpimage: icsaf-2017_ogp.jpg
 2017年12月16日（土）& 12月17日（日）
 会場：昭和音楽大学（南校舎）
 住所：〒215-8558 神奈川県川崎市麻生区上麻生1-11-1
-アクセス：<http://www.tosei-showa-music.ac.jp/access.html>
+アクセス：<https://www.tosei-showa-music.ac.jp/access.html>
 入場無料
 
 ### イベントスケジュール
