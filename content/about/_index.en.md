@@ -1,6 +1,9 @@
 ---
 title: about
 layout: single
+name: Tomoya Matsuura
+shortprofile: Tomoya Matsuura (Fukuoka, Japan) is a sound artist who builds systems that describe and generate sound. These take the form of music, sound installations, and instruments.
+
 ---
 <p style="font-size:300%; margin:1em 0;">
 Matsuura Tomoya
