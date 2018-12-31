@@ -5,7 +5,6 @@ date : 2015-01-29
 ogpimage: soundproject_ogp.png
 category: artwork
 tags:
-- sound
 - programming
 ---
 

@@ -1,11 +1,10 @@
 ---
-title: 東京藝術大学映像研究科アニメーション専攻 2014年度1年次制作
+title: 東京藝術大学映像研究科アニメーション専攻 2014年度1年次制作(サウンドデザイン)
 permalink: geidaianime_06
 thum: dawn6.jpg
 date : 2015-03-05
 category: clientwork
 tags:
-- sound
 - design
 - animation
 ---
@@ -23,7 +22,9 @@ tags:
 
 ### 清家美佳「黒い猫」
 
-![https://animation.geidai.ac.jp/1styear/img/still_seike.jpg](https://animation.geidai.ac.jp/1styear/img/still_seike.jpg)
+<!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/X2AagERZh_0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
+
+{{< youtube X2AagERZh_0 >}}
 
 - 監督:清家美佳
 - 音楽:駒井一輝
@@ -32,7 +33,9 @@ tags:
 
 ### 鈴木沙織「シミアソビ」
 
-![https://animation.geidai.ac.jp/1styear/img/still_suzuki.jpg](https://animation.geidai.ac.jp/1styear/img/still_suzuki.jpg)
+<!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/BLuQjQNBhQQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
+
+{{< youtube BLuQjQNBhQQ >}}
 
 - 監督:鈴木沙織
 - 音楽:櫻井美希

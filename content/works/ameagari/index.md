@@ -6,7 +6,6 @@ date : 2014-03-21
 category: artwork
 tags:
 - theater
-- sound
 - music
 ---
 
@@ -19,14 +18,14 @@ tags:
 
 企画・制作:石井真奈美・谷陽歩・松浦知也・山田祐奈・大木啓太
 
-<a href="Ameagari11.jpg" alt=""></a>
+![](Ameagari11.jpg)
 
-<a href="Ameagari15.jpg" alt=""></a>
+![](Ameagari15.jpg)
 
-<a href="Ameagari_Ohanashi.jpg" alt=""></a>
+![](Ameagari_Ohanashi.jpg)
 
-<a href="ameagari_guitar.jpg" alt=""></a>
+![](ameagari_guitar.jpg)
 
-<a href="furaiya-.jpg" alt=""></a>
+![](furaiya-.jpg)
 
-<a href="Furaiya-ura.jpg" alt=""></a>
+![](Furaiya-ura.jpg)

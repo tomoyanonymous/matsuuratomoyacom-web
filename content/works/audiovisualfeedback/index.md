@@ -5,9 +5,7 @@ date : 2015-01-22
 ogpimage: avfeedback_ogp.png
 category: artwork
 tags:
-- sound
 - programming
-- feedback
 ---
 
 東京藝術大学 2014年度 AMC開設講座「インタラクティブ・ミュージック2」にて

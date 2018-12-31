@@ -7,7 +7,6 @@ category: clientwork
 tags:
 - theater
 - programming
-- sound
 ---
 
 小林有毅・久世文　卒業制作「いま言えない」音響

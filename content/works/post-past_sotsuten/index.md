@@ -6,7 +6,6 @@ aliases: [/works/post-past-rev-2]
 ogpimage: ogp.png
 category: artwork
 tags:
-- sound
 - installation
 - programming
 bigthum: true

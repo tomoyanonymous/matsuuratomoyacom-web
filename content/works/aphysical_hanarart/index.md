@@ -5,9 +5,8 @@ date: 2017-12-08
 ogpimage: ogp.jpg
 category: artwork
 tags:
-- sound
-- installation
-- feedback
+  - installation
+draft: true
 ---
 
 ---
