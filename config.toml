@@ -31,10 +31,10 @@ theme = "tomoya-2019"
   name = "Works"
   url = "works"
   weight = 3
-# [[menu.main]]
-#   name = "Research"
-#   url = "research"
-#   weight = 4
+[[menu.main]]
+  name = "Research"
+  url = "research"
+  weight = 4
 [[menu.main]]
   name = "Blog"
   url = "blog"
