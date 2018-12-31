@@ -9,7 +9,7 @@ issue:
 category: presentation
 firstpage:
 lastpage:
-pdf_url: https://matsuuratomoya.com/research/171122_AESJapanforum2017_poster.pdf
+pdf_url: https://www.dropbox.com/s/5f5g4jbvyxzhoat/171122_AESJapanforum2017_poster-ilovepdf-compressed.pdf?dl=0
 conference_title: AES Students Japan forum 2017
 publisher:
 date: 2017-11-25
