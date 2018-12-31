@@ -34,50 +34,70 @@ This exploration is a combination of social and technical curiosity. Tomoya is i
 
 ---
 
-## CV
+# CV
+
+## Education
 
 Born in 1994 in Chigasaki City, Kanagawa Pref. Living in Fukuoka Pref. Japan.
 
 2010.04~2013.03 Kanagawa Sohgoh Highschool
 
-2013.04~2016.03 Tokyo University of the Arts Music Creation and Environment in Music Program(Project 3:Sound Engineering, Kamekawa Toru lab.) Bachelor(Music)
+2013.04~2017.03 Tokyo University of the Arts Music Creation and Environment in Music Program(Project 3:Sound Engineering, Kamekawa Toru lab.) Bachelor(Music)
+
+2017.04~ Kyushu University Graduate School of Design, Master Program Department of Design, Content and Creative Design Course, Digital Content Design Division(Jo Kazuhiro lab.)
+
+2018.09~11 [School for Poetic Computation](https://sfpc.io) Fall 2018 Class
+
+## Work
 
 2015.02~2017.03 teamlab Sound Engineer
 
 2015.08~09 YCAM(Yamaguchi Center for Art and Media) interlab Internship
 
-2016.04~ Kyushu University Graduate School of Design, Master Program Department of Design, Content and Creative Design Course, Digital Content Design Division(Jo Kazuhiro lab.)
 
-### Prize/Scholarship/Grant
+### Awards/Prizes/Scholarships/Grants
 
-2018 KAKEHASHI foundation Scholarship
+2015 [Ataka-Scholarship](https://www.geidai.ac.jp/life/scholarship/geidai_scholarship)
+
+2017(on the Graduation of the Bachelor) [Acanthus Music Prize](https://www.geidai.ac.jp/information/prize/acanthus)
 
 2017 Asia Digital Art Award 2017 Interactive Art(Student) Section Finalist Award ([送れ | 遅れ / post | past](/works/post-past_sotsuten))
 
 2017 23rd Campus Genius Award Nominate ([送れ | 遅れ / post | past](/works/post-past_sotsuten))
 
-2017(on the Graduation of the Bachelor) [Acanthus Music Prize](https://www.geidai.ac.jp/information/prize/acanthus)
-
-2015 [Ataka-Scholarship](https://www.geidai.ac.jp/life/scholarship/geidai_scholarship)
+2018 [KAKEHASHI foundation](https://kakehashi-foundation.jp) Scholarship Student
 
 ---
 
-## Skills
+## Technical Skills
 
-### Frequently Use
+### Programming
 
-- Max/MSP
+- Cycling 74 Max
 - Faust
 - HTML5/CSS3
-- Cubase
-- Puredata
-- Javascript(including Node.js)
-
-### Use
-
+- C++
 - Openframeworks
+- Javascript(Node.jsも)
 - Julia
-- Processing
+- Puredata
+
+### Sound Design
+
+basic recording/mixing/foley with...
+
+- Cubase
 - Protools
-- R
-- JUCE
+
+### Digital Fablication
+
+- Laser Cutter
+- Basic 3D printing
+- Fusion360
+- PCB prototyping with CNC milling machine
+
+### Electronics
+
+- Arduino
+- Autodesk Eagle
+- FlatCAM

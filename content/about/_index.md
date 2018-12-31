@@ -35,7 +35,7 @@ Web Site : <https://matsuuratomoya.com>
 
 ---
 
-## 経歴
+## Education
 
 1994年神奈川県茅ヶ崎市生まれ 福岡県在住
 
@@ -43,42 +43,59 @@ Web Site : <https://matsuuratomoya.com>
 
 2013.04~2016.03 東京藝術大学 音楽学部音楽環境創造科 プロジェクト３(録音/サウンドデザイン専攻)、亀川徹研究室 学士（音楽）
 
-2015.02~2017.03 teamlab サウンドエンジニア
-
-2015.08~09 YCAM（山口情報芸術センター） interlab インターンシップ
-
 2017.04~ 九州大学 大学院芸術工学府 修士課程芸術工学専攻 コンテンツ・クリエーティブデザインコース デジタルコンテンツデザイン講座（城一裕研究室）
 
-### 受賞歴・奨学金
+2018.09~11 [School for Poetic Computation](https://sfpc.io) Fall 2018 Class
 
-2018年 公益財団かけはし芸術文化振興財団 奨学生
+## Works
+
+2015.02~2017.03 teamlab サウンドエンジニア
+
+2015.08~09 [YCAM(山口情報芸術センター)](https://ycam.jp) interlab インターンシップ
+
+### Awards/Grants/Scholorships
+
+2015年 [安宅賞奨学金](https://www.geidai.ac.jp/life/scholarship/geidai_scholarship)
+
+2017年 東京藝術大学卒業時[アカンサス音楽賞](https://www.geidai.ac.jp/information/prize/acanthus)授賞
 
 2017年 アジアデジタルアート大賞 インタラクティブアート・学生部門入賞 ([送れ | 遅れ / post | past](/works/post-past_sotsuten))
 
 2017年 学生CGコンテスト アート部門ノミネート([送れ | 遅れ / post | past](/works/post-past_sotsuten))
 
-2017年 東京藝術大学卒業時[アカンサス音楽賞](https://www.geidai.ac.jp/information/prize/acanthus)授賞
-
-2015年 [安宅賞奨学金](https://www.geidai.ac.jp/life/scholarship/geidai_scholarship)
+2018年 [公益財団かけはし芸術文化振興財団](https://kakehashi-foundation.jp) 奨学生
 
 ---
 
-## スキル
+## Technical Skills
 
-### よく使う
+### Programming
 
-- Max/MSP
+- Cycling 74 Max
 - Faust
 - HTML5/CSS3
-- Cubase
-- Puredata
-- Javascript(Node.jsも)
-
-### 使う
-
+- C++
 - Openframeworks
+- Javascript(Node.jsも)
 - Julia
+- Puredata
+
+### Sound Design
+
+basic recording/mixing/foley with...
+
+- Cubase
 - Protools
-- R
-- Processing
-- JUCE
+
+### Digital Fablication
+
+- Laser Cutter
+- Basic 3D printing
+- Fusion360
+- PCB prototyping with CNC milling machine
+
+### Electronics
+
+- Arduino
+- Autodesk Eagle
+- FlatCAM
