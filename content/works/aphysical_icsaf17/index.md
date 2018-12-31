@@ -5,10 +5,9 @@ date: 2018-01-30
 ogpimage: ogp.jpeg
 category: artwork
 tags:
-- sound
 - installation
-- feedback
 bigthum: true
+draft: true
 ---
 
 ---

@@ -5,9 +5,7 @@ thum: tsukuruto_thum.png
 date : 2017-06-10
 category: artwork
 tags:
-- sound
 - performance
-- feedback
 ---
 
 <iframe src="https://player.vimeo.com/video/228039554" width="640" height="480" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>

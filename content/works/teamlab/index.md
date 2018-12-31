@@ -5,7 +5,6 @@ thum: forest1.jpeg
 category: clientwork
 date : 2017-01-08
 tags:
-- sound
 - programming
 - design
 ---

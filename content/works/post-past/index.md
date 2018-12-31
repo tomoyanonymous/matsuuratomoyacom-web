@@ -3,7 +3,6 @@ title: 送れ | 遅れ / post | past
 thum: postpast-2.jpg
 category: artwork
 tags:
-- sound
 - installation
 - programming
 date : 2017-02-17

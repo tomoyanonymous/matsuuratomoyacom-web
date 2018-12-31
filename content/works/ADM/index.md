@@ -4,7 +4,6 @@ thum: ADM2.JPG
 date : 2016-04-11
 category: artwork
 tags:
-- sound
 - installation
 - programming
 ---
