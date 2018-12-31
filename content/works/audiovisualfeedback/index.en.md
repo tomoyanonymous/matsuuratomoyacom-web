@@ -5,9 +5,7 @@ date : 2015-01-22
 ogpimage: avfeedback_ogp.png
 category: artwork
 tags:
-- sound
 - programming
-- feedback
 ---
 
 at Tokyo University of the Arts Class in 2014 "Interactive Music 2"

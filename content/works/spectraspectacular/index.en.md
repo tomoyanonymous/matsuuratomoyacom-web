@@ -3,6 +3,8 @@ title: Spectraspectacular(AMC Soundproject 2014)
 thum: amc_soundproject.jpg
 date : 2015-01-29
 ogpimage: soundproject_ogp.png
+tags:
+- programming
 ---
 
 At AMC SOUND PROJECT 2014

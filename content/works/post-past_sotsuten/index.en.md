@@ -5,7 +5,6 @@ date : 2017-03-30
 aliases: [/en/works/post-past-rev-2]
 category: artwork
 tags:
-- sound
 - installation
 - programming
 bigthum: true
