@@ -3,6 +3,7 @@ title: How-ring
 thum: 1.jpg
 date : 2014-12-15
 category: artwork
+ogpimage: ogp.jpg
 tags:
 - installation
 - programming
