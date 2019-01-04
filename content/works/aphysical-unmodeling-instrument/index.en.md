@@ -54,7 +54,7 @@ June 3rd to 9th, 2018
 
 # FREQ2018 The Sound and Music in the Early 21st Century{#freq2018}
 
-九州大学大橋キャンパス音響特殊棟 2F無響室
+At an anechoic chamber at Ohashi Campus, Kyushu University
 
 March 29th to 30th, 2018
 
@@ -76,9 +76,9 @@ March 29th to 30th, 2018
 
 ![](aui-freq2018-9.jpg)
 
-# インターカレッジ・ソニックアーツフェスティバル2017{#icsaf2017}
+# Inter-College Sonic Arts Festival 2017{#icsaf2017}
 
-昭和音楽大学内一般教室
+Showa Music University
 
 December 15th to 16th, 2017
 
@@ -110,13 +110,15 @@ December 15th to 16th, 2017
 
 ![](icsaf15.JPG)
 
-# はならぁと2017 八木札の辻エリア{#hanarart2017}
+# HANARART2017 Yagi-Fudanotsuji Area{#hanarart2017}
 
 [松浦 知也 | 奈良・町家の芸術祭 はならぁと 2017](https://hanarart.jp/2017/archives/2185)
 
-奈良・町家の芸術祭 はならぁと 2017、はならぁと ぷらす 内、橿原エリア地域連携企画
+Art Festival HANARART 2017
 
-八木札の辻交流館にて
+HANARART Plus, Kashihara Area Local Collabolation Exhibition
+
+At Yagi Fudanotsuji Kouryukan
 
 October 27th to November 5th, 2017
 
