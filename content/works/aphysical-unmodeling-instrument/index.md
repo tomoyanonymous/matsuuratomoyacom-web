@@ -13,7 +13,7 @@ bigthum: true
 # toc
 
 - [Concept](#concept)
-- [New Interfaces for Musical Expression 2018](#new-interfaces-for-musical-expression-2018)
+- [New Interfaces for Musical Expression 2018](#nime2018)
 - [FREQ2018 21世紀初頭の音と音楽](#freq2018)
 - [インターカレッジ・ソニックアーツフェスティバル2017](#icsaf2017)
 - [はならぁと2017 八木札の辻エリア](#hanarart2017)
@@ -33,7 +33,7 @@ bigthum: true
 物理モデルという、音を出すプロセスを記述したものを楽譜のように捉え、それを再生する装置を作るという、演奏として展示をすることを試みた。
 
 
-# New Interfaces for Musical Expression 2018
+# New Interfaces for Musical Expression 2018{#nime2018}
 
 at Lobby of Moss Arts Center, Virginia Tech University
 
