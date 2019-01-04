@@ -14,23 +14,21 @@ bigthum: true
 
 - [Concept](#concept)
 - [New Interfaces for Musical Expression 2018](#new-interfaces-for-musical-expression-2018)
-- [FREQ2018 21世紀初頭の音と音楽](#freq2018)
-- [インターカレッジ・ソニックアーツフェスティバル2017](#icsaf2017)
-- [はならぁと2017 八木札の辻エリア](#hanarart2017)
+- [FREQ2018 The Sound and Music in the Early 21st Century](#freq2018)
+- [Intercollege Sonic Arts Festival 2017](#icsaf2017)
+- [HANARART 2017 Yagi-Fudanotsuji Area](#hanarart2017)
 
 <iframe src="https://player.vimeo.com/video/253094723?color=ffffff" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style ="width:100%; min-height:360px; max-height:400px;"></iframe>
 
-<small>動画右下CCボタンで日本語字幕</small>
-
 # Concept
 
-「Aphysical Unmodeling Instrument」は楽器の音色を計算で模倣する物理モデリング合成という手法を、コンピュータを用いて実装するのではなく、スピーカーやマイクロフォン、共鳴器や照明、光センサーなど物理的なオブジェクトの組み合わせで実装するサウンドインスタレーションである。
+"Aphysical Unmodeling Instrument" is a sound installation that re-implements a physical modeling synthesizer, which is usually implemented on a computer to imitate tones of real musical instruments, with physical object such as speakers, microphones, lights and sensors without any computers.
 
-この作品は90年代に作られたWhirlwindという、クラリネット・フルート・トランペットの3つの管楽器を合体させた形の計算モデルを再実装する。
+The work physicalizes Whirlwind developed in 1990s, a combined computational model of 3 wind instruments: Trumpet, Flute and Clarinet.
 
-展示は2017年から2018年にかけて合計4回行われ、それぞれ和室、大学の教室、無響室、音楽ホールのロビーという音響的にも設置環境的にも異なる場所で展示された。すべての展示で元になっているモデルは同じだが、部屋の条件に合わせて具体的な実装も異なっている。
+This work was presented currently 4 times from 2017 to 2018 at different place from the view of acoustic characteristics and constraints for installation: Japanese cultural property, general room in a university, an anechoic chamber and a lobby at music hall. The original model is common for 4 exhibitions but concrete implementations are different to adapt the conditions of the rooms.
 
-物理モデルという、音を出すプロセスを記述したものを楽譜のように捉え、それを再生する装置を作るという、演奏として展示をすることを試みた。
+Attempted to exhibit the works as a kind of performance that build an apparatus which reproduces sound from the description of sound: physical model taking it as like musical score.
 
 
 # New Interfaces for Musical Expression 2018
@@ -54,7 +52,7 @@ June 3rd to 9th, 2018
 ![](aui-nime2018-7.jpg)
 
 
-# FREQ2018 21世紀初頭の音と音楽{#freq2018}
+# FREQ2018 The Sound and Music in the Early 21st Century{#freq2018}
 
 九州大学大橋キャンパス音響特殊棟 2F無響室
 
