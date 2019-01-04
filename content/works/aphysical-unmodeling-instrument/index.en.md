@@ -13,7 +13,7 @@ bigthum: true
 # toc
 
 - [Concept](#concept)
-- [New Interfaces for Musical Expression 2018](#new-interfaces-for-musical-expression-2018)
+- [New Interfaces for Musical Expression 2018](#nime2018)
 - [FREQ2018 The Sound and Music in the Early 21st Century](#freq2018)
 - [Intercollege Sonic Arts Festival 2017](#icsaf2017)
 - [HANARART 2017 Yagi-Fudanotsuji Area](#hanarart2017)
@@ -31,7 +31,7 @@ This work was presented currently 4 times from 2017 to 2018 at different place f
 Attempted to exhibit the works as a kind of performance that build an apparatus which reproduces sound from the description of sound: physical model taking it as like musical score.
 
 
-# New Interfaces for Musical Expression 2018
+# New Interfaces for Musical Expression 2018{#nime2018}
 
 at Lobby of Moss Arts Center, Virginia Tech University
 
