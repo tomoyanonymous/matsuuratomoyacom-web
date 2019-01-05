@@ -11,6 +11,8 @@ date: 2019-01-04
 
 [CV PDF(英語のみです！)](https://www.dropbox.com/s/q6ptsm6bz7yb6pl/TomoyaMatsuuraCV2019-Work.pdf?dl=0)
 
+[Linkedin](https://www.linkedin.com/in/matsuuratomoya/)
+
 - 松浦知也は2019年に掛けてのお仕事を募集しています
 
 - Cycling'74 MaxやOpenframeworksでのプログラミング、特に音響周りは理論を真面目にかじっているので得意です
@@ -150,5 +152,7 @@ date: 2019-01-04
 [Facebook](https://www.facebook.com/tomoya.matsuura.98)
 
 [instagram](https://www.instagram.com/tomoya_nonymous)
+
+[Linkedin](https://www.linkedin.com/in/matsuuratomoya/)
 
 お読みいただきありがとうございました。
