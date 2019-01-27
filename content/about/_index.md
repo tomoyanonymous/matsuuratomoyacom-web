@@ -99,3 +99,28 @@ basic recording/mixing/foley with...
 - Arduino
 - Autodesk Eagle
 - FlatCAM
+
+
+# Publications
+
+[Research](/research)セクションへ
+
+# Exhibitions
+
+2014.12 千住Art Path2014([How-ring](/works/How-ring))
+
+2015.12 千住Art Path2015([Acoustic Delay (⇔) Memory](/works/ADM))
+
+2016.11 自主企画展示　[送れ｜遅れ/post|past](/works/post-past)
+
+2017.02 東京藝術大学 音楽環境創造科 卒業/修了・制作/論文発表会2017([送れ｜遅れ/post|past](/works/post-past_sotsuten))
+
+2017.10 奈良・町家の芸術祭 はならぁと ぷらす　八木札の辻エリア([Aphysical Unmodeling Instrument](/works/aphysical-unmodeling-instrument))
+
+2017.12 インターカレッジ・ソニックアーツフェスティバル2017([Aphysical Unmodeling Instrument](/works/aphysical-unmodeling-instrument))
+
+2018.03 FREQ2018 -21世紀初頭の音と音楽- ([Aphysical Unmodeling Instrument](/works/aphysical-unmodeling-instrument))
+
+2018.06 New Interfaces for Musical Expression 2018([Aphysical Unmodeling Instrument](/works/aphysical-unmodeling-instrument))
+
+2018.11 School for Poetic Computation fall 2018 Student Showcase([EDTAC](/works/edtac))
