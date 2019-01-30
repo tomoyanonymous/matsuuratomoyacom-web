@@ -3,15 +3,16 @@ title: about
 layout: single
 name: 松浦 知也/マツウラトモヤ/Matsuura Tomoya
 shortprofile: 音を中心とした様々なメディアにおける「システム」、その中でも特に「ライブ/通信」と「アーカイブ/記録/記憶」の関係性をテーマに音響装置作品や電子楽器、演奏システムの制作や作曲、演奏などを行う。またインスタレーションやサウンドアートのサウンドシステム・プログラム開発のテクニカルなサポートや、レコーディング、映像のサウンドデザイン、舞台音響などを務める。1994年生。2017年東京藝術大学 音楽学部音楽環境創造科卒業、九州大学 大学院芸術工学府 修士課程在籍。
+ogpimage: ogp.jpg
 ---
 
-<p style="font-size:300%; margin:1em 0;">
+<p style="font-size:200%; margin:1em 0;">
 Matsuura Tomoya
 </p>
-<p style="font-size:300%; margin:1em 0;">
+<p style="font-size:200%; margin:1em 0;">
 マツウラトモヤ
 </p>
-<p style="font-size:300%; margin:1em 0;">
+<p style="font-size:200%; margin:1em 0;">
 松浦知也
 </p>
 
@@ -22,16 +23,17 @@ Matsuura Tomoya
 
 (撮影：[野口翔平](https://ngcsh.tumblr.com))
 
-Sound Maker/Engineer/Designer/Programmer
+SoundMaker:Engineer/Designer/Researcher/Programmer
 
-
-音を中心とした様々なメディアにおける「システム」、その中でも特に「ライブ/通信」と「アーカイブ/記録/記憶」の関係性をテーマに音響装置作品や電子楽器、演奏システムの制作や作曲、演奏などを行う。
+音・音楽を作るためにその生成・記述のシステム自体を作ることから始めるアプローチを取る音楽家・サウンドアーティスト。メディア考古学的視点から有りうるオルタナティブな音表現の可能性を追求し、サウンドインスタレーション、電子楽器の制作やそれを用いた演奏活動、作曲などを行う。
 
 またインスタレーションやサウンドアートのサウンドシステム・プログラム開発のテクニカルなサポートや、レコーディング、映像のサウンドデザイン、舞台音響などを務める。
 
 1994年生。2017年東京藝術大学 音楽学部音楽環境創造科卒業、九州大学 大学院芸術工学府 修士課程在籍。
 
 Web Site : <https://matsuuratomoya.com>
+
+**[アーティスト・ステートメント全文](./statement)**
 
 ---
 
