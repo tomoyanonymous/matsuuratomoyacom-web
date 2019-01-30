@@ -12,6 +12,8 @@ bigthum: true
 ![](./exidiophone5.jpg)
 photo by Takehiro Goto
 
+{{<youtube ke5x3pJTT5A>}}
+
 # 電子音響楽器Exidiophone
 
 電子音響楽器Exidiophoneは、オーディオフィードバック(ハウリング)を音の出る基本的な仕組みとして用いた楽器で、発振器などの音源を一切持たない。
