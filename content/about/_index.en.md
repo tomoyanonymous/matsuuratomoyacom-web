@@ -22,7 +22,7 @@ Matsuura Tomoya
 
 (Photo by [Noguchi Shohei](https://ngcsh.tumblr.com))
 
-SoundMaker:Engineer/Designer/Researcher/Programmer
+SoundMaker:Artist/Engineer/Designer/Researcher/Programmer
 
 Tomoya Matsuura is a musician and a sound artist who starts from building systems that describe and generate sound to create his own sound and music. From a media-archaeological viepoints, he pursues possible and alternative expressions of sound by building a sound installation and an electro-acoustic instrument, and performs with them.
 

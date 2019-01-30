@@ -23,7 +23,7 @@ Matsuura Tomoya
 
 (撮影：[野口翔平](https://ngcsh.tumblr.com))
 
-SoundMaker:Engineer/Designer/Researcher/Programmer
+SoundMaker:Artist/Engineer/Designer/Researcher/Programmer
 
 音・音楽を作るためにその生成・記述のシステム自体を作ることから始めるアプローチを取る音楽家・サウンドアーティスト。メディア考古学的視点から有りうるオルタナティブな音表現の可能性を追求し、サウンドインスタレーション、電子楽器の制作やそれを用いた演奏活動、作曲などを行う。
 
