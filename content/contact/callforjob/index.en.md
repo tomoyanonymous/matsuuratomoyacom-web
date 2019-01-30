@@ -8,6 +8,15 @@ description: 松浦知也は現在2019年のお仕事を募集しています。
 
 I, Matsuura Tomoya is now looking for job gigs for 2019.
 
+---
+2019.01.31 update
+
+Currently I'm planning to enter to Doctral Program at Kyushu University. So I will be based in Fukuoka, at least, for this year as well as last 2 years.
+
+However, any invitation is welcome!
+
+---
+
 # Summary
 
 [CV PDF](https://www.dropbox.com/s/q6ptsm6bz7yb6pl/TomoyaMatsuuraCV2019-Work.pdf?dl=0)
@@ -16,7 +25,7 @@ I, Matsuura Tomoya is now looking for job gigs for 2019.
 
 - Matsuura Tomoya is now looking for job gigs for 2019
 
-- I'm good at programming with Cycling'74 Max, openFrameworks & etc, especially in digtal signal processing and acoustic theory
+- I'm good at programming with Cycling'74 Max, openFrameworks & etc, especially in digital signal processing and acoustic theory
 - My characteristic is that I can manage from a system engineering for sound equipments to compositions comprehensively, rather than an ordinary programmer.
 
 - I'm considering to work as freelancer but I can accept offers for a permanent job position depending on its treatment.
@@ -38,7 +47,7 @@ Currently I am a graduate student at Graduate School of Design, Kyushu Universit
 
 Also, 2 years before, I was working at [teamLab](https://teamlab.art) as a sound engineer/programmer. The job contains programming for interactive music contents and actual installations at venue (including many overseas exhibitions). Also experienced internship at [YCAM(Yamaguchi Center for Arts and Media) Interlab](https://ycam.jp) and student at [School for Poetic Computation](https://sfpc.io)(artist-run, kind of alt-grad school).
 
-I'm now working on my master thesis and will graduate in next March but I hav e completely no plan from next April.
+I'm now working on my master thesis and will graduate in next March ~~but I have completely no plan from next April.~~
 
 There's some plan other than doing a freelancer but I'm thinking to obtain money to start my own project in the future for now.
 
@@ -92,13 +101,9 @@ Recently I am also interested in a fabrication like a mass production. I'm plann
 
 ![](exidiophone4.jpg)
 
-
-
 # Where are you based in this year?
 
 For now, I will be based in Fukuoka, Japan and will be doing jobs like I mentioned above, however, if you are interested in hiring me for permanent position, please feel free to contact me. Last year I managed most of jobs remotely.
-
-
 
 # How much?
 
