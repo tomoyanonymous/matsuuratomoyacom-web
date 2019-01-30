@@ -10,6 +10,8 @@ bigthum: true
 ---
 An alternative form of a personal computer that is made to enable programming a time in time. It does not have a master clock and thus does not have a minimum unit of time. Its function is only dividing time as programmed physically.
 
+{{<vimeo 314336109>}}
+
 material: electronic timer circuit, counter circuit, telegraph sounder, optic fiber;
 
 Made in [School for Poetic Computation](https://sfpc.io) Fall 2018 class and presented at Student Showcase.

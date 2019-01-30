@@ -18,7 +18,9 @@ bigthum: true
 - [Intercollege Sonic Arts Festival 2017](#icsaf2017)
 - [HANARART 2017 Yagi-Fudanotsuji Area](#hanarart2017)
 
-<iframe src="https://player.vimeo.com/video/253094723?color=ffffff" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style ="width:100%; min-height:360px; max-height:400px;"></iframe>
+
+{{<vimeo 253094723>}}
+
 
 # Concept
 

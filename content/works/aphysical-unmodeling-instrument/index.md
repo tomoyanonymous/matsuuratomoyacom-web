@@ -18,7 +18,7 @@ bigthum: true
 - [インターカレッジ・ソニックアーツフェスティバル2017](#icsaf2017)
 - [はならぁと2017 八木札の辻エリア](#hanarart2017)
 
-<iframe src="https://player.vimeo.com/video/253094723?color=ffffff" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style ="width:100%; min-height:360px; max-height:400px;"></iframe>
+{{<vimeo 253094723>}}
 
 <small>動画右下CCボタンで日本語字幕</small>
 

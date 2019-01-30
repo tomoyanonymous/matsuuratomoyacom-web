@@ -15,6 +15,7 @@ photo above is by Filip Wolak.
 マスタークロックを持たず、それ故に時間の最小単位も持たない。
 このコンピュータの機能は物理的にプログラムされた通り、時間を分割することだけである。
 
+{{<vimeo 314336109>}}
 
 [School for Poetic Computation](https://sfpc.io) Fall 2018 classにて制作、Student Showcase（2018年11月10、11日）にて展示。
 

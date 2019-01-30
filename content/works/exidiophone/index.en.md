@@ -12,6 +12,8 @@ bigthum: true
 ![](./exidiophone5.jpg)
 photo by Takehiro Goto
 
+{{<youtube ke5x3pJTT5A>}}
+
 # Exidiophone, An Electro-Acoustic Instrument
 
 Exidiophone is an audio-feedback (Larsen Effect) based musical instrument which does not have any oscillators or audio sources.
