@@ -32,7 +32,9 @@ And when computers treat information of time, we divide time into segments to ma
 
 For example, there is an analog circuit called monostable multivibrator. The circuit receives an electric pulse and outputs pulse after a certain delay. The interval is determined by a combination of a capacitance and a resistance. So what if the output pulse switch the resistor to another one and is fed back to input? The pulse is triggered again after a different delay time from the previous interval. By repeating this, we should make the timer which has non-uniform intervals. The set of intervals are reproducible and we can say it as programmable but nothing is digitized because the delay times are resistances, physical parameters.
 
-This is a principle of the EDPAC(Electronic Delay Pulse Automatic Calculator).
+![edtac-video-spriteone](edtac-video-spriteone.png)
+
+This is a principle of the EDTAC(Electronic Delay Time Automatic Calculator).
 This device can exist even if there was not a notion of number. Number is the biggest format and standard from ancient in the world. Similarly, computers stand on thousands of standardizations.
 
 This device keeps working even if it is not called a computer by most people. At least, I made it with the purpose for computation of time.
