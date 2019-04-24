@@ -19,6 +19,7 @@ theme = "tomoya-2019"
   Vimeo = "tomoyamatsuura"
   Soundcloud = "tomoya_matsuura"
   description = "松浦知也のWebサイトです。"
+  ogpimage = "assets/img/image_ogp.png"
 [[menu.main]]
   name = "About"
   url = "about"
