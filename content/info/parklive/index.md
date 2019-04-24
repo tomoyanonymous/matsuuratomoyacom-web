@@ -11,7 +11,7 @@ date: 2019-04-24
 
 ![](parklive.jpg)
 
-https://www.ginzasonypark.jp/program/000/
+*https://www.ginzasonypark.jp/program/000/*
 
 > 4月27日（土）17:00〜のPark Liveは、江﨑文武（WONK）×角銅真実（cero）×原田芳宏×松浦知也。⁣
 > WONKのキーボード／ピアノを担当する江﨑文武、ceroのパーカッション他さまざまなミュージシャンからも引っ張りだこの角銅真実、日本のスティールパン第一人者であり世界大会入賞経験をもつ原田芳宏、多様な音響装置をプレイし、蓮沼執太フルフィルにも参加する松浦知也。⁣
