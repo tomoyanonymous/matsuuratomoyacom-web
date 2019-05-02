@@ -1,6 +1,7 @@
 ---
 date: 2017-09-06
 title: process wav file simply with faust2sndfile
+highlight: true
 ---
 
 This article is introduction how to apply effects written in faust to wave files.

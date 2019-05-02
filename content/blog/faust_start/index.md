@@ -2,6 +2,7 @@
 date: 2016-12-04
 title: とりあえずFaustを始めたい人のための4つの環境
 aliases: [blog/2016-12-04/faust-start]
+highlight: true
 ---
 
 *この記事は[Faust(多分ひとり)Advent Calender](https://qiita.com/advent-calendar/2016/faust)の2個めの記事です。*

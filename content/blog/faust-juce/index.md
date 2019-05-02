@@ -2,6 +2,7 @@
 title: Faust&JUCEによる超高速VST開発
 date: 2017-12-02
 ogpimage: faust_editor_ogp.png
+highlight: true
 ---
 
 *この記事はFaust Advent Calender 2017の2日目の記事とJUCE Advent Calenderの合同記事です（手抜きと呼ばないで）。*

@@ -2,6 +2,7 @@
 date: 2016-05-07
 title: Github pagesで意地でもサブディレクトリをルートにする
 permalink: githubpage-subdirectory
+highlight: true
 ---
 このページ自体をGithub Pagesでホストしているのですが、
 

@@ -2,6 +2,7 @@
 date: 2016-12-01
 title: 音声処理プログラミング言語、Faustの紹介
 permalink: faust_introduction
+highlight: true
 ---
 
 *この記事は[Faust(多分ひとり)Advent Calender](https://qiita.com/advent-calendar/2016/faust)の1日目の記事です。*

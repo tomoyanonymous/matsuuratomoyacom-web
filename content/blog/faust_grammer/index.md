@@ -2,6 +2,7 @@
 date: 2017-01-07
 title: Faustの基本文法解説
 permalink: faust_grammer
+highlight: true
 ---
 
 *この記事は[Faust(多分ひとり)Advent Calender](https://qiita.com/advent-calendar/2016/faust)の4つ目の記事です。*
@@ -390,10 +391,13 @@ gain_offset = \(gain,offset).(_*gain+offset+initial_offset)
 
 ```java
 
-duplicate = case {                    (1,x) => x;                    (n,x) => duplicate(n-1,x);
+duplicate = case {
+                    (1,x) => x;
+                    (n,x) => duplicate(n-1,x);
                 };
 //もしくは
-duplicate(1,x) = x;duplicate(n,x) = (x, duplicate(n-1,x) );
+duplicate(1,x) = x;
+duplicate(n,x) = (x, duplicate(n-1,x) );
 
 process = duplicate(3)
 ```

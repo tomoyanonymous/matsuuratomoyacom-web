@@ -2,6 +2,7 @@
 date: 2017-01-19
 title: Faustのライブラリの使い方と標準ライブラリのオススメ
 aliases: [blog/2017-01-19/faust-library]
+highlight: true
 ---
 
 *この記事は[Faust(多分ひとり)Advent Calender](https://qiita.com/advent-calendar/2016/faust)の5つ目の記事です。*
