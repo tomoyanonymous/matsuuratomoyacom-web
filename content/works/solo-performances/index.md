@@ -1,13 +1,25 @@
 ---
 title: Solo Performances
-thum: ftarri-satogaeri-bysuzueri.jpg
-date : 2018-12-20
+thum: sonypark_live.jpg
+date : 2019-04-27
+updated
 ogpimage: ogp.jpg
 category: artwork
 tags:
 - performance
 bigthum: true
 ---
+
+# Park Live at Ginza Sony Park 
+
+2019.04.27
+
+w/[Ayatake Ezaki](https://twitter.com/ayatalce) (Keyboards), [Manami Kakudo](https://manamikakudo.wordpress.com/) (Percussion, Ukulele, Voices, Tape Recorders), [Yoshihiro Harada](https://yoshihiroharada.wixsite.com/home) (Steel Pan)
+
+![](sonypark_live.jpg)
+
+
+instruments: [Exidiophone](/works/exidiophone)*2, Cracklebox w/ audio feedback from handy recorder, curing tape, Alminium foil
 
 # FREQ x HardCoreAmbience(九州大学大橋キャンパス)
 
