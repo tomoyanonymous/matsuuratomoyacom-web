@@ -2,7 +2,6 @@
 title: Solo Performances
 thum: sonypark_live.jpg
 date : 2019-04-27
-updated
 ogpimage: ogp.jpg
 category: artwork
 tags:
