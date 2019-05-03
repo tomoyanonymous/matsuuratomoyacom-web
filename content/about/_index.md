@@ -2,7 +2,7 @@
 title: about
 layout: single
 name: 松浦 知也/マツウラトモヤ/Matsuura Tomoya
-shortprofile: 音を中心とした様々なメディアにおける「システム」、その中でも特に「ライブ/通信」と「アーカイブ/記録/記憶」の関係性をテーマに音響装置作品や電子楽器、演奏システムの制作や作曲、演奏などを行う。またインスタレーションやサウンドアートのサウンドシステム・プログラム開発のテクニカルなサポートや、レコーディング、映像のサウンドデザイン、舞台音響などを務める。1994年生。2017年東京藝術大学 音楽学部音楽環境創造科卒業、九州大学 大学院芸術工学府 修士課程在籍。
+shortprofile: 音を中心とした様々なメディアにおける「システム」、その中でも特に「ライブ/通信」と「アーカイブ/記録/記憶」の関係性をテーマに音響装置作品や電子楽器、演奏システムの制作や作曲、演奏などを行う。またインスタレーションやサウンドアートのサウンドシステム・プログラム開発のテクニカルなサポートや、レコーディング、映像のサウンドデザイン、舞台音響などを務める。1994年生。2017年東京藝術大学 音楽学部音楽環境創造科卒業、九州大学 大学院芸術工学府 博士後期課程在籍。
 ogpimage: ogp.jpg
 ---
 
@@ -29,7 +29,7 @@ SoundMaker:Artist/Engineer/Designer/Researcher/Programmer
 
 またインスタレーションやサウンドアートのサウンドシステム・プログラム開発のテクニカルなサポートや、レコーディング、映像のサウンドデザイン、舞台音響などを務める。
 
-1994年生。2017年東京藝術大学 音楽学部音楽環境創造科卒業、九州大学 大学院芸術工学府 修士課程在籍。
+1994年生。2017年東京藝術大学 音楽学部音楽環境創造科卒業、2019年九州大学 大学院芸術工学府 修士課程修了、現在同大学院博士後期課程在籍。
 
 Web Site : <https://matsuuratomoya.com>
 
@@ -45,9 +45,11 @@ Web Site : <https://matsuuratomoya.com>
 
 2013.04~2016.03 東京藝術大学 音楽学部音楽環境創造科 プロジェクト３(録音/サウンドデザイン専攻)、亀川徹研究室 学士（音楽）
 
-2017.04~ 九州大学 大学院芸術工学府 修士課程芸術工学専攻 コンテンツ・クリエーティブデザインコース デジタルコンテンツデザイン講座（城一裕研究室）
+2017.04~2019.03 九州大学 大学院芸術工学府 修士課程芸術工学専攻 コンテンツ・クリエーティブデザインコース デジタルコンテンツデザイン講座（城一裕研究室）
 
 2018.09~11 [School for Poetic Computation](https://sfpc.io) Fall 2018 Class
+
+2019.04~ 九州大学 大学院芸術工学府 博士後期課程芸術工学専攻 コンテンツ・クリエーティブデザインコース （城一裕研究室）
 
 ## Works
 
@@ -66,6 +68,8 @@ Web Site : <https://matsuuratomoya.com>
 2017年 学生CGコンテスト アート部門ノミネート([送れ | 遅れ / post | past](/works/post-past_sotsuten))
 
 2018年 [公益財団かけはし芸術文化振興財団](https://kakehashi-foundation.jp) 奨学生
+
+2019年 [北九州デジタルクリエーターコンテスト2019　入選](http://kdcc.info/archive/2019.html) ([Aphysical Unmodeling Instrument](/works/aphysical-unmodeling-instrument))
 
 ---
 
@@ -126,3 +130,5 @@ basic recording/mixing/foley with...
 2018.06 New Interfaces for Musical Expression 2018([Aphysical Unmodeling Instrument](/works/aphysical-unmodeling-instrument))
 
 2018.11 School for Poetic Computation fall 2018 Student Showcase([EDTAC](/works/edtac))
+
+2019.02 インターカレッジ・ソニックアーツフェスティバル2018([EDTAC](/works/edtac))
