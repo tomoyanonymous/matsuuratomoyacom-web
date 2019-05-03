@@ -19,6 +19,8 @@ photo above is by Filip Wolak.
 
 [School for Poetic Computation](https://sfpc.io) Fall 2018 classにて制作、Student Showcase（2018年11月10、11日）にて展示。
 
+またインターカレッジ・ソニックアーツフェスティバル2018(情報科学芸術大学院大学,2019年3月9、10日)にて展示。
+
 ![](edtac21.JPG)
 
 ![](edtac22.JPG)

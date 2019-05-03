@@ -16,6 +16,9 @@ material: electronic timer circuit, counter circuit, telegraph sounder, optic fi
 
 Made in [School for Poetic Computation](https://sfpc.io) Fall 2018 class and presented at Student Showcase.
 
+Also presented at Intercollege Sonic Arts Festival 2018(at IAMAS, March 9th&10th 2019).
+
+
 ![](edtac21.JPG)
 
 ![](edtac22.JPG)
