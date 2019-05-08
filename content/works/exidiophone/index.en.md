@@ -76,3 +76,7 @@ photo by 屋上(野口翔平、郷田いろは、小林舞衣)
 
 ![](./exidiophone2.jpg)
 直付けになっていたマイクロフォンはステレオミニコネクタの端子を付け、同時に電源スイッチとしても働くようになっている。
+
+
+![](./exidiophone11.jpg)
+At Maker Faire Kyoto 2019
