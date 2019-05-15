@@ -5,18 +5,8 @@ admin_path: ''
 webhook_url: 
 sections:
 - type: directory
-  path: content
-  label: Pages
-  create: all
-  match: "*"
-- type: directory
-  path: content/contact
-  label: Contact
-  create: all
-  match: "**/*"
-- type: directory
-  path: content/license
-  label: License
+  path: content/about
+  label: About
   create: all
   match: "**/*"
 - type: directory
@@ -30,11 +20,6 @@ sections:
   create: all
   match: "**/*"
 - type: directory
-  path: content/about
-  label: About
-  create: all
-  match: "**/*"
-- type: directory
   path: content/works
   label: Works
   create: all
@@ -42,6 +27,16 @@ sections:
 - type: directory
   path: content/blog
   label: Blog
+  create: all
+  match: "**/*"
+- type: directory
+  path: content/contact
+  label: Contact
+  create: all
+  match: "**/*"
+- type: directory
+  path: content/license
+  label: License
   create: all
   match: "**/*"
 upload_dir: static/uploads
