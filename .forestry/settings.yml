@@ -5,7 +5,7 @@ admin_path: ''
 webhook_url: 
 sections:
 - type: directory
-  path: nippou
+  path: content/nippou
   label: Nippou
   create: none
   match: "**/*"
