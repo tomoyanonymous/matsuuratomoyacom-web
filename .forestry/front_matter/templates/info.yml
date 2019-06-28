@@ -12,4 +12,5 @@ fields:
   name: ogpimage
   label: ogpimage
 pages:
+- content/info/mitou2019.md
 - content/blog/sourcecode-as-musical-media/sourcecode-as-musical-media.md
