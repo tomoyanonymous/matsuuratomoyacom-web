@@ -126,7 +126,6 @@ process = ((*,/):+);
 
 ```java
 process = ((10,20)<: (+,*,/));
-
 ```
 
 <img src="split.svg" alt="" style = "max-height:400px;">
@@ -134,7 +133,6 @@ process = ((10,20)<: (+,*,/));
 ### Merge
 ```java
 process = ((10,20,30,40):> *);
-
 ```
 
 <img src="merge.svg" alt="" style = "max-height:400px;">
@@ -143,7 +141,6 @@ process = ((10,20,30,40):> *);
 
 ```java
 process = +(12345)~ *(1103515245)
-
 ```
 
 <img src="recursive.svg" alt="" style = "max-height:400px;">
@@ -151,7 +148,7 @@ process = +(12345)~ *(1103515245)
 ※これだけわけわからんコードだと思いますがこれは乱数列の生成をするコードです
 
 
-それぞれ繋いだものを最終的にprocess = your_block;というように"process"に持っていくとそれが最終的な出力ブロックになります。
+それぞれ繋いだものを最終的に`process = your_block;`というように"process"に持っていくとそれが最終的な出力ブロックになります。
 
 # プリミティブなブロックの種類達
 
@@ -177,16 +174,16 @@ Faustでは例えばシンセを作るならオシレータのピッチやフィ
 Faust上で定義されてるUIの種類は以下の通り。
 
 
-- button(label)：押すと1サンプルだけ0から1になる
-- checkbox(label):押すと1と0を切り替えられる
-- hslider(label,initial,min,max,step):可変定数。水平スライダ
-- vslider(label,initial,min,max,step):可変定数。垂直スライダ
-- nentry(label,initial,min,max,step):可変定数。数値入力
-- hbargraph(label,min,max):数値モニター、水平メータ
-- vbargraph(label,min,max):数値モニター、垂直メータ
-- hgroup(label,block):グルーピング。水平配置
-- vgroup(label,blobk):グルーピング。垂直配置
-- tgroup(label,block):グルーピング。タブ切り替え配置
+- `button()`：押すと1サンプルだけ0から1になる
+- `checkbox(label)`:押すと1と0を切り替えられる
+- `hslider(label,initial,min,max,step)`:可変定数。水平スライダ
+- `vslider(label,initial,min,max,step)`:可変定数。垂直スライダ
+- `nentry(label,initial,min,max,step)`:可変定数。数値入力
+- `hbargraph(label,min,max)`:数値モニター、水平メータ
+- `vbargraph(label,min,max)`:数値モニター、垂直メータ
+- `hgroup(label,block)`:グルーピング。水平配置
+- `vgroup(label,blobk)`:グルーピング。垂直配置
+- `tgroup(label,block)`:グルーピング。タブ切り替え配置
 
 しかし、実際にこれらがどうUIとして出力されるかはアーキテクチャファイル次第です。
 例えばQtアプリケーション出力ではほぼこの通り出力されますが、Maxのオブジェクトとして出力された場合はUIもなにもないので、オブジェクトに"label" (設定したい数値)というメッセージを送ることで全てのUIを同じように操作することになります（ちなみにMaxではbargraphは機能しません）。
@@ -203,28 +200,28 @@ Faust上で定義されてるUIの種類は以下の通り。
 
 ここではとりあえず名前と簡単な説明のみ。
 
-- analyzer.lib：音圧トラッキングやBPFを使った簡易的なスペアナなど
-- basic.lib:単位変換、時間カウンタやサンプルホールドなどの基本ライブラリ
-- compressor.lib:コンプとリミッター
-- delay.lib: ディレイ（補完つき）など
-- demo.lib: ライブラリ同士の組み合わせのデモ。
-- envelope.lib:adsrなどのエンベロープ関係。
-- filter.lib:フィルター。素人から玄人まで使い倒せて、非常に細かいとこまで設定可能
-- hoa.lib: アンビソニック関係。
-- math.lib: サンプルレートの取得とか、sinhみたいな関数系がたくさん
-- misceffect.lib: 分類微妙なエフェクト達。ノイズゲート、キュービックディストーション、ウェーブガイドメッシュなど
-- miscoscillator.lib: 矩形波、ノコギリ波、サイン波などいろんなオシレータ。サイン波だけで10種類ぐらいアルゴリズムがある。
-- noise.lib: ホワイトノイズ、ピンクノイズ関係
-- phafla.lib: フェイザーとフランジャー。
-- pm.lib: ウェーブガイド系物理モデリング用ライブラリ。
-- reverb.lib: リバーブ。おなじみfreeverbやzita_revなど
-- route.lib: ブロック同士の複雑な接続のための便利なやつ。
-- signal.lib: プチプチノイズ防止のsmooth()や複数のシグナルバスbus()など便利系。
-- spat.lib: 簡単なパンナー。
-- synth.lib: 多分物理モデリングのためのニッチなエンベロープジェネレータ群。
-- vaeffect.lib: moogのvcfモデリングやワウなどのエフェクト
-- tube.lib
-- tonestack.lib:この2つはドキュメント化されてないがギターアンプとそれに使われる真空管のモデリング。IRのサンプルと思われる数値が直書きしてあってやばい
+- `analyzer.lib`：音圧トラッキングやBPFを使った簡易的なスペアナなど
+- `basic.lib`:単位変換、時間カウンタやサンプルホールドなどの基本ライブラリ
+- `compressor.lib`:コンプとリミッター
+- `delay.lib`: ディレイ（補完つき）など
+- `demo.lib`: ライブラリ同士の組み合わせのデモ。
+- `envelope.lib`:adsrなどのエンベロープ関係。
+- `filter.lib`:フィルター。素人から玄人まで使い倒せて、非常に細かいとこまで設定可能
+- `hoa.lib`: アンビソニック関係。
+- `math.lib`: サンプルレートの取得とか、sinhみたいな関数系がたくさん
+- `misceffect.lib`: 分類微妙なエフェクト達。ノイズゲート、キュービックディストーション、ウェーブガイドメッシュなど
+- `miscoscillator.lib`: 矩形波、ノコギリ波、サイン波などいろんなオシレータ。サイン波だけで10種類ぐらいアルゴリズムがある。
+- `noise.lib`: ホワイトノイズ、ピンクノイズ関係
+- `phafla.lib`: フェイザーとフランジャー。
+- `pm.lib`: ウェーブガイド系物理モデリング用ライブラリ。
+- `reverb.lib`: リバーブ。おなじみfreeverbやzita_revなど
+- `route.lib`: ブロック同士の複雑な接続のための便利なやつ。
+- `signal.lib`: プチプチノイズ防止のsmooth()や複数のシグナルバスbus()など便利系。
+- `spat.lib`: 簡単なパンナー。
+- `synth.lib`: 多分物理モデリングのためのニッチなエンベロープジェネレータ群。
+- `vaeffect.lib`: moogのvcfモデリングやワウなどのエフェクト
+- `tube.lib`
+- `tonestack.lib`:この2つはドキュメント化されてないがギターアンプとそれに使われる真空管のモデリング。IRのサンプルと思われる数値が直書きしてあってやばい
 
 今年のFaust Awardで賞取った[ambitools](https://www.sekisushai.net/ambitools/)はhoa.libをガンガン使っているはずですし、tonestackとtube.libははLinux用アンプシミュレーター[Guitarix](https://guitarix.org/)のために作られたやつだったはずで、iOS用アプリ[moForte](https://www.moforte.com/moforte-guitar-app/)でも使われているはずです。
 
@@ -418,6 +415,7 @@ Faustのコマンドラインをインストールすると、
 faust2xxxでfaustコードをアーキテクチャファイルを指定してコンパイル、その後cppをコンパイルするところまでを書いたシェルスクリプト群がくっついてきます。
 一覧は以下の通り。
 
+```bash
 faust2alqt               faust2dssi               faust2jackinternal       faust2msp64              faust2rosgtk             faust2w32max6
 faust2alsa               faust2dummy              faust2jackserver         faust2netjackconsole     faust2rpialsaconsole     faust2w32msp
 faust2alsaconsole        faust2eps                faust2jaqt               faust2netjackqt          faust2rpinetjackconsole  faust2w32puredata
@@ -430,6 +428,7 @@ faust2bela               faust2ios                faust2mathviewer         faust
 faust2caqt               faust2iosKeyboard        faust2max6               faust2puredata           faust2unity
 faust2caqtios            faust2jack               faust2md                 faust2raqt               faust2vst
 faust2csound             faust2jackconsole        faust2msp                faust2ros                faust2vsti
+```
 
 面白いので言うと[OWL](https://hoxtonowl.com)や[Bela](https://bela.io/)などのハードウェアプラットフォームやWeb Audio用のもの（asm.js使用とwabassembly仕様のもの）などでしょうか。
 
