@@ -25,7 +25,6 @@ Faustとは*Functional-AUdio-STream*の略で、フランスの音響研究所GR
 この記事での紹介はJUCE Summit 2015でのOliver Larkinさんによるプレゼンの前半が非常によくまとまっていたのでそれをベースに書かせていただきます。英語OKな人は直接動画見るのも良いと思います。
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/INlqClEOhak" frameborder="0" allowfullscreen></iframe>
-
 スライドもLarkin氏のサイトに上がってます。
 
 [https://olilarkin.co.uk/misc/JUCE_Summit.pdf](https://olilarkin.co.uk/misc/JUCE_Summit.pdf)
@@ -113,7 +112,7 @@ Max、SuperCollider、Puredata、ChucKなど音声処理ができるプログラ
 process = (10,*);
 ```
 
-<img src="process.svg" alt="" style = "max-height:400px;">
+<img src="parallel.svg" alt="" style = "max-height:400px;">
 
 ### Sequencial
 
@@ -121,7 +120,7 @@ process = (10,*);
 process = ((*,/):+);
 ```
 
-<img src="process.svg" alt="" style = "max-height:400px;">
+<img src="sequential.svg" alt="" style = "max-height:400px;">
 
 ### Split
 
@@ -130,7 +129,7 @@ process = ((10,20)<: (+,*,/));
 
 ```
 
-<img src="process.svg" alt="" style = "max-height:400px;">
+<img src="split.svg" alt="" style = "max-height:400px;">
 
 ### Merge
 ```java
@@ -138,7 +137,7 @@ process = ((10,20,30,40):> *);
 
 ```
 
-<img src="process.svg" alt="" style = "max-height:400px;">
+<img src="merge.svg" alt="" style = "max-height:400px;">
 
 ### Recursive
 
@@ -147,7 +146,7 @@ process = +(12345)~ *(1103515245)
 
 ```
 
-<img src="process.svg" alt="" style = "max-height:400px;">
+<img src="recursive.svg" alt="" style = "max-height:400px;">
 
 ※これだけわけわからんコードだと思いますがこれは乱数列の生成をするコードです
 
