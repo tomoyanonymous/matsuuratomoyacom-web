@@ -15,15 +15,18 @@ mallocで確保して関数の内側からグローバル変数書き換える�
 
 クロージャオブジェクトを外から拾うのもaddTask()とaddTask_cls()の２種類を使い分ければまあできたっぽいが、なぜかバグる　多分クロージャのアドレスが正しくない
 
-ところでvariantに共通のインターフェースを持たせる場合にいちいちstd::visit(\[\](auto& a){ a->commonInterface();},hoge);とかやるのは馬鹿っぽいので普通にhoge->commonInterface()とできるようにしたい。多分ヘルパーテンプレートを作って
-
-template<class T1,...>  
-struct ASTVariant : public Base{  
-std::variant<T1,...> content;  
-void commonInterface(){なんか実装する};  
+ところで一つの基底クラスから派生したやつをたくさん持たせたvariantに共通のインターフェースを持たせる場合に、いちいち`std::visit([](auto& a){ a->commonInterface();},hoge);`とかやるのは馬鹿っぽい。普通に`hoge->commonInterface()`とできるようにしたい。多分ヘルパーテンプレートを作って
+```cpp
+struct Base{
+virtual void commonInterface()=0;
 }
-
-とかやってやると良い気がする。そのうちこのパターンでASTとMIR全部書き直したい
+template<class T1,...>
+struct ASTVariant : public Base{
+std::variant<T1,...> content;
+void commonInterface(){なんか実装する};
+}
+```
+とかやってやると良い気がする。パラメーターパックはえらい。そのうちこのパターンでASTとMIR全部書き直したい
 
 2020/01/06
 
