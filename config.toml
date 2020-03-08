@@ -8,6 +8,8 @@ enableMissingTranslationPlaceholders = false
 enableGitInfo = true
 publishDir = "docs"
 theme = "tomoya-2019"
+[markup.goldmark.renderer]
+  unsafe = true
 [permalinks]
   blog = "/:section/:year-:month-:day/:filename/"
   info = "/:section/:year-:month-:day/:filename/"
@@ -55,3 +57,5 @@ languageCode = "ja"
 weight = 2
 [languages.en.params]
 description = "Website of Matsuura Tomoya."
+
+
