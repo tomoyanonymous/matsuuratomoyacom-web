@@ -43,7 +43,7 @@ Web Site : <https://matsuuratomoya.com>
 
 2010.04~2013.03 神奈川県立神奈川総合高等学校 普通科個性化コース
 
-2013.04~2016.03 東京藝術大学 音楽学部音楽環境創造科 プロジェクト３(録音/サウンドデザイン専攻)、亀川徹研究室 学士（音楽）
+2013.04~2017.03 東京藝術大学 音楽学部音楽環境創造科 プロジェクト３(録音/サウンドデザイン専攻)、亀川徹研究室 学士（音楽）
 
 2017.04~2019.03 九州大学 大学院芸術工学府 修士課程芸術工学専攻 コンテンツ・クリエーティブデザインコース デジタルコンテンツデザイン講座（城一裕研究室）
 
@@ -56,6 +56,8 @@ Web Site : <https://matsuuratomoya.com>
 2015.02~2017.03 teamlab サウンドエンジニア
 
 2015.08~09 [YCAM(山口情報芸術センター)](https://ycam.jp) interlab インターンシップ
+
+2019.08 SFPC Summer 2019 in Yamaguchi Teaching Assistant
 
 ### Awards/Grants/Scholorships
 
@@ -71,6 +73,8 @@ Web Site : <https://matsuuratomoya.com>
 
 2019年 [北九州デジタルクリエーターコンテスト2019　入選](http://kdcc.info/archive/2019.html) ([Aphysical Unmodeling Instrument](/works/aphysical-unmodeling-instrument))
 
+2019年 [未踏IT人材発掘・育成事業 採択(テーマ：「プログラマブルな音楽制作ソフトウェアの開発」)](https://www.ipa.go.jp/jinzai/mitou/2019/gaiyou_tk-1.html)
+
 ---
 
 ## Technical Skills
@@ -83,7 +87,6 @@ Web Site : <https://matsuuratomoya.com>
 - C++
 - Openframeworks
 - Javascript(Node.jsも)
-- Julia
 - Puredata
 
 ### Sound Design
@@ -132,3 +135,5 @@ basic recording/mixing/foley with...
 2018.11 School for Poetic Computation fall 2018 Student Showcase([EDTAC](/works/edtac))
 
 2019.02 インターカレッジ・ソニックアーツフェスティバル2018([EDTAC](/works/edtac))
+
+2020.02 [カナソウトリエンナーレ 2020](https://www.instagram.com/kanasohtori/)([EDTAC](/works/edtac))
