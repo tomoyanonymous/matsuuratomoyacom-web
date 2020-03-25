@@ -12,4 +12,5 @@ fields:
   name: ogpimage
   label: ogpimage
 pages:
+- content/blog/2011to2020/index.md
 - content/blog/sourcecode-as-musical-media/sourcecode-as-musical-media.md
