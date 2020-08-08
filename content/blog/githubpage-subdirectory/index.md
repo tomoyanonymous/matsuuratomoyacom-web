@@ -15,9 +15,15 @@ permalink: githubpage-subdirectory
 
 などの問題があります。これをどうにか解決しようと頑張った。
 
-*(2020-08-08) ちょくちょく検索などで参照されてるようなので追記すると、現在は以下の方法を使用しておりません。　この記事を書いた頃はmetalsmithでページを作っていたのですが、後にHugoに移動しました。さらにnetlifyでページを自動デプロイ＆ホストしており手動ビルド→pushの方法は使用しておりません。ドメイン設定も楽だしgithub pagesのみでがんばる意味もそんなに無くなってしまった気がします。この記事を参照してくれていた[κeenさんの記事のようにGitLab Pagesを使う](https://keens.github.io/blog/2020/03/27/blogyarunaragitlab_pagesgaosusume/)のもおすすめだと思います。*
+*(2020-08-08) ちょくちょく検索などで参照されてるようなので追記すると、現在はpublishするフォルダを選択できるようになっているようです。以下のページ参照。*
+
+[GitHub Pages サイトの公開元を設定する](https://docs.github.com/ja/github/working-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site)
+
+*で、このサイトはというと上記の設定ができるようになる前にsubtreeを使った方法はやめてしまいました。この記事を書いた頃はmetalsmithでページを作っていたのですが、後にHugoに移動しました。さらにnetlifyでページを自動デプロイ＆ホストしており手動ビルド→pushの方法は使用しておりません。ドメイン設定も楽だしgithub pagesのみでがんばる意味もそんなに無くなってしまった気がします。この記事を参照してくれていた[κeenさんの記事のようにGitLab Pagesを使う](https://keens.github.io/blog/2020/03/27/blogyarunaragitlab_pagesgaosusume/)のもおすすめだと思います。*
 
 *そもそもソースファイルとソースから自動生成されたファイルがgitの履歴に同居するって時点でgitの良さを失っている気がしますよね、個人的に最近のgithub pagesはHTML直書きの簡易サイトのホスト向けっていう位置づけです。*
+
+
 
 
 <!--more-->
