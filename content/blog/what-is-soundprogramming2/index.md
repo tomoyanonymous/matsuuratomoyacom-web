@@ -8,6 +8,7 @@ ogpimage: diagram3.png
 
 1. [言語仕様](https://matsuuratomoya.com/blog/2021-02-12/what-is-soundprogramming1/)
 2. データとプログラムの境目(本記事)
+3. [言語とライブラリの境目](https://matsuuratomoya.com/blog/2021-02-12/what-is-soundprogramming3/)
 
 松浦知也です。ここ2年ぐらい音楽のための新しいプログラミング言語mimiumを開発しています。
 
