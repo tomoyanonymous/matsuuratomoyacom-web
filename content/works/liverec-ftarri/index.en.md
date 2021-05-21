@@ -4,6 +4,7 @@ thum: ftarri.png
 date : 2021-04-29
 category: artwork
 tags:
+- music
 - performance
 bigthum: true
 ---
