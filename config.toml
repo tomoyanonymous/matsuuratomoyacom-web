@@ -46,9 +46,13 @@ theme = "tomoya-2019"
   url = "blog"
   weight = 5
 [[menu.main]]
+  name = "Teaching"
+  url = "https://teach.matsuuratomoya.com"
+  weight = 6 
+[[menu.main]]
   name = "Contact"
   url = "contact"
-  weight = 6
+  weight = 7
 
 [languages]
 [languages.ja]
