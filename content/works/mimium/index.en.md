@@ -3,6 +3,7 @@ title: mimium
 thum: mimium-sc.png
 date : 2020-02-22
 category: artwork
+bigthum: true
 tags:
 - music
 - design
@@ -18,14 +19,13 @@ Developing Repository
 
 https://github.com/mimium-org/mimium
 
-The project is selected for [2019 Super Creator](https://www.ipa.go.jp/jinzai/mitou/2019/koubokekka_index.html)として採択され、その後松浦は2019年度未踏スーパークリエータに認定されました。
+The project is selected for [2019 Exploratory IT Human Resources Project (The MITOU Program) by IPA: INFORMATION-TECHNOLOGY PROMOTION AGENCY](https://www.ipa.go.jp/jinzai/mitou/2019/koubokekka_index.html).
 
 Presentation Slide at Mitou Demoday 2019(in Japanese)
 
 <script async class="speakerdeck-embed" data-id="4efb43b1e6024b61a752004ff755d7f1" data-ratio="1.77777777777778" src="//speakerdeck.com/assets/embed.js"></script>
 
 Presentation Video at Mitou Demoday 2019(in Japanese)
-
 
 {{< youtube J-K4IWDHgdo >}}
 

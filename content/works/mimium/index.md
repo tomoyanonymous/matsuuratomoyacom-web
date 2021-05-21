@@ -3,6 +3,7 @@ title: mimium
 thum: mimium-sc.png
 date : 2020-02-22
 category: artwork
+bigthum: true
 tags:
 - music
 - design
