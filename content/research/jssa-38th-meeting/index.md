@@ -17,7 +17,7 @@ publishDate: 2019-03-10
 reviewed: FALSE
 bibtex: "@inproceedings{jssa-11-1-matsuura,
 author = {知也 松浦 and 一裕 城},
-title = {『Aphysical Unmodeling Instrument』 ―モデリングから音・音楽を再考するサウンドインスタレーション―},
+title = {計算機による音生成の異なるあり方を探る『Electronic Delay Time Automatic Calculator』の制作},
 pages = {43--49},
 booktitle = {先端芸術音楽創作学会 会報},
 year = {2019},
