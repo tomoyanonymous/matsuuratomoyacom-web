@@ -21,11 +21,11 @@ Research in music and computing technology is currently focused on statistical a
 
 [^mir]: Downie, J. S. 2003. Music information retrieval. *Annual review of information science and technology*, *37*(1), 295-340.
 
-On the other hand, when we look at the relationship between technology and the demand for music culture, we find that no matter how sophisticated the technology used to generate the audio, it is eventually edited into some kind of 5-10 minute audio file, which is almost always received by speakers or headphones, devices that emit 2-channel sound waves. In most cases, it is received by speakers or headphones, devices that emit 2-channel sound waves, and it can be said that the form of reception has not changed significantly since the dawn of recording technology.
+On the other hand, when we look at the relationship between technology and the demand for music culture, we find that no matter how sophisticated the technology used to generate the audio, it is eventually edited into some kind of 5-10 minute audio file, which is almost always received by speakers or headphones, devices that emit 2-channel sound waves. It can be said that the form of reception of music has not changed significantly since the dawn of recording technology.
 
-One of the critical differences between the time of the advent of recording technology and today is that nowadays, from the time music is created to the time it is played back, a computer is involved in some way. DAW (Digital Audio Workstation) software is used in the music recording and production process, platforms such as Spotify and Apple Music and the servers that support them are used in the distribution process, and laptops, smartphones, and even headphones are used in the playback process. In the playback process, laptops and smartphones, as well as audio processing chips in DSP-embedded speakers and headphones, process audio in a broad sense. Nevertheless, the potential of the computer, which is supposed to be a versatile device, is only used to output a 2-channel audio signal in the end.
+One of the critical differences between the time of the early days of recording technology and today is that nowadays, from the time music is created to the time it is played back, a computer is involved in some way. DAW (Digital Audio Workstation) software is used in the music recording and production process, platforms such as Spotify and Apple Music and the servers that support them are used in the distribution process, and laptops, smartphones, and even chips in DSP-embedded speakers and headphones, compute audio in a broad sense. Nevertheless, the potential of the computer, which is supposed to be a versatile device, is only used to output a 2-channel audio signal in the end.
 
-Of course, there have been attempts by individual artists to use computers in the pursuit of a new musical reception. For example, since the early days of the iPhone, ambient music composer Brian Eno, in collaboration with programmer Peteri Chilvers, has repeatedly released musical works [^bloom] as iPhone applications, in which infinite new patterns are generated. Even if the algorithm that generates the music is not new, the fact that the music is distributed as a program is significant.
+Of course, there have been attempts by individual artists to use computers in the pursuit of a new type of distribution and reception of music. For example, since the early days of the iPhone, ambient music composer Brian Eno, in collaboration with programmer Peter Chilvers, has repeatedly released musical works [^bloom] as iPhone applications, in which infinite new patterns are generated. Even if the algorithm that generates the music is not new, the fact that the music is distributed as a computer program can be said as significant.
 
 [^bloom]: Bloom by Brian Eno and Peter Chilvers | GenerativeMusic.com: 2008. *http://generativemusic.com/bloom.html*. Accessed: 2020-03-26.
 
@@ -40,18 +40,18 @@ For example, in June 2021, Apple Music supported Dolby Atomos, an object-based s
 [^sony]: 2021, Sony 360 Reality Audio　https://www.sony.jp/headphone/special/360_Reality_Audio/　Accessed:2021-06-25
 [^applemusic]: 2021, Apple Newsroom - Apple Music、ドルビーアトモスによる空間オーディオを発表、さらにカタログ全体がロスレスオーディオに https://www.apple.com/jp/newsroom/2021/05/apple-music-announces-spatial-audio-and-lossless-audio/ Accessed: 2021-06-25
 
-The format of music distribution has shifted from a clear goal of faithful reproduction of the original sound, to a battle of how much you can play around with the virtual acoustic world within the limited box of protocols and formats set by the platformer, and how much the platformers such as Apple, Sony and Dolby can dominate each other. It is a race to see how many mega-platformers such as Apple, Sony, and Dolby can dominate each other (even though the music that computers can realize should be much more diverse! ).
+The format of music distribution has shifted from a clear goal of higher-fiderity reproduction of the original sound, to a battle of how much you can play around with the virtual acoustic world within the limited miniture-garden of protocols and formats set by the platformer, and how much the platformers such as Apple, Sony and Dolby can dominate each other. (even though the music that computers can realize should be much more diverse! ).
 
 ## Objectives
 
-This research aims to make music culture more diverse and complex in the age of ubiquitous computing - where computers are literally ubiquitous but their variability is not effectively utilized at all. In order to make music culture more diverse and complex in this era, we will try to rethink and recreate the underlying core technologies of computers, such as architecture, OS, and programming languages, for music. This approach, which is different from music informatics, is called **Civil Engineering of Music Informatics** here.
+This research aims to make music culture more diverse and complex in the age of ubiquitous computing - where computers are literally ubiquitous but their variability is not effectively utilized at all. In order to make music culture more diverse and complex in this era, we will try to rethink and recreate the underlying fundamental technologies of computers, such as computer architecture, OS, and programming languages, for music. We call this approach, which is different from music informatics, **Civil Engineering of Music Informatics** here.
 
-In the past, the author has referred to the approach of media archaeology [^mediaarch], which illuminates different possibilities of history and culture by digging into the discourse on media devices that have become obsolete. He has been working as an artist, creating works in various forms such as sound installation, electronic instrument production, and performance [^works].
+In the past, the author has been working as an artist, creating works in various forms such as sound installation, electro-acoustic instrument, and performance [^works] referring to the approach of media archaeology [^mediaarch], which illuminates different possibilities of history and culture by digging into the discourse on media devices that have become obsolete. 
 
 [^mediaarch]: Huhtamo, E. and Ōta, Y. 2015. メディア考古学 : 過去・現在・未来の対話のために. NTT出版.
 [^works]: https://matsuuratomoya.com/works
 
-In recent years, the author has taken an approach to transforming music culture by creating tools for the production of artworks and the media itself that underlie their distribution. 
+In recent years, the author has taken an approach to transforming music culture by creating tools for the production of artworks and the medium itself that underlie their distribution. 
 
 This project revolves around two axes: the development of a platform for distributing the source code of mimium, a music programming language currently being developed and researched by the author, and the design of an open-architecture computer for artists that can easily execute mimium code. Through the development of mimium, the project aims to rethink the ecosystem of playing music on computers, which is ubiquitous in our daily lives, and to transform the entire music culture into something more accessible and sustainable.
 
@@ -77,7 +77,7 @@ In recent years, there has been a lot of interest in the development of computer
 
 [^mimium]: Matsuura, T. and Jo, K. 2021. mimium: A Self-Extensible Programming Language for Sound and Music. FARM 2021 - Proceedings of the ACM SIGPLAN International Workshop on Functional Art, Music, Modeling, and Design (2021) (To be Published. preprint: https://doi.org/10.5281/zenodo.5044732).
 
-By using JIT compilation with LLVM [^llvm], we can write low-level processes such as signal processing in the order of milliseconds, and notation-level processes in the order of seconds to tens of seconds within a single language paradigm, while maintaining execution speed comparable to that of general-purpose languages such as C. Unlike existing environments focused on music production, we can simplify the implementation of the execution environment and reduce the binary size.
+By using JIT compilation with LLVM [^llvm], we can write low-level processes such as signal processing in the order of sub-milliseconds, and notation-level processes in the order of seconds to tens of seconds within a single language paradigm, while maintaining execution speed comparable to that of general-purpose languages such as C. Unlike existing environments focused on music production, we can simplify the implementation of the execution environment and reduce the binary size.
 
 [^llvm]: Lattner, C. and Adve, V. 2004. LLVM: A Compilation Framework for Lifelong Program Analysis & Transformation. Proceedings of the International Symposium on Code Generation and Optimization: Feedback-Directed and Runtime Optimization (2004), 75.
 
@@ -95,17 +95,17 @@ The package manager of mimium will be built in a similar way, but its purpose is
 
 This ecosystem of package managers will encourage more openness to Eno's efforts in generative music and the ongoing development of interactive music creation and distribution in games.
 
-In "REMIX", Ressig used the act of remixing, which is the act of sampling a song to create new music, as a starting point to propose a change from Read Only culture to Read-Write culture, where the main act of creating and editing content in the future will extend from professionals to amateurs, as all digital data, such as video and text, can be copied, edited and redistributed without degradation [^remix].
+In "REMIX", Ressig took the act of remixing, which is the act of sampling a song to create new music, as a starting point to propose a change from Read-Only culture to Read-Write culture, where the main act of creating and editing content in the future will extend from professionals to amateurs, as all digital data, such as video and text, can be copied, edited and redistributed without degradation [^remix].
 
 [^remix]: ローレンス・レッシグ, 山形 浩生 (翻訳), 2010. REMIX ハイブリッド経済で栄える文化と商業のあり方.翔泳社.
 
-The mimium package manager development is a more radical embodiment of these ideas. In a culture where music is distributed as source code, there is no clear boundary between the score describing the composer's intentions, the finished music, and the generated music whose output changes when parameters are given - and the instruments that are connected to physical elements by sensors. The boundary between the act of listening to music and the act of playing a musical instrument by giving parameters will also melt away.演奏する行為の境界線も融けてゆく。
+The mimium package manager development is a more radical embodiment of these ideas. In a culture where music is distributed as source code, there is no clear boundary between the score describing the composer's intentions, the finished music, and the generated music whose output changes when parameters are given - and the instruments that are connected to physical elements by sensors. The boundary between the act of listening to music and the act of playing a musical instrument by giving parameters will also fade away.
 
 ## Domain Specific Architecture for Music
 
-Another major characteristic of mimium is that it eliminates as many black boxes as possible in the program.
+Another major characteristic of mimium is that it eliminates black-boxes as possible in the program.
 
-When using conventional music programming languages (which target composition-level expression), the user has to combine basic signal processing components - such as filters and oscillators - to achieve the desired signal processing. The problem with this is that it is necessary to use a general-purpose language such as C++ to realize components that cannot be expressed by combining basic components (e.g., a non-linear oscillator with chaotic behavior).
+When using conventional music programming languages (which target composition-level expression), the user has to combine basic signal processing components - such as filters and oscillators - to achieve the desired signal processing. The problem with this is that it is necessary to use a general-purpose language such as C++ to realize components that cannot be expressed by combining basic components (e.g., a non-linear chaotic oscillator).
 
 This problem not only limits the range of expressions that can be realized, but also leads to a separation of interests among users (or programmers) and a deepening division of labor. This asymmetry is not limited to music programming languages, but is similar to the situation of not being able to know the internal implementation of plug-ins in music production software. Of course, it is not necessary for every musician to know the algorithm of a sine wave oscillator, but when you want to play with its contents, the current software/hardware ecosystem makes the hurdle extremely high. The current software/hardware ecosystem has raised the bar extremely high, and it has become extremely difficult to foster hacker culture, such as circuit bending [^bending], which developed in the 90's~00's by hacking primitive digital circuits, or glitching, which creates never-before-heard sounds by intentionally destroying digital data.
 
@@ -120,7 +120,7 @@ Although the language specification of mimium itself is designed to eliminate bl
 
 Therefore, in this project, we will attempt to design an open and extremely simple processor architecture targeted at musicians.
 
-In recent years, there has been a lot of research on practical architectures with very few instructions, such as two or four, triggered by OISC [^oisc], an architecture with only one type of instruction that was studied in the Esoteric Proramming Language [^subrisc]. While such research is mainly focused on reducing power consumption and footprint in applications such as IoT, this research is more focused on using the simplicity of the structure to create a computer as a free device, as a medium for artists to express themselves. The main focus of this research is to encourage such efforts in the field of music, such as Taeyoon Choi's Handmade Computer [^taeyoon] and CW&T's 1Bit 1HZ CPU [^CWT].
+In recent years, there has been a lot of research on practical architectures with very few instructions, such as two or four, triggered by OISC [^oisc], an architecture with only one type of instruction that was studied in the Esoteric Proramming Language [^subrisc]. While such research is mainly focused on reducing power consumption and footprint in applications such as IoT, this research is more focused on using the simplicity of the structure to create a computer as a liberal device, as a medium for artists to express themselves. The main focus of this research is to encourage such efforts in the field of music, such as Taeyoon Choi's Handmade Computer [^taeyoon] and CW&T's 1Bit 1HZ CPU [^CWT].
 
 [^oisc]: Gilreath, W. F., & Laplante, P. A. 2003. Historical review of OISC. In Computer Architecture: A Minimalist Perspective (pp. 51-54). Springer, Boston, MA.
 [^subrisc]: K. Saso and Y. Hara-Azumi, 2020. Revisiting Simple and Energy Efficient Embedded Processor Designs Toward the Edge Computing. in IEEE Embedded Systems Letters, vol. 12, no. 2, pp. 45-49, https://doi.org/10.1109/LES.2019.2949620 
@@ -131,7 +131,7 @@ The trend of computer architecture itself has passed through the era of multi-co
 
 [^dsa]: Hennessy, J.L, Patterson, D.A, 2017, Computer Architecture: A Quantitative Approach (The Morgan Kaufmann Series in Computer Architecture and Design) 6th Edition. Morgan Kaufmann.
 
-The purpose of DSA itself is to eliminate bottlenecks caused by general-purpose processor architectures, but in the field of speech signal processing, the examples of bottlenecks caused by CPU clock speed or number of cores are not that pronounced. Rather, the bottleneck stems from the upper layer, the preemptive scheduling in general-purpose operating systems, where the user program is not involved in precise execution timing control. This is a major advantage in the audio domain.
+The purpose of DSA itself is to eliminate bottlenecks of a performance caused by general-purpose processor architectures, but in the field of audio signal processing, the examples of bottlenecks caused by CPU clock speed or number of cores are not that pronounced. Rather, the bottleneck stems from the upper layer, the preemptive scheduling in general-purpose operating systems, where the user program is not involved in precise execution timing control. The major advantage of the DSA flow in the audio domain is that it allows the audio signal processing chips to be considered independent of the overall scheduling.
 
 Moreover, in the field of music, there was a time in the 80's when independent audio chips (like synthesizers that could control parameters based on instructions from the CPU) were installed when the CPU could not realize real-time signal processing [^chiptune], so it can be thought that we have already experienced the DSA era once.
 
@@ -141,21 +141,23 @@ In addition, as explained in the background, it is expected that there will be m
 
 The following steps are planned for the projects involved in this processor architecture.
 
-1. specification of the processor and publication of the instruction set
-2. release of source code for implementation in simulator and FPGA using hardware description language
-3. manual implementation of the components and release of the instruction set
-4. infrastructure for compiling from mimium
-5. create sample works using processor architecture
+1. Design specification of the processor and publication of the instruction set
+2. Release source codes for implementation in simulator and FPGA using hardware description language
+3. Manual implementation of the components and release of the instruction set
+4. Prepare infrastructure for compiling from mimium
+5. Create sample works using the processor architecture
 6. Organize workshops for artists.
-7. Conducting interviews with artists and qualitative analysis
-8. Writing a paper
+7. Conduct interviews with artists and qualitative analysis
+8. Write a paper
 
 
 ## Conclusion
 
-This project aims to dismantle the unidirectional nature of music culture (star system, mass consumption culture, privilege of mega-platformers) due to the black box nature inherent in music production and distribution, by re-examining and implementing basic computer technologies such as computer architecture, operating systems, and programming languages from the perspective of their application to music. It is an attempt to dismantle the unidirectional nature of music culture (star system, mass consumption culture, privilege of mega-platformers) caused by the black box nature inherent in music production and distribution, and to construct a new field of music information and civil engineering by practically attempting to form a new DIY and DIWO music culture that combines making, listening, and performing.
+This project attempts to dismantle the unidirectional tendency of music culture due to the black-box nature inherent in music production and distribution, such as the star system, mass consumption culture, and the privilege of mega-platformers, and to create a new DIY, DIWO music culture that intertwind making, listening, and performing. It is an attempt to build a new field of Civil Engineering for Music Infromatics by re-examining and implementing basic computer technologies such as computer architecture, operating systems, and programming languages from the perspective of their alternative relationships to music.
 
-Civil Engineering of Music Informatics is not necessarily a discipline only for music. As Attali once said, "Music has always contained in its principles the announcements of the coming age" [^attali], considering the principles of future music is also to predict the future society. This may be an exaggeration, but Dannenberg's survey of programming languages for computer music, for example, shows that music has a rich, multi-layered temporal structure, while the computational models of general-purpose computers have basically no concept of time, and are built on the paradigm that "the faster the better. As I said, considering a language for music may open up a new paradigm for programming [^dannenberg], and it is not too far-fetched to use the experimental field of music to predict the future of computers and computer-mediated culture that does not exist today.
+Civil Engineering of Music Informatics is not necessarily a discipline only for music. As Attali once notably said, "In the last twenty years, music has undergone yet another transformation. This mutation forecasts a change in social relations" [^attali], considering the principles of future music is also to predict the future society. This may be an exaggeration, but Dannenberg's survey of programming languages for computer music, for example, says that music has a rich, multi-layered temporal structure, while the computational models of general-purpose computers have basically no concept of time, and are built on the paradigm that "the faster the better" thus considering a language for music may open up a new paradigm for general-purpose programming [^dannenberg], and it is not too far-fetched to use the experimental field of music to predict the future of computers and computer-mediated culture that does not exist today.
 
 [^attali]: ジャック・アタリ,金塚貞文訳. 2012. ノイズ 音楽/貨幣/雑音. みすず書房.
 [^dannenberg]: Dannenberg, R.B. 2018. Languages for Computer Music. Frontiers in Digital Humanities. 5, (Nov. 2018). https://doi.org/10.3389/fdigh.2018.00026.
+
+2021-07-13 fixed translation errors.
