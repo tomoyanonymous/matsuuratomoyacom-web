@@ -1,6 +1,6 @@
 ---
 title: 送れ | 遅れ / post | past (rev.2)
-thum: sotsuten_1.JPG
+thum: img/sotsuten_1.JPG
 date : 2017-03-30
 aliases: [/en/works/post-past-rev-2]
 category: artwork
@@ -54,9 +54,13 @@ Rethinking "Record" and "Memorise" through makeing sounds.
 Acoustic Delay line memory is the memory apparatus used with early electronic computer in 1950s.
 Utilizing the fact that sounds take certain time in propagation, if received data is returned back to transmitter, unless communication fail,completely same data will continue circulating. So It works as memory apparatus. John Presper Eckert, developer of this machine, explain that function as follows.
 
-*John: The idea is if you had a mercury tank, let's say you can put 1,000 pulses into one end of the mercury tank before any starts spilling out of the other, this is a memory, but the trouble is, after, say, a millisecond, if the pulses are going in at one every microsecond, it's gone. But supposing I take the pulses coming out and reshape it and put it in every time. Now the thing will sit there and recirculate, as the saying goes.**Interviewer: So the storage is storing by motion of the mercury?*
-*John: It's stored by a wave going through the mercury. The mercury's standing still, but a compression wave is going through it. Particle motion is occurring back and forth, and a wave is transmitting through it. How did I think of this idea? I remembered that when I was a little boy, when I went to the store, my mother would tell me, "I want you to get these four or five things." Rather than write them down, I did as other little boys probably did when their mother sent them to the store, I repeated these five things to myself over and over again all the way to the store. In this way, my short-term memory at a young age was turned into a long-term memory to get to the store. That's the same principle. It's taking this stuff out of the mercury tank and recirculating it through a recirculating path. We built the first UNIVACs with that type of memory, the UNIVAC I.*
-This metaphor is not so suitable. This phenomenon is similar to rather the phenomenon "Screen burn-in" of CRT Display TV. It means some physical or chemical changes are happens and fixed by repeating some small phenomenon.
+*John: The idea is if you had a mercury tank, let's say you can put 1,000 pulses into one end of the mercury tank before any starts spilling out of the other, this is a memory, but the trouble is, after, say, a millisecond, if the pulses are going in at one every microsecond, it's gone. But supposing I take the pulses coming out and reshape it and put it in every time. Now the thing will sit there and recirculate, as the saying goes.*
+
+*Interviewer: So the storage is storing by motion of the mercury?*
+
+*John: It's stored by a wave going through the mercury. The mercury's standing still, but a compression wave is going through it. Particle motion is occurring back and forth, and a wave is transmitting through it. How did I think of this idea? I remembered that when I was a little boy, when I went to the store, my mother would tell me, "I want you to get these four or five things." Rather than write them down, I did as other little boys probably did when their mother sent them to the store, I repeated these five things to myself over and over again all the way to the store. In this way, my short-term memory at a young age was turned into a long-term memory to get to the store. That's the same principle. It's taking this stuff out of the mercury tank and recirculating it through a recirculating path. We built the first UNIVACs with that type of memory, the UNIVAC I.*
+
+This metaphor is not so suitable. This phenomenon is similar to rather the phenomenon "Screen burn-in" of CRT Display TV. It means some physical or chemical changes are happens and fixed by repeating some small phenomenon.
 
 ---
 ![](/assets/img/post-past-sotsuten/sotsuten_7.JPG)
