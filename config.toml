@@ -22,9 +22,6 @@ theme = "tomoya-2019"
   Soundcloud = "tomoya_matsuura"
   description = "松浦知也のWebサイトです。"
   ogpimage = "assets/img/image_ogp.png"
-[params.InstagramApp]
-  AppId = 1756749324544053
-  ClientToken = "eaa7adbf50d48c12f28abfed486a7ec5"
 [[menu.main]]
   name = "About"
   url = "about"
