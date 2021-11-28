@@ -117,7 +117,7 @@ process = _<:par(i,5,fi.bandpass(1,1,i*100));
 process = (10,*);
 ```
 
-<img src="process.svg" alt="" style = "max-height:400px;">
+<img src="parallel_2.svg" alt="" style = "max-height:400px;">
 
 特に記法の制限はなし。
 上の例では0in1out+2in1outのブロックの組み合わせで2in2outのブロックが出来ました。
@@ -130,7 +130,7 @@ process = (10,*);
 process = ((*,/):+);
 ```
 
-<img src="process.svg" alt="" style = "max-height:400px;">
+<img src="sequential.svg" alt="" style = "max-height:400px;">
 
 制限:左側の出力数==右側の入力数
 
@@ -145,7 +145,7 @@ process = ((10,20)<: (+,*,/));
 
 ```
 
-<img src="process.svg" alt="" style = "max-height:400px;">
+<img src="split.svg" alt="" style = "max-height:400px;">
 
 制限：左側の出力数*(2,3,4...)==右側の入力数
 
@@ -163,7 +163,7 @@ process = ((10,20,30,40):> *);
 
 ```
 
-<img src="process.svg" alt="" style = "max-height:400px;">
+<img src="merge.svg" alt="" style = "max-height:400px;">
 
 制限:左側の出力数==右側の入力数*(2,3,4...)
 
