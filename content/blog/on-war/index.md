@@ -4,9 +4,9 @@ date: 2022-02-25
 ogpimage: ogp.png
 ---
 
-> The arts were replaced by media that could manipulate sight and sound precisely because their technologies operate beyond all thresholds of visual and auditory perception. Entertainment media, for that reason, are nothing but the human-machine- interface of a system that operates in a no-man's-land stretching from communications technologies to digital signals processing.
+> The arts were replaced by media that could manipulate sight and sound precisely because their technologies operate beyond all thresholds of visual and auditory perception. Entertainment media, for that reason, are nothing but the human-machine-interface of a system that operates in a no-man's-land stretching from communications technologies to digital signals processing.
 
-> メディア技術は、視覚的、聴覚的知覚のあらゆる閾値を超えて操ることができるために、芸術は、視界と音を操ることができるメディアにとって代わられた。エンターテインメント・メディアはその意味では、通信技術からデジタル信号処理までの中間地帯（no-man's-land）で作動するシステムのヒューマン・マシン・インターフェース以外の何者でもない。
+> メディア技術は、視覚的、聴覚的知覚のあらゆる閾値を超えて操ることができるために、芸術は、視界と音を精密に操ることができるメディアへととって代わられた。エンターテインメント・メディアはその意味では、通信技術からデジタル信号処理までの中間地帯（no-man's-land）で作動するシステムのヒューマン・マシン・インターフェース以外の何者でもない。
 
 > <small> Playback - A World War History of Radio Drama, Friedrich A. Kittler, translated by Michael Wutz, in Kittler, Friedrich A., Geoffrey Winthrop-Young, Michael Wutz, and Ilinca Iurascu. Operation Valhalla: Writings on War, Weapons, and Media. Durham: Duke University Press, 2021. p91  日本語訳は松浦 </small>
 
