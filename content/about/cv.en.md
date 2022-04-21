@@ -24,7 +24,7 @@ Born in 1994 in Chigasaki City, Kanagawa Pref. Living in Fukuoka Pref. Japan.
 
 2018.09~11 [School for Poetic Computation](https://sfpc.io) Fall 2018 Class
 
-2019.04~ Kyushu University Graduate School of Design, Ph.D Program Department of Design, Content and Creative Design Course(Jo Kazuhiro lab.)
+2019.04~2022.03 Kyushu University Graduate School of Design, Ph.D Program Department of Design, Content and Creative Design Course(Jo Kazuhiro lab.)
 
 
 ##  Jobs/Internship
@@ -37,6 +37,7 @@ Born in 1994 in Chigasaki City, Kanagawa Pref. Living in Fukuoka Pref. Japan.
 
 2020~  Fukuoka Jo Gakuin University Part-time teacher (Sound Design)
 
+2020.04~ Project Assistant Professor at [Art Media Center](https://amc.geidai.ac.jp), Tokyo University of the Arts
 ## Grants/Scholarships
 
 2015 [Ataka-Scholarship](https://www.geidai.ac.jp/life/scholarship/geidai_scholarship)
@@ -58,6 +59,8 @@ Born in 1994 in Chigasaki City, Kanagawa Pref. Living in Fukuoka Pref. Japan.
 2020　Information Promotion Agency Mitou IT Human Resounce Project Super Creator
 
 ## Publications
+
+[1] **松浦知也**、Designing Civil Engineering of Music through the development of mimium, a programming language for music, 2022 Ph.D dissertation in Kyushu University(in Japanese) **(to be published via Kyushu University Library at Online)**
 
 [1] **松浦知也**、メディア考古学的視点から音の生成を再考する3つの作品制作、2019、九州大学大学院芸術工学府修士論文 [PDF](https://github.com/tomoyanonymous/shuron/releases/download/v2.0.0/TomoyaMatsuura-MasterThesis-Submission.pdf)
 

@@ -25,7 +25,7 @@ me@matsuuratomoya.com
 
 2018.09~11 [School for Poetic Computation](https://sfpc.io) Fall 2018 Class Student
 
-2019.04~ 九州大学 大学院芸術工学府 博士後期課程芸術工学専攻 コンテンツ・クリエーティブデザインコース （城一裕研究室）
+2019.04~2022.03 九州大学 大学院芸術工学府 博士後期課程芸術工学専攻 コンテンツ・クリエーティブデザインコース （城一裕研究室）
 
 ##  Jobs/Internship
 
@@ -35,7 +35,11 @@ me@matsuuratomoya.com
 
 2019.08 SFPC Summer 2019 in Yamaguchi Teaching Assistant
 
-2020~ 福岡女学院大学 非常勤講師（サウンド・デザイン）
+2020.04~ 福岡女学院大学 非常勤講師（サウンド・デザイン）
+
+2022.04~ [東京藝術大学芸術情報センター(AMC)](https://amc.geidai.ac.jp) 特任助教
+
+
 
 ## Grants/Scholarships
 
@@ -62,20 +66,21 @@ me@matsuuratomoya.com
 
 2020年　未踏IT人材発掘・育成事業 スーパークリエータ認定
 
-## Publications
+## Selected Publications
 
-[1] **松浦知也**、メディア考古学的視点から音の生成を再考する3つの作品制作、2019、九州大学大学院芸術工学府修士論文 **[PDF](https://github.com/tomoyanonymous/shuron/releases/download/v2.0.0/TomoyaMatsuura-MasterThesis-Submission.pdf)**
+[1] **松浦知也**、音楽土木工学を設計する—音楽のためのプログラミング言語mimiumの開発を通じて、2022、九州大学大学院芸術工学府博士論文 **(to be published via Kyushu University Library at Online)**
 
-[2] **Matsuura, T**. and Jo, K. 2021. mimium: A Self-Extensible Programming Language for Sound and Music. FARM 2021 - Proceedings of the ACM SIGPLAN International Workshop on Functional Art, Music, Modeling, and Design (2021, to be published). **[Preprint URL](https://doi.org/10.5281/zenodo.5044732)**
+[2] **松浦知也**、メディア考古学的視点から音の生成を再考する3つの作品制作、2019、九州大学大学院芸術工学府修士論文 **[PDF](https://github.com/tomoyanonymous/shuron/releases/download/v2.0.0/TomoyaMatsuura-MasterThesis-Submission.pdf)**
 
-[3] Ioannidis, P., **Matsuura, T**. and et al. 2019. Exploring the Cross-Species Experience and the Coevolutionary Capacity: Sensorial Transcoding and Critical Play Design of Bio-Sonic Sense. Proceeding of RE:SOUND 2019 – 8th International Conference on Media Art, Science, and Technology (RE:SOUND 2019) (Aug. 2019), 139–144.**[URL](http://dx.doi.org/10.14236/ewic/RESOUND19.22)**
+[3] **Matsuura, T**. and Jo, K. 2021. mimium: A Self-Extensible Programming Language for Sound and Music. FARM 2021 - Proceedings of the ACM SIGPLAN International Workshop on Functional Art, Music, Modeling, and Design (2021, to be published). **[Preprint URL](https://doi.org/10.5281/zenodo.5044732)**
 
-[4] **Matsuura, T**. and Jo, K. 2019. 計算機による音生成の異なるあり方を探る『Electronic Delay Time Automatic Calculator』の制作. 先端芸術音楽創作学会 会報 (Mar. 2019), 43–49.**[PDF](http://data.jssa.info/paper/2019v11n01/9.Matsuura.pdf)**
+[4] Ioannidis, P., **Matsuura, T**. and et al. 2019. Exploring the Cross-Species Experience and the Coevolutionary Capacity: Sensorial Transcoding and Critical Play Design of Bio-Sonic Sense. Proceeding of RE:SOUND 2019 – 8th International Conference on Media Art, Science, and Technology (RE:SOUND 2019) (Aug. 2019), 139–144.**[URL](http://dx.doi.org/10.14236/ewic/RESOUND19.22)**
 
-[5] **Matsuura, T**. and Jo, K. 2018. Aphysical Unmodeling Instrument : Sound Installation that Re-Physicalizes a Meta-Wind-Instrument Physical Model , Whirlwind. New Interfaces for Musical Expression (2018), 29–30.**[PDF](http://www.nime.org/proceedings/2018/nime2018_paper0006.pdf)**
+[5] **Matsuura, T**. and Jo, K. 2019. 計算機による音生成の異なるあり方を探る『Electronic Delay Time Automatic Calculator』の制作. 先端芸術音楽創作学会 会報 (Mar. 2019), 43–49.**[PDF](http://data.jssa.info/paper/2019v11n01/9.Matsuura.pdf)**
 
-[6] **松浦知也** and 城一裕 2017. 『Aphysical Unmodeling Instrument』 ―モデリングから音・音楽を再考するサウンドインスタレーション―. 先端芸術音楽創作学会 会報 (Dec. 2017), 17–26. **[PDF](http://data.jssa.info/paper/2017v09n03/3.Matsuura.pdf)**
+[6] **Matsuura, T**. and Jo, K. 2018. Aphysical Unmodeling Instrument : Sound Installation that Re-Physicalizes a Meta-Wind-Instrument Physical Model , Whirlwind. New Interfaces for Musical Expression (2018), 29–30.**[PDF](http://www.nime.org/proceedings/2018/nime2018_paper0006.pdf)**
 
+[7] **松浦知也** and 城一裕 2017. 『Aphysical Unmodeling Instrument』 ―モデリングから音・音楽を再考するサウンドインスタレーション―. 先端芸術音楽創作学会 会報 (Dec. 2017), 17–26. **[PDF](http://data.jssa.info/paper/2017v09n03/3.Matsuura.pdf)**
 
 
 ## Technical Skills
