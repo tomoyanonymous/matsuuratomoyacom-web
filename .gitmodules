@@ -2,3 +2,7 @@
 	path = themes/tomoya-2019
 	url = git@github.com:tomoyanonymous/hugo-theme-tomoya-2019.git
 	branch = master
+[submodule "content/hakuron"]
+	path = content/hakuron
+	url = https://github.com/tomoyanonymous/hakuron.git
+	branch = subtree-src/master
