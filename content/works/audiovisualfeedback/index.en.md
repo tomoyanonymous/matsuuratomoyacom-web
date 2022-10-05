@@ -57,6 +57,4 @@ The buffer size and pixel-array size was converted using ofFbo.
 
 The framerate and the buffer rate (sampling rate/buffer size) should be the same. The memory access to audio buffer at the same time from both of visual side and audio side should be avoided, it crashes app.
 
-Actually mutex should be used in this situation but I did'nt used because I don't know much about that. The framerate was set to (sampling rate/buffer size). It doesn't crash frequently, Maybe, because visual side accesses to 1-frame delayed buffer from audio side.
-
-本来はupdate()とaudioOut()においてmutexを使用すべきだがよくわかっていなかったのでフレームレート側を無理やり合わせている。多分ビジュアルがオーディオから1フレーム分遅れたやつにアクセスしているので落ちなくて済んでいるような気がする。
+Asynchrounous communication such as mutex should have been used in this situation but I did'nt used because I didn't know much about that. Thus the framerate was forced to (sampling rate/buffer size). It doesn't crash frequently, maybe, because visual side accesses to 1-frame delayed buffer from audio side.
