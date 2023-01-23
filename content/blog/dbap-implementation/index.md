@@ -176,3 +176,12 @@ poly~で複数可してもよいのですがなんだか冗長な気もしたの
 今回もサンプルパッチ（とjsファイル）を置いておきましたので必要に応じてご活用ください。
 
 [https://github.com/tomoyanonymous/maxmsp_dbap_example](https://github.com/tomoyanonymous/maxmsp_dbap_example)
+
+
+## 余談：活用例
+
+「Synesthesia X1-2.44」の多チャンネル触覚提示のための振動子制御に本サンプルをベースにしたものが使われたようです。
+
+詳細は以下の論文を参考。
+
+<https://www.jstage.jst.go.jp/article/tvrsj/27/1/27_51/_article/-char/ja/>
