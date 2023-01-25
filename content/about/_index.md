@@ -43,7 +43,7 @@ Web Site : <https://matsuuratomoya.com>
 
 2010.04~2013.03 神奈川県立神奈川総合高等学校 普通科個性化コース
 
-2013.04~2017.03 東京藝術大学 音楽学部音楽環境創造科 プロジェクト３(録音/サウンドデザイン専攻)、亀川徹研究室 学士（音楽）
+2013.04~2017.03 東京藝術大学 音楽学部音楽環境創造科 プロジェクト3(録音/サウンドデザイン専攻)、亀川徹研究室 学士（音楽）
 
 2017.04~2019.03 九州大学 大学院芸術工学府 修士課程芸術工学専攻 コンテンツ・クリエーティブデザインコース デジタルコンテンツデザイン講座（城一裕研究室）
 
@@ -85,13 +85,19 @@ Web Site : <https://matsuuratomoya.com>
 
 ### Programming
 
-- Cycling 74 Max
+- Cycling'74 Max
 - Faust
 - HTML5/CSS3
 - C++
-- Openframeworks
-- Javascript(Node.jsも)
+  - Openframeworks
+  - JUCE
+  - Max SDK(min-devkit)
+- JavaScript
 - Puredata
+- Rust
+  - nannou
+  - egui
+  - cpal
 
 ### Sound Design
 

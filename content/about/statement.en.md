@@ -22,5 +22,6 @@ Making tools, is a kind of meta-creation. It is attractive that tool-maker can s
 
 Tomoya is interested in rethinking and resisting fixed and standardized formats such as a musical notation, computer architecture, and data structure, and to continue to propose alternative possibilities.
 
+[研究活動ステートメント2021](../researchstatement2021)
 
 [Go back](../)

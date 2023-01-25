@@ -29,7 +29,9 @@ Tomoya Matsuura is a musician and a sound artist who starts from building system
 
 He also works as an engineer who does a technical direction, sound design and programming for commercial installations and other artists' works.
 
-Ph.D inDesign. He is born in 1994 and graduated Department of Musical Creation and Environment in Tokyo University of the Arts and Graduate School of Design, Kyushu University.
+Ph.D in Design. He is born in 1994 and graduated Department of Musical Creation and Environment in Tokyo University of the Arts and Graduate School of Design, Kyushu University.
+
+Currently working as Project Assistant Professor at Art Media Center in Tokyo University of the Arts.
 
 Web Site : <https://matsuuratomoya.com/en>
 
@@ -53,13 +55,13 @@ Born in 1994 in Chigasaki City, Kanagawa Pref. Living in Kanagawa Pref. Japan.
 
 2019.04~2022.03 Kyushu University Graduate School of Design, Ph.D Program, Department of Design, Content and Creative Design Course(Jo Kazuhiro lab.)
 
-2022.04 Project Assistant Professor at Art Media Center in Tokyo University of the Arts
 ## Work
 
 2015.02~2017.03 teamlab Sound Engineer
 
 2015.08~09 YCAM(Yamaguchi Center for Art and Media) interlab Internship
 
+2022.04 Project Assistant Professor at Art Media Center in Tokyo University of the Arts
 
 ### Awards/Prizes/Scholarships/Grants
 
@@ -81,14 +83,19 @@ Born in 1994 in Chigasaki City, Kanagawa Pref. Living in Kanagawa Pref. Japan.
 
 ### Programming
 
-- Cycling 74 Max
+- Cycling'74 Max
 - Faust
 - HTML5/CSS3
 - C++
-- Openframeworks
-- Javascript(Node.jsも)
-- Julia
+  - Openframeworks
+  - JUCE
+  - Max SDK(min-devkit)
+- JavaScript
 - Puredata
+- Rust
+  - nannou
+  - egui
+  - cpal
 
 ### Sound Design
 
