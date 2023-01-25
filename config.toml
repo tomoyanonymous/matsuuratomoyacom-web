@@ -8,6 +8,7 @@ enableMissingTranslationPlaceholders = false
 enableGitInfo = true
 publishDir = "docs"
 theme = "tomoya-2019"
+timeout = "60s"
 [markup.goldmark.renderer]
   unsafe = true
 [permalinks]
