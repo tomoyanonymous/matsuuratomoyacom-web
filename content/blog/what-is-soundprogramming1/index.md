@@ -329,7 +329,7 @@ MaxやPd、SuperColliderでは概ねインタプリタがソースを読み込�
 
 https://glisp.app/
 
-{{< tweet 1293382113199140864 >}}
+{{<tweet user="_baku89" id="1293382113199140864">}}
 
 グラフィック系のプログラミング環境では[Sketch-n-Sketch](https://ravichugh.github.io/sketch-n-sketch/)などが代表例としていくつかの例がありますが、音楽での応用例はほとんどありません。理由としては、グラフィックにおいてはプログラムの出力＝再編集のUIという図式が成り立っています。一方音楽でこれをやろうとすると、プログラムの出力そのものは音なので、編集のためのUIの解釈機/ビジュアライザを別立てで実装しなくてはならないコストがでかく大変、ということだと思っています。
 
@@ -345,7 +345,7 @@ https://glisp.app/
 
 Maxの実行順について今井先生からISPW(Max/FTSのころ)にはなってたはずという情報をいただきました。
 
-{{< tweet 1360580679570919424 >}}
+{{<tweet user="pseudotaro" id="1360580679570919424">}}
 
 これを聞いて改めてMiller Pucketteの書いた[Max at Seventeen(Maxの17年)](http://www.shintaroimai.com/MaxAtSeventeen.html)という文章を読み返してみたらきちんと言及している部分がありました。
 
