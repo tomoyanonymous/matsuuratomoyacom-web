@@ -15,13 +15,13 @@ bigthum: true
 
 <iframe src="https://www.youtube.com/embed/mt1BvUAeaI8" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen style="width:100%; height:500px; min-height:300px;"></iframe>
 
-クライアント:[椎茸祭](https://www.shiitake-matsuri.com/matsuri-event)、[東京木材相互市場](https://www.mokuzai.co.jp/)
+クライアント:[椎茸祭](https://www.shiitake-matsuri.com/pages/matsuri-digital-content)、[東京木材相互市場](https://www.mokuzai.co.jp/)
 
 Visual Programming: [すぎの ひろのり](https://sugi.cc)
 
 > 日本人が古来より信仰してきた屋久島の屋久杉。1000年以上生きてきた屋久杉が雷や台風などの天災を逃れ、ここへやってくるまでの時間を言語ではなく、プロジェクションを通じて表現したテーブルをミラノサローネにて展示。
 
-Website <https://www.mokuzai.co.jp/yakusugi/>
+Website <https://www.shiitake-matsuri.com/pages/tree-of-gods-yakusugi>
 
 Galleria Fumagalli Milano 17th~22th April 2018 11:00~13:00 15:00~19:00
 

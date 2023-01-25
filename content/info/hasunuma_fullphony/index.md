@@ -5,7 +5,7 @@ date: 2018-07-20
 
 8/18、すみだトリフォニーホールで行われる蓮沼執太フルフィル「フルフォニー」に演奏で参加します。
 
-https://www.hasunumaphil.com/live/77/
+https://www.hasunumaphil.com/performance/146/
 
 Cracleboxや自作楽器のExidiophoneなどなどで演奏します。今まで演奏していたのとはぜんぜん違うシチュエーションになるのでどうなるか楽しみです。
 

@@ -73,7 +73,7 @@ Web Site : <https://matsuuratomoya.com>
 
 2017年 学生CGコンテスト アート部門ノミネート([送れ | 遅れ / post | past](/works/post-past_sotsuten))
 
-2018年 [公益財団かけはし芸術文化振興財団](https://kakehashi-foundation.jp) 奨学生
+2018年 [公益財団かけはし芸術文化振興財団](https://www.kakehashi-foundation.jp) 奨学生
 
 2019年 [北九州デジタルクリエーターコンテスト2019　入選](http://kdcc.info/archive/2019.html) ([Aphysical Unmodeling Instrument](/works/aphysical-unmodeling-instrument))
 

@@ -152,7 +152,7 @@ FaustLiveやfaustgen~だけでいいやという方はこちらから直にDLし
 
 音声処理言語なんだから音が出なきゃ意味が無いだろ、という方にはこちらです。
 
-[https://faust.grame.fr/faustplayground/](https://faust.grame.fr/faustplayground/)
+<https://faustplayground.grame.fr/>
 
 FaustPlaygroundはFaustのWebオーディオ出力機能を活用したWebアプリケーションで、**Faust製のモジュールをMaxの様にパッチングしたり、モジュールそのものをFaustで書き換えたりする**ことが出来ます。
 

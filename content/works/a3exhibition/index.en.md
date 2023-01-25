@@ -12,7 +12,7 @@ bigthum: false
 
 I made an sound system (proposed hardware equipments and developed an application for a sound playback) for "A3!Exhibition", an event of a game "A3!" for a smartphone which is held from September to November, 2018, at 3 venues, Tokyo, Osaka and Niigata.
 
-client: [WIDEWIREWORKS](https://www.widewireworks.jp)
+client: [WIDEWIREWORKS(現stu)](https://stu.inc/)
 
 http://www.a3-exhibition.com/
 

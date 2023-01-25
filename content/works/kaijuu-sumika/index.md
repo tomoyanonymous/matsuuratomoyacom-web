@@ -13,7 +13,7 @@ bigthum: false
 
 https://m-78.jp/sumika/
 
-クライアント:[椎茸祭](https://www.shiitake-matsuri.com/matsuri-event)
+クライアント:[椎茸祭](https://www.shiitake-matsuri.com/pages/matsuri-digital-content)
 
 
 CV Engineer: Naoto Kondo

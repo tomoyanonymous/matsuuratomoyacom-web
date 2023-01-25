@@ -10,9 +10,9 @@ tags:
 bigthum: false
 ---
 
-I did a technical support (including an interactive sound&video playback based on human sensing) for "AINICLE", an exhibition by a composer [Ryuichi Ono](https://ryuitarian.wixsite.com)
+I did a technical support (including an interactive sound&video playback based on human sensing) for "AINICLE", an exhibition by a composer [Ryuichi Ono](https://ryuitarian.jimdofree.com/)
 
-[Website](https://ryuitarian.wixsite.com/mysite/fullscreen-page/comp-jlo6qano/656479b1-055c-4ae7-b355-1dc329b813f0/6/%3Fi%3D6%26p%3Dxl20s%26s%3Dstyle-jlo6qask)
+[Website](https://ryuitarian.jimdofree.com/works/)
 
 2017,July, 6th to 11th at Gallery NIW
 

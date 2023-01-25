@@ -60,7 +60,7 @@ description: 松浦知也は現在2019年のお仕事を募集しています。
 
 実際お前は何ができるやつなんだ、というのが想像しづらいと思いますので去年フリーランスとしてやったお仕事を紹介します。
 
-一番大きかった仕事は、ミラノデザインウィークで展示された東京相互木材市場さん、椎茸祭さんの[Tree of gods YAKUSUGI 〜EUR 1 Million Table〜](http://www.mokuzai.co.jp/yakusugi/)でした。
+一番大きかった仕事は、ミラノデザインウィークで展示された東京相互木材市場さん、椎茸祭さんの[Tree of gods YAKUSUGI 〜EUR 1 Million Table〜](https://www.shiitake-matsuri.com/pages/tree-of-gods-yakusugi)でした。
 
 {{< youtube mt1BvUAeaI8 >}}
 

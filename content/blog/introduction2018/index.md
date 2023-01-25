@@ -151,7 +151,7 @@ date: 2018-01-01
 
 例えばアートと研究。2者の両立は最近様々な所で呟かれているが現実はそう簡単でもない。
 
-[IAMAS OB/OG INTERVIEW : INDEX > 003 今はImpossibleだが、将来的にpossibleになるかもしれない、同性カップルの子どもをシミュレートしたアート作品](https://interview.iamas.ac.jp/003-2/)
+[IAMAS OB/OG INTERVIEW : INDEX > 003 今はImpossibleだが、将来的にpossibleになるかもしれない、同性カップルの子どもをシミュレートしたアート作品](https://www.iamas.ac.jp/interview/003-2/)
 
 > クワクボ：日本と海外のアート教育に何か違いは感じましたか。
 >

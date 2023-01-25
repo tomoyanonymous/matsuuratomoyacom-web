@@ -13,7 +13,7 @@ bigthum: true
 
 2019.04.27
 
-w/[Ayatake Ezaki](https://twitter.com/ayatalce) (Keyboards), [Manami Kakudo](https://manamikakudo.wordpress.com/) (Percussion, Ukulele, Voices, Tape Recorders), [Yoshihiro Harada](https://yoshihiroharada.wixsite.com/home) (Steel Pan)
+w/[Ayatake Ezaki](https://twitter.com/ayatalce) (Keyboards), [Manami Kakudo](https://www.universal-music.co.jp/kakudo-manami/) (Percussion, Ukulele, Voices, Tape Recorders), [Yoshihiro Harada](https://yoshihiroharada.wixsite.com/home) (Steel Pan)
 
 ![](sonypark_live.jpg)
 
@@ -115,4 +115,4 @@ photos by 野口翔平
 
 Instruments: Cracklebox& Audio Feedback with Handy Recorder(Zoom H5)
 
-<http://www.senjuartpath.com/2016/special.html>
+<http://www.senjuartpath.com/2016/special.html>　（2023/01/24 confirmed broken link & not crawled by archive.org）

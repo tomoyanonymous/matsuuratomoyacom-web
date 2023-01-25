@@ -55,7 +55,7 @@ Sound System : 木本圭介・松浦知也
 # DMM.planets Arts by teamLab
 
 
-<https://exhibition.team-lab.net/dmmplanets2016/>
+<https://www.teamlab.art/jp/e/dmmplanets2016/>
 
 以下2作品のほか、作品間を繋ぐ通路の音システムの設計と実装など。
 
@@ -88,7 +88,7 @@ Sound System:松浦知也
 
 ### teamLab IsLands: Dance! Art Museum, Learn & Play! Interactive Theme Park at CentralWorld(バンコク)
 
-<https://exhibition.team-lab.net/bangkok/>
+<https://www.teamlab.art/jp/e/centralworld/>
 
 インストール
 
@@ -104,7 +104,7 @@ Sound System:松浦知也
 
 ### チームラボアイランド　踊る！美術館と、学ぶ！未来の遊園地 at ひらかたパーク
 
-<https://exhibition.team-lab.net/hirakata/>
+<https://www.teamlab.art/jp/e/hirakatapark/>
 
 インストール
 
@@ -113,7 +113,7 @@ Sound System:松浦知也
 # FUTURE WORLD: WHERE ART MEETS SCIENCE at Art Science Musium (シンガポール)
 
 
-<https://exhibition.team-lab.net/singapore/>
+<https://www.teamlab.art/jp/e/artsciencemuseum/>
 
 インストール
 
@@ -121,7 +121,8 @@ Sound System:松浦知也
 
 # teamLab: Living Digital Space and Future Parks at Pace Art + Technology(シリコンバレー)
 
-<https://exhibition.team-lab.net/siliconvalley/>
+<https://www.teamlab.art/jp/e/living_digital_space/>
+
 
 インストール及び以下の開発
 

@@ -104,7 +104,7 @@ LLVMバックエンドの言語というのソースコードを抽象構文木�
 
 [Go でつくる汎用言語処理系 実装戦略](https://speakerdeck.com/rhysd/go-detukurufan-yong-yan-yu-chu-li-xi-shi-zhuang-zhan-lue)
 
-あと元々のmincamlの実装である住井英二郎さんの[速攻MinCamlコンパイラ概説](http://esumii.github.io/min-caml/)も。ちなみにこれは15年前くらいの未踏のプロジェクト「美しい日本のMLコンパイラ」の成果物です。未踏で未踏に助けられました。
+あと元々のmincamlの実装である住井英二郎さんの[速攻MinCamlコンパイラ概説](http://esumii.github.io/min-caml/)も。ちなみにこれは15年前くらいの未踏のプロジェクト「美しい日本のMLコンパイラ」の成果物です。未踏で未踏に助けられました。
 
 あと未踏同期の[艮 鮟鱇](https://anqou.net/poc/author/1/)氏のセルフホストOCamlコンパイラaqamlの実装とかもだいぶ参考になりました。
 

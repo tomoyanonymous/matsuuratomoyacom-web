@@ -10,9 +10,9 @@ tags:
 bigthum: false
 ---
 
-作曲家の[小野龍一](https://ryuitarian.wixsite.com)の展示、AINICLEのための技術支援(人の位置に応じた音声、動画の再生システムの構築とプログラミング)を行いました。
+作曲家の[小野龍一](https://ryuitarian.jimdofree.com/)の展示、AINICLEのための技術支援(人の位置に応じた音声、動画の再生システムの構築とプログラミング)を行いました。
 
-[ウェブサイト](https://ryuitarian.wixsite.com/mysite/fullscreen-page/comp-jlo6qano/656479b1-055c-4ae7-b355-1dc329b813f0/6/%3Fi%3D6%26p%3Dxl20s%26s%3Dstyle-jlo6qask)
+[ウェブサイト](https://ryuitarian.jimdofree.com/works/)
 
 2017年7月6ー11日@Gallery NIW
 

@@ -55,7 +55,7 @@ Sound System : Keisuke Kimoto and Tomoya Matsuura
 # DMM.planets Arts by teamLab
 
 
-<https://exhibition.team-lab.net/dmmplanets2016/>
+<https://www.teamlab.art/jp/e/dmmplanets2016/>
 
 Designed sound systems and software development for the 2 works below and corridors between the works.
 
@@ -87,7 +87,7 @@ Installation at venue
 
 ### teamLab IsLands: Dance! Art Museum, Learn & Play! Interactive Theme Park at CentralWorld(Bangkok)
 
-<https://exhibition.team-lab.net/bangkok/>
+<https://www.teamlab.art/jp/e/centralworld/>
 
 Installation at venue
 
@@ -103,7 +103,7 @@ Installation at venue
 
 ### チームラボアイランド　踊る！美術館と、学ぶ！未来の遊園地 at Hirakata Park
 
-<https://exhibition.team-lab.net/hirakata/>
+<https://www.teamlab.art/jp/e/hirakatapark/>
 
 Installation at venue
 
@@ -112,7 +112,7 @@ Installation at venue
 # FUTURE WORLD: WHERE ART MEETS SCIENCE at Art Science Musium (Singapore)
 
 
-<https://exhibition.team-lab.net/singapore/>
+<https://www.teamlab.art/jp/e/artsciencemuseum/>
 
 Installation at venue
 
@@ -120,7 +120,7 @@ Installation at venue
 
 # teamLab: Living Digital Space and Future Parks at Pace Art + Technology(Palo Alto, CA, United States)
 
-<https://exhibition.team-lab.net/siliconvalley/>
+<https://www.teamlab.art/jp/e/living_digital_space/>
 
 Installation at venue and development of sound system for the work below
 

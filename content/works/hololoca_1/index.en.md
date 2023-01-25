@@ -11,7 +11,7 @@ tags:
 
 I did a sound engineer in the first show of Hololoca, theater company "へそにたまるのは呪い、こころだけがあるわ"
 
-http://hololoca.tumblr.com/1st
+https://web.archive.org/web/20150718000018/https://hololoca.tumblr.com/1st
 
 
 twitter:[@hololoca](https://twitter.com/hololoca)

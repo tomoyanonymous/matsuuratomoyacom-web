@@ -59,7 +59,7 @@ I experienced jobs like a sound programming, sound design, technical supports fo
 
 Maybe it's hard to imagine what I can do actually so I would like to explain what I did as an freelancer in last year.
 
-The most big job was [Tree of gods YAKUSUGI 〜EUR 1 Million Table〜](http://www.mokuzai.co.jp/yakusugi/) commissioned by Tokyo Mokuzai Sohgo Ichiba  Inc. and Shiitake Matsuri Inc. presented in Milano Design Week 2018.
+The most big job was [Tree of gods YAKUSUGI 〜EUR 1 Million Table〜](https://www.shiitake-matsuri.com/pages/tree-of-gods-yakusugi) commissioned by Tokyo Mokuzai Sohgo Ichiba  Inc. and Shiitake Matsuri Inc. presented in Milano Design Week 2018.
 
 
 {{< youtube mt1BvUAeaI8 >}}

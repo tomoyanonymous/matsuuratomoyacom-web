@@ -442,8 +442,8 @@ faust2csound             faust2jackconsole        faust2msp                faust
 [https://faust.grame.fr/download/](https://faust.grame.fr/download/)
 
 - FaustLive:Qt製の.dspファイルの更新を検出して自動でライブコンパイルしてアプリケーションとして確認可能な環境（リモートコンパイル機能でMaxオブジェクトやVSTプラグインはエクスポートされたものをDLすることが可能）
-- [オンラインコンパイラー](https://faust.grame.fr/onlinecompiler/)： ブラウザ上でリアルタイムにコードをダイヤグラムで確認しながら開発可能、FaustLive同様にリモートビルドしたバイナリをDL可能
-- [Faust PlayGround](https://faust.grame.fr/faustplayground/)： オンラインコンパイラーと似ているがブラウザ上で実際に音を出しながらFaustの様々なライブラリをMaxのようにパッチングしながら確認可能な環境
+- ~~[オンラインコンパイラー](https://faust.grame.fr/onlinecompiler/)： ブラウザ上でリアルタイムにコードをダイヤグラムで確認しながら開発可能、FaustLive同様にリモートビルドしたバイナリをDL可能~~ ⇨現在廃止。[Faust IDE](https://faustide.grame.fr/)を利用のこと
+- [Faust PlayGround](https://faustplayground.grame.fr/)： オンラインコンパイラーと似ているがブラウザ上で実際に音を出しながらFaustの様々なライブラリをMaxのようにパッチングしながら確認可能な環境
 - faustgen~:Max上でFaustのコードをライブコンパイルできるオブジェクト。たまに融通効かないがMaxのGUIやデバッグ機能などと一緒に使える、慣れると強力な開発環境
 
 の4つがあります。
@@ -451,6 +451,12 @@ faust2csound             faust2jackconsole        faust2msp                faust
 これらはどれもfaust2ブランチのライブコンパイル機能を活用して作られており、**libfaust**というライブラリを使えばC++のアプリケーション上でfaustのコードを実行時コンパイルして信号処理を変更するような事もできます。
 
 例としてはプレゼンをしているLarkin氏が作っている、JUCEライブラリとの組み合わせでVSTプラグイン上でさらにVSTやFaustのdspを読み込み、その中の任意のパラメータを2次元上にマッピングして複雑なコントロールをする[pMix](https://github.com/olilarkin/pMix2)という中々ぶっ飛んでるソフトなどがあります。
+
+(2023/01/25更新)
+
+2023年現在主流なのはこちらです。WASMベースでクライアントサイドのリアルタイム信号処理に加え、各プラットフォームへのリモートコンパイル、さらに波形のプロットやオーディオファイルを使ってのデバッグなど機能が充実しています。
+
+Faust IDE https://faustide.grame.fr/
 
 # 次の記事では
 

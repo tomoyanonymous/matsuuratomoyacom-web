@@ -15,14 +15,14 @@ I composed and programmed an interactive music system for "Tree of Gods YAKUSUGI
 
 <iframe src="https://www.youtube.com/embed/mt1BvUAeaI8" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen style="width:100%; height:500px; min-height:300px;"></iframe>
 
-Clients:[Shiitake Matsuri Inc.](https://www.shiitake-matsuri.com/matsuri-event)、[Tokyo Sohgo Mokuzai Ichiba Inc.](https://www.mokuzai.co.jp/)
+Clients:[Shiitake Matsuri Inc.](https://www.shiitake-matsuri.com/pages/matsuri-digital-content)、[Tokyo Sohgo Mokuzai Ichiba Inc.](https://www.mokuzai.co.jp/)
 
 Visual Programming: [Hironori Sugino](https://sugi.cc)
 
 > The installation will give you an interactive experience and artistic performance of Yakusugi tree table.
 We invite visitors to feel the flow of the eternal time in Yakushima by projecting images and movements directly on the wood grain pattern, where Yakusugi reflects its own beautiful and special pattern created by nature.
 
-Website <https://www.mokuzai.co.jp/yakusugi/>
+Website <https://www.shiitake-matsuri.com/pages/tree-of-gods-yakusugi>
 
 Galleria Fumagalli Milano 17th~22th April 2018 11:00~13:00 15:00~19:00
 

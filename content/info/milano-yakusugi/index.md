@@ -12,7 +12,7 @@ ogpimage: ogp_Yakusugi_001.jpg
 
 Website
 
-<https://www.mokuzai.co.jp/yakusugi/>
+<https://www.shiitake-matsuri.com/pages/tree-of-gods-yakusugi>
 
 Galleria Fumagalli Milano 17th~22th April 2018 11:00~13:00 15:00~19:00
 

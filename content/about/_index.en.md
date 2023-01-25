@@ -71,7 +71,7 @@ Born in 1994 in Chigasaki City, Kanagawa Pref. Living in Kanagawa Pref. Japan.
 
 2017 23rd Campus Genius Award Nominate ([送れ | 遅れ / post | past](/en/works/post-past_sotsuten))
 
-2018 [KAKEHASHI foundation](https://kakehashi-foundation.jp) Scholarship Student
+2018 [KAKEHASHI foundation](https://www.kakehashi-foundation.jp) Scholarship Student
 
 2019年 [Kitakyushu Digital Creators Contest　Selected](http://kdcc.info/archive/2019.html) ([Aphysical Unmodeling Instrument](/en/works/aphysical-unmodeling-instrument))
 

@@ -10,7 +10,7 @@ tags:
 
 千住 Art Path 2015(東京藝術大学千住キャンパス制作・研究発表展)の運営委員長、Webサイトのコーディングを担当。
 
-<https://www.senjuartpath.com/2015>
+https://web.archive.org/web/20201001180619/http://www.senjuartpath.com/2015/
 
 
-また、[Acoustic Delay (⇔) Memory](/}works/acoustic-delay-memory)を展示した。
+また、[Acoustic Delay (⇔) Memory](/works/acoustic-delay-memory)を展示した。

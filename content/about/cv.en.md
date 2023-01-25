@@ -42,7 +42,7 @@ Born in 1994 in Chigasaki City, Kanagawa Pref. Living in Fukuoka Pref. Japan.
 
 2015 [Ataka-Scholarship](https://www.geidai.ac.jp/life/scholarship/geidai_scholarship)
 
-2018,2020 [KAKEHASHI foundation](https://kakehashi-foundation.jp) Scholarship Student
+2018,2020 [KAKEHASHI foundation](https://www.kakehashi-foundation.jp) Scholarship Student
 
 2019 Information Promotion Agency Mitou IT Human Resounce Project(2,047,600 yen)
 

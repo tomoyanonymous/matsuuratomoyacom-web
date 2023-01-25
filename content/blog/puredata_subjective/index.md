@@ -124,7 +124,7 @@ Pdで一番面倒くさいところですが、回答のインターフェース
 [https://github.com/danomatika/rc-patches/tree/master/extra](https://github.com/danomatika/rc-patches/tree/master/extra)
 のなかに\[csv_file\]という\[binfile\]をラップして作ったサブパッチがあります。
 
-openframeworks用のPdアドオンofxPdの作者[Dan Wilcox](https://danomatika.com/)さんの個人プロジェクト用に作ってあったのを勝手に解読して使ってます。これを使ってもいいのですがabstractionにするよりもパッチに合わせてイチから作ってしまうほうがコンパクトだなと思い\[csv_file\]自体は使っていません。
+openframeworks用のPdアドオンofxPdの作者[Dan Wilcox](http://danomatika.com/)さんの個人プロジェクト用に作ってあったのを勝手に解読して使ってます。これを使ってもいいのですがabstractionにするよりもパッチに合わせてイチから作ってしまうほうがコンパクトだなと思い\[csv_file\]自体は使っていません。
 
 今回の場合、結論から言うとこうです。
 

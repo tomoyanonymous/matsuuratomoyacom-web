@@ -11,7 +11,7 @@ tags:
 
 ホロロッカ第一回公演「へそにたまるのは呪い、こころだけがあるわ」音響
 
-http://hololoca.tumblr.com/1st
+https://web.archive.org/web/20150718000018/https://hololoca.tumblr.com/1st
 
 キャスト
 

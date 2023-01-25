@@ -14,7 +14,7 @@ Did a sound system design and programming for the exhibtion by Tsuburaya Product
 
 https://m-78.jp/sumika/
 
-client:[Shiitake Matsuri](https://www.shiitake-matsuri.com/matsuri-event)
+client:[Shiitake Matsuri](https://www.shiitake-matsuri.com/pages/matsuri-digital-content)
 
 
 CV Engineer: Naoto Kondo

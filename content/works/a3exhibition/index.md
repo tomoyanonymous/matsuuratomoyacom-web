@@ -12,7 +12,7 @@ bigthum: false
 
 2018年9月から11月に行われたスマートフォン向けアプリケーションゲーム「A3!」のイベント「A3!展」(東京、大阪、新潟の合計3箇所で開催)の一部の音響システムの機材構成提案、Cycling'74 Maxを用いた音声再生システムのアプリケーション開発を行いました。
 
-client: [WIDEWIREWORKS](https://www.widewireworks.jp)
+client: [WIDEWIREWORKS(stu)](https://stu.inc/)
 
 http://www.a3-exhibition.com/
 
