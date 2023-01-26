@@ -7,4 +7,4 @@ date: 2018-07-18
 
 松浦は"Anthropocene-outro"のリミックスをしました。タワーレコード新宿店の特典にのみ付属しています。
 
-https://www.hasunumaphil.com/topics/244/
+https://columbia.jp/artist-info/hasunumaphil/info/60745.html
