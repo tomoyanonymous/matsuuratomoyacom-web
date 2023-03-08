@@ -1,7 +1,7 @@
 ---
 date: 2016-06-11
 title: JitterとGenを活用してインパルス応答測定(1)
-permalink: log_sinsesweep_jitter_gen1
+aliases: [log_sinesweep_jitter_gen1, log-sinesweep-jitter-gen1, log-sinsesweep-jitter-gen1, ]
 ---
 
 皆さん、インパルス応答は好きですか？僕は大好きです。
@@ -84,4 +84,4 @@ MEASUREMENTS BY MEASUREMENTS BY EXPONENTIAL SINE SWEEPS EXPONENTIAL SINE SWEEPS]
 
 長くなりすぎたので実際のパッチ作成は次に進みます。
 
-[JitterとGenを活用してインパルス応答測定(2)](/blog/2016-06-11/log-sinsesweep-jitter-gen2/)
+[JitterとGenを活用してインパルス応答測定(2)](/blog/2016-06-11/log_sinesweep_jitter_gen2/)

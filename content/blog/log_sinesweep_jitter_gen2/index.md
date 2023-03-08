@@ -1,11 +1,11 @@
 ---
 date: 2016-06-11
 title: JitterとGenを活用してインパルス応答測定(2)
-permalink: log_sinsesweep_jitter_gen2
+aliases: [log-sinesweep-jitter-gen2]
 draft: false
 ---
 
-インパルス応答計測の方法の概略は[前回](/blog/2016-06-11/log-sinsesweep-jitter-gen1/)説明しました。
+インパルス応答計測の方法の概略は[前回](/blog/2016-06-11/log_sinesweep_jitter_gen1/)説明しました。
 今回は実際にインパルス応答測定のためのパッチ制作を、実際にJitterとGenで作ったパッチの中身を見ながら解説していこうと思います。
 
 <!--more-->
