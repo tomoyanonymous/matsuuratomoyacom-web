@@ -1,7 +1,6 @@
 ---
-title:  "Sound Design for "rode work ver. under city" by SIDE CORE"
-date: "2023-03-18T13:00:12+09:00"
-draft: false
+title: Sound Design for "rode work ver. under city" by SIDE CORE
+date: 2023-03-18T13:00:12+09:00
 ---
 
 I did a sound design for the video work "rode work ver. under city" by the artists group SIDE CORE.

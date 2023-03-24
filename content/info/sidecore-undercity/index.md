@@ -1,7 +1,6 @@
 ---
-title:  "SIDE CORE「rode work ver. under city」にサウンドデザインで参加"
-date: "2023-03-18T13:00:12+09:00"
-draft: false
+title: SIDE CORE「rode work ver. under city」にサウンドデザインで参加
+date: 2023-03-18T13:00:12+09:00
 ---
 
 アーティストグループSIDE COREの映像作品「rode work ver. under city」のサウンドデザインを担当しました。

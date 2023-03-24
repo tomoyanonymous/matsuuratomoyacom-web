@@ -153,7 +153,7 @@ MML、PMML、Taktの言語仕様のグラデーションをなんと説明する
 
 そしてそれゆえに、アカデミックなコンピューターと音楽の研究の中では半ばMMLの存在は放置状態といって良いと思います。Google ScholarでMusic Macro Languageと検索してもタイトルはおろか論文キーワードにもほとんどその単語は見られません。
 
-数少ない例としては先ほどのTakt、その基となったPMMLの論文や、その中で言及されている"Beyond MIDI: the handbook of musical codes"(1997)の中の章”Music Macro Language(Toshiaki Matsushima)”ぐらいで、やはり著者は全て日本人、といったところです。
+数少ない例としては先ほどのTakt、その基となったPMMLの論文や、その中で言及されている"Beyond MIDI: the handbook of musical codes"(1997)の中の章”Music Macro Language(Toshiaki Matsushima)”ぐらいで、やはり著者は全て日本人、といったところです。
 
 <iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//rcm-fe.amazon-adsystem.com/e/cm?lt1=_blank&bc1=000000&IS2=1&bg1=FFFFFF&fc1=000000&lc1=0000FF&t=matsuuratomoy-22&language=ja_JP&o=9&p=8&l=as4&m=amazon&f=ifr&ref=as_ss_li_til&asins=0262193949&linkId=fd2b5525a25f10824b689592953ba411"></iframe>
 
