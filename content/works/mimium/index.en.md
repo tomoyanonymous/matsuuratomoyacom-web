@@ -19,7 +19,7 @@ Developing Repository
 
 https://github.com/mimium-org/mimium
 
-The project is selected for [2019 Exploratory IT Human Resources Project (The MITOU Program) by IPA: INFORMATION-TECHNOLOGY PROMOTION AGENCY](https://www.ipa.go.jp/jinzai/mitou/2019/koubokekka_index.html).
+The project is selected for [2019 Exploratory IT Human Resources Project (The MITOU Program) by IPA: INFORMATION-TECHNOLOGY PROMOTION AGENCY](https://warp.ndl.go.jp/info:ndljp/pid/12446699/www.ipa.go.jp/jinzai/mitou/2019/koubokekka_index.html).
 
 Presentation Slide at Mitou Demoday 2019(in Japanese)
 

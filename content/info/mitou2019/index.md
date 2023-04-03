@@ -5,7 +5,7 @@ title = "2019年度未踏IT人材発掘・育成事業に採択されました"
 +++
 2019年度未踏IT人材発掘・育成事業に採択されました。
 
-[https://www.ipa.go.jp/jinzai/mitou/2019/gaiyou_tk-1.html](https://www.ipa.go.jp/jinzai/mitou/2019/gaiyou_tk-1.html "https://www.ipa.go.jp/jinzai/mitou/2019/gaiyou_tk-1.html")
+[https://warp.ndl.go.jp/info:ndljp/pid/12446699/www.ipa.go.jp/jinzai/mitou/2019/gaiyou_tk-1.html](https://warp.ndl.go.jp/info:ndljp/pid/12446699/www.ipa.go.jp/jinzai/mitou/2019/gaiyou_tk-1.html "https://warp.ndl.go.jp/info:ndljp/pid/12446699/www.ipa.go.jp/jinzai/mitou/2019/gaiyou_tk-1.html")
 
 「プログラマブルな音楽制作ソフトウェアの開発」というタイトルで、音楽プログラミング言語とそのソースコードをタイムライン的にグラフィカルに編集するエディターソフトウェアの2つを開発する予定でいます。
 

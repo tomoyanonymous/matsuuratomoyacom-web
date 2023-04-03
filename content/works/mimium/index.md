@@ -19,7 +19,7 @@ https://mimium.org/
 
 https://github.com/mimium-org/mimium
 
-本プロジェクトは[2019年度未踏IT人材発掘・育成事業](https://www.ipa.go.jp/jinzai/mitou/2019/koubokekka_index.html)として採択され、その後松浦は2019年度未踏スーパークリエータに認定されました。
+本プロジェクトは[2019年度未踏IT人材発掘・育成事業](https://warp.ndl.go.jp/info:ndljp/pid/12446699/www.ipa.go.jp/jinzai/mitou/2019/koubokekka_index.html)として採択され、その後松浦は2019年度未踏スーパークリエータに認定されました。
 
 未踏　発表スライド
 
