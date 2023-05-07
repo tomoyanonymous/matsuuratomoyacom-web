@@ -4,6 +4,9 @@ layout: single
 ogpimage: ogp.jpg
 ---
 
+# 過去のプロフィール一覧
+
+
 (学歴等の部分は省略)
 
 [現在のプロフィール](/about)
