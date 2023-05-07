@@ -23,17 +23,18 @@ Matsuura Tomoya
 
 (Photo by [Noguchi Shohei](https://ngcsh.tumblr.com))
 
-SoundMaker:Artist/Engineer/Designer/Researcher/Programmer
-
-Tomoya Matsuura is a musician and a sound artist who starts from building systems that describe and generate sound to create his own sound and music. From a media-archaeological viepoints, he pursues possible and alternative expressions of sound by building a sound installation and an electro-acoustic instrument, and performs with them.
+SoundMaker: who makes a sound, makes instruments to make a sound, and makes environments to make the instruments. He calls his own research area "Civil Engineering of Music", which designs socio-technical infrastructure around sound and music critically through practices.
+He develops "mimium" a programming language for music(2019~), and does performances with "Exidiophone", an electro-acoustic instrument that makes sound with only an audio-feedback.
 
 He also works as an engineer who does a technical direction, sound design and programming for commercial installations and other artists' works.
 
-Ph.D in Design. He is born in 1994 and graduated Department of Musical Creation and Environment in Tokyo University of the Arts and Graduate School of Design, Kyushu University.
+Ph.D in Design. He is born in 1994 at Chigasaki, Kanagawa Prefecture. Graduated Department of Music and Environment in Tokyo University of the Arts and Graduate School of Design, Kyushu University.
 
 Currently working as Project Assistant Professor at Art Media Center in Tokyo University of the Arts.
 
 Web Site : <https://matsuuratomoya.com/en>
+
+[See the list of Past Profiles](./past-profiles)
 
 **[See Full Artist Statement](./statement)**
 
@@ -114,7 +115,8 @@ basic recording/mixing/foley with...
 ### Electronics
 
 - Arduino
-- Autodesk Eagle
+- Autodesk Eagle 
+- KiCad
 - FlatCAM
 
 ## Researchs/Publications
