@@ -19,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/tomoyanonymous/tomoyanonymous.github.io/issues"
   },
-  "homepage": "https://github.com/tomoyanonymous/tomoyanonymous.github.io#readme"
+  "homepage": "https://github.com/tomoyanonymous/tomoyanonymous.github.io#readme",
+  "devDependencies": {
+    "postcss-cli": "^10.1.0"
+  }
 }
