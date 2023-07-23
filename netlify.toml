@@ -1,0 +1,11 @@
+[build]
+publish = "docs"
+command = "pushd themes/tomoya-2023 && npm install && popd && hugo --minify --gc"
+
+[context.deploy-preview]
+command = "pushd themes/tomoya-2023 && npm install && popd && hugo --minify --gc -b $DEPLOY_URL"
+
+[build.environment]
+HUGO_VERSION = "0.111.3"
+NODE_VERSION = "20.2.0"
+NPM_VERSION = "9.6.6"

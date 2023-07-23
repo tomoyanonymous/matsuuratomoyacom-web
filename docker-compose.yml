@@ -1,0 +1,10 @@
+version: '3'
+
+services:
+  hugo:
+    build: .
+    # image: tomoyanonymous/theme-2023
+    volumes:
+      - ./:/src
+    ports:
+      - "1313:1313"

@@ -8,7 +8,7 @@ enableMissingTranslationPlaceholders = false
 enableGitInfo = true
 publishDir = "docs"
 theme = "tomoya-2023"
-timeout = "60s"
+timeout = "600s"
 googleAnalytics = 'G-7ZX14XX1D9'
 
 [markup.goldmark.renderer]
