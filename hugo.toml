@@ -3,12 +3,14 @@ DefaultContentLanguage = "ja"
 
 
 baseURL = "https://matsuuratomoya.com/"
-title = "Matsuura Tomoya"
+title = "Matsuura Tomoya|松浦知也"
 enableMissingTranslationPlaceholders = false
 enableGitInfo = true
 publishDir = "docs"
-theme = "tomoya-2019"
+theme = "tomoya-2023"
 timeout = "60s"
+googleAnalytics = 'G-7ZX14XX1D9'
+
 [markup.goldmark.renderer]
   unsafe = true
 [permalinks]
@@ -23,6 +25,31 @@ timeout = "60s"
   Soundcloud = "tomoya_matsuura"
   description = "松浦知也のWebサイトです。"
   ogpimage = "assets/img/image_ogp.png"
+[[params.socials]]
+  name = "mastodon"
+  url = "https://social.matsuuratomoya.com/@tomoya"
+  weight = 1
+[[params.socials]]
+  name = "twitter"
+  url = "https://twitter.com/tomoya_nonymous"
+  weight = 2
+[[params.socials]]
+  name = "instagram"
+  url = "https://instagram.com/tomoya_nonymous"
+  weight = 3
+[[params.socials]]
+  name = "github"
+  url = "https://github.com/tomoyanonymous"
+  weight = 4
+[[params.socials]]
+  name = "facebook"
+  url = "https://facebook.com/tomoya.matsuura.98"
+  weight = 5
+[[params.socials]]
+  name = "soundcloud"
+  url = "https://soundcloud.com/tomoya_matsuura"
+  weight = 6
+
 [[menu.main]]
   name = "About"
   url = "about"
@@ -56,10 +83,11 @@ timeout = "60s"
 [languages.ja]
 weight = 1
 languageCode = "ja"
-
+languageName = "日本語"
 
 [languages.en]
 weight = 2
+languageName = "English"
 [languages.en.params]
 description = "Website of Matsuura Tomoya."
 

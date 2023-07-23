@@ -29,7 +29,7 @@ photo above is by Filip Wolak.
 
 ![](edtac24.JPG)
 
-# 時間の計算について
+## 時間の計算について
 
 今日のコンピュータのほとんどがマスタークロックを持つ。同様に、チューリングマシン、有限状態機械、プッシュダウン・オートマトンといった今日の計算機の基礎になっているほとんどの計算モデルには時間の概念が無い。それらは基本的に、1計算ステップごとにメモリー内のデータを動かすことだけを考えており、理想的には無限に高速なクロックがあるならばその方がよい、ということだ。
 
@@ -51,7 +51,7 @@ photo above is by Filip Wolak.
 ![](edtac-minu-han.jpg)
 photo by Minu Han
 
-# 音・音楽プログラミングの最小限
+## 音・音楽プログラミングの最小限
 
 EDTACにおけるプログラミングの作業は、光ファイバーの接続順、抵抗値という物理値、カウンター回路のアルゴリズムを決めることである。世界初の電子計算機ENIACはデータフロー方式というケーブルで物理的に計算素子の順番を繋ぎ変えることがプログラミングであり[^chun]、これをプログラミングと呼ぶのならEDTACの配線作業もプログラミングと呼べるだろう。
 
@@ -65,7 +65,8 @@ EDTACにおけるプログラミングの作業は、光ファイバーの接続
 では、何を以て音のプログラミングが達成されたのかという境目は存外曖昧なものである。MUSIC Iにはじまるサンプリングによる音表現を基礎にした信号処理には技術的な限界もあり、異なる形式での処理方法の可能性も示唆されている中で[^puckette]、EDTACはその根本的な問題である時間を伴う信号をどうやって時間から引き剥がして記述するかという問題に言及する。
 
 [^puckette]: Puckette, M. (2015). The sampling theorem and its discontents. http://msp.ucsd.edu/Publications/icmc15.pdf. keynote speech in ICMC 2015.
-# Working Process
+
+## Working Process
 
 ![](edtac_working1.jpg)
 photo by Tiriree Kananuruk

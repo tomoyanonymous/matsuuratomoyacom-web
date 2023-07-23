@@ -1,4 +1,5 @@
 ---
 title: blog
-headless: true
 ---
+
+# Blog

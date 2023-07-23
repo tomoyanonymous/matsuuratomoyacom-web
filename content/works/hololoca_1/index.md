@@ -1,5 +1,5 @@
 ---
-title: ホロロッカ第一回公演<br>「へそにたまるのは呪い、こころだけがあるわ」
+title: ホロロッカ第一回公演「へそにたまるのは呪い、こころだけがあるわ」
 permalink: hololoca1
 thum: patch2.jpg
 date : 2015-05-24
