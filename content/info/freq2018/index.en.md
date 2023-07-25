@@ -43,9 +43,9 @@ Also, in 30th, I'll do a solo performance with my novel electroacoustic instrume
 
 # Aphysical Unmodeling Instrument
 
-[2017年10月のはならぁと ぷらすでの展示記録](/works/aphysica_hanarart)
+[2017年10月のはならぁと ぷらすでの展示記録](/works/aphysical_hanarart)
 
-[2017年12月のインターカレッジ・ソニックアーツフェスティバル2017での展示記録](/works/aphysical_icsaf2017)
+[2017年12月のインターカレッジ・ソニックアーツフェスティバル2017での展示記録](/works/aphysical_icsaf17)
 
 Aphysical Unmodeling Instrumentは、Whirlwindという抽象的な物理モデリング音源を物理的に再実装する作品である。
 

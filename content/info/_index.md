@@ -1,4 +1,5 @@
 ---
 title: info
-headless: true
 ---
+
+# Info

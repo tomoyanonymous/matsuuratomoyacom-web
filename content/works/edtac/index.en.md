@@ -27,7 +27,7 @@ Also presented at Intercollege Sonic Arts Festival 2018(at IAMAS, March 9th&10th
 
 ![](edtac24.JPG)
 
-# On a Computation of Time
+## On a Computation of Time
 
 Most of today's computers have a master clock. Also, most of the abstract model of computers like Turing machine, finite state machine, and pushdown automaton, which are bases of today's computers do not have a concept of time. They only think how to move a data in a memory in each step and ideally, the infinitely fast clock is the best in practical use if they had.
 
@@ -45,7 +45,7 @@ This device keeps working even if it is not called a computer by most people. At
 ![](edtac-minu-han.jpg)
 photo by Minu Han
 
-# Working Process
+## Working Process
 
 ![](edtac_working1.jpg)
 photo by Tiriree Kananuruk
