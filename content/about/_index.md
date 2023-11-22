@@ -32,7 +32,7 @@ SoundMaker（音を作ったり音を出す道具と環境を作る人）。 音
 
 Web Site : <https://matsuuratomoya.com>
 
-**[過去のプロフィール一覧](past-profiles)**
+**[過去のプロフィール一覧](./past-profiles/index.html)**
 
 **[アーティスト・ステートメント全文](./statement)**
 
