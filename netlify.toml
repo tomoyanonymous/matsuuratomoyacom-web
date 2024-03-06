@@ -6,6 +6,6 @@ command = "pushd themes/tomoya-2023 && npm install && popd && hugo --minify --gc
 command = "pushd themes/tomoya-2023 && npm install && popd && hugo --minify --gc -b $DEPLOY_URL"
 
 [build.environment]
-HUGO_VERSION = "0.111.3"
-NODE_VERSION = "20.2.0"
-NPM_VERSION = "9.6.6"
+HUGO_VERSION = "0.123.6"
+NODE_VERSION = "20.5.1"
+NPM_VERSION = "10.4.0"
