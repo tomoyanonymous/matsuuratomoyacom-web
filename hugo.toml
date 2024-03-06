@@ -71,13 +71,17 @@ googleAnalytics = 'G-7ZX14XX1D9'
   url = "blog"
   weight = 5
 [[menu.main]]
+  name = "Garden"
+  url = "https://garden.matsuuratomoya.com"
+  weight = 6
+[[menu.main]]
   name = "Teaching"
   url = "https://teach.matsuuratomoya.com"
-  weight = 6 
+  weight = 7 
 [[menu.main]]
   name = "Contact"
   url = "contact"
-  weight = 7
+  weight = 8
 
 [languages]
 [languages.ja]
