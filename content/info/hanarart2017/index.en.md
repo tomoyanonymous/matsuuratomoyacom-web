@@ -51,7 +51,7 @@ fee:free
 5 minutes from JR "畝傍(Unebi)" Station.
 
 Yamato Yagi station is about 40 minutes from Namba Station in Osaka.
-and also there's a [limousine bus]((https://www.narakotsu.co.jp/kousoku/limousine/yagi_kanku.html)) from Kansai International Airport(KIX). It takes about 1 hour.
+and also there's a [limousine bus](https://www.narakotsu.co.jp/kousoku/limousine/yagi_kanku.html) from Kansai International Airport(KIX). It takes about 1 hour.
 
 
 # Live Performance 「don't play」
