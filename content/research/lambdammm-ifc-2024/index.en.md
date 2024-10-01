@@ -1,8 +1,9 @@
 ---
 authors:
-  - Tomoya Matsuura
+  - "Tomoya Matsuura"
 title: "Lambda-mmm: the Intermediate Representation for Synchronous Signal Processing Language Based on Lambda Calculus"
 math: true
+ogpimage: "lambdammm_vm_structure.png"
 journal_title: "Proceedings of the International Faust Conference 2024"
 # volume:
 # issue:
