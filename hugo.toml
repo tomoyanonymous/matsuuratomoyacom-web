@@ -13,6 +13,12 @@ googleAnalytics = 'G-7ZX14XX1D9'
 
 [markup.goldmark.renderer]
   unsafe = true
+
+[markup.goldmark.extensions.passthrough]
+  enable = true
+[markup.goldmark.extensions.passthrough.delimiters]
+  block = [['\[', '\]'], ['$$', '$$']]
+  inline = [['\(', '\)'], ['$', '$']]
 [permalinks]
   blog = "/:section/:year-:month-:day/:filename/"
   info = "/:section/:year-:month-:day/:filename/"
@@ -25,6 +31,7 @@ googleAnalytics = 'G-7ZX14XX1D9'
   Soundcloud = "tomoya_matsuura"
   description = "松浦知也のWebサイトです。"
   ogpimage = "assets/img/image_ogp.png"
+  math = false
 [[params.socials]]
   name = "mastodon"
   url = "https://social.matsuuratomoya.com/@tomoya"
