@@ -246,14 +246,14 @@ SHIFTSTATE sAx      SPos += sAx
 DELAY      A B      R(A) := update_ringbuffer(SPtr[SPos],R(B))
 JMP        sAx      PC +=sAx
 JMPIFNEG   A sBx    if (R(A)\<0) then PC += sBx
-CALL       A B C    R(A),\...,R(A+C-2) := program.functions[R(A)](R(A+1),\...,R(A+B-1))
+CALL       A B C    R(A),...,R(A+C-2) := program.functions[R(A)](R(A+1),...,R(A+B-1))
 CALLCLS    A B C    Sptr := vm.closures[R(A)].Sptr
-                    R(A),\...,R(A+C-2) := vm.closures[R(A)].fnproto(R(A+1),\...,R(A+B-1))
+                    R(A),...,R(A+C-2) := vm.closures[R(A)].fnproto(R(A+1),...,R(A+B-1))
                     Sptr := vm.global_sptr
 CLOSURE    A Bx     vm.closures.push(closure(program.functions[R(Bx)]))
                     R(A) := vm.closures.length - 1
 CLOSE      A        close stack variables up to R(A)
-RETURN     A B      return R(A), R(A+1)\...,R(A+B-2)
+RETURN     A B      return R(A), R(A+1)...,R(A+B-2)
 ADDF       A B C     R(A) := R(B) as float + R(C) as float
 SUBF       A B C     R(A) := R(B) as float - R(C) as float
 MULF       A B C     R(A) := R(B) as float * R(C) as float
