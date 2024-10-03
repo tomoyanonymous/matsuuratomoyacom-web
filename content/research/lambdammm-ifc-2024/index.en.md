@@ -116,7 +116,7 @@ The types and terms of $\lambda_{mmm}$ are presented in Figure [1](#fig:syntax_
 
 Two terms are introduced in addition to the standard simply typed lambda calculus: $delay\ n\ e_1\ e_2$, which refers to the previous value of $e_1$ by $e_2$ samples (with a maximum delay of $n$ to limit memory usage to a finite size), and $feed\ x.e$, an abstraction that allows the user to refer to the result of evaluating $e$ from one time unit earlier as $x$ during the evaluation of $e$ itself.
 
-### Syntactic Sugar of the Feedback Expression in _mimium_ {#sec:mimium}
+### Syntactic Sugar of the Feedback Expression in mimium {#sec:mimium}
 
 The programming language _mimium_, developed by the author, includes a keyword $self$ that can be used in function definitions to refer to the previous return value of the function. An example of a simple one-pole filter function, which mixes the input and last output signals such that the sum of the input and feedback gains is 1, is shown in Listing [1](#lst:onepole). This code can be expressed in  as illustrated in Figure [2](#fig:onepole).
 
