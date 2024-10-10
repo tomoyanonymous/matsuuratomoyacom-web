@@ -234,30 +234,32 @@ Luaのupvalue演算に加えて、$delay$ と $feed$ 式のコンパイルを処
 <figure id="fig:instruction">
 
 ```
-MOVE       A B      R(A) := R(B)
-MOVECONST  A B      R(A) := K(B)
-GETUPVALUE A B      R(A) := U(B)
-SETUPVALUE A B      U(B) := R(A)
-GETSTATE   A        R(A) := SPtr[SPos]
-SETSTATE   A        Sptr[SPos] := R(A)
-SHIFTSTATE sAx      SPos += sAx
-DELAY      A B      R(A) := update_ringbuffer(SPtr[SPos],R(B))
-JMP        sAx      PC +=sAx
-JMPIFNEG   A sBx    if (R(A)\<0) then PC += sBx
-CALL       A B C    R(A),...,R(A+C-2) := program.functions[R(A)](R(A+1),...,R(A+B-1))
-CALLCLS    A B C    Sptr := vm.closures[R(A)].Sptr
-                    R(A),...,R(A+C-2) := vm.closures[R(A)].fnproto(R(A+1),...,R(A+B-1))
-                    Sptr := vm.global_sptr
-CLOSURE    A Bx     vm.closures.push(closure(program.functions[R(Bx)]))
-                    R(A) := vm.closures.length - 1
-CLOSE      A        close stack variables up to R(A)
-RETURN     A B      return R(A), R(A+1)...,R(A+B-2)
-ADDF       A B C     R(A) := R(B) as float + R(C) as float
-SUBF       A B C     R(A) := R(B) as float - R(C) as float
-MULF       A B C     R(A) := R(B) as float * R(C) as float
-DIVF       A B C     R(A) := R(B) as float / R(C) as float
-ADDF       A B C     R(A) := R(B) as int + R(C) as in
-...Other basic arithmetics continues for each primitive types...
+  MOVE       A B      R(A) := R(B)
+  MOVECONST  A B      R(A) := K(B)
+  GETUPVALUE A B      R(A) := U(B)
+  SETUPVALUE A B      U(B) := R(A)
+  GETSTATE   A        R(A) := SPtr[SPos] *
+  SETSTATE   A        Sptr[SPos] := R(A) *
+  SHIFTSTATE sAx      SPos += sAx *
+  DELAY      A B C    R(A) := update_ringbuffer(SPtr[SPos],R(B),R(C)) *
+//*(SPos,SPtr)= vm.closures[vm.statepos_stack.top()].state
+//(if vm.statepos_stack is empty, use global state storage.)
+  JMP        sAx      PC +=sAx
+  JMPIFNEG   A sBx    if (R(A)\<0) then PC += sBx
+  CALL       A B C    R(A),...,R(A+C-2) := program.functions[R(A)](R(A+1),...,R(A+B-1))
+  CALLCLS    A B C    vm.statepos_stack.push(R(A))
+                      R(A),...,R(A+C-2) := vm.closures[R(A)].fnproto(R(A+1),...,R(A+B-1))
+                      vm.statepos_stack.pop()
+  CLOSURE    A Bx     vm.closures.push(closure(program.functions[R(Bx)]))
+                      R(A) := vm.closures.length - 1
+  CLOSE      A        close stack variables up to R(A)
+  RETURN     A B      return R(A), R(A+1)\...,R(A+B-2)
+  ADDF       A B C     R(A) := R(B) as float + R(C) as float
+  SUBF       A B C     R(A) := R(B) as float - R(C) as float
+  MULF       A B C     R(A) := R(B) as float * R(C) as float
+  DIVF       A B C     R(A) := R(B) as float / R(C) as float
+  ADDF       A B C     R(A) := R(B) as int + R(C) as in
+...Other basic arithmetics continues for each primitive types...  
 ```
 
 <figcaption>
@@ -603,7 +605,7 @@ fn dsp(){
 
 ## 謝辞
 
-本研究は、日本学術振興会科研費若手研究「音楽と工学の相互批評的実践としての「音楽土木工学」の研究 」（JP19K21615）の助成を受けた。また、多くの匿名査読者に感謝する。
+本研究は、日本学術振興会科研費若手研究「音楽と工学の相互批評的実践としての「音楽土木工学」の研究 」（23K12059）の助成を受けた。また、多くの匿名査読者に感謝する。
 
 ## 参考文献
 
