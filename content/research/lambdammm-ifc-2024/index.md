@@ -622,6 +622,6 @@ fn dsp(){
 - [11] P. Jouvelot and Y. Orlarey, "Dependent vector types for data structuring in multirate Faust," *Computer Languages, Systems & Structures*, vol. 37, no. 3, pp. 113--131, 2011.
 
 [^1]: 本稿で紹介したモデルに基づくmimiumコンパイラとVMの新しいバージョンはGitHub上で上で公開されている。<https://github.com/tomoyanonymous/mimium-rs>
-[^2]: 実際の実装では、特にタプルのような集約型を扱うために、`MOVE`のような命令には値のワードサイズを指定する追加のオペランドが含んでいる。
+[^2]: 実際の実装では、タプルのような多ワードサイズな値の型を扱うために、`MOVE`のような命令には値のワードサイズを指定する追加のオペランドが含んでいる。
 [^3]: 以前のmimiumの仕様[6]では、変数束縛と破壊的代入の構文は同じ（`x = a`）だった。しかし、新しいバージョンの構文では、変数の束縛に `let` キーワードを使用している。
 [^4]: 実際、mimiumの実装では、Rustのクロージャを渡して呼び出すことで、VMとオーディオドライバの相互運用を実現している。
