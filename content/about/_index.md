@@ -39,7 +39,9 @@ Web Site : <https://matsuuratomoya.com>
 
 ---
 
-## Education
+## [CV](./cv)
+
+### Education
 
 1994年神奈川県茅ヶ崎市生まれ 神奈川県在住
 
@@ -53,7 +55,7 @@ Web Site : <https://matsuuratomoya.com>
 
 2019.04~2022.03 九州大学 大学院芸術工学府 博士後期課程芸術工学専攻 コンテンツ・クリエーティブデザインコース （城一裕研究室）
 
-## Works
+### Employments
 
 2015.02~2017.03 teamlab サウンドエンジニア
 

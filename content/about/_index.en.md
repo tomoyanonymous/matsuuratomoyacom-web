@@ -39,11 +39,14 @@ Web Site : <https://matsuuratomoya.com/en>
 
 **[See Full Artist Statement](./statement)**
 
+**[Full CV](./cv)**
+
+
 ---
 
-# CV
+## [CV](./cv)
 
-## Education
+### Education
 
 Born in 1994 in Chigasaki City, Kanagawa Pref. Living in Kanagawa Pref. Japan.
 
@@ -57,7 +60,7 @@ Born in 1994 in Chigasaki City, Kanagawa Pref. Living in Kanagawa Pref. Japan.
 
 2019.04~2022.03 Kyushu University Graduate School of Design, Ph.D Program, Department of Design, Content and Creative Design Course(Jo Kazuhiro lab.)
 
-## Work
+### Employments
 
 2015.02~2017.03 teamlab Sound Engineer
 

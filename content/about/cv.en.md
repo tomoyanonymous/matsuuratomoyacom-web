@@ -4,30 +4,43 @@ layout: single
 ogpimage: ogp.jpg
 ---
 
-## **[Research Proposal](../researchstatement2021)**
+<style>
+    @media print {
+      .navbar, .footer ,.header-link {
+        display: none;
+      }
+      .text-base-content .prose{
+        max-width:90ch
+      }
 
-# Curriculum Vitae([日本語](/about/cv))
+    }
+</style>
+
+# Curriculum Vitae
 
 # 松浦知也 / Matsuura Tomoya
 
-me@matsuuratomoya.com
+Project Assistant Professor, Art Media Center, Tokyo University of the Arts
+
+110-8714 Ueno Park 12-8, Taito-ku, Tokyo, Japan. Tokyo University of the Arts, Factory Complex A 2F Art Media Center Office
+
+me@matsuuratomoya.com https://matsuuratomoya.com
+
 
 Born in 1994 in Chigasaki City, Kanagawa Pref. Living in Kanagawa Pref., Japan.
 
+Last Updated: 2024.11.08
+
 ## Educations
 
-2010.04~2013.03 Kanagawa Sohgoh Highschool
-
-2013.04~2017.03 Tokyo University of the Arts Music Creation and Environment in Music Program(Project 3:Sound Engineering, Kamekawa Toru lab.) Bachelor(Music)
-
-2017.04~2019.04 Kyushu University Graduate School of Design, Master Program Department of Design, Content and Creative Design Course, Digital Content Design Division(Jo Kazuhiro lab.)
-
-2018.09~11 [School for Poetic Computation](https://sfpc.io) Fall 2018 Class
-
-2019.04~2022.03 Kyushu University Graduate School of Design, Ph.D Program Department of Design, Content and Creative Design Course(Jo Kazuhiro lab.)
+- 2010.04~2013.03 Kanagawa Sohgoh Highschool
+- 2013.04~2017.03 Tokyo University of the Arts Music Creation and Environment in Music Program(Project 3:Sound Engineering, Kamekawa Toru lab.) Bachelor(Music)
+- 2017.04~2019.04 Kyushu University Graduate School of Design, Master Program Department of Design, Content and Creative Design Course, Digital Content Design Division(Jo Kazuhiro lab.)
+- 2018.09~11 [School for Poetic Computation](https://sfpc.io) Fall 2018 Class
+- 2019.04~2022.03 Kyushu University Graduate School of Design, Ph.D Program Department of Design, Content and Creative Design Course(Jo Kazuhiro lab.)
 
 
-##  Jobs/Internship
+## Employments
 
 2015.02~2017.03 teamlab Sound Engineer
 
@@ -41,23 +54,19 @@ Born in 1994 in Chigasaki City, Kanagawa Pref. Living in Kanagawa Pref., Japan.
 
 ## Grants/Scholarships
 
-2015 [Ataka-Scholarship](https://www.geidai.ac.jp/life/scholarship/geidai_scholarship)
+- 2015 [Ataka-Scholarship](https://www.geidai.ac.jp/life/scholarship/geidai_scholarship)
+- 2018,2020 [KAKEHASHI foundation](https://www.kakehashi-foundation.jp) Scholarship Student
+- 2019 Information Promotion Agency Mitou IT Human Resounce Project(2,047,600 yen)
+- 2023-2026 KAKENHI　Grant-in-Aid for Early-Career Scientists (23K12059) "Civil Engineering of Music, as a Practice and Critics between Music and Engineering" https://kaken.nii.ac.jp/ja/grant/KAKENHI-PROJECT-23K12059/
 
-2018,2020 [KAKEHASHI foundation](https://www.kakehashi-foundation.jp) Scholarship Student
-
-2019 Information Promotion Agency Mitou IT Human Resounce Project(2,047,600 yen)
 
 ## Awards
 
-2017(on the Graduation of the Bachelor) [Acanthus Music Prize](https://www.geidai.ac.jp/information/prize/acanthus)
-
-2017 Asia Digital Art Award 2017 Interactive Art(Student) Section Finalist Award ([送れ | 遅れ / post | past](/en/works/post-past_sotsuten))
-
-2017 23rd Campus Genius Award Nominate ([送れ | 遅れ / post | past](/en/works/post-past_sotsuten))
-
-2019 [Kitakyushu Digital Creators Contest　Selected](http://kdcc.info/archive/2019.html) ([Aphysical Unmodeling Instrument](/en/works/aphysical-unmodeling-instrument))
-
-2020　Information Promotion Agency Mitou IT Human Resounce Project Super Creator
+- 2017(on the Graduation of the Bachelor) [Acanthus Music Prize](https://www.geidai.ac.jp/information/prize/acanthus)
+- 2017 Asia Digital Art Award 2017 Interactive Art(Student) Section Finalist Award ([送れ | 遅れ / post | past](/en/works/post-past_sotsuten))
+- 2017 23rd Campus Genius Award Nominate ([送れ | 遅れ / post | past](/en/works/post-past_sotsuten))
+- 2019 [Kitakyushu Digital Creators Contest　Selected](http://kdcc.info/archive/2019.html) ([Aphysical Unmodeling Instrument](/en/works/aphysical-unmodeling-instrument))
+- 2020　Information Promotion Agency Mitou IT Human Resounce Project Super Creator
 
 ## Publications
 
@@ -72,24 +81,12 @@ Born in 1994 in Chigasaki City, Kanagawa Pref. Living in Kanagawa Pref., Japan.
 1. **Matsuura, T**. and Jo, K. 2018. Aphysical Unmodeling Instrument : Sound Installation that Re-Physicalizes a Meta-Wind-Instrument Physical Model , Whirlwind. New Interfaces for Musical Expression (2018), 29–30.**[PDF](http://www.nime.org/proceedings/2018/nime2018_paper0006.pdf)**
 1. **松浦知也** and 城一裕 2017. 『Aphysical Unmodeling Instrument』 ―モデリングから音・音楽を再考するサウンドインスタレーション―. 先端芸術音楽創作学会 会報 (Dec. 2017), 17–26. **[PDF](http://data.jssa.info/paper/2017v09n03/3.Matsuura.pdf)**
 
+## Teaching
 
-## Technical Skills
-
-### Programming
-
-- Expert - Cycling'74 Max、C++(JUCE、CMake、Openframeworks & etc)、Faust
-- Experienced - HTML/CSS、JavaScript、TypeScript、Python、R、Julia
-
-### Fabrication
-
-- Autodesk Eagle、Fusion360
-- Digital Fabrication(3D printing,CNC milling machine,laser cutter & etc)
-
-### Audio
-
-- Basic Sound Recording & Mixing
-- Nuendo
-- Protools
+- 2020~ "Sound Design" at Fukuoka Jogakuin University, https://teach.matsuuratomoya.com/docs/2020/fukujo-sounddesign/ (Summer intensive program after 2022.)
+- 2023~ "Code and Design" at Tokyo University of the Arts, Art Media Center, https://teach.matsuuratomoya.com/docs/2023/code-design/
+- 2023~ "Media Art Programming 2" at Tokyo University of the Arts, Art Media Center, https://teach.matsuuratomoya.com/docs/2023/mediaart-programming2/
+- 2023~ "Media Special Lecture" at Tokyo University of the Arts, Art Media Center (Hosting an omnibus guest lecture)
 
 ## Artistic Activities
 
@@ -134,13 +131,16 @@ Born in 1994 in Chigasaki City, Kanagawa Pref. Living in Kanagawa Pref., Japan.
 - 楽譜づくり・楽器作り(Yakuin IAF Shop*) 2017.10.31
 - Tsukuruto！vol.3(Kyushu University Ohashi Campus) 2017.06.10
 
-### Shuta Hasunuma Full Philharmonic Orchestra
+#### Shuta Hasunuma Full Philharmonic Orchestra
 
-Release
 
-- [Fullphony(2020)](https://www.hasunumaphil.com/fullphony/)
-
-Live Performance
 - 「GENKYO Yokoo Tadanori」Associated programs One-coin relay concert vol.03 （Oita Otono Izumi Hall, as a guest of Hasunuma Shuta Philharmonic Orchestra）, 2021.12.14
+- Album [Fullphony(2020)](https://www.hasunumaphil.com/fullphony/)
 - Hibiya, Toki ga Kanaderu（Hibiya Yagai Ongakudo）2019.08.25
 - Fullphony（Sumida Triphony Hall）2018.08.18
+
+### Technical Support & Sound Design for Other Artists
+
+- SIDE CORE 「road work ver. under city」(2024.08-12), SIDE CORE｜Concrete Planet, Watarium, http://www.watarium.co.jp/jp/exhibition/202408/ （Sound Design for the Video Work, System Design and Programming for Multichannel Playback & Synchronization）
+- SIDE CORE 「road work ver. under city」 (2023) . https://ccbt.rekibun.or.jp/events/rodework_ver_undercity (Sound Design for the Video Work)
+- Umeda Tetsuya On the origin of voices, Fukuoka Prefectural Museum, 2019 https://umeda.exhb.jp/ (Development of the hardware for rotating speakers and synchronize lightings for sound sources)
