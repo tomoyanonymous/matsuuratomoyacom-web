@@ -12,7 +12,7 @@ ogpimage: ogp.jpg
 
 me@matsuuratomoya.com
 
-Born in 1994 in Chigasaki City, Kanagawa Pref. Living in Fukuoka Pref. Japan.
+Born in 1994 in Chigasaki City, Kanagawa Pref. Living in Kanagawa Pref., Japan.
 
 ## Educations
 
@@ -38,6 +38,7 @@ Born in 1994 in Chigasaki City, Kanagawa Pref. Living in Fukuoka Pref. Japan.
 2020~  Fukuoka Jo Gakuin University Part-time teacher (Sound Design)
 
 2020.04~ Project Assistant Professor at [Art Media Center](https://amc.geidai.ac.jp), Tokyo University of the Arts
+
 ## Grants/Scholarships
 
 2015 [Ataka-Scholarship](https://www.geidai.ac.jp/life/scholarship/geidai_scholarship)
@@ -60,21 +61,16 @@ Born in 1994 in Chigasaki City, Kanagawa Pref. Living in Fukuoka Pref. Japan.
 
 ## Publications
 
-[1] **松浦知也**、Designing Civil Engineering of Music through the development of mimium, a programming language for music, 2022 Ph.D dissertation in Kyushu University(in Japanese) **(to be published via Kyushu University Library at Online)**
-
-[1] **松浦知也**、メディア考古学的視点から音の生成を再考する3つの作品制作、2019、九州大学大学院芸術工学府修士論文 [PDF](https://github.com/tomoyanonymous/shuron/releases/download/v2.0.0/TomoyaMatsuura-MasterThesis-Submission.pdf)
-
-
-[2] **Matsuura, T**. and Jo, K. 2021. mimium: A Self-Extensible Programming Language for Sound and Music. FARM 2021 - Proceedings of the ACM SIGPLAN International Workshop on Functional Art, Music, Modeling, and Design (2021, to be published). [Preprint URL](https://doi.org/10.5281/zenodo.5044732)
-
-[3] Ioannidis, P., **Matsuura, T**. and et al. 2019. Exploring the Cross-Species Experience and the Coevolutionary Capacity: Sensorial Transcoding and Critical Play Design of Bio-Sonic Sense. Proceeding of RE:SOUND 2019 – 8th International Conference on Media Art, Science, and Technology (RE:SOUND 2019) (Aug. 2019), 139–144.[URL](http://dx.doi.org/10.14236/ewic/RESOUND19.22)
-
-[4] **Matsuura, T**. and Jo, K. 2019. 計算機による音生成の異なるあり方を探る『Electronic Delay Time Automatic Calculator』の制作. 先端芸術音楽創作学会 会報 (Mar. 2019), 43–49.[PDF](http://data.jssa.info/paper/2019v11n01/9.Matsuura.pdf)
-
-[5] **Matsuura, T**. and Jo, K. 2018. Aphysical Unmodeling Instrument : Sound Installation that Re-Physicalizes a Meta-Wind-Instrument Physical Model , Whirlwind. New Interfaces for Musical Expression (2018), 29–30.[PDF](http://www.nime.org/proceedings/2018/nime2018_paper0006.pdf)
-
-[6] **松浦知也** and 城一裕 2017. 『Aphysical Unmodeling Instrument』 ―モデリングから音・音楽を再考するサウンドインスタレーション―. 先端芸術音楽創作学会 会報 (Dec. 2017), 17–26. [PDF](http://data.jssa.info/paper/2017v09n03/3.Matsuura.pdf)
-
+1. **松浦知也**, 無いことは口にできない、口にしないなら無い？–ジョナサン・スターン『減退した能力-インペアメントの政治的現象学』書評, メディウム 第5号, 2024(to be published)
+1. **Matsuura, T**, Lambda-mmm: the Intermediate Representation for Synchronous Signal Processing Language Based on Lambda Calculus, Proceedings of International Faust Conference 2024, 2024 [Preprint PDF](https://doi.org/10.5281/zenodo.13855343)
+1. **松浦知也**, 地球を掻き鳴らすピック – おおしまたくろう「滑琴狂走曲 in 秋田！（カッキンラプソディー・イン・アキタ）」（2023年1月15日）レビュー, 秋田市文化創造館 Webサイト, 2023, [URL](https://akitacc.jp/article/oshima_review/) 
+1. **松浦知也**、[音楽土木工学を設計する—音楽のためのプログラミング言語mimiumの開発を通じて、2022、九州大学大学院芸術工学府博士論文](/hakuron)
+1. **Matsuura, T**. and Jo, K. 2021. mimium: A Self-Extensible Programming Language for Sound and Music. FARM 2021 - Proceedings of the ACM SIGPLAN International Workshop on Functional Art, Music, Modeling, and Design (2021). **[URL](https://dl.acm.org/doi/10.1145/3471872.3472969)**
+1. **松浦知也**、メディア考古学的視点から音の生成を再考する3つの作品制作、2019、九州大学大学院芸術工学府修士論文 **[PDF](https://github.com/tomoyanonymous/shuron/releases/download/v2.0.0/TomoyaMatsuura-MasterThesis-Submission.pdf)**
+1. Ioannidis, P., **Matsuura, T**. and et al. 2019. Exploring the Cross-Species Experience and the Coevolutionary Capacity: Sensorial Transcoding and Critical Play Design of Bio-Sonic Sense. Proceeding of RE:SOUND 2019 – 8th International Conference on Media Art, Science, and Technology (RE:SOUND 2019) (Aug. 2019), 139–144.**[URL](http://dx.doi.org/10.14236/ewic/RESOUND19.22)**
+1. **Matsuura, T**. and Jo, K. 2019. 計算機による音生成の異なるあり方を探る『Electronic Delay Time Automatic Calculator』の制作. 先端芸術音楽創作学会 会報 (Mar. 2019), 43–49.**[PDF](http://data.jssa.info/paper/2019v11n01/9.Matsuura.pdf)**
+1. **Matsuura, T**. and Jo, K. 2018. Aphysical Unmodeling Instrument : Sound Installation that Re-Physicalizes a Meta-Wind-Instrument Physical Model , Whirlwind. New Interfaces for Musical Expression (2018), 29–30.**[PDF](http://www.nime.org/proceedings/2018/nime2018_paper0006.pdf)**
+1. **松浦知也** and 城一裕 2017. 『Aphysical Unmodeling Instrument』 ―モデリングから音・音楽を再考するサウンドインスタレーション―. 先端芸術音楽創作学会 会報 (Dec. 2017), 17–26. **[PDF](http://data.jssa.info/paper/2017v09n03/3.Matsuura.pdf)**
 
 
 ## Technical Skills
@@ -113,6 +109,11 @@ Born in 1994 in Chigasaki City, Kanagawa Pref. Living in Fukuoka Pref. Japan.
 
 ### Performances
 
+- Sun Yizhou & Hiroyuki Ura & Naoki Nomoto, Ayami Suzuki & Takashi Masubuchi, Tomoya Matsuura, Satoshi Yashiro ,DJ FACE 2 FACE INOKI at ForestLimit 2023.07.04
+- Stain at Kyushu University Ohashi Campus 2023.05.13 
+- Dynamics Range Semame, BUoY, 2022.09.22
+- Cyber Turn vol.1, Shimokitazawa LIVE HAUS, 2022.08.08
+- TELE MUSICKING, Goethe-Institute Tokyo, 2022.05.28
 - Solo Performance at Suidoubashi Ftarri, 2021.04.29
 - A mashup for "Nothing is Real(Strawberry fields)" & "I am sitting in a room" by Alvin Lucier, Online Performance, 2020.08.20
 - COMPUTER MUSIC PARTY(Ochiai Soup), 2019.12.08
@@ -140,6 +141,6 @@ Release
 - [Fullphony(2020)](https://www.hasunumaphil.com/fullphony/)
 
 Live Performance
-
+- 「GENKYO Yokoo Tadanori」Associated programs One-coin relay concert vol.03 （Oita Otono Izumi Hall, as a guest of Hasunuma Shuta Philharmonic Orchestra）, 2021.12.14
 - Hibiya, Toki ga Kanaderu（Hibiya Yagai Ongakudo）2019.08.25
 - Fullphony（Sumida Triphony Hall）2018.08.18

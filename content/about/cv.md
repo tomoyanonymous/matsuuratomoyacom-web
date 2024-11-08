@@ -68,20 +68,27 @@ me@matsuuratomoya.com
 
 ## Selected Publications
 
-[1] **松浦知也**、音楽土木工学を設計する—音楽のためのプログラミング言語mimiumの開発を通じて、2022、九州大学大学院芸術工学府博士論文 **(to be published via Kyushu University Library at Online)**
+1. **松浦知也**, 無いことは口にできない、口にしないなら無い？–ジョナサン・スターン『減退した能力-インペアメントの政治的現象学』書評, メディウム 第5号, 2024(to be published)
+1. **Matsuura, T**, Lambda-mmm: the Intermediate Representation for Synchronous Signal Processing Language Based on Lambda Calculus, Proceedings of International Faust Conference 2024, 2024 [Preprint PDF](https://doi.org/10.5281/zenodo.13855343)
+1. **松浦知也**, 地球を掻き鳴らすピック – おおしまたくろう「滑琴狂走曲 in 秋田！（カッキンラプソディー・イン・アキタ）」（2023年1月15日）レビュー, 秋田市文化創造館 Webサイト, 2023, [URL](https://akitacc.jp/article/oshima_review/) 
+1. **松浦知也**、[音楽土木工学を設計する—音楽のためのプログラミング言語mimiumの開発を通じて、2022、九州大学大学院芸術工学府博士論文](/hakuron)
+1. **Matsuura, T**. and Jo, K. 2021. mimium: A Self-Extensible Programming Language for Sound and Music. FARM 2021 - Proceedings of the ACM SIGPLAN International Workshop on Functional Art, Music, Modeling, and Design (2021). **[URL](https://dl.acm.org/doi/10.1145/3471872.3472969)**
+1. **松浦知也**、メディア考古学的視点から音の生成を再考する3つの作品制作、2019、九州大学大学院芸術工学府修士論文 **[PDF](https://github.com/tomoyanonymous/shuron/releases/download/v2.0.0/TomoyaMatsuura-MasterThesis-Submission.pdf)**
+1. Ioannidis, P., **Matsuura, T**. and et al. 2019. Exploring the Cross-Species Experience and the Coevolutionary Capacity: Sensorial Transcoding and Critical Play Design of Bio-Sonic Sense. Proceeding of RE:SOUND 2019 – 8th International Conference on Media Art, Science, and Technology (RE:SOUND 2019) (Aug. 2019), 139–144.**[URL](http://dx.doi.org/10.14236/ewic/RESOUND19.22)**
+1. **Matsuura, T**. and Jo, K. 2019. 計算機による音生成の異なるあり方を探る『Electronic Delay Time Automatic Calculator』の制作. 先端芸術音楽創作学会 会報 (Mar. 2019), 43–49.**[PDF](http://data.jssa.info/paper/2019v11n01/9.Matsuura.pdf)**
+1. **Matsuura, T**. and Jo, K. 2018. Aphysical Unmodeling Instrument : Sound Installation that Re-Physicalizes a Meta-Wind-Instrument Physical Model , Whirlwind. New Interfaces for Musical Expression (2018), 29–30.**[PDF](http://www.nime.org/proceedings/2018/nime2018_paper0006.pdf)**
+1. **松浦知也** and 城一裕 2017. 『Aphysical Unmodeling Instrument』 ―モデリングから音・音楽を再考するサウンドインスタレーション―. 先端芸術音楽創作学会 会報 (Dec. 2017), 17–26. **[PDF](http://data.jssa.info/paper/2017v09n03/3.Matsuura.pdf)**
 
-[2] **松浦知也**、メディア考古学的視点から音の生成を再考する3つの作品制作、2019、九州大学大学院芸術工学府修士論文 **[PDF](https://github.com/tomoyanonymous/shuron/releases/download/v2.0.0/TomoyaMatsuura-MasterThesis-Submission.pdf)**
+## Selected Talks/Lectures/Presenations
 
-[3] **Matsuura, T**. and Jo, K. 2021. mimium: A Self-Extensible Programming Language for Sound and Music. FARM 2021 - Proceedings of the ACM SIGPLAN International Workshop on Functional Art, Music, Modeling, and Design (2021, to be published). **[Preprint URL](https://doi.org/10.5281/zenodo.5044732)**
-
-[4] Ioannidis, P., **Matsuura, T**. and et al. 2019. Exploring the Cross-Species Experience and the Coevolutionary Capacity: Sensorial Transcoding and Critical Play Design of Bio-Sonic Sense. Proceeding of RE:SOUND 2019 – 8th International Conference on Media Art, Science, and Technology (RE:SOUND 2019) (Aug. 2019), 139–144.**[URL](http://dx.doi.org/10.14236/ewic/RESOUND19.22)**
-
-[5] **Matsuura, T**. and Jo, K. 2019. 計算機による音生成の異なるあり方を探る『Electronic Delay Time Automatic Calculator』の制作. 先端芸術音楽創作学会 会報 (Mar. 2019), 43–49.**[PDF](http://data.jssa.info/paper/2019v11n01/9.Matsuura.pdf)**
-
-[6] **Matsuura, T**. and Jo, K. 2018. Aphysical Unmodeling Instrument : Sound Installation that Re-Physicalizes a Meta-Wind-Instrument Physical Model , Whirlwind. New Interfaces for Musical Expression (2018), 29–30.**[PDF](http://www.nime.org/proceedings/2018/nime2018_paper0006.pdf)**
-
-[7] **松浦知也** and 城一裕 2017. 『Aphysical Unmodeling Instrument』 ―モデリングから音・音楽を再考するサウンドインスタレーション―. 先端芸術音楽創作学会 会報 (Dec. 2017), 17–26. **[PDF](http://data.jssa.info/paper/2017v09n03/3.Matsuura.pdf)**
-
+1. **松浦知也**, 言葉を作ること、ないことについて話すこと, 九州大学芸術工学部 「音楽音響論」ゲスト講義, online, 2024.10.22 (Invited)
+1. **松浦知也**, 想像しうる音を、すべてあなた(たち)に – 音楽の道具としてのパーソナル・コンピューター論概説, 美学校「基礎教養シリーズ〜ゼロから聴きたいテクノロジーと音楽史〜」, 2024.02.25 (Invited)
+1. **Matsuura, T** Domain-Spcificity, Normativity and Generality of the CST for Arts, AIST Creative HCI Seminor #5 Creativity Support Tools for artistic work, online, 2023.11.23 (Invited)
+1. **松浦知也**　九州大学芸術工学部 「音楽音響論」ゲスト講義, online, 2022-10-20 (Invited)
+1. **Matsuura, T**, Jo, K and Kubota, A, Towards a Civil Engineering of Music, a critical perspective on cultural and the military use of the computer for music, Rethinking the History of Technology-based Music, 2022.06.10
+1. **松浦知也**, 城一裕, mimium:音と音楽のための自己拡張性の高いプログラミング言語の設計と実装, 第29回インタラクティブシステムとソフトウェアに関するワークショップ(WISS 2021), 2021.12.08
+1. **松浦知也**, 技術は（本当の意味で）音楽を変えられるのか？, x-music 研究会, 2020.06.06 (Invited) [Slide](https://speakerdeck.com/tomoyanonymous/can-we-seriously-change-music) [Report](https://medium.com/x-music-lab/%E6%8A%80%E8%A1%93%E3%81%AF%E9%9F%B3%E6%A5%BD%E3%82%92-%E6%9C%AC%E5%BD%93%E3%81%AE%E6%84%8F%E5%91%B3%E3%81%A7-%E5%A4%89%E3%81%88%E3%82%89%E3%82%8C%E3%82%8B%E3%81%AE%E3%81%8B-%E6%9D%BE%E6%B5%A6%E7%9F%A5%E4%B9%9F-b6c9ba64f704)
+1. **松浦知也**, 城一裕 ,オーディオフィードバックに基づく電子音響楽器“Exidiophone”, 日本音楽学会西日本支部 7月例会, 2018.07.14
 
 ## Technical Skills
 
@@ -119,6 +126,11 @@ me@matsuuratomoya.com
 
 ### Performances
 
+- Sun Yizhou & Hiroyuki Ura & Naoki Nomoto, Ayami Suzuki & Takashi Masubuchi, Tomoya Matsuura, Satoshi Yashiro ,DJ FACE 2 FACE INOKI at ForestLimit 2023.07.04
+- Stain at 九州大学大橋キャンパス音響特殊棟 2023.05.13 
+- ダイナミクスレンジせまめ, BUoY, 2022.09.22
+- サイバーターンvol.1, 下北沢 LIVE HAUS, 2022.08.08
+- TELE MUSICKING, ゲーテ・インスティテュート東京, 2022.05.28
 - Solo Performance at 水道橋Ftarri, 2021.04.29
 - A mashup for "Nothing is Real(Strawberry fields)" & "I am sitting in a room" by Alvin Lucier, Online Performance, 2020.08.20
 - COMPUTER MUSIC PARTY(落合Soup), 2019.12.08
@@ -147,5 +159,6 @@ me@matsuuratomoya.com
 
 ライブ
 
+- 「GENKYO 横尾忠則」関連企画 ワンコインリレーコンサート vol.03 （大分音の泉ホール、蓮沼執太フィルゲスト出演）、2021.12.14
 - 日比谷、時が奏でる（日比谷野外音楽堂）2019.08.25
 - フルフォニー（すみだトリフォニーホール）2018.08.18
