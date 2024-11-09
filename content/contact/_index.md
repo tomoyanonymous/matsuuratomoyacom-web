@@ -17,7 +17,7 @@ layout: single
 
 - イベントのレビュー執筆：[地球を掻き鳴らすピック - おおしまたくろう「滑琴狂走曲 in 秋田！（カッキンラプソディー・イン・アキタ）」（2023年1月15日）レビュー](https://akitacc.jp/article/oshima_review/)
 - 単発レクチャー：[「基礎教養シリーズ〜ゼロから聴きたいテクノロジーと音楽史〜」講師：imdkm／ゲスト：松浦知也](https://bigakko.jp/event/2024/technology_and_music_history)
-- 共同研究：[CCBTと大学・研究機関との協働事業「音楽デバイス開発プロジェクト」](https://ccbt.rekibun.or.jp/research-notes/musical-device-project-01)(個人で依頼いただいたものを大学経由で共同研究化)
+- 共同研究：[CCBTと大学・研究機関との協働事業「音楽デバイス開発プロジェクト」](https://ccbt.rekibun.or.jp/research-notes/diverstiy-and-inclusion-project-02)(個人で依頼いただいたものを大学経由で共同研究化)
 - 映像作品サウンドデザイン：[SIDE CORE「rode work ver. under city」](https://ccbt.rekibun.or.jp/events/rodework_ver_undercity)
 
 ---
