@@ -5,20 +5,25 @@ ogpimage: ogp.jpg
 ---
 
 <style>
+    .no-print{
+        font-size: 70%;
+        text-decoration:underline;
+    }
     @media print {
-      .navbar, .footer ,.header-link {
+    .navbar, .footer ,.header-link .no-print{
         display: none;
-      }
-      .text-base-content .prose{
+    }
+    .text-base-content .prose{
         max-width:90ch
-      }
-
+    }
     }
 </style>
 
 # Curriculum Vitae
 
-# 松浦知也 / Matsuura Tomoya
+<p class="no-print">※This CV is printable. You can obtain PDF version by specifying "Save as PDF" from print option.</p>
+
+## 松浦知也 / Matsuura Tomoya
 
 Project Assistant Professor, Art Media Center, Tokyo University of the Arts
 
@@ -42,15 +47,11 @@ Last Updated: 2024.11.08
 
 ## Employments
 
-2015.02~2017.03 teamlab Sound Engineer
-
-2015.08~09 YCAM(Yamaguchi Center for Art and Media) interlab Internship
-
-2019.08 SFPC Summer 2019 in Yamaguchi Teaching Assistant
-
-2020~  Fukuoka Jo Gakuin University Part-time teacher (Sound Design)
-
-2020.04~ Project Assistant Professor at [Art Media Center](https://amc.geidai.ac.jp), Tokyo University of the Arts
+- 2015.02~2017.03 teamlab Sound Engineer
+- 2015.08~09 YCAM(Yamaguchi Center for Art and Media) interlab Internship
+- 2019.08 SFPC Summer 2019 in Yamaguchi Teaching Assistant
+- 2020~  Fukuoka Jo Gakuin University Part-time teacher (Sound Design)
+- 2020.04~ Project Assistant Professor at [Art Media Center](https://amc.geidai.ac.jp), Tokyo University of the Arts
 
 ## Grants/Scholarships
 
@@ -59,6 +60,9 @@ Last Updated: 2024.11.08
 - 2019 Information Promotion Agency Mitou IT Human Resounce Project(2,047,600 yen)
 - 2023-2026 KAKENHI　Grant-in-Aid for Early-Career Scientists (23K12059) "Civil Engineering of Music, as a Practice and Critics between Music and Engineering" https://kaken.nii.ac.jp/ja/grant/KAKENHI-PROJECT-23K12059/
 
+### Joint Research
+
+- 2023-2024 Associated Programs between CCBT and University/Research Institute "Music Device Development Project" https://artdx.geidai.ac.jp/research/ccbt-music-inclusion-project https://ccbt.rekibun.or.jp/research-notes/diverstiy-and-inclusion-project-02
 
 ## Awards
 

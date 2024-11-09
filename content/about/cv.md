@@ -5,8 +5,12 @@ ogpimage: ogp.jpg
 ---
 
 <style>
+    .no-print{
+        font-size: 70%;
+        text-decoration:underline;
+    }
     @media print {
-      .navbar, .footer ,.header-link {
+      .navbar, .footer ,.header-link,.no-print {
         display: none;
       }
       .text-base-content .prose{
@@ -17,6 +21,8 @@ ogpimage: ogp.jpg
 </style>
 
 # Curriculum Vitae
+
+<p class="no-print">※このCVは印刷可能です。印刷オプションからPDFに保存することでPDF版を取得することができます。</p>
 
 ## 松浦知也 / Matsuura Tomoya
 
@@ -30,7 +36,7 @@ me@matsuuratomoya.com https://matsuuratomoya.com
 
 Last Updated: 2024.11.08
 
-## Educations
+## 学歴
 
 - 2010.04~2013.03 神奈川県立神奈川総合高等学校 普通科個性化コース
 - 2013.04~2017.03 東京藝術大学 音楽学部音楽環境創造科 プロジェクト 3(録音/サウンドデザイン専攻)、亀川徹研究室 学士（音楽）
@@ -38,7 +44,7 @@ Last Updated: 2024.11.08
 - 2018.09~11 [School for Poetic Computation](https://sfpc.io) Fall 2018 Class Student
 - 2019.04~2022.03 九州大学 大学院芸術工学府 博士後期課程芸術工学専攻 コンテンツ・クリエーティブデザインコース （城一裕研究室）
 
-## Employments
+## 職歴
 
 - 2015 山口情報芸術センター Interlab インターンシップ
 - 2015~2017 株式会社チームラボ アルバイト（サウンドチーム）
@@ -46,7 +52,7 @@ Last Updated: 2024.11.08
 - 2020.04~ 福岡女学院大学 非常勤講師（サウンド・デザイン）
 - 2022.04~ [東京藝術大学芸術情報センター(AMC)](https://amc.geidai.ac.jp) 特任助教
 
-## Grants/Scholarships
+## 奨学金・助成金
 
 - 2015 東京芸術大学　安宅賞奨学金
 - 2018 かけはし芸術文化振興財団 奨学金(月額 3 万円)
@@ -55,11 +61,11 @@ Last Updated: 2024.11.08
 - 2020 かけはし芸術文化振興財団 奨学金(月額 2 万円)
 - 2023-2026 科研費　若手研究 (23K12059) 「音楽と工学の相互批評的実践としての「音楽土木工学」の研究」 https://kaken.nii.ac.jp/ja/grant/KAKENHI-PROJECT-23K12059/
 
-### Joint Research 
+### 共同研究
 
 - 2023-2024 CCBTと大学・研究機関との協働事業「音楽デバイス開発プロジェクト」https://artdx.geidai.ac.jp/research/ccbt-music-inclusion-project https://ccbt.rekibun.or.jp/research-notes/diverstiy-and-inclusion-project-02
 
-## Awards
+## 受賞歴
 
 - 2017 東京藝術大学 アカンサス音楽賞
 - 2017 アジアデジタルアート大賞 インタラクティブアート・学生部門入賞 ([送れ | 遅れ / post | past](https://matsuuratomoya.com/works/post-past_sotsuten))
@@ -67,7 +73,7 @@ Last Updated: 2024.11.08
 - 2019 [北九州デジタルクリエーターコンテスト 2019 入選](http://kdcc.info/archive/2019.html) ([Aphysical Unmodeling Instrument](https://matsuuratomoya.com/works/aphysical-unmodeling-instrument))
 - 2020 未踏IT人材発掘・育成事業 スーパークリエータ認定
 
-## Selected Publications
+## 論文（抜粋）
 
 1. **松浦知也**, 無いことは口にできない、口にしないなら無い？–ジョナサン・スターン『減退した能力-インペアメントの政治的現象学』書評, メディウム 第5号, 2024.12(to be published)
 1. **Matsuura, T**, Lambda-mmm: the Intermediate Representation for Synchronous Signal Processing Language Based on Lambda Calculus, Proceedings of International Faust Conference 2024, 2024 https://doi.org/10.5281/zenodo.13855343 (Preprint PDF)
@@ -81,7 +87,7 @@ Last Updated: 2024.11.08
 1. **Matsuura, T**. and Jo, K. 2018. Aphysical Unmodeling Instrument : Sound Installation that Re-Physicalizes a Meta-Wind-Instrument Physical Model , Whirlwind. New Interfaces for Musical Expression (2018), 29–30, http://www.nime.org/proceedings/2018/nime2018_paper0006.pdf 
 1. **松浦知也** and 城一裕 2017. 『Aphysical Unmodeling Instrument』 ―モデリングから音・音楽を再考するサウンドインスタレーション―. 先端芸術音楽創作学会 会報 (Dec. 2017), 17–26. http://data.jssa.info/paper/2017v09n03/3.Matsuura.pdf
 
-## Selected Talks/Lectures/Presenations
+## 講演、口頭発表、ゲスト講義（抜粋）
 
 1. **松浦知也**, 言葉を作ること、ないことについて話すこと, 九州大学芸術工学部 「音楽音響論」ゲスト講義, online, 2024.10.22 (Invited)
 1. **松浦知也**, 想像しうる音を、すべてあなた(たち)に – 音楽の道具としてのパーソナル・コンピューター論概説, 美学校「基礎教養シリーズ〜ゼロから聴きたいテクノロジーと音楽史〜」, 2024.02.25 (Invited) https://teach.matsuuratomoya.com/docs/2024/bigakko-fromzero/
@@ -92,16 +98,16 @@ Last Updated: 2024.11.08
 1. **松浦知也**, 技術は（本当の意味で）音楽を変えられるのか？, x-music 研究会, 2020.06.06 (Invited) https://speakerdeck.com/tomoyanonymous/can-we-seriously-change-music
 1. **松浦知也**, 城一裕 ,オーディオフィードバックに基づく電子音響楽器“Exidiophone”, 日本音楽学会西日本支部 7 月例会, 2018.07.14
 
-## Teaching
+## 教育
 
 - 2020~ "サウンド・デザイン",　福岡女学院大学, https://teach.matsuuratomoya.com/docs/2020/fukujo-sounddesign/ (2022年以降は集中講義として開催)
 - 2023~ "コードとデザイン", 東京藝術大学芸術情報センター, https://teach.matsuuratomoya.com/docs/2023/code-design/
 - 2023~ "メディアアートプログラミング2" , 東京藝術大学芸術情報センター, https://teach.matsuuratomoya.com/docs/2023/mediaart-programming2/
 - 2023~ "メディア特論" , 東京藝術大学芸術情報センター（オムニバスゲスト講義の共同ディレクション）
 
-## Artistic Activities
+## 作家活動
 
-### Exhibitions
+### 展示
 
 - 2020.02 [カナソウトリエンナーレ 2020](https://www.instagram.com/kanasohtori/).横浜市民ギャラリー([EDTAC](https://matsuuratomoya.com/works/edtac))
 - 2019.02 インターカレッジ・ソニックアーツフェスティバル 2018. 情報科学芸術大学院大学([EDTAC](https://matsuuratomoya.com/works/edtac))
@@ -115,7 +121,7 @@ Last Updated: 2024.11.08
 - 2015.12 千住 Art Path2015.東京芸術大学千住キャンパス([Acoustic Delay (⇔) Memory](https://matsuuratomoya.com/works/ADM))
 - 2014.12 千住 Art Path2014.東京芸術大学千住キャンパス([How-ring](https://matsuuratomoya.com/works/How-ring))
 
-### Performances
+### ライブパフォーマンス
 
 - Sun Yizhou & Hiroyuki Ura & Naoki Nomoto, Ayami Suzuki & Takashi Masubuchi, Tomoya Matsuura, Satoshi Yashiro ,DJ FACE 2 FACE INOKI at ForestLimit 2023.07.04
 - Stain at 九州大学大橋キャンパス音響特殊棟 2023.05.13
@@ -142,14 +148,14 @@ Last Updated: 2024.11.08
 - 楽譜づくり・楽器作り(薬院 IAF Shop\*) 2017.10.31
 - つくると！vol.3(九州大学大橋キャンパス) 2017.06.10
 
-#### 蓮沼執太フルフィル
+#### 蓮沼執太フルフィルでの活動
 
 - 「GENKYO 横尾忠則」関連企画 ワンコインリレーコンサート vol.03 （大分音の泉ホール、蓮沼執太フィルゲスト出演）、2021.12.14
 - アルバム [フルフォニー(2020)](https://www.hasunumaphil.com/fullphony/)
 - 日比谷、時が奏でる（日比谷野外音楽堂）2019.08.25
 - フルフォニー（すみだトリフォニーホール）2018.08.18
 
-### Technical Support & Sound Design for Other Artists
+### 他のアーティストとの協働（テクニカルサポート・サウンドデザイン）
 
 - SIDE CORE 「road work ver. under city」(2024.08-12), SIDE CORE 展｜コンクリート・プラネット, ワタリウム美術館, http://www.watarium.co.jp/jp/exhibition/202408/ （映像サウンドデザイン、マルチチャンネル再生・同期システム設計）
 - SIDE CORE 「road work ver. under city」 (2023) . 目黒観測井横 空地 https://ccbt.rekibun.or.jp/events/rodework_ver_undercity (映像サウンドデザイン)
