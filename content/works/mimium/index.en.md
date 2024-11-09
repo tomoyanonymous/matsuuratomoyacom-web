@@ -11,13 +11,32 @@ tags:
 - tools
 ---
 
-Developing programmming language for music "mimium".
 
 https://mimium.org/
 
-Developing Repository
+mimium (MInimal-Musical-medIUM) is a programming language for sound and music. Designed and developed with the aim of serving not only as a tool for musicians and programmers but also as an infrastructure for music creation and distribution, mimium distinguishes itself in its capabilities.
+
+mimium is a functional programming language based on lambda calculus, a universal computational system, enhanced with minimal primitives for temporal operations (delays and feedback). This design allows users to define fundamental signal processing units, like oscillators and filters, as just functions within the mimium language, distinguishing it from many existing sound programming environments. The benefits of lambda calculus enable meta-operations, making it straightforward to replicate functions such as oscillators in arbitrary numbers (e.g., 100 or 1000 instances), an operation that is often challenging to implement concisely in other languages.
+
+A notable precedent for languages that support parametric description of signal processing is [Faust](https://faust.grame.fr). However, because Faust is based on a system quite different from general-purpose languages, integration with other languages is typically one-directional, with Faust embedded on a host language or systems.
+
+Since mimium is based on the general system of lambda calculus, it also allows relatively simple calls to functions defined in other languages, a design inspired by languages like Lua, which are easily embedded in applications and games.
+
+---
+
+Development Repository
 
 https://github.com/mimium-org/mimium
+
+---
+
+### Related Research Articles
+
+[Designing Cibil engineering of Music yhrough the development of mimium, aprogramming language for music (Doctoral Thesis, in Japanese)](/hakuron)
+
+[mimium: a Self-Extensible Programming Language for Sound and Music (FARM 2021)](/en/research/farm2021-mimium)
+
+[Lambda-mmm: the Intermediate Representation for Synchronous Signal Processing Language Based on Lambda Calculus (International Faust Conference 2024)](/en/research/lambdammm-ifc-2024)
 
 The project is selected for [2019 Exploratory IT Human Resources Project (The MITOU Program) by IPA: INFORMATION-TECHNOLOGY PROMOTION AGENCY](https://warp.ndl.go.jp/info:ndljp/pid/12446699/www.ipa.go.jp/jinzai/mitou/2019/koubokekka_index.html).
 
@@ -25,7 +44,6 @@ Presentation Slide at Mitou Demoday 2019(in Japanese)
 
 <script async class="speakerdeck-embed" data-id="4efb43b1e6024b61a752004ff755d7f1" data-ratio="1.77777777777778" src="//speakerdeck.com/assets/embed.js"></script>
 
-Presentation Video at Mitou Demoday 2019(in Japanese)
+Presentation Video（It is not allowed to embed, jump from the link bellow）
 
-{{< youtube J-K4IWDHgdo >}}
-
+http://www.youtube.com/watch?v=J-K4IWDHgdo
