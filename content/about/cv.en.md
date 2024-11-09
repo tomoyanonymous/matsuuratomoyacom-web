@@ -71,15 +71,15 @@ Last Updated: 2024.11.08
 ## Publications
 
 1. **松浦知也**, 無いことは口にできない、口にしないなら無い？–ジョナサン・スターン『減退した能力-インペアメントの政治的現象学』書評, メディウム 第5号, 2024(to be published)
-1. **Matsuura, T**, Lambda-mmm: the Intermediate Representation for Synchronous Signal Processing Language Based on Lambda Calculus, Proceedings of International Faust Conference 2024, 2024 [Preprint PDF](https://doi.org/10.5281/zenodo.13855343)
-1. **松浦知也**, 地球を掻き鳴らすピック – おおしまたくろう「滑琴狂走曲 in 秋田！（カッキンラプソディー・イン・アキタ）」（2023年1月15日）レビュー, 秋田市文化創造館 Webサイト, 2023, [URL](https://akitacc.jp/article/oshima_review/) 
-1. **松浦知也**、[音楽土木工学を設計する—音楽のためのプログラミング言語mimiumの開発を通じて、2022、九州大学大学院芸術工学府博士論文](/hakuron)
-1. **Matsuura, T**. and Jo, K. 2021. mimium: A Self-Extensible Programming Language for Sound and Music. FARM 2021 - Proceedings of the ACM SIGPLAN International Workshop on Functional Art, Music, Modeling, and Design (2021). **[URL](https://dl.acm.org/doi/10.1145/3471872.3472969)**
-1. **松浦知也**、メディア考古学的視点から音の生成を再考する3つの作品制作、2019、九州大学大学院芸術工学府修士論文 **[PDF](https://github.com/tomoyanonymous/shuron/releases/download/v2.0.0/TomoyaMatsuura-MasterThesis-Submission.pdf)**
-1. Ioannidis, P., **Matsuura, T**. and et al. 2019. Exploring the Cross-Species Experience and the Coevolutionary Capacity: Sensorial Transcoding and Critical Play Design of Bio-Sonic Sense. Proceeding of RE:SOUND 2019 – 8th International Conference on Media Art, Science, and Technology (RE:SOUND 2019) (Aug. 2019), 139–144.**[URL](http://dx.doi.org/10.14236/ewic/RESOUND19.22)**
-1. **Matsuura, T**. and Jo, K. 2019. 計算機による音生成の異なるあり方を探る『Electronic Delay Time Automatic Calculator』の制作. 先端芸術音楽創作学会 会報 (Mar. 2019), 43–49.**[PDF](http://data.jssa.info/paper/2019v11n01/9.Matsuura.pdf)**
-1. **Matsuura, T**. and Jo, K. 2018. Aphysical Unmodeling Instrument : Sound Installation that Re-Physicalizes a Meta-Wind-Instrument Physical Model , Whirlwind. New Interfaces for Musical Expression (2018), 29–30.**[PDF](http://www.nime.org/proceedings/2018/nime2018_paper0006.pdf)**
-1. **松浦知也** and 城一裕 2017. 『Aphysical Unmodeling Instrument』 ―モデリングから音・音楽を再考するサウンドインスタレーション―. 先端芸術音楽創作学会 会報 (Dec. 2017), 17–26. **[PDF](http://data.jssa.info/paper/2017v09n03/3.Matsuura.pdf)**
+1. **Matsuura, T**, Lambda-mmm: the Intermediate Representation for Synchronous Signal Processing Language Based on Lambda Calculus, Proceedings of International Faust Conference 2024, 2024 ,https://doi.org/10.5281/zenodo.13855343 (Preprint PDF)
+1. **松浦知也**, 地球を掻き鳴らすピック – おおしまたくろう「滑琴狂走曲 in 秋田！（カッキンラプソディー・イン・アキタ）」（2023年1月15日）レビュー, 秋田市文化創造館 Webサイト, 2023, https://akitacc.jp/article/oshima_review/
+1. **松浦知也**、音楽土木工学を設計する—音楽のためのプログラミング言語mimiumの開発を通じて、2022、九州大学大学院芸術工学府博士論文 https://matsuuratomoya.com/hakuron
+1. **Matsuura, T**. and Jo, K. 2021. mimium: A Self-Extensible Programming Language for Sound and Music. FARM 2021 - Proceedings of the ACM SIGPLAN International Workshop on Functional Art, Music, Modeling, and Design (2021). https://dl.acm.org/doi/10.1145/3471872.3472969
+1. **松浦知也**、メディア考古学的視点から音の生成を再考する3つの作品制作、2019、九州大学大学院芸術工学府修士論文 https://github.com/tomoyanonymous/shuron/releases/download/v2.0.0/TomoyaMatsuura-MasterThesis-Submission.pdf
+1. Ioannidis, P., **Matsuura, T**. and et al. 2019. Exploring the Cross-Species Experience and the Coevolutionary Capacity: Sensorial Transcoding and Critical Play Design of Bio-Sonic Sense. Proceeding of RE:SOUND 2019 – 8th International Conference on Media Art, Science, and Technology (RE:SOUND 2019) (Aug. 2019), 139–144. http://dx.doi.org/10.14236/ewic/RESOUND19.22
+1. **Matsuura, T**. and Jo, K. 2019. 計算機による音生成の異なるあり方を探る『Electronic Delay Time Automatic Calculator』の制作. 先端芸術音楽創作学会 会報 (Mar. 2019), 43–49. http://data.jssa.info/paper/2019v11n01/9.Matsuura.pdf
+1. **Matsuura, T**. and Jo, K. 2018. Aphysical Unmodeling Instrument : Sound Installation that Re-Physicalizes a Meta-Wind-Instrument Physical Model , Whirlwind. New Interfaces for Musical Expression (2018), 29–30.http://www.nime.org/proceedings/2018/nime2018_paper0006.pdf
+1. **松浦知也** and 城一裕 2017. 『Aphysical Unmodeling Instrument』 ―モデリングから音・音楽を再考するサウンドインスタレーション―. 先端芸術音楽創作学会 会報 (Dec. 2017), 17–26. http://data.jssa.info/paper/2017v09n03/3.Matsuura.pdf
 
 ## Teaching
 
@@ -142,5 +142,5 @@ Last Updated: 2024.11.08
 ### Technical Support & Sound Design for Other Artists
 
 - SIDE CORE 「road work ver. under city」(2024.08-12), SIDE CORE｜Concrete Planet, Watarium, http://www.watarium.co.jp/jp/exhibition/202408/ （Sound Design for the Video Work, System Design and Programming for Multichannel Playback & Synchronization）
-- SIDE CORE 「road work ver. under city」 (2023) . https://ccbt.rekibun.or.jp/events/rodework_ver_undercity (Sound Design for the Video Work)
+- SIDE CORE 「road work ver. under city」(2023). https://ccbt.rekibun.or.jp/events/rodework_ver_undercity (Sound Design for the Video Work)
 - Umeda Tetsuya On the origin of voices, Fukuoka Prefectural Museum, 2019 https://umeda.exhb.jp/ (Development of the hardware for rotating speakers and synchronize lightings for sound sources)
