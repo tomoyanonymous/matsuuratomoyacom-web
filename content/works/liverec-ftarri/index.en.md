@@ -9,15 +9,13 @@ tags:
 bigthum: true
 ---
 
-A dynamic range of the sound is kept to nearly original, listening with a headphone is recommended.
-
-----
 Tomoya Matsuura Solo Performance
-2021/04/29 
-Suidoubashi Ftarri https://www.ftarri.com/suidobashi/
 
-Performance
-Tomoya Matsuura
+2021/04/29 
+
+Venue: Suidoubashi Ftarri https://www.ftarri.com/suidobashi/
+
+Performer: Tomoya Matsuura
 
 Equipment:
 
@@ -34,15 +32,21 @@ Equipment:
 - Acoustic guitar
 
 
-Video
-Okujoh(Iroha Gouda, Mai Kobayashi, Yo Noguchi)
-https://okujoh.space/
+#### Video Shooting & Edit
 
-Sound Recording
-Yoshiki Masuda
-https://twitter.com/yskmsd
+Okujoh(Iroha Gouda, Mai Kobayashi, Yo Noguchi)　https://okujoh.space/
+
+#### Sound Recording
+
+Yoshiki Masuda https://yoshikimasuda.com/
+
+---
 
 The performance was held with no in-person audiences due to covid.
+
+A dynamic range of the sound is kept to nearly original, listening with a headphone is recommended.
+
+---
 
 ### 5 minutes excerpt
 
@@ -50,4 +54,4 @@ The performance was held with no in-person audiences due to covid.
 
 ### Full Version(45 minutes)
 
-{{<youtube Hjlzcd11VOw>}}
+{{<youtube yhVdEOgMEL4>}}
