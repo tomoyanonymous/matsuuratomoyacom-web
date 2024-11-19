@@ -157,9 +157,9 @@ Figure 2. Equivalent expression to [Listing 1](#lst:onepole) in $\lambda_{mmm}$
 $$
 \begin{gathered}
 &\frac{\Gamma, x:\tau_a \vdash e:\tau_b}{\Gamma \vdash \lambda x.e:\tau_a \to \tau_b }\ &\textrm{[T-LAM]}\\
-&\frac{ \Gamma \vdash e_1:N \quad \Gamma \vdash e_2:\tau }{\Gamma \vdash delay\ e_1\ e_2 : \tau}\ &\textrm{[T-DELAY]}\\
-&\frac{\Gamma, x : \tau_p \vdash e: \tau_p }{\Gamma \vdash feed\ x.e:\tau_p} &\textrm{[T-FEED]}\\
-&\frac{ \Gamma \vdash e_c : R\quad \Gamma \vdash e_t:\tau\quad \Gamma \vdash e_e:\tau }{\Gamma \vdash if\ (e_c)\ e_t\ e_e\ : \tau}\ &\textrm{[T-IF]}\\
+&\frac{ \Gamma \vdash n:N \quad \Gamma \vdash e1:\tau\quad \Gamma \vdash e_2:R }{\Gamma \vdash delay\, n\, e_1\, e_2 : \tau}\ &\textrm{[T-DELAY]}\\
+&\frac{\Gamma, x : \tau_p \vdash e: \tau_p }{\Gamma \vdash feed x.e:\tau_p} &\textrm{[T-FEED]}\\
+&\frac{ \Gamma \vdash e_c : R\quad \Gamma \vdash e_t:\tau\quad \Gamma \vdash e_e:\tau }{\Gamma \vdash if\, (e_c)\, e_t\, e_e : \tau}\ &\textrm{[T-IF]}\\
 &\end{gathered}
 $$
 
