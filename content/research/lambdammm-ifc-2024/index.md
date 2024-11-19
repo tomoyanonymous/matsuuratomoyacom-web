@@ -432,19 +432,20 @@ fn dsp (x)
 fn bandpass(x,freq){
       //...
     }
-fn filterbank(n,filter){
-  let next = filterbank(n-1,filter)
+fn filterbank(n,filter_factory:()->(float,float)->float){
   if (n>0){
+    let filter = filter_factory() 
+    let next = filterbank(n-1,filter_factory)
     |x,freq| filter(x,freq+n*100)
-      + next(x,freq)
+             + next(x,freq)
   }else{
     |x,freq| 0
   }
 }
-let myfilter = filterbank(3,bandpass)
+let myfilter = filterbank(3,| | bandpass)
 fn dsp(){
       myfilter(x,1000)
- }
+}
 ```
 <figcaption>
 
@@ -475,27 +476,29 @@ fn inner_then(x,freq)
     RETURN     3 1
 
 fn inner_else(x,freq)
-    MOVECONST  2 2
+    MOVECONST  2 2 //load 0
     RETURN     2 1
 
-fn filterbank(n,filter)
-    MOVECONST 2 1 //load itself
-    MOVE      3 0 //load n
-    MOVECONST 4 1 //load 1
-    SUBF      3 3 4
+fn filterbank(n,filter_factory)
+    MOVE      2 0 //load n
+    MOVECONST 3 2 //load 0
+    SUBF      2 2 3
+    JMPIFNEG  2 12
+    MOVE      2 1 //load filter_factory
+    CALL      2 2 0 //get filter
+    MOVECONST 3 1 //load itself
+    MOVE      4 0 //load n
+    MOVECONST 5 1 //load 1
+    SUBF      4 4 5
+    MOVECONST 5 2 //load inner_then
+    CALLCLS   3 2 1 //recursive call
     MOVECONST 4 2 //load inner_then
-    CALLCLS   2 2 1 //recursive call
-    MOVE      3 0
-    MOVECONST 4 2 //load 0
-    SUBF      3 3 4
-    JMPIFNEG  3 2
-    MOVECONST 3 2 //load inner_then
-    CLOSURE   3 3 //load inner_lambda
+    CLOSURE   4 4 //load inner_lambda
     JMP       2
-    MOVECONST 3 3 //load inner_else
-    CLOSURE   3 3
-    CLOSE     2
-    RETURN    3 1
+    MOVECONST 4 3 //load inner_else
+    CLOSURE   4 4
+    CLOSE     4
+    RETURN    4 1
 ```
 
 <figcaption>
@@ -570,16 +573,16 @@ fn dsp(){
 <figure id="lst:filterbank_multi">
 
 ```rust
-fn filterbank(n,filter){
+fn filterbank(n,filter:&(float,float)->float)->&(float,float)->float{
   .< if (n>0){
-    |x,freq| filter(x,freq+n*100) 
+    |x,freq| ~filter(x,freq+n*100) 
       + ~filterbank(n-1,filter)(x,freq)
   }else{
     |x,freq| 0
   } >.
 }
 fn dsp(){
-  ~filterbank(3,bandpass)(x,1000)
+  ~filterbank(3,.<bandpass>.)(x,1000)
 }
 ```
 <figcaption>
