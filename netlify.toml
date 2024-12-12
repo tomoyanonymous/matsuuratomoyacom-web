@@ -6,6 +6,7 @@ command = "hugo mod get -u && hugo mod npm pack && npm i && hugo --minify --gc"
 command = "hugo mod get -u && hugo mod npm pack && npm i && hugo --minify --gc -b $DEPLOY_URL"
 
 [build.environment]
+GO_VERSION = "1.23"
 HUGO_VERSION = "v0.138.0"
 NODE_VERSION = "23"
 NPM_VERSION = "10.9.0"
