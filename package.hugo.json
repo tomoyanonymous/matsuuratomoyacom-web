@@ -1,0 +1,26 @@
+{
+  "name": "tomoyanonymous.github.io",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "build": "NF_IMAGE_VERSION=1 bash ./netlify-build-fix.sh && LD_LIBRARY_PATH=$(pwd)/tmp/usr/lib/x86_64-linux-gnu $(pwd)/tmp/usr/local/bin/hugo",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tomoyanonymous/tomoyanonymous.github.io.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tomoyanonymous/tomoyanonymous.github.io/issues"
+  },
+  "homepage": "https://github.com/tomoyanonymous/tomoyanonymous.github.io#readme",
+  "devDependencies": {
+    "postcss-cli": "^10.1.0"
+  }
+}

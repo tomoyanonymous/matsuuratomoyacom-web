@@ -7,88 +7,88 @@ title = "Matsuura Tomoya|松浦知也"
 enableMissingTranslationPlaceholders = false
 enableGitInfo = true
 publishDir = "docs"
-theme = "tomoya-2023"
+theme = "hugo-theme-tomoya-2023"
 timeout = "600s"
 googleAnalytics = 'G-7ZX14XX1D9'
 
 [markup.goldmark.renderer]
-  unsafe = true
+unsafe = true
 
 [markup.goldmark.extensions.passthrough]
-  enable = true
+enable = true
 [markup.goldmark.extensions.passthrough.delimiters]
-  block = [['\[', '\]'], ['$$', '$$']]
-  inline = [['\(', '\)'], ['$', '$']]
+block = [['\[', '\]'], ['$$', '$$']]
+inline = [['\(', '\)'], ['$', '$']]
 [permalinks]
-  blog = "/:section/:year-:month-:day/:filename/"
-  info = "/:section/:year-:month-:day/:filename/"
+blog = "/:section/:year-:month-:day/:filename/"
+info = "/:section/:year-:month-:day/:filename/"
 [params]
-  Twitter = "tomoya_nonymous"
-  Facebook = "tomoya.matsuura.98"
-  Github = "tomoyanonymous"
-  Instagram = "tomoya_nonymous"
-  Vimeo = "tomoyamatsuura"
-  Soundcloud = "tomoya_matsuura"
-  description = "松浦知也のWebサイトです。"
-  ogpimage = "assets/img/image_ogp.png"
-  math = false
+Twitter = "tomoya_nonymous"
+Facebook = "tomoya.matsuura.98"
+Github = "tomoyanonymous"
+Instagram = "tomoya_nonymous"
+Vimeo = "tomoyamatsuura"
+Soundcloud = "tomoya_matsuura"
+description = "松浦知也のWebサイトです。"
+ogpimage = "assets/img/image_ogp.png"
+math = false
 [[params.socials]]
-  name = "mastodon"
-  url = "https://social.matsuuratomoya.com/@tomoya"
-  weight = 1
+name = "mastodon"
+url = "https://social.matsuuratomoya.com/@tomoya"
+weight = 1
 [[params.socials]]
-  name = "twitter"
-  url = "https://twitter.com/tomoya_nonymous"
-  weight = 2
+name = "twitter"
+url = "https://twitter.com/tomoya_nonymous"
+weight = 2
 [[params.socials]]
-  name = "instagram"
-  url = "https://instagram.com/tomoya_nonymous"
-  weight = 3
+name = "instagram"
+url = "https://instagram.com/tomoya_nonymous"
+weight = 3
 [[params.socials]]
-  name = "github"
-  url = "https://github.com/tomoyanonymous"
-  weight = 4
+name = "github"
+url = "https://github.com/tomoyanonymous"
+weight = 4
 [[params.socials]]
-  name = "facebook"
-  url = "https://facebook.com/tomoya.matsuura.98"
-  weight = 5
+name = "facebook"
+url = "https://facebook.com/tomoya.matsuura.98"
+weight = 5
 [[params.socials]]
-  name = "soundcloud"
-  url = "https://soundcloud.com/tomoya_matsuura"
-  weight = 6
+name = "soundcloud"
+url = "https://soundcloud.com/tomoya_matsuura"
+weight = 6
 
 [[menu.main]]
-  name = "About"
-  url = "about"
-  weight = 1
+name = "About"
+url = "about"
+weight = 1
 [[menu.main]]
-  name = "Info"
-  url = "info"
-  weight = 2
+name = "Info"
+url = "info"
+weight = 2
 [[menu.main]]
-  name = "Works"
-  url = "works"
-  weight = 3
+name = "Works"
+url = "works"
+weight = 3
 [[menu.main]]
-  name = "Research"
-  url = "research"
-  weight = 4
+name = "Research"
+url = "research"
+weight = 4
 [[menu.main]]
-  name = "Blog"
-  url = "blog"
-  weight = 5
+name = "Blog"
+url = "blog"
+weight = 5
 [[menu.main]]
-  name = "Garden"
-  url = "https://garden.matsuuratomoya.com"
-  weight = 6
+name = "Garden"
+url = "https://garden.matsuuratomoya.com"
+weight = 6
 [[menu.main]]
-  name = "Teaching"
-  url = "https://teach.matsuuratomoya.com"
-  weight = 7 
+name = "Teaching"
+url = "https://teach.matsuuratomoya.com"
+weight = 7
 [[menu.main]]
-  name = "Contact"
-  url = "contact"
-  weight = 8
+name = "Contact"
+url = "contact"
+weight = 8
 
 [languages]
 [languages.ja]
@@ -103,3 +103,6 @@ languageName = "English"
 description = "Website of Matsuura Tomoya."
 
 
+# theme = ["themes/hugo-theme-tomoya-2023","hugo-micromorph"]
+[[module.imports]]
+path = 'github.com/tomoyanonymous/hugo-micromorph'
