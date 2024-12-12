@@ -1,11 +1,3 @@
-[submodule "themes/tomoya-2019"]
-	path = themes/tomoya-2019
-	url = git@github.com:tomoyanonymous/hugo-theme-tomoya-2019.git
-	branch = master
-[submodule "themes/tomoya-2023"]
-	path = themes/tomoya-2023
-	url = git@github.com:tomoyanonymous/tomoya-2023.git
-	branch = master
 [submodule "content/hakuron"]
 	path = content/hakuron
 	url = https://github.com/tomoyanonymous/hakuron.git

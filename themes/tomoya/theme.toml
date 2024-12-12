@@ -1,7 +1,7 @@
 name = "tomoya"
 license = "MIT"
 
-description = "Theme for matsuuratomoya.com Website"
+description = "Theme for matsuuratomoya.com Website (this is quite old and unused)"
 homepage = "https://github.com/tomoyanonymous/tomoyanonymous.github.io"
 tags = ["blog", "portfolio"]
 min_version = 0.1
