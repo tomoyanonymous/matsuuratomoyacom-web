@@ -30,8 +30,8 @@ Instagram = "tomoya_nonymous"
 Vimeo = "tomoyamatsuura"
 Soundcloud = "tomoya_matsuura"
 description = "松浦知也のWebサイトです。"
-ogpimage = "assets/img/image_ogp.png"
 math = false
+images = ["assets/img/image_ogp.png"]
 [[params.socials]]
 name = "mastodon"
 url = "https://social.matsuuratomoya.com/@tomoya"
