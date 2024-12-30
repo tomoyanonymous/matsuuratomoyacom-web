@@ -5,13 +5,13 @@
   },
   "comments": {
     "dependencies": {
-      "@tailwindcss/typography": "hugo-theme-tomoya-2023",
-      "autoprefixer": "hugo-theme-tomoya-2023",
-      "daisyui": "hugo-theme-tomoya-2023",
+      "@tailwindcss/typography": "github.com/tomoyanonymous/hugo-theme-tomoya-2023",
+      "autoprefixer": "github.com/tomoyanonymous/hugo-theme-tomoya-2023",
+      "daisyui": "github.com/tomoyanonymous/hugo-theme-tomoya-2023",
       "micromorph": "github.com/tomoyanonymous/hugo-micromorph",
-      "postcss": "hugo-theme-tomoya-2023",
-      "postcss-import": "hugo-theme-tomoya-2023",
-      "tailwindcss": "hugo-theme-tomoya-2023"
+      "postcss": "github.com/tomoyanonymous/hugo-theme-tomoya-2023",
+      "postcss-import": "github.com/tomoyanonymous/hugo-theme-tomoya-2023",
+      "tailwindcss": "github.com/tomoyanonymous/hugo-theme-tomoya-2023"
     },
     "devDependencies": {
       "postcss-cli": "project"
