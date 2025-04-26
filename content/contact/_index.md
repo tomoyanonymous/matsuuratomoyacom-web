@@ -6,12 +6,12 @@ layout: single
 **Mail: me@<span style="display:none;"></span>matsuuratomoya.com**
 
 **Twitter: [@tomoya_nonymous](https://twitter.com/tomoya_nonymous)**（最近あまりDM見てません）
-
+ 
 **Mastodon: [@tomoya@social.matsuuratomoya.com](https://social.matsuuratomoya.com/@tomoya)**
 
 仕事・出演・講義の依頼、取材など受け付けております。
 
-2024年現在、フルタイムで働いているためクライアントワークでのプログラミングやエンジニアリング案件にコミットすることは基本難しいですが、講義・執筆依頼や共同研究などアカデミックな活動としてカウントできそうなものや、演奏のお誘いなどはお気軽にご連絡ください。
+2025年現在、フルタイムで働いているためクライアントワークでのプログラミングやエンジニアリング案件にコミットすることは基本難しいですが、講義・執筆依頼や共同研究などアカデミックな活動としてカウントできそうなものや、演奏のお誘いなどはお気軽にご連絡ください。
 
 直近のお仕事の例：
 
