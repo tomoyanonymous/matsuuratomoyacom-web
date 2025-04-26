@@ -4,3 +4,4 @@ docs
 node_modules
 __generated__
 .hugo_build.lock
+hugo_stats.json

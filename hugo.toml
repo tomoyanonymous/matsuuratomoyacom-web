@@ -7,7 +7,6 @@ title = "Matsuura Tomoya|松浦知也"
 enableMissingTranslationPlaceholders = false
 enableGitInfo = true
 publishDir = "docs"
-theme = "hugo-theme-tomoya-2023"
 timeout = "600s"
 googleAnalytics = 'G-7ZX14XX1D9'
 
@@ -102,7 +101,21 @@ languageName = "English"
 [languages.en.params]
 description = "Website of Matsuura Tomoya."
 
-
-# theme = ["themes/hugo-theme-tomoya-2023","hugo-micromorph"]
+[module]
+proxy = 'direct'
+vendorClosest = false
+# uncomment line below for temporary local development of module
+# replacements = "github.com/tomoyanonymous/hugo-theme-tomoya-2023 -> ../../hugo-theme-tomoya-2023"
 [[module.imports]]
 path = 'github.com/tomoyanonymous/hugo-micromorph'
+[[module.imports]]
+path = 'github.com/tomoyanonymous/hugo-theme-tomoya-2023'
+
+[build]
+buildStats.enable = true
+[[build.cachebusters]]
+source = "assets/watching/hugo_stats\\.json"
+target = "styles\\.css"
+[[build.cachebusters]]
+source = "(postcss|tailwind)\\.config\\.js"
+target = "css"
