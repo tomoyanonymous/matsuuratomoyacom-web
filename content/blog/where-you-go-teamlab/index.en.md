@@ -1,7 +1,7 @@
 ---
 title: "Where you go, teamLab?"
 date: 2025-05-29
-ogpimage: /assets/img/ogp_teamlab_en.jpg
+ogpimage: featured_en.jpg
 ---
 
 This text is a personal reflection on my time at teamLab and my current opinions about the collective.
