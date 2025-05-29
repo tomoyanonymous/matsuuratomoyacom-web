@@ -33,7 +33,9 @@ After reading Elliot Woods of Kimchi and Chips post related Instagram stories, I
 
 With that in mind—and assuming this essay may also be read in English—I want to share some foundational thoughts and my personal impressions of teamLab, both past and present.
 
-According to teamLab’s official website as of 2025, the collective has approximately 1,000 employees[^1]. When I was working there about a decade ago, I recall the number being around 400, so the workforce has more than doubled in the last ten years. Their recruitment site notes that the average employee age is an astonishingly young 28.8 years[^2]. But this also implies a high turnover rate—many people leave after just a few years. Out of all the people I worked with at the time, I could probably count on one or two hands the ones still there.
+According to teamLab’s official website as of 2025, the collective has approximately 1,000 employees[^1]. When I was working there about a decade ago, I recall the number being around 400, so the workforce has more than doubled in the last ten years. Their recruitment site notes that the average employee age is an astonishingly young 28.8 years[^2]. But this also implies a high turnover rate—many people leave after just a few years[^21]. Out of all the people I worked with at the time, I could probably count on one or two hands the ones still there.
+
+[^21]: According to an another ex. employee, he don't think the turnover rate is so high, especially on Unity Engineer. Simply I just feel like that because the many people around me left, soon after I left, and the fact that just many younger people enters and the number of employees is keep growing, makes me feel like it more.  https://x.com/mattatz/status/1928070452309561516
 
 Many in the fine art world—perhaps even within Japan—are unaware that teamLab does not operate solely as an art collective. Since its founding, it has maintained a solutions division that handles web development, smartphone apps, and other digital services. I don’t know the current internal ratio, but when I was there, the split between the art and solutions divisions was roughly 50/50.
 
@@ -186,7 +188,9 @@ In the field of new media art, I believe our relationship with open-source cultu
 
 I’d argue that companies that moved closer to the game industry (like teamLab) found Unity’s structure and workflow more suitable, while smaller studios aligned with design or consultancy retained a preference for TouchDesigner or continued using openFrameworks, albeit more sparingly.
 
-Now, this next anecdote might get me in trouble—but here goes. Back when I worked at teamLab, a few members (who were also active VJs) created a self-published technical zine about CG techniques. It wasn’t a guide to reproducing teamLab’s works—it was more like tutorials on how to achieve certain visual effects. But even so, they were reportedly reprimanded, and the project was shut down internally.
+Now, this next anecdote might get me in trouble—but here goes. Back when I worked at teamLab, a few members (who were also active VJs) created a self-published technical zine about CG techniques. It wasn’t a guide to reproducing teamLab’s works—it was more like tutorials on how to achieve certain visual effects. But even so, they were reportedly reprimanded, and the project was shut down internally. *(2025-05-29 22:00 This was not correct. According to one of the zine author, they proposed that publishing the book as an official activity of teamLab as a part of PR, but that was rejected by exectives. [^22])*
+
+[^22]: https://x.com/mattatz/status/1928068121065312743
 
 In the game industry, developing a proprietary engine in-house and treating it as a core asset—something never to be shared—is still common (though this too is gradually changing). Meanwhile, the digital creative industry—born out of Flash and web design—has had to continuously recalibrate what gets shared and what gets monetized, depending on team size and scope.
 
