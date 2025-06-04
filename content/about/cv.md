@@ -26,7 +26,7 @@ ogpimage: ogp.jpg
 
 ## 松浦知也 / Matsuura Tomoya
 
-東京藝術大学 芸術情報センター 特任助教
+東京藝術大学 芸術情報センター 特任助教 / 博士（芸術工学）
 
 110-8714 東京都台東区上野公園12-8 東京藝術大学 総合工房棟A 2F 芸術情報センター教員室
 
@@ -34,15 +34,15 @@ me@matsuuratomoya.com https://matsuuratomoya.com
 
 1994年神奈川県茅ヶ崎市生まれ、神奈川県在住
 
-Last Updated: 2024.11.08
+Last Updated: 2025.06.04
 
 ## 学歴
 
 - 2010.04~2013.03 神奈川県立神奈川総合高等学校 普通科個性化コース
 - 2013.04~2017.03 東京藝術大学 音楽学部音楽環境創造科 プロジェクト 3(録音/サウンドデザイン専攻)、亀川徹研究室 学士（音楽）
-- 2017.04~2019.03 九州大学 大学院芸術工学府 修士課程芸術工学専攻 コンテンツ・クリエーティブデザインコース デジタルコンテンツデザイン講座（城一裕研究室）
+- 2017.04~2019.03 九州大学 大学院芸術工学府 修士課程芸術工学専攻 コンテンツ・クリエーティブデザインコース デジタルコンテンツデザイン講座（城一裕研究室）修士（芸術工学）
 - 2018.09~11 [School for Poetic Computation](https://sfpc.io) Fall 2018 Class Student
-- 2019.04~2022.03 九州大学 大学院芸術工学府 博士後期課程芸術工学専攻 コンテンツ・クリエーティブデザインコース （城一裕研究室）
+- 2019.04~2022.03 九州大学 大学院芸術工学府 博士後期課程芸術工学専攻 コンテンツ・クリエーティブデザインコース （城一裕研究室）博士（芸術工学）
 
 ## 職歴
 
@@ -63,7 +63,7 @@ Last Updated: 2024.11.08
 
 ### 共同研究
 
-- 2023-2024 CCBTと大学・研究機関との協働事業「音楽デバイス開発プロジェクト」https://artdx.geidai.ac.jp/research/ccbt-music-inclusion-project https://ccbt.rekibun.or.jp/research-notes/diverstiy-and-inclusion-project-02
+- 2023-2024 CCBTと大学・研究機関との協働事業「音楽デバイス開発プロジェクト」<https://artdx.geidai.ac.jp/research/ccbt-music-inclusion-project> <https://ccbt.rekibun.or.jp/what-we-do/diverstiy-and-inclusion-project-02>
 
 ## 受賞歴
 
@@ -76,7 +76,7 @@ Last Updated: 2024.11.08
 ## 論文（抜粋）
 
 1. **Matsuura, T**, Hiding What from Whom? A Critical Review of the History of Programming languages for Music, Proceedings of the International Computer Music Conference 2025, 2025,  https://doi.org/10.5281/zenodo.15285756 (Preprint)
-1. **松浦知也**, 無いことは口にできない、口にしないなら無い？–ジョナサン・スターン『減退した能力-インペアメントの政治的現象学』書評, メディウム 第5号, 2024.12, https://mediensysteme2019.wordpress.com/2024/12/12/『メディウム』第5号/
+1. **松浦知也**, 無いことは口にできない、口にしないなら無い？–ジョナサン・スターン『減退した能力-インペアメントの政治的現象学』書評, メディウム 第5号, 2024.12, [https://mediensysteme2019.wordpress.com/2024/12/12/『メディウム』第5号/](https://mediensysteme2019.wordpress.com/2024/12/12/『メディウム』第5号/)
 1. **Matsuura, T**, Lambda-mmm: the Intermediate Representation for Synchronous Signal Processing Language Based on Lambda Calculus, Proceedings of International Faust Conference 2024, 2024 https://hal.science/hal-04849629
 1. **松浦知也**, 地球を掻き鳴らすピック – おおしまたくろう「滑琴狂走曲 in 秋田！（カッキンラプソディー・イン・アキタ）」（2023 年 1 月 15 日）レビュー, 秋田市文化創造館 Web サイト, 2023, https://akitacc.jp/article/oshima_review/
 1. 永冨真梨, 忠聡太, 日高良祐編著, **松浦知也** et al. 著, クリティカル・ワード ポピュラー音楽 〈聴く〉を広げる・更新する - 第3章「プログラミング」項の執筆, 2023.03.25 ISBN 9784845921317
@@ -158,6 +158,7 @@ Last Updated: 2024.11.08
 
 ### 他のアーティストとの協働（テクニカルサポート・サウンドデザイン）
 
+- STUDIO POETIC CURIOSITY 「私の私の声」サウンドシステム開発（2023-2024, 増田義基との共同） https://www.instagram.com/p/DG5NxKzyoer/
 - SIDE CORE 「road work ver. under city」(2024.08-12), SIDE CORE 展｜コンクリート・プラネット, ワタリウム美術館, http://www.watarium.co.jp/jp/exhibition/202408/ （映像サウンドデザイン、マルチチャンネル再生・同期システム設計）
 - SIDE CORE 「road work ver. under city」 (2023) . 目黒観測井横 空地 https://ccbt.rekibun.or.jp/events/rodework_ver_undercity (映像サウンドデザイン)
 - 梅田哲也 うたの起源, 福岡県立美術館, 2019 https://umeda.exhb.jp/ (スピーカーの回転と照明の音を音に同期させるハードウェアの開発)

@@ -27,6 +27,8 @@ ogpimage: ogp.jpg
 
 Project Assistant Professor, Art Media Center, Tokyo University of the Arts
 
+Ph.D in Design
+
 110-8714 Ueno Park 12-8, Taito-ku, Tokyo, Japan. Tokyo University of the Arts, Factory Complex A 2F Art Media Center Office
 
 me@matsuuratomoya.com https://matsuuratomoya.com
@@ -34,7 +36,7 @@ me@matsuuratomoya.com https://matsuuratomoya.com
 
 Born in 1994 in Chigasaki City, Kanagawa Pref. Living in Kanagawa Pref., Japan.
 
-Last Updated: 2024.11.08
+Last Updated: 2025.06.04
 
 ## Educations
 
@@ -74,8 +76,9 @@ Last Updated: 2024.11.08
 
 ## Publications
 
+1. **Matsuura, T**, Hiding What from Whom? A Critical Review of the History of Programming languages for Music, Proceedings of the International Computer Music Conference 2025, 2025,  https://doi.org/10.5281/zenodo.15285756 (Preprint)
 1. **松浦知也**, 無いことは口にできない、口にしないなら無い？–ジョナサン・スターン『減退した能力-インペアメントの政治的現象学』書評, メディウム 第5号, 2024(to be published)
-1. **Matsuura, T**, Lambda-mmm: the Intermediate Representation for Synchronous Signal Processing Language Based on Lambda Calculus, Proceedings of International Faust Conference 2024, 2024 ,https://doi.org/10.5281/zenodo.13855343 (Preprint PDF)
+1. **Matsuura, T**, Lambda-mmm: the Intermediate Representation for Synchronous Signal Processing Language Based on Lambda Calculus, Proceedings of International Faust Conference 2024, 2024 https://hal.science/hal-04849629
 1. **松浦知也**, 地球を掻き鳴らすピック – おおしまたくろう「滑琴狂走曲 in 秋田！（カッキンラプソディー・イン・アキタ）」（2023年1月15日）レビュー, 秋田市文化創造館 Webサイト, 2023, https://akitacc.jp/article/oshima_review/
 1. **松浦知也**、音楽土木工学を設計する—音楽のためのプログラミング言語mimiumの開発を通じて、2022、九州大学大学院芸術工学府博士論文 https://matsuuratomoya.com/hakuron
 1. **Matsuura, T**. and Jo, K. 2021. mimium: A Self-Extensible Programming Language for Sound and Music. FARM 2021 - Proceedings of the ACM SIGPLAN International Workshop on Functional Art, Music, Modeling, and Design (2021). https://dl.acm.org/doi/10.1145/3471872.3472969
@@ -137,7 +140,6 @@ Last Updated: 2024.11.08
 
 #### Shuta Hasunuma Full Philharmonic Orchestra
 
-
 - 「GENKYO Yokoo Tadanori」Associated programs One-coin relay concert vol.03 （Oita Otono Izumi Hall, as a guest of Hasunuma Shuta Philharmonic Orchestra）, 2021.12.14
 - Album [Fullphony(2020)](https://www.hasunumaphil.com/fullphony/)
 - Hibiya, Toki ga Kanaderu（Hibiya Yagai Ongakudo）2019.08.25
@@ -145,6 +147,7 @@ Last Updated: 2024.11.08
 
 ### Technical Support & Sound Design for Other Artists
 
+- STUDIO POETIC CURIOSITY 「My My Voices」Sound System Development（2023-2024, With Masuda Yoshiki） https://www.instagram.com/p/DG5NxKzyoer/
 - SIDE CORE 「road work ver. under city」(2024.08-12), SIDE CORE｜Concrete Planet, Watarium, http://www.watarium.co.jp/jp/exhibition/202408/ （Sound Design for the Video Work, System Design and Programming for Multichannel Playback & Synchronization）
 - SIDE CORE 「road work ver. under city」(2023). https://ccbt.rekibun.or.jp/events/rodework_ver_undercity (Sound Design for the Video Work)
 - Umeda Tetsuya On the origin of voices, Fukuoka Prefectural Museum, 2019 https://umeda.exhb.jp/ (Development of the hardware for rotating speakers and synchronize lightings for sound sources)
