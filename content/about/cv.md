@@ -75,8 +75,9 @@ Last Updated: 2024.11.08
 
 ## 論文（抜粋）
 
-1. **松浦知也**, 無いことは口にできない、口にしないなら無い？–ジョナサン・スターン『減退した能力-インペアメントの政治的現象学』書評, メディウム 第5号, 2024.12(to be published)
-1. **Matsuura, T**, Lambda-mmm: the Intermediate Representation for Synchronous Signal Processing Language Based on Lambda Calculus, Proceedings of International Faust Conference 2024, 2024 https://doi.org/10.5281/zenodo.13855343 (Preprint PDF)
+1. **Matsuura, T**, Hiding What from Whom? A Critical Review of the History of Programming languages for Music, Proceedings of the International Computer Music Conference 2025, 2025,  https://doi.org/10.5281/zenodo.15285756 (Preprint)
+1. **松浦知也**, 無いことは口にできない、口にしないなら無い？–ジョナサン・スターン『減退した能力-インペアメントの政治的現象学』書評, メディウム 第5号, 2024.12, https://mediensysteme2019.wordpress.com/2024/12/12/『メディウム』第5号/
+1. **Matsuura, T**, Lambda-mmm: the Intermediate Representation for Synchronous Signal Processing Language Based on Lambda Calculus, Proceedings of International Faust Conference 2024, 2024 https://hal.science/hal-04849629
 1. **松浦知也**, 地球を掻き鳴らすピック – おおしまたくろう「滑琴狂走曲 in 秋田！（カッキンラプソディー・イン・アキタ）」（2023 年 1 月 15 日）レビュー, 秋田市文化創造館 Web サイト, 2023, https://akitacc.jp/article/oshima_review/
 1. 永冨真梨, 忠聡太, 日高良祐編著, **松浦知也** et al. 著, クリティカル・ワード ポピュラー音楽 〈聴く〉を広げる・更新する - 第3章「プログラミング」項の執筆, 2023.03.25 ISBN 9784845921317
 1. **松浦知也**、音楽土木工学を設計する—音楽のためのプログラミング言語 mimium の開発を通じて、2022、九州大学大学院芸術工学府博士論文 https://matsuuratomoya.com/hakuron
@@ -102,8 +103,8 @@ Last Updated: 2024.11.08
 
 - 2020~ "サウンド・デザイン",　福岡女学院大学, https://teach.matsuuratomoya.com/docs/2020/fukujo-sounddesign/ (2022年以降は集中講義として開催)
 - 2023~ "コードとデザイン", 東京藝術大学芸術情報センター, https://teach.matsuuratomoya.com/docs/2023/code-design/
-- 2023~ "メディアアートプログラミング2" , 東京藝術大学芸術情報センター, https://teach.matsuuratomoya.com/docs/2023/mediaart-programming2/
-- 2023~ "メディア特論" , 東京藝術大学芸術情報センター（オムニバスゲスト講義の共同ディレクション）
+- 2023~2024 "メディアアートプログラミング2" , 東京藝術大学芸術情報センター, https://teach.matsuuratomoya.com/docs/2023/mediaart-programming2/
+- 2023~2024 "メディア特論" , 東京藝術大学芸術情報センター（オムニバスゲスト講義の共同ディレクション）
 
 ## 作家活動
 
