@@ -8,7 +8,7 @@ journal_title: "Proceedings of the International Faust Conference 2024"
 # volume:
 # issue:
 category: proceedings
-pdf_url: "https://doi.org/10.5281/zenodo.13855343"
+pdf_url: "https://hal.science/hal-04849629"
 conference_title: "International Faust Conference"
 publisher: GRAME
 date: 2024-09-30
@@ -22,7 +22,7 @@ bibtex: '@inproceedings{matsuura2024,
   month = nov,
   publisher = GRAME,
   booktitle = {Proceedings of the International Faust Conference 2024},
-  doi = {10.5281/zenodo.13855343},
+  url = {https://hal.science/hal-04849629}
   urldate = {2024-11-21},
   abstract = {This paper proposes Lambda-mmm, a call-by-value, simply typed lambda calculus-based intermediate representation for a music programming language that handles synchronous signal processing and introduces a virtual machine and instruction set to execute Lambda-mmm. Digital signal processing is represented by a syntax that incorporates the internal states of delay and feedback into the lambda calculus. Lambda-mmm extends the lambda calculus, allowing users to construct generative signal processing graphs and execute them with consistent semantics. However, a challenge arises when handling higher-order functions because users must determine whether execution occurs within the global environment or during DSP execution. This issue can potentially be resolved through multi-stage computation.},
   language = {eng},
