@@ -39,12 +39,11 @@ Web Site : <https://matsuuratomoya.com/en>
 
 **[See Full Artist Statement](./statement)**
 
-**[Full CV](./cv)**
-
-
 ---
 
-## [CV](./cv)
+## [Full CV](./cv)
+
+---
 
 ### Education
 

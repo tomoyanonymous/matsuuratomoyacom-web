@@ -10,13 +10,22 @@ ogpimage: ogp.jpg
         text-decoration:underline;
     }
     @media print {
+      @page{
+          margin-bottom: 10mm;
+          size: A4;
+            @bottom-center {     
+            content: counter(page);  
+            }
+      }
       .navbar, .footer ,.header-link,.no-print {
         display: none;
       }
       .text-base-content .prose{
-        max-width:90ch
+        max-width:80ch
       }
-
+      .text-base-content p, .text-base-content li{
+        break-inside: avoid;
+      }
     }
 </style>
 
@@ -85,7 +94,7 @@ Last Updated: 2025.06.04
 1. **松浦知也**、メディア考古学的視点から音の生成を再考する 3 つの作品制作、2019、九州大学大学院芸術工学府修士論文 https://github.com/tomoyanonymous/shuron/releases/download/v2.0.0/TomoyaMatsuura-MasterThesis-Submission.pdf 
 1. Ioannidis, P., **Matsuura, T**. and et al. 2019. Exploring the Cross-Species Experience and the Coevolutionary Capacity: Sensorial Transcoding and Critical Play Design of Bio-Sonic Sense. Proceeding of RE:SOUND 2019 – 8th International Conference on Media Art, Science, and Technology (RE:SOUND 2019) (Aug. 2019), 139–144, http://dx.doi.org/10.14236/ewic/RESOUND19.22
 1. **Matsuura, T**. and Jo, K. 2019. 計算機による音生成の異なるあり方を探る『Electronic Delay Time Automatic Calculator』の制作. 先端芸術音楽創作学会 会報 (Mar. 2019), 43–49, http://data.jssa.info/paper/2019v11n01/9.Matsuura.pdf
-1. **Matsuura, T**. and Jo, K. 2018. Aphysical Unmodeling Instrument : Sound Installation that Re-Physicalizes a Meta-Wind-Instrument Physical Model , Whirlwind. New Interfaces for Musical Expression (2018), 29–30, http://www.nime.org/proceedings/2018/nime2018_paper0006.pdf 
+1. **Matsuura, T**. and Jo, K. 2018. Aphysical Unmodeling Instrument : Sound Installation that Re-Physicalizes a Meta-Wind-Instrument Physical Model , Whirlwind. New Interfaces for Musical Expression (2018), 29–30, https://doi.org/10.5281/zenodo.1302662 
 1. **松浦知也** and 城一裕 2017. 『Aphysical Unmodeling Instrument』 ―モデリングから音・音楽を再考するサウンドインスタレーション―. 先端芸術音楽創作学会 会報 (Dec. 2017), 17–26. http://data.jssa.info/paper/2017v09n03/3.Matsuura.pdf
 
 ## 講演、口頭発表、ゲスト講義（抜粋）

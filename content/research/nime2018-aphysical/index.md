@@ -9,7 +9,7 @@ issue:
 category: proceedings
 firstpage: 29
 lastpage: 30
-pdf_url: https://www.nime.org/proceedings/2018/nime2018_paper0006.pdf
+pdf_url: https://doi.org/10.5281/zenodo.1302662
 conference_title: New Interfaces for Musical Expression
 publisher: Virginia Tech
 date: 2018-06-07
@@ -25,7 +25,7 @@ year = {2018},
 month = {June},
 publisher = {Virginia Tech},
 address = {Blacksburg, Virginia, USA },
-URL = {https://www.nime.org/proceedings/2018/nime2018_paper0006.pdf},
+doi = {10.5281/zenodo.1302662},
 abstract = {Aphysical Unmodeling Instrument is the title of a sound installation that re-physicalizes the Whirlwind meta-wind-instrument physical model. We re-implemented the Whirlwind by using real-world physical objects to comprise a sound installation. The sound propagation between a speaker and microphone was used as the delay, and a paper cylinder was employed as the resonator. This paper explains the concept and implementation of this work at the 2017 HANARART exhibition. We examine the characteristics of the work, address its limitations, and discuss the possibility of its interpretation by means of a “re-physicalization.”}
 }'
 abstract: Aphysical Unmodeling Instrument is the title of a sound installation that re-physicalizes the Whirlwind meta-wind-instrument physical model. We re-implemented the Whirlwind by using real-world physical objects to comprise a sound installation. The sound propagation between a speaker and microphone was used as the delay, and a paper cylinder was employed as the resonator. This paper explains the concept and implementation of this work at the 2017 HANARART exhibition. We examine the characteristics of the work, address its limitations, and discuss the possibility of its interpretation by means of a “re-physicalization.”
