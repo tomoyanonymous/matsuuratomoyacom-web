@@ -9,19 +9,16 @@ tags:
 - design
 ---
 
-(Last Updated: 2017-01-08)
 
----
+## teamLab: Dance! Art Exhibition, Learn & Play! Future Park at Huashan 1914(台北)
 
-# teamLab: Dance! Art Exhibition, Learn & Play! Future Park at Huashan 1914(台北)
-
-<https://www.team-lab.net/jp/e/huashan/>
+<https://teamlab.art/jp/e/huashan/>
 
 installation at venue
 
 ---
 
-# National Museum of Singapore
+## National Museum of Singapore
 
 installation at venue and development of sound systems for the works below
 
@@ -30,14 +27,14 @@ installation at venue and development of sound systems for the works below
 ![](forest2.jpeg)
 
 
-<https://www.team-lab.net/jp/w/story-of-the-forest/>
+<https://teamlab.art/jp/w/story-of-the-forest/>
 
 
 32ch interactive sound system(passageway): Tomoya Matsuura
 
 ---
 
-# The Universe and Art：Princess Kaguya, Da Vinci, teamlab(Mori Art Musium)
+## The Universe and Art：Princess Kaguya, Da Vinci, teamlab(Mori Art Musium)
 
 Co-developed the sound system for the work below
 
@@ -46,13 +43,13 @@ Co-developed the sound system for the work below
 
 ## Crows are Chased and the Chasing Crows are Destined to be Chased as well, Blossoming on Collision - Light in Space
 
-<https://www.team-lab.net/jp/w/crows_blossoming_on_collision/>
+<https://teamlab.art/jp/w/crows_blossoming_on_collision/>
 
 Sound System : Keisuke Kimoto and Tomoya Matsuura
 
 ---
 
-# DMM.planets Arts by teamLab
+## DMM.planets Arts by teamLab
 
 
 <https://www.teamlab.art/jp/e/dmmplanets2016/>
@@ -70,7 +67,7 @@ Sound System:Tomoya Matsuura
 
 ## Floating in the Falling Universe of Flowers
 
-<https://www.team-lab.net/jp/w/fitfuof/>
+<https://teamlab.art/jp/w/fitfuof/>
 
 Sound System:Tomoya Matsuura
 
@@ -79,7 +76,7 @@ Sound System:Tomoya Matsuura
 
 ### teamLab World: Dance! Art Museum, Learn & Play! Future Park,  at Lotte World(Seoul)
 
-<https://www.team-lab.net/jp/e/teamlabworld/>
+<https://teamlab.art/jp/e/teamlabworld/>
 
 Installation at venue
 
@@ -95,7 +92,7 @@ Installation at venue
 
 ### teamLab Exhibition: Dance Through the Crystal Universe at Asutamu Land Tokushima
 
-<https://www.team-lab.net/e/crystaluniverse-tokushima/>
+<https://teamlab.art/e/crystaluniverse-tokushima/>
 
 Installation at venue
 
@@ -109,7 +106,7 @@ Installation at venue
 
 ---
 
-# FUTURE WORLD: WHERE ART MEETS SCIENCE at Art Science Musium (Singapore)
+## FUTURE WORLD: WHERE ART MEETS SCIENCE at Art Science Musium (Singapore)
 
 
 <https://www.teamlab.art/jp/e/artsciencemuseum/>
@@ -118,7 +115,7 @@ Installation at venue
 
 ---
 
-# teamLab: Living Digital Space and Future Parks at Pace Art + Technology(Palo Alto, CA, United States)
+## teamLab: Living Digital Space and Future Parks at Pace Art + Technology(Palo Alto, CA, United States)
 
 <https://www.teamlab.art/jp/e/living_digital_space/>
 
@@ -129,7 +126,7 @@ Installation at venue and development of sound system for the work below
 ## Light Sculpture of Flames
 
 
-[https://www.team-lab.net/works/light_sculpture_of_flames/](https://www.team-lab.net/works/light_sculpture_of_flames/)
+[https://teamlab.art/works/light_sculpture_of_flames/](https://teamlab.art/works/light_sculpture_of_flames/)
 
 Sound System: Tomoya Matsuura
 
@@ -137,7 +134,7 @@ Sound System: Tomoya Matsuura
 
 ![https://d218lzajl72f3j.cloudfront.net/wp-content/uploads/2015/11/6a5bf3e6054d21eb9da71e2a85d1aa2b.jpg?cache=1dec040b8ae471bd075a9dadd67014d9](https://d218lzajl72f3j.cloudfront.net/wp-content/uploads/2015/11/6a5bf3e6054d21eb9da71e2a85d1aa2b.jpg?cache=1dec040b8ae471bd075a9dadd67014d9)
 
-# Camellia and Butterflies for Eternity
+## Camellia and Butterflies for Eternity
 
 [https://www.team-lab.com/chinzanso2015](https://www.team-lab.com/chinzanso2015)
 
@@ -145,10 +142,9 @@ Sound System: Tomoya Matsuura
 
 ---
 
-![https://www.team-lab.net/images/pc-ll-fat/4409](https://www.team-lab.net/images/pc-ll-fat/4409)
 
-# Floating Flower Garden
+## Floating Flower Garden: Flowers and I are of the Same Root, the Garden and I are One
 
-[https://www.team-lab.net/works/ffgarden/](https://www.team-lab.net/works/ffgarden/)
+[https://www.teamlab.art/en/w/ffgarden/](https://www.teamlab.art/en/w/ffgarden/)
 
 Sound System:Ray Kunimoto, Tomoya Matsuura
