@@ -99,6 +99,7 @@ Last Updated: 2025.06.04
 
 ## 講演、口頭発表、ゲスト講義（抜粋）
 
+1. **松浦知也**, ラムダ計算の拡張に基づく音楽プログラミング言語mimiumとそのVMの実装, 第66回プログラミングシンポジウム, 2025.01.10 https://jglobal.jst.go.jp/detail?JGLOBAL_ID=202502244058528895
 1. **松浦知也**, 言葉を作ること、ないことについて話すこと, 九州大学芸術工学部 「音楽音響論」ゲスト講義, online, 2024.10.22 (Invited)
 1. **松浦知也**, 想像しうる音を、すべてあなた(たち)に – 音楽の道具としてのパーソナル・コンピューター論概説, 美学校「基礎教養シリーズ〜ゼロから聴きたいテクノロジーと音楽史〜」, 2024.02.25 (Invited) https://teach.matsuuratomoya.com/docs/2024/bigakko-fromzero/
 1. **Matsuura, T** Domain-Spcificity, Normativity and Generality of the CST for Arts, AIST Creative HCI Seminor #5 Creativity Support Tools for artistic work, online, 2023.11.23 (Invited)

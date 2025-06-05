@@ -84,7 +84,7 @@ Last Updated: 2025.06.04
 - 2019 [Kitakyushu Digital Creators Contest　Selected](http://kdcc.info/archive/2019.html) ([Aphysical Unmodeling Instrument](/en/works/aphysical-unmodeling-instrument))
 - 2020　Information Promotion Agency Mitou IT Human Resounce Project Super Creator
 
-## Publications
+## Publications(Excerpts)
 
 1. **Matsuura, T**, Hiding What from Whom? A Critical Review of the History of Programming languages for Music, Proceedings of the International Computer Music Conference 2025, 2025,  https://doi.org/10.5281/zenodo.15285756 (Preprint)
 1. **松浦知也**, 無いことは口にできない、口にしないなら無い？–ジョナサン・スターン『減退した能力-インペアメントの政治的現象学』書評, メディウム 第5号, 2024(to be published)
@@ -97,6 +97,18 @@ Last Updated: 2025.06.04
 1. **Matsuura, T**. and Jo, K. 2019. 計算機による音生成の異なるあり方を探る『Electronic Delay Time Automatic Calculator』の制作. 先端芸術音楽創作学会 会報 (Mar. 2019), 43–49. http://data.jssa.info/paper/2019v11n01/9.Matsuura.pdf
 1. **Matsuura, T**. and Jo, K. 2018. Aphysical Unmodeling Instrument : Sound Installation that Re-Physicalizes a Meta-Wind-Instrument Physical Model , Whirlwind. New Interfaces for Musical Expression (2018), 29–30. https://doi.org/10.5281/zenodo.1302662
 1. **松浦知也** and 城一裕 2017. 『Aphysical Unmodeling Instrument』 ―モデリングから音・音楽を再考するサウンドインスタレーション―. 先端芸術音楽創作学会 会報 (Dec. 2017), 17–26. http://data.jssa.info/paper/2017v09n03/3.Matsuura.pdf
+
+## Presentation, Guest Lectures
+
+1. **Matsuura, T**, "mimium, a programming language for music based on extended lambda calculus, and implementation of VM for it", The 66th Programming Symposium, 2025.01.10 https://jglobal.jst.go.jp/detail?JGLOBAL_ID=202502244058528895
+1. **Matsuura, T**, "Talking on Nothingness, Making Languages" , Department of Design, Kyushu University ”Sound and Acoustics” Guest Lecture, online, 2024.10.22 (Invited)
+1. **Matsuura, T**, Any Sound (Prural) You Can Imagine – Basic Lecture of Personal Computing as a Tool for Music, Bigakko「Basic Knowledge Series〜Introduction from Zero, History of Technology and Music 〜」, 2024.02.25 (Invited) https://teach.matsuuratomoya.com/docs/2024/bigakko-fromzero/
+1. **Matsuura, T** Domain-Spcificity, Normativity and Generality of the CST for Arts, AIST Creative HCI Seminor #5 Creativity Support Tools for artistic work, online, 2023.11.23 (Invited)
+1. **Matsuura, T**,  Department of Design, Kyushu University ”Sound and Acoustics” Guest Lecture, online, 2022-10-20 (Invited)
+1. **Matsuura, T**, Jo, K and Kubota, A, Towards a Civil Engineering of Music, a critical perspective on cultural and the military use of the computer for music, Rethinking the History of Technology-based Music, 2022.06.10
+1. **松浦知也**, 城一裕, mimium:音と音楽のための自己拡張性の高いプログラミング言語の設計と実装, 第 29 回インタラクティブシステムとソフトウェアに関するワークショップ(WISS 2021), 2021.12.08
+1. **Matsuura, T**, "Can Technology (really) Change the Music?", X-music research groupregular meeting, Keio University, 2020.06.06 (Invited) https://speakerdeck.com/tomoyanonymous/can-we-seriously-change-music
+1. **松浦知也**, 城一裕 ,オーディオフィードバックに基づく電子音響楽器“Exidiophone”, 日本音楽学会西日本支部 7 月例会, 2018.07.14
 
 ## Teaching
 
