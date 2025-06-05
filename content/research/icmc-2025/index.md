@@ -106,7 +106,7 @@ PCMは、音声波形を一定時間に分割するサンプリングと、各�
 
 だが、サウンドスタディーズ研究者のJonathan Sterneが指摘してきたように、アクースマティックの概念に代表される録音技術にまつわる言説は、そう主張をすることによってそれ以前の音の聴取を「自然」なものとして切り分けるように働いてきている[^husserl]。つまり、これらの主張は音響再生産技術が登場する以前は、聴取は何にも媒介されず全体的なものであった---という自然観を構築するのである。
 
-[^husserl]: スターンはのちにアクースマティックな聴取にまつわる言説が前提とする、フッサール流の現象学における超越的主体は欠損のない理想的身体を想定していることを批判し、信頼できない主体と語り手を前提とするインペアメントの政治的現象学の方法論を提示している[@sterne_diminished_2022]。コンピューター音楽における普遍主義は録音技術と聴覚障害の関係のようにエイブリズムの観点からも議論されるべきだろう。
+[^husserl]: スターンはのちにアクースマティックな聴取にまつわる言説が前提とする、フッサール流の現象学における超越的主体は欠損のない理想的身体を想定していることを批判し、信頼できない主体と語り手を前提とするインペアメントの政治的現象学の方法論を提示している[19]。コンピューター音楽における普遍主義は録音技術と聴覚障害の関係のようにエイブリズムの観点からも議論されるべきだろう。
 
 > For instance, the claim that sound reproduction has “alienated” the voice from the human body implies that the voice and the body existed in some prior holistic, unalienated, and self present relation. [20,p20-21]
 
@@ -256,9 +256,9 @@ UGenをより低級のC言語で実装したとき、例えそれがオープン
 
 [8] E. Lyon, "Do We Still Need Computer Music?" *Talk given at EMS 2006, Beijing*. https://disis.music.vt.edu/eric/LyonPapers/Do_We_Still_Need_Computer_Music.pdf, 2006.
 
-[9] M. Adkins, R. Scott, and P. A. Tremblay, "ポスト・Acousmatic Practice: [Re-evaluating Schaeffer]{.nocase}'s heritage," *Organised Sound*, vol. 21, no. 2, pp. 106--116, Aug. 2016, doi: [10.1017/S1355771816000030](https://doi.org/10.1017/S1355771816000030).
+[9] M. Adkins, R. Scott, and P. A. Tremblay, "Post-Acousmatic Practice: Re-evaluating Schaeffer's heritage," *Organised Sound*, vol. 21, no. 2, pp. 106--116, Aug. 2016, doi: [10.1017/S1355771816000030](https://doi.org/10.1017/S1355771816000030).
 
-[10] U. Holbrook and J. Rudi, "Computer music and ポスト・acousmatic practices: International Computer Music Conference 2022," in *Proceedings of the International Computer Music Conference, ICMC 2022*, G. Torre, Ed., International Computer Music Association, Jul. 2022, pp. 140--144.
+[10] U. Holbrook and J. Rudi, "Computer music and post-acousmatic practices: International Computer Music Conference 2022," in *Proceedings of the International Computer Music Conference, ICMC 2022*, G. Torre, Ed., International Computer Music Association, Jul. 2022, pp. 140--144.
 
 [11] T. Magnusson, "Of epistemic tools: Musical instruments as cognitive extensions," *Organised Sound*, vol. 14, no. 2, pp. 168--176, Aug. 2009, doi: [10.1017/S1355771809000272](https://doi.org/10.1017/S1355771809000272).
 
@@ -278,7 +278,7 @@ UGenをより低級のC言語で実装したとき、例えそれがオープン
 
 [19] J. Sterne, Diminished Faculties: A Political Phenomenology of Impairment. Durham: Duke Univ Press, 2022.
 
-[20]J. Sterne, *The audible past: Cultural origins of sound reproduction*. Durham: Duke University Press, 2003.
+[20] J. Sterne, *The audible past: Cultural origins of sound reproduction*. Durham: Duke University Press, 2003.
 
 [21] M. Puckette, "The Sampling Theorem and Its Discontents," *International Computer Music Conference*, pp. 1--14, 2015.
 
@@ -300,17 +300,17 @@ UGenをより低級のC言語で実装したとき、例えそれがオープン
 
 [30] S. Salazar and G. Wang, "ChuGens, ChubGraphs, ChuGins: 3 Tiers for Extending ChucK," in *International Computer Music Conference Proceedings*, 2012, pp. 60--63.
 
-[31] I. Reese, "47 $\bullet$ Miller Puckette $\bullet$ Max/MSP & Pure Data." https://futureofcoding.org/episodes/047.html, May 2020.
+[31] I. Reese, "47・Miller Puckette・Max/MSP & Pure Data." https://futureofcoding.org/episodes/047.html, May 2020.
 
 [32] G. Born, *Rationalizing Culture*. University of California Press, 1995.
 
-[33] G. Taylor, "Article: An Interview With David Wessel `\textbar`{=latex} Cycling '74." https://cycling74.com/articles/an-interview-with-david-wessel, 1999.
+[33] G. Taylor, "Article: An Interview With David Wessel - Cycling '74." https://cycling74.com/articles/an-interview-with-david-wessel, 1999.
 
 [34] P. Théberge, *Any sound you can imagine: Making music/consuming technology*. in Music/culture. Hanover, NH: Wesleyan University Press : University Press of New England, 1997.
 
 [35] L. Emerson, *Reading Writing Interfaces: From the Digital to the Bookbound*. Univ of Minnesota Press, 2014.
 
-[36] A. C. Kay, "American computer pioneer Alan Kay's concept, the Dynabook, was published in 1972. How come Steve Jobs and [Apple iPad]{.nocase} get the credit for tablet invention?" *Quora*. https://www.quora.com/American-computer-pioneer-Alan-Kay-s-concept-the-Dynabook-was-published-in-1972-How-come-Steve-Jobs-and-Apple-iPad-get-the-credit-for-tablet-invention, Apr. 2019.
+[36] A. C. Kay, "American computer pioneer Alan Kay's concept, the Dynabook, was published in 1972. How come Steve Jobs and Apple iPad get the credit for tablet invention?" *Quora*. https://www.quora.com/American-computer-pioneer-Alan-Kay-s-concept-the-Dynabook-was-published-in-1972-How-come-Steve-Jobs-and-Apple-iPad-get-the-credit-for-tablet-invention, Apr. 2019.
 
 [37] C. Kelly, *Cracked Media: The Sound of Malfunction*. Cambridge, Mass: MIT Press, 2009.
 
