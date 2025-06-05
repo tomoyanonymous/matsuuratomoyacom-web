@@ -5,10 +5,21 @@ layout: single
 ---
 ## License
 
-このウェブサイト上のコンテンツ(文章)はクリエイティブ・コモンズ・ライセンス4.0-表示・非営利・改変禁止で管理されています。 条件の範囲内でご自由にご利用ください。
+このウェブサイト上のコンテンツ(文章)は**クリエイティブ・コモンズ・ライセンス4.0-表示・非営利**の条件の範囲内でご利用いただけます。
 
-画像などは筆者が著作権を持たない場合もあるので、個別にご連絡をお願いします。
+[https://creativecommons.org/licenses/by-nc/4.0/deed.ja](https://creativecommons.org/licenses/by-nc-nd/4.0/deed.ja)
 
-[https://creativecommons.org/licenses/by-nc-nd/4.0/deed.ja](https://creativecommons.org/licenses/by-nc-nd/4.0/deed.ja)
+<a href="https://creativecommons.org/licenses/by-nc/4.0/deed.ja"><img src="/assets/img/license.svg" style="max-width:300px;"></a>
 
-<a href="https://creativecommons.org/licenses/by-nc-nd/4.0/deed.ja"><img src="/assets/img/license.svg" style="max-width:300px;"></a>
+> あなたは以下の条件に従う限り、自由に：
+> - 共有 — どのようなメディアやフォーマットでも資料を複製したり、再配布できます。
+> - 翻案 — マテリアルをリミックスしたり、改変したり、別の作品のベースにしたりできます。
+> 
+> あなたがライセンスの条件に従っている限り、許諾者がこれらの自由を取り消すことはできません。
+
+
+> あなたの従うべき条件は以下の通りです。
+> 
+> - **表示 — あなたは 適切なクレジットを表示し、ライセンスへのリンクを提供し、変更があったらその旨を示さなければなりません。これらは合理的であればどのような方法で行っても構いませんが、許諾者があなたやあなたの利用行為を支持していると示唆するような方法は除きます。**
+> - **非営利 — あなたは営利目的でこの資料を利用してはなりません。**
+> - 追加的な制約は課せません — あなたは、このライセンスが他の者に許諾することを法的に制限するようないかなる法的規定も 技術的手段 も適用してはなりません。
