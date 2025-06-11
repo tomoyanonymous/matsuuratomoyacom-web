@@ -37,6 +37,12 @@ abstract: "This paper critically reviews the history of programming languages fo
 
 本論文では、音楽のためのプログラミング言語の歴史を、コンピューター音楽という様式から切り離して記述するために、サウンドスタディーズの議論を取り入れて音楽プログラミング言語の歴史の批判的レビューを行う。本論文はMUSIC-Nシリーズによって確立された、パルス符号とUnit Generatorコンセプトを取り巻く普遍主義的前提が、作曲家と科学者という役割の線引きを成立させ、更に作曲家を消費者化する傾向へ焦点を当てる。そのうえで、2000年代以降に開発されてきた音楽のためのプログラミング言語は、必ずしも新しい音楽を生み出すことをだけを目的とする訳ではなく、不可視化されるフォーマットやプロトコルといった音楽に関わる技術インフラに対するオルタナティブの提示という側面を持っていると結論づける。
 
+---
+
+## 発表スライド
+
+<script defer class="speakerdeck-embed" data-id="1a8f010cb65f4ee3b4079f58fc69e3cc" data-ratio="1.7777777777777777" src="//speakerdeck.com/assets/embed.js"></script>
+
 ## はじめに
 
 音楽のためのプログラミング言語や環境は、コンピューターを用いて音楽を作り出す試みの歴史と密に結びついて発展してきた。MaxやPure Data、Csound、SuperColliderといったソフトウェア群は、"computer music language"[1], [2], [3]、"language for computer music"[4]、"computer music programming systems"[5]といった呼ばれ方がされているが、それぞれの語の使用に明確なコンセンサスがあるわけではない。だが、共通して使われる"computer music"の語からもわかるように、これらプログラミング言語の歴史はコンピューターを用いることで"almost any sound can be produced"[6, p. p557] であることを前提とする、technology-drivenな音楽のジャンルの歴史と強く結びついてきた。

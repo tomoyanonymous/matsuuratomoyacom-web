@@ -39,6 +39,10 @@ This paper critically reviews the history of programming languages for music, di
 
 ---
 
+## Presenatation Slides
+
+<script defer class="speakerdeck-embed" data-id="1a8f010cb65f4ee3b4079f58fc69e3cc" data-ratio="1.7777777777777777" src="//speakerdeck.com/assets/embed.js"></script>
+
 ## Introduction
 
 Programming languages and environments for music such as Max, Pure Data, Csound, and SuperCollider, have been referred to as "computer music language" [1], [2], [3], "language for computer music"[4], and "computer music programming systems"[5], though there is no clear consensus on the use of these terms. However, as the shared term "computer music" implies, these programming languages are deeply intertwined with the history of technology-driven music, which developed under the premise that "almost any sound can be produced"[6, p. p557] through the use of computers.
