@@ -18,7 +18,7 @@ client: [Novonotes](https://novo-notes.com/ja) [MAGNETICA studio](https://www.ma
 
 https://novo-notes.com/ja/3dx
 
-{{<tweet user="tomoya_nonymous" id="1340533705756962816">}}
+{{< x user="tomoya_nonymous" id="1340533705756962816">}}
 
 また、制作過程で同時に開発した、高速に球面調和関数を計算（＝アンビソニックをエンコード/デコード）するためのC++ヘッダーライブラリをOSSとして公開しています。
 

@@ -27,7 +27,7 @@ Max上で音をip越しに送るエクスターナルオブジェクト。3月�
 
 ### NovoNotes 3DX
 
-{{<tweet user="tomoya_nonymous" id="1340533705756962816">}}
+{{< x user="tomoya_nonymous" id="1340533705756962816">}}
 
 空間音響処理のプラグイン開発。初めてまともなチーム開発というのをやって、スピード感が一人でやるのと違いすぎてびっくりした。
 
@@ -76,13 +76,13 @@ https://github.com/mimium-org/mimium
 
 今年はもうこれが全部
 
-{{<tweet user="tomoya_nonymous" id="1313468904350470144" >}}
+{{< x user="tomoya_nonymous" id="1313468904350470144" >}}
 
 ## その他
 
 錯視コンテストで石川さんと連名で出したものが入賞した。
 
-{{<tweet user="tomoya_nonymous" id="1325302557040803840">}}
+{{< x user="tomoya_nonymous" id="1325302557040803840">}}
 
 研究実績に全く脈絡のないものを挟み込むのをやってみたかったので嬉しい。
 

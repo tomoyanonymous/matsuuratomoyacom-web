@@ -17,7 +17,7 @@ client: [Novonotes](https://novo-notes.com/ja) [MAGNETICA studio](https://www.ma
 
 https://novo-notes.com/ja/3dx
 
-{{<tweet user="tomoya_nonymous" id="1340533705756962816" >}}
+{{< x user="tomoya_nonymous" id="1340533705756962816" >}}
 
 In addition, the C++ header library for calculating spherical harmonic functions (i.e. encoding/decoding ambisonics) efficiently, which was developed simultaneously during the production process, is published as OSS.
 
