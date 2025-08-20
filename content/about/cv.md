@@ -43,7 +43,7 @@ me@matsuuratomoya.com https://matsuuratomoya.com
 
 1994年神奈川県茅ヶ崎市生まれ、神奈川県在住
 
-Last Updated: 2025.06.04
+Last Updated: 2025.8.20
 
 ## 学歴
 
@@ -68,6 +68,7 @@ Last Updated: 2025.06.04
 - 2018 トビタテ!留学 JAPAN 海外留学奨学金 日本代表プログラム 第 8 期採択（多様性人材コース）
 - 2019 情報処理推進機構 未踏 IT 人材発掘・育成事業 採択（テーマ名：プログラマブルな音楽制作ソフトウェアの開発、委託金額 2,047,600 円）
 - 2020 かけはし芸術文化振興財団 奨学金(月額 2 万円)
+- 2022 九州大学次世代研究者挑戦的研究プログラム（K-SPRING）
 - 2023-2026 科研費　若手研究 (23K12059) 「音楽と工学の相互批評的実践としての「音楽土木工学」の研究」 https://kaken.nii.ac.jp/ja/grant/KAKENHI-PROJECT-23K12059/
 
 ### 共同研究
@@ -102,7 +103,7 @@ Last Updated: 2025.06.04
 1. **松浦知也**, ラムダ計算の拡張に基づく音楽プログラミング言語mimiumとそのVMの実装, 第66回プログラミングシンポジウム, 2025.01.10 https://jglobal.jst.go.jp/detail?JGLOBAL_ID=202502244058528895
 1. **松浦知也**, 言葉を作ること、ないことについて話すこと, 九州大学芸術工学部 「音楽音響論」ゲスト講義, online, 2024.10.22 (Invited)
 1. **松浦知也**, 想像しうる音を、すべてあなた(たち)に – 音楽の道具としてのパーソナル・コンピューター論概説, 美学校「基礎教養シリーズ〜ゼロから聴きたいテクノロジーと音楽史〜」, 2024.02.25 (Invited) https://teach.matsuuratomoya.com/docs/2024/bigakko-fromzero/
-1. **Matsuura, T** Domain-Spcificity, Normativity and Generality of the CST for Arts, AIST Creative HCI Seminor #5 Creativity Support Tools for artistic work, online, 2023.11.23 (Invited)
+1. **Matsuura, T** Domain-Spcificity, Normativity and Generality of the CST for Arts, AIST Creative HCI Seminor #5 Creativity Support Tools for artistic work, online, 2023.11.23 (Invited) <https://chci.pages.dev/aist-seminar/5>
 1. **松浦知也**,　九州大学芸術工学部 「音楽音響論」ゲスト講義, online, 2022-10-20 (Invited)
 1. **Matsuura, T**, Jo, K and Kubota, A, Towards a Civil Engineering of Music, a critical perspective on cultural and the military use of the computer for music, Rethinking the History of Technology-based Music, 2022.06.10
 1. **松浦知也**, 城一裕, mimium:音と音楽のための自己拡張性の高いプログラミング言語の設計と実装, 第 29 回インタラクティブシステムとソフトウェアに関するワークショップ(WISS 2021), 2021.12.08
@@ -112,7 +113,7 @@ Last Updated: 2025.06.04
 ## 教育
 
 - 2020~ "サウンド・デザイン",　福岡女学院大学, https://teach.matsuuratomoya.com/docs/2020/fukujo-sounddesign/ (2022年以降は集中講義として開催)
-- 2023~ "コードとデザイン", 東京藝術大学芸術情報センター, https://teach.matsuuratomoya.com/docs/2023/code-design/
+- 2023~2025 "コードとデザイン", 東京藝術大学芸術情報センター, https://teach.matsuuratomoya.com/docs/2023/code-design/
 - 2023~2024 "メディアアートプログラミング2" , 東京藝術大学芸術情報センター, https://teach.matsuuratomoya.com/docs/2023/mediaart-programming2/
 - 2023~2024 "メディア特論" , 東京藝術大学芸術情報センター（オムニバスゲスト講義の共同ディレクション）
 

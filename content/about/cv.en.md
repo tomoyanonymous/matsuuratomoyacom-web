@@ -70,6 +70,7 @@ Last Updated: 2025.06.04
 - 2015 [Ataka-Scholarship](https://www.geidai.ac.jp/life/scholarship/geidai_scholarship)
 - 2018,2020 [KAKEHASHI foundation](https://www.kakehashi-foundation.jp) Scholarship Student
 - 2019 Information Promotion Agency Mitou IT Human Resounce Project(2,047,600 yen)
+- 2022 Kyushu University Support for Pioneering Research Initiated by the Next Generation(K-SPRING)
 - 2023-2026 KAKENHI　Grant-in-Aid for Early-Career Scientists (23K12059) "Civil Engineering of Music, as a Practice and Critics between Music and Engineering" https://kaken.nii.ac.jp/ja/grant/KAKENHI-PROJECT-23K12059/
 
 ### Joint Research
@@ -103,7 +104,7 @@ Last Updated: 2025.06.04
 1. **Matsuura, T**, "mimium, a programming language for music based on extended lambda calculus, and implementation of VM for it", The 66th Programming Symposium, 2025.01.10 https://jglobal.jst.go.jp/detail?JGLOBAL_ID=202502244058528895
 1. **Matsuura, T**, "Talking on Nothingness, Making Languages" , Department of Design, Kyushu University ”Sound and Acoustics” Guest Lecture, online, 2024.10.22 (Invited)
 1. **Matsuura, T**, Any Sound (Prural) You Can Imagine – Basic Lecture of Personal Computing as a Tool for Music, Bigakko「Basic Knowledge Series〜Introduction from Zero, History of Technology and Music 〜」, 2024.02.25 (Invited) https://teach.matsuuratomoya.com/docs/2024/bigakko-fromzero/
-1. **Matsuura, T** Domain-Spcificity, Normativity and Generality of the CST for Arts, AIST Creative HCI Seminor #5 Creativity Support Tools for artistic work, online, 2023.11.23 (Invited)
+1. **Matsuura, T** Domain-Spcificity, Normativity and Generality of the CST for Arts, AIST Creative HCI Seminor #5 Creativity Support Tools for artistic work, online, 2023.11.23 (Invited) <https://chci.pages.dev/aist-seminar/5>
 1. **Matsuura, T**,  Department of Design, Kyushu University ”Sound and Acoustics” Guest Lecture, online, 2022-10-20 (Invited)
 1. **Matsuura, T**, Jo, K and Kubota, A, Towards a Civil Engineering of Music, a critical perspective on cultural and the military use of the computer for music, Rethinking the History of Technology-based Music, 2022.06.10
 1. **松浦知也**, 城一裕, mimium:音と音楽のための自己拡張性の高いプログラミング言語の設計と実装, 第 29 回インタラクティブシステムとソフトウェアに関するワークショップ(WISS 2021), 2021.12.08
