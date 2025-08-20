@@ -7,6 +7,6 @@ command = "hugo mod get -u && hugo mod npm pack && npm i && hugo --minify --gc -
 
 [build.environment]
 GO_VERSION = "1.22"
-HUGO_VERSION = "v0.138.0"
+HUGO_VERSION = "v0.147.9"
 NODE_VERSION = "23"
 NPM_VERSION = "10.9.0"
