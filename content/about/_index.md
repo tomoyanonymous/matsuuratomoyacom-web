@@ -17,12 +17,9 @@ Matsuura Tomoya
 松浦知也
 </p>
 
-![](profile2.jpg)
-
-
 ![](profile.jpg)
 
-(撮影：[野口翔平](https://ngcsh.tumblr.com))
+(撮影：[Femi Shonuga-Fleming](https://femishonuga.com/))
 
 SoundMaker（音を作ったり音を出す道具と環境を作る人）。 音に関わるメディア・インフラストラクチャ技術を実践を交え批評的にデザインする活動を「音楽土木工学」と称して研究している。音楽プログラミング言語「mimium」の設計と開発（2019〜）の他、ハウリングだけで音を出す自作電子楽器「Exidiophone」などを用いての演奏活動を継続的に行う。
 

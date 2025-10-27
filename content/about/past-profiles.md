@@ -11,6 +11,12 @@ ogpimage: ogp.jpg
 
 [現在のプロフィール](/about)
 
+![](profile_old1.jpg)
+
+![](profile_old2.jpg)
+
+photos by 野口翔平
+
 ## 2019年
 
 SoundMaker:Artist/Engineer/Designer/Researcher/Programmer

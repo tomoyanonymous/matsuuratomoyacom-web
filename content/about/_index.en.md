@@ -18,11 +18,10 @@ Matsuura Tomoya
 </p>
 
 
-![](profile2.jpg)
-
 ![](profile.jpg)
 
-(Photo by [Noguchi Shohei](https://ngcsh.tumblr.com))
+
+(Photo by [Femi Shonuga-Fleming](https://femishonuga.com/))
 
 SoundMaker: who makes a sound, makes instruments to make a sound, and makes environments to make the instruments. He calls his own research area "Civil Engineering of Music", which designs socio-technical infrastructure around sound and music critically through practices.
 He develops "mimium" a programming language for music(2019~), and does performances with "Exidiophone", an electro-acoustic instrument that makes sound with only an audio-feedback.

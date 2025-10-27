@@ -135,6 +135,7 @@ Last Updated: 2025.8.20
 
 ### ライブパフォーマンス
 
+- [Algotrek 6](https://femishonuga.com/wiki/algotrek.html) 2025.10.24, Long Pond, Providence
 - Sun Yizhou & Hiroyuki Ura & Naoki Nomoto, Ayami Suzuki & Takashi Masubuchi, Tomoya Matsuura, Satoshi Yashiro ,DJ FACE 2 FACE INOKI at ForestLimit 2023.07.04
 - Stain at 九州大学大橋キャンパス音響特殊棟 2023.05.13
 - ダイナミクスレンジせまめ, BUoY, 2022.09.22

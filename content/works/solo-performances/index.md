@@ -9,7 +9,26 @@ tags:
 bigthum: true
 ---
 
-# Park Live at Ginza Sony Park 
+## Algotrek 6 at Long Pond, Providence
+
+2025.10.19
+
+https://femishonuga.com/wiki/algotrek.html
+
+![](algotrek6_matsuura.jpg)
+
+![](algotrek6_matsuura2.jpg)
+
+![](algotrek6_matsuura3.jpg)
+
+![](algotrek6_matsuura4.jpg)
+
+Photos by [Femi Shonuga-Fleming](https://femishonuga.com/)
+
+
+instruments: [Exidiophone](/works/exidiophone)*2, Whistle, Pet-bottle Water, Live Coding with [mimium](/works/mimium)
+
+## Park Live at Ginza Sony Park 
 
 2019.04.27
 
@@ -20,7 +39,7 @@ w/[Ayatake Ezaki](https://twitter.com/ayatalce) (Keyboards), [Manami Kakudo](htt
 
 instruments: [Exidiophone](/works/exidiophone)*2, Cracklebox w/ audio feedback from handy recorder, curing tape, Alminium foil
 
-# FREQ x HardCoreAmbience(九州大学大橋キャンパス)
+## FREQ x HardCoreAmbience(九州大学大橋キャンパス)
 
 2018.12.20
 
@@ -30,13 +49,13 @@ instruments: [Exidiophone](/works/exidiophone)*2, Cracklebox w/ audio feedback f
 
 instruments: [Exidiophone](/works/exidiophone)×5、[EDTAC](/works/edtac)、Whistle、Bicycle Bell
 
-# 水道橋Ftarri 6周年記念コンサートvol.3
+## 水道橋Ftarri 6周年記念コンサートvol.3
 
 2018.07.21
 
 ![](ftarri-6thaniv.JPG)
 
-# DOMMUNE 蓮沼執太フルフィル特集
+## DOMMUNE 蓮沼執太フルフィル特集
 
 2018.08.01
 
@@ -46,7 +65,7 @@ instruments: [Exidiophone](/works/exidiophone)×5、[EDTAC](/works/edtac)、Whis
 
 instruments: [Exidiophone](/works/exidiophone)*2, AKG P420 *2, Eve Audio SC204*2, DIY Analapos with Paper Cup&Spring, Cracklebox
 
-# つくると！vol.5(九州大学大橋キャンパス)
+## つくると！vol.5(九州大学大橋キャンパス)
 
 ![](tsukuruto2018.jpg)
 
@@ -54,14 +73,14 @@ instruments: [Exidiophone](/works/exidiophone)*2, AKG P420 *2, Eve Audio SC204*2
 
 instruments: [Exidiophone](/works/exidiophone)*2, Speaker*4,Mixer, Whistle
 
-# 電磁的音族 KINK GONG JAPAN Tour(薬院 IAF Shop*)
+## 電磁的音族 KINK GONG JAPAN Tour(薬院 IAF Shop*)
 
 2018.07.08
 
 ![](kinkgong-set.JPG)
 
 
-# フタリのさとがえり(水道橋Ftarri)
+## フタリのさとがえり(水道橋Ftarri)
 
 2018.07.01
 
@@ -73,7 +92,7 @@ photo by 斉藤聡
 
 instruments: [Exidiophone](/works/exidiophone)*2, Whistle
 
-# Alternative Act 1.0 Tech Performance Fes.
+## Alternative Act 1.0 Tech Performance Fes.
 
 https://2018.alternative-act.tokyo/
 
@@ -84,25 +103,25 @@ https://2018.alternative-act.tokyo/
 
 instruments: [Exidiophone](/works/exidiophone)*2, Whistle
 
-# FREQ2018 21世紀初頭の音と音楽
+## FREQ2018 21世紀初頭の音と音楽
 
 2018.03.30
 
 ![](freq2018.JPG)
 
-# 楽譜づくり・楽器作り(薬院 IAF Shop*)
+## 楽譜づくり・楽器作り(薬院 IAF Shop*)
 
 2017.10.31
 
 ![](iaf_171001.jpg)
 
-# つくると！vol.3(九州大学大橋キャンパス)
+## つくると！vol.3(九州大学大橋キャンパス)
 
 <iframe src="https://player.vimeo.com/video/228039554" width="640" height="480" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 
 2017.06.10
 
-# 千住 ArtPath 2016 蓮沼執太&学生によるセッション
+## 千住 ArtPath 2016 蓮沼執太&学生によるセッション
 
 2016.12.18
 
