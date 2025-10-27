@@ -19,8 +19,8 @@ enable = true
 block = [['\[', '\]'], ['$$', '$$']]
 inline = [['\(', '\)'], ['$', '$']]
 [permalinks]
-blog = "/:section/:year-:month-:day/:filename/"
-info = "/:section/:year-:month-:day/:filename/"
+blog = "/:section/:year-:month-:day/:contentbasename/"
+info = "/:section/:year-:month-:day/:contentbasename/"
 [params]
 Twitter = "tomoya_nonymous"
 Facebook = "tomoya.matsuura.98"
