@@ -8,8 +8,13 @@ ogpimage: ogp.jpg
 
 [current profile](/en/about)
 
-## 2019
+![](profile_old1.jpg)
 
+![](profile_old2.jpg)
+
+photos by Noguchi Shohei
+
+## 2019
 
 SoundMaker:Engineer/Designer/Researcher/Programmer
 

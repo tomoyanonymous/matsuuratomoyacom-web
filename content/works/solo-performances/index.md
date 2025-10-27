@@ -1,8 +1,7 @@
 ---
 title: Solo Performances
-thum: sonypark_live.jpg
-date : 2019-04-27
-ogpimage: ogp.jpg
+thum: algotrek6_matsuura2.jpg
+date : 2025-10-27
 category: artwork
 tags:
 - performance
