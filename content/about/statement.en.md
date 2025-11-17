@@ -12,17 +12,17 @@ ogpimage: ogp.jpg
 
 His interest lies not much in sound itself, but in the underlying infrastructure that supports it.
 
-Considering infrastructure at the individual, material level, this takes the form of instrument making and performance that focuses on the phenomenon level of sound generation, unbound by existing formats. For example, the electronic acoustic instrument “[Exidiophone](/works/exidiophone)” (2018~), which produces sound solely through feedback, only establishes its identity as an instrument when placed within a space alongside speakers. Furthermore, its performance sound constantly changes based on the placement of the instrument and speakers, the room's acoustic properties, and the positions of the performer and audience, possessing a strong ephemerality that renders recording meaningless.
+Considering infrastructure at the individual, material level, this takes the form of instrument making and performance that focuses on the phenomenon level of sound generation, unbound by existing formats. For example, the electronic acoustic instrument “[Exidiophone](/en/works/exidiophone)” (2018~), which produces sound solely through feedback, only establishes its identity as an instrument when placed within a space alongside speakers. Furthermore, its performance sound constantly changes based on the placement of the instrument and speakers, the room's acoustic properties, and the positions of the performer and audience, possessing a strong ephemerality that renders recording meaningless.
 
 On the other hand, viewing infrastructure at the level of social collectives brings focus to media standards and formats involved in music distribution. Here, biopolitics exists where the creators of standards control/dominate their users, and the options for production and reception that could inherently exist for users are unconsciously restricted by software, protocols, and platforms.
 
-For example, the programming language for music, "[mimium](/works/mimium)" (2020~), embodies a design philosophy that avoids embedding existing musical styles into its language specifications as much as possible. It actively practices this approach, reflecting the musician's perspective, to develop technology that could become a new foundation for performance and listening.
+For example, the programming language for music, "[mimium](/en/works/mimium)" (2020~), embodies a design philosophy that avoids embedding existing musical styles into its language specifications as much as possible. It actively practices this approach, reflecting the musician's perspective, to develop technology that could become a new foundation for performance and listening.
 
 This activity is presented as an imaginary research field **“Civil Engineering of Music(音楽土木工学)”** , aiming to cultivate the literal "soil and wood” of music-related technology, and to build a Civil—that is, citizen-driven, bottom-up—alternative technological environment.
 
 The concrete approach here is based on media archaeology methods, as exemplified by [Paul DeMarinis](http://pauldemarinis.org) , and on methods like [Daniela K. Rosner's Critical Fabulations](http://criticalfabulations.com/) , which involve meticulous research into past media that are no longer in use. By exploring why obsolete technologies have become obsolete, he aim to go beyond mere misuse of technology. He seek to imagine alternative present technological environments that could have diverged from the past, and to practice design activism that builds paths into these possibilities.
 
-By exploring why obsolete technologies became obsolete, we attempt a practice of design activism: imagining alternative technological environments that could have diverged from the past—beyond mere misuse of technology—and constructing a wild-path toward them.
+By exploring why obsolete technologies became obsolete, he attempt a practice of design activism: imagining alternative technological environments that could have diverged from the past—beyond mere misuse of technology—and constructing a wild-path toward them.
 
 
 ---
