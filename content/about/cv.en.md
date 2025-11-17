@@ -171,6 +171,7 @@ Last Updated: 2025.06.04
 
 ### Technical Support & Sound Design for Other Artists
 
+- Miyoshi Kensho "Movements of the Time" SEIKO Forest of Mechanisms 2025 Sound System Development （2025, with Masuda Yoshiki、Kono Shintaro）https://www.seiko-seed.com/karakurinomori2025/en
 - STUDIO POETIC CURIOSITY 「My My Voices」Sound System Development（2023-2024, With Masuda Yoshiki） https://www.instagram.com/p/DG5NxKzyoer/
 - SIDE CORE 「road work ver. under city」(2024.08-12), SIDE CORE｜Concrete Planet, Watarium, http://www.watarium.co.jp/jp/exhibition/202408/ （Sound Design for the Video Work, System Design and Programming for Multichannel Playback & Synchronization）
 - SIDE CORE 「road work ver. under city」(2023). https://ccbt.rekibun.or.jp/events/rodework_ver_undercity (Sound Design for the Video Work)

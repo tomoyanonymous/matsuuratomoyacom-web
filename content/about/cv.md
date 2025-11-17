@@ -170,6 +170,7 @@ Last Updated: 2025.8.20
 
 ### 他のアーティストとの協働（テクニカルサポート・サウンドデザイン）
 
+- 三好賢聖 「時のムーブメント」SEIKO からくりの森2025 サウンドシステム開発（2025、増田義基、高野慎太郎との共同）https://www.seiko-seed.com/karakurinomori2025/
 - STUDIO POETIC CURIOSITY 「私の私の声」サウンドシステム開発（2023-2024, 増田義基との共同） https://www.instagram.com/p/DG5NxKzyoer/
 - SIDE CORE 「road work ver. under city」(2024.08-12), SIDE CORE 展｜コンクリート・プラネット, ワタリウム美術館, http://www.watarium.co.jp/jp/exhibition/202408/ （映像サウンドデザイン、マルチチャンネル再生・同期システム設計）
 - SIDE CORE 「road work ver. under city」 (2023) . 目黒観測井横 空地 https://ccbt.rekibun.or.jp/events/rodework_ver_undercity (映像サウンドデザイン)
