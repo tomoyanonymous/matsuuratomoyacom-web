@@ -5,6 +5,7 @@ title: 地球を掻き鳴らすピック – おおしまたくろう「滑琴�
 volume:
 issue:
 category: others
+ogpimage: ogp.png
 firstpage:
 lastpage:
 pdf_url: 

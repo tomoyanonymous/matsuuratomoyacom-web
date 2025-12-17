@@ -4,6 +4,7 @@ authors:
 title: 地球を掻き鳴らすピック – おおしまたくろう「滑琴狂走曲 in 秋田！（カッキンラプソディー・イン・アキタ）」（2023年1月15日）レビュー
 volume:
 issue:
+ogpimage: ogp.png
 category: others
 firstpage:
 lastpage:
