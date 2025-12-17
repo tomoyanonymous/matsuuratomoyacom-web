@@ -31,14 +31,20 @@ abstract: 本稿では、作品「Aphysical Unmodeling Instrument」の制作動
 
 ---
 
-# Abstract
+## Abstract
 
 本稿では、作品「Aphysical Unmodeling Instrument」の制作動機とその構成を説明する。その上で、フィードバックという観点から関連作品との比較を行い、音・音楽を記述するための一形態としての物理モデリングについて考察する。「Aphysical Unmodeling Instrument」は、物理モデリング合成に基づくサウンドインスタレーションである。本作では、一般的には実際の楽器構造やその音色の計算機内での模倣に用いられる本音声合成手法を、実空間内にて展開させている。Cook らによる仮想の楽器である Whirlwind というモデルを取り上げ、紙の筒による共鳴器や空気伝播による遅延などの要素からなるその物理的な再実装をおこなった。その上で、本作内で結果的に用いることになったハウリングを、フィードバックという観点から整理し、作曲・サウンドインスタレーション・パフォーマンスに関わる他の関連作品と比較する。以上を踏まえ、モデリングを音・音楽を記述するための一形態として捉え、その中でのモデルの作成と実体化という行為を、楽譜上での作曲と演奏と言う行為と対比し、コンピュータの外側における物理モデリングの可能性を探る。
 
-# Video of Presentation
+## Presentation
+
+Presentation Slide URL
+
+https://cloud.matsuuratomoya.com/s/r5qdWFkBSFRmDnz
+
+Video
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/sUKO_kAo_co" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-# Related Article
+## Related Article
 
 [Aphysical Unmodeling Instrument](/works/aphysical-unmodeling-instrument)
