@@ -18,9 +18,9 @@ mimium (MInimal-Musical-medIUM) is a programming language for sound and music. D
 
 mimium is a functional programming language based on lambda calculus, a universal computational system, enhanced with minimal primitives for temporal operations (delays and feedback). This design allows users to define fundamental signal processing units, like oscillators and filters, as just functions within the mimium language, distinguishing it from many existing sound programming environments. The benefits of lambda calculus enable meta-operations, making it straightforward to replicate functions such as oscillators in arbitrary numbers (e.g., 100 or 1000 instances), an operation that is often challenging to implement concisely in other languages.
 
-A notable precedent for languages that support parametric description of signal processing is [Faust](https://faust.grame.fr). However, because Faust is based on a system quite different from general-purpose languages, integration with other languages is typically one-directional, with Faust embedded on a host language or systems.
+Also mimium has a unique Live Coding feature. By doing static analysis of diff of the codes, regardless of the part of DSP, the player can continue the performance without audio interruption.
 
-Since mimium is based on the general system of lambda calculus, it also allows relatively simple calls to functions defined in other languages, a design inspired by languages like Lua, which are easily embedded in applications and games.
+![](mimium-sc2.png)
 
 ---
 
@@ -32,7 +32,7 @@ https://github.com/mimium-org/mimium
 
 ### Related Research Articles
 
-[Designing Cibil engineering of Music yhrough the development of mimium, aprogramming language for music (Doctoral Thesis, in Japanese)](/hakuron)
+[Designing Civil engineering of Music yhrough the development of mimium, aprogramming language for music (Doctoral Thesis, in Japanese)](/hakuron)
 
 [mimium: a Self-Extensible Programming Language for Sound and Music (FARM 2021)](/en/research/farm2021-mimium)
 
