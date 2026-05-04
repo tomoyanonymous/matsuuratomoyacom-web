@@ -35,18 +35,16 @@ ogpimage: ogp.jpg
 
 ## 松浦知也 / Matsuura Tomoya
 
-Project Assistant Professor, Art Media Center, Tokyo University of the Arts
+SoundMaker
 
 Ph.D in Design
-
-110-8714 Ueno Park 12-8, Taito-ku, Tokyo, Japan. Tokyo University of the Arts, Factory Complex A 2F Art Media Center Office
 
 me@matsuuratomoya.com https://matsuuratomoya.com
 
 
 Born in 1994 in Chigasaki City, Kanagawa Pref. Living in Kanagawa Pref., Japan.
 
-Last Updated: 2025.06.04
+Last Updated: 2026.05.04
 
 ## Educations
 
@@ -63,7 +61,7 @@ Last Updated: 2025.06.04
 - 2015.08~09 YCAM(Yamaguchi Center for Art and Media) interlab Internship
 - 2019.08 SFPC Summer 2019 in Yamaguchi Teaching Assistant
 - 2020~  Fukuoka Jo Gakuin University Part-time teacher (Sound Design)
-- 2020.04~ Project Assistant Professor at [Art Media Center](https://amc.geidai.ac.jp), Tokyo University of the Arts
+- 2022.04~2026.04 Project Assistant Professor at [Art Media Center](https://amc.geidai.ac.jp), Tokyo University of the Arts
 
 ## Grants/Scholarships
 

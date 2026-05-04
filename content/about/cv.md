@@ -35,15 +35,15 @@ ogpimage: ogp.jpg
 
 ## 松浦知也 / Matsuura Tomoya
 
-東京藝術大学 芸術情報センター 特任助教 / 博士（芸術工学）
+SoundMaker
 
-110-8714 東京都台東区上野公園12-8 東京藝術大学 総合工房棟A 2F 芸術情報センター教員室
+博士（芸術工学）
 
 me@matsuuratomoya.com https://matsuuratomoya.com
 
 1994年神奈川県茅ヶ崎市生まれ、神奈川県在住
 
-Last Updated: 2025.8.20
+Last Updated: 2026.05.04
 
 ## 学歴
 
@@ -59,7 +59,7 @@ Last Updated: 2025.8.20
 - 2015~2017 株式会社チームラボ アルバイト（サウンドチーム）
 - 2019.08 SFPC Summer 2019 in Yamaguchi Teaching Assistant
 - 2020.04~ 福岡女学院大学 非常勤講師（サウンド・デザイン）
-- 2022.04~ [東京藝術大学芸術情報センター(AMC)](https://amc.geidai.ac.jp) 特任助教
+- 2022.04~2026.04 [東京藝術大学芸術情報センター(AMC)](https://amc.geidai.ac.jp) 特任助教
 
 ## 奨学金・助成金
 

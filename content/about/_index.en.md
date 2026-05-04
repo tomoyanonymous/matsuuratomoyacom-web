@@ -64,7 +64,7 @@ Born in 1994 in Chigasaki City, Kanagawa Pref. Living in Kanagawa Pref. Japan.
 
 2015.08~09 YCAM(Yamaguchi Center for Art and Media) interlab Internship
 
-2022.04 Project Assistant Professor at Art Media Center in Tokyo University of the Arts
+2022.04~2026.04 Project Assistant Professor at Art Media Center in Tokyo University of the Arts
 
 ### Awards/Prizes/Scholarships/Grants
 
