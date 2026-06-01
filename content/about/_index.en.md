@@ -30,7 +30,7 @@ He also works as an engineer who does a technical direction, sound design and pr
 
 Ph.D in Design. He is born in 1994 at Chigasaki, Kanagawa Prefecture. Graduated Department of Music and Environment in Tokyo University of the Arts and Graduate School of Design, Kyushu University.
 
-Currently working as Project Assistant Professor at Art Media Center in Tokyo University of the Arts.
+Currently working as Freelance designer/engineer/educator/researcher.
 
 Web Site : <https://matsuuratomoya.com/en>
 
