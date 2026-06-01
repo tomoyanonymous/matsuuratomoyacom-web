@@ -3,9 +3,9 @@ layout: single
 ---
 # Contact
 
-Feel free to contact for a invitation of a performance/exhibition, works.
+Feel free to contact for a invitation of a performance/exhibition, works, interview.
 
-Example of engineering works in the past (lately, I am working at full-time job, just for the reference)
+Example of engineering works in the past
 
 - Sound design of movie/animation
 - Sound system development for sound installations or digital ad signages.
