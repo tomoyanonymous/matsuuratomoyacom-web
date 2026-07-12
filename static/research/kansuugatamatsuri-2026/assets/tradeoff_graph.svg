@@ -1,0 +1,153 @@
+<svg viewBox="0 0 720 540" xmlns="http://www.w3.org/2000/svg" role="img" font-family="'Helvetica Neue', Arial, sans-serif">
+  <title>Trade-off Tension Graph — Music Programming Language Design Space</title>
+  <desc>Six design properties of music programming languages and their trade-off relationships.</desc>
+
+  <defs>
+    <marker id="as" markerWidth="6" markerHeight="6" refX="5" refY="3" orient="auto">
+      <path d="M0,0 L6,3 L0,6 Z" fill="#d4600a"/>
+    </marker>
+    <marker id="asr" markerWidth="6" markerHeight="6" refX="1" refY="3" orient="auto">
+      <path d="M6,0 L0,3 L6,6 Z" fill="#d4600a"/>
+    </marker>
+    <marker id="am" markerWidth="6" markerHeight="6" refX="5" refY="3" orient="auto">
+      <path d="M0,0 L6,3 L0,6 Z" fill="#e89030"/>
+    </marker>
+    <marker id="amr" markerWidth="6" markerHeight="6" refX="1" refY="3" orient="auto">
+      <path d="M6,0 L0,3 L6,6 Z" fill="#e89030"/>
+    </marker>
+    <marker id="aw" markerWidth="6" markerHeight="6" refX="5" refY="3" orient="auto">
+      <path d="M0,0 L6,3 L0,6 Z" fill="#c8a040"/>
+    </marker>
+    <marker id="awr" markerWidth="6" markerHeight="6" refX="1" refY="3" orient="auto">
+      <path d="M6,0 L0,3 L6,6 Z" fill="#c8a040"/>
+    </marker>
+  </defs>
+
+  <rect width="720" height="540" fill="#E4F3F9"/>
+
+  <!-- ── EDGES (drawn before nodes so nodes appear on top) ── -->
+
+  <!-- B↔C  Execution ↔ Dynamic: STRONG solid (long diagonal, drawn first) -->
+  <line x1="499" y1="206" x2="126" y2="374"
+        stroke="#d4600a" stroke-width="4"
+        marker-end="url(#as)" marker-start="url(#asr)"/>
+
+  <!-- F↔E  Portability ↔ Simplicity: MEDIUM dashed (vertical through center) -->
+  <line x1="360" y1="135" x2="360" y2="425"
+        stroke="#e89030" stroke-width="2.5" stroke-dasharray="8 5"
+        marker-end="url(#am)" marker-start="url(#amr)"/>
+
+  <!-- E↔B  Simplicity ↔ Execution: STRONG dashed -->
+  <line x1="387" y1="433" x2="518" y2="227"
+        stroke="#d4600a" stroke-width="4" stroke-dasharray="8 5"
+        marker-end="url(#as)" marker-start="url(#asr)"/>
+
+  <!-- E↔A  Simplicity ↔ Compile: MEDIUM dashed -->
+  <line x1="333" y1="433" x2="202" y2="227"
+        stroke="#e89030" stroke-width="2.5" stroke-dasharray="8 5"
+        marker-end="url(#am)" marker-start="url(#amr)"/>
+
+
+  <!-- A↔C  Compile ↔ Dynamic: MEDIUM solid -->
+  <line x1="154" y1="231" x2="101" y2="349"
+        stroke="#e89030" stroke-width="2.5"
+        marker-end="url(#am)" marker-start="url(#amr)"/>
+
+  <!-- D↔B  Expression ↔ Execution: WEAK solid -->
+  <line x1="619" y1="349" x2="566" y2="231"
+        stroke="#c8a040" stroke-width="1.5"
+        marker-end="url(#aw)" marker-start="url(#awr)"/>
+
+  <!-- E↔C  Simplicity ↔ Dynamic: MEDIUM dashed -->
+  <line x1="312" y1="461" x2="128" y2="409"
+        stroke="#e89030" stroke-width="2.5" stroke-dasharray="8 5"
+        marker-end="url(#am)" marker-start="url(#amr)"/>
+
+  <!-- E↔D  Simplicity ↔ Expression: STRONG dashed -->
+  <line x1="408" y1="461" x2="592" y2="409"
+        stroke="#d4600a" stroke-width="4" stroke-dasharray="8 5"
+        marker-end="url(#as)" marker-start="url(#asr)"/>
+
+  <!-- C↔D  Dynamic ↔ Expression: MEDIUM solid -->
+  <line x1="130" y1="395" x2="590" y2="395"
+        stroke="#e89030" stroke-width="2.5"
+        marker-end="url(#am)" marker-start="url(#amr)"/>
+
+  <!-- A↔B  Compile ↔ Execution: STRONG solid -->
+  <line x1="225" y1="185" x2="495" y2="185"
+        stroke="#d4600a" stroke-width="4"
+        marker-end="url(#as)" marker-start="url(#asr)"/>
+
+  <!-- F↔B  Portability ↔ Execution: STRONG solid -->
+  <line x1="404" y1="109" x2="501" y2="161"
+        stroke="#d4600a" stroke-width="4"
+        marker-end="url(#as)" marker-start="url(#asr)"/>
+
+  <!-- ── EDGE LABELS ─────────────────────────────────────── -->
+
+  <rect x="294" y="163" width="132" height="20" rx="3" fill="#E4F3F9" opacity="0.93"/>
+  <text x="360" y="177" text-anchor="middle" font-size="9.5" fill="#d4600a" font-weight="600">Optimization vs. Compile Time</text>
+
+  <rect x="444" y="111" width="118" height="20" rx="3" fill="#E4F3F9" opacity="0.93"/>
+  <text x="503" y="125" text-anchor="middle" font-size="9.5" fill="#d4600a" font-weight="600">Arch-specific Opt.</text>
+
+  <rect x="245" y="291" width="134" height="20" rx="3" fill="#E4F3F9" opacity="0.93"/>
+  <text x="312" y="305" text-anchor="middle" font-size="9.5" fill="#d4600a" font-weight="600">Compiled vs. Interpreted</text>
+
+  <rect x="52" y="276" width="98" height="20" rx="3" fill="#E4F3F9" opacity="0.93"/>
+  <text x="101" y="290" text-anchor="middle" font-size="9.5" fill="#b86010" font-weight="600">AOT Constraint</text>
+
+  <rect x="284" y="379" width="152" height="20" rx="3" fill="#E4F3F9" opacity="0.93"/>
+  <text x="360" y="393" text-anchor="middle" font-size="9.5" fill="#b86010" font-weight="600">Domain Specialization</text>
+
+  <rect x="561" y="276" width="130" height="20" rx="3" fill="#E4F3F9" opacity="0.93"/>
+  <text x="626" y="290" text-anchor="middle" font-size="9.5" fill="#9a7820" font-weight="600">Abstraction Overhead</text>
+
+  <rect x="469" y="313" width="128" height="20" rx="3" fill="#E4F3F9" opacity="0.93"/>
+  <text x="533" y="327" text-anchor="middle" font-size="9.5" fill="#d4600a" font-weight="600">Optimization Complexity</text>
+
+  <rect x="502" y="427" width="124" height="20" rx="3" fill="#E4F3F9" opacity="0.93"/>
+  <text x="564" y="441" text-anchor="middle" font-size="9.5" fill="#d4600a" font-weight="600">Features → Complexity</text>
+
+  <rect x="94" y="427" width="130" height="20" rx="3" fill="#E4F3F9" opacity="0.93"/>
+  <text x="159" y="441" text-anchor="middle" font-size="9.5" fill="#b86010" font-weight="600">Live Runtime Overhead</text>
+
+  <rect x="143" y="313" width="108" height="20" rx="3" fill="#E4F3F9" opacity="0.93"/>
+  <text x="197" y="327" text-anchor="middle" font-size="9.5" fill="#b86010" font-weight="600">Compiler Design</text>
+
+  <rect x="364" y="198" width="118" height="20" rx="3" fill="#E4F3F9" opacity="0.93"/>
+  <text x="423" y="212" text-anchor="middle" font-size="9.5" fill="#b86010" font-weight="600">Platform Abstraction</text>
+
+  <!-- ── NODES (drawn last, on top of edges) ─────────────── -->
+
+  <!-- F: Platform Portability (360, 85) -->
+  <circle cx="360" cy="85" r="50" fill="white" stroke="#2d5080" stroke-width="2.5"/>
+  <text x="360" y="79" text-anchor="middle" font-size="10.5" font-weight="700" fill="#1a3060">Platform</text>
+  <text x="360" y="95" text-anchor="middle" font-size="10.5" font-weight="700" fill="#1a3060">Portability</text>
+
+  <!-- A: Compile Speed (175, 185) -->
+  <circle cx="175" cy="185" r="50" fill="white" stroke="#2d5080" stroke-width="2.5"/>
+  <text x="175" y="179" text-anchor="middle" font-size="11" font-weight="700" fill="#1a3060">Compile</text>
+  <text x="175" y="195" text-anchor="middle" font-size="11" font-weight="700" fill="#1a3060">Speed</text>
+
+  <!-- B: Execution Speed (545, 185) -->
+  <circle cx="545" cy="185" r="50" fill="white" stroke="#2d5080" stroke-width="2.5"/>
+  <text x="545" y="179" text-anchor="middle" font-size="11" font-weight="700" fill="#1a3060">Execution</text>
+  <text x="545" y="195" text-anchor="middle" font-size="11" font-weight="700" fill="#1a3060">Speed</text>
+
+  <!-- C: Dynamic Modification (80, 395) -->
+  <circle cx="80" cy="395" r="50" fill="white" stroke="#2d5080" stroke-width="2.5"/>
+  <text x="80" y="389" text-anchor="middle" font-size="10" font-weight="700" fill="#1a3060">Dynamic</text>
+  <text x="80" y="404" text-anchor="middle" font-size="10" font-weight="700" fill="#1a3060">Modification</text>
+
+  <!-- D: Expression Range (640, 395) -->
+  <circle cx="640" cy="395" r="50" fill="white" stroke="#2d5080" stroke-width="2.5"/>
+  <text x="640" y="389" text-anchor="middle" font-size="10.5" font-weight="700" fill="#1a3060">Expression</text>
+  <text x="640" y="405" text-anchor="middle" font-size="10.5" font-weight="700" fill="#1a3060">Range</text>
+
+  <!-- E: Implementation Simplicity (360, 475) — SPECIAL -->
+  <circle cx="360" cy="475" r="56" fill="none" stroke="#e89030" stroke-width="1.5" stroke-dasharray="5 3" opacity="0.7"/>
+  <circle cx="360" cy="475" r="50" fill="#fff8ee" stroke="#d4600a" stroke-width="2.5"/>
+  <text x="360" y="469" text-anchor="middle" font-size="10" font-weight="700" fill="#9a3a08">Implementation</text>
+  <text x="360" y="485" text-anchor="middle" font-size="10" font-weight="700" fill="#9a3a08">Simplicity</text>
+</svg>
