@@ -8,6 +8,8 @@ thum: demos_of_all_2.jpg
 bigthum: true
 ---
 
+A reading/sound performance about “demonstrations” using the sound programming language [mimium](/en/works/mimium). A demonstration is an act of presenting something; it can signify direct political action, while at the same time it is sometimes used to showcase technological advancements. In this performance, while reflecting on the history of how technical demonstrations—as exemplified by Douglas Engelbart—have become depoliticized, the performer tries to connect this to the aesthetics of revealing code in live coding and attempt to repoliticize technical demonstrations. The performance is executed by intentionally inducing real-time audio feedback from the voice being read aloud, captured by a microphone, and controlling that feedback.
+
 
 {{< youtube svM26xFPyNo>}}
 
