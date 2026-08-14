@@ -9,7 +9,7 @@ tags:
 bigthum: false
 ---
 
-<iframe style="border: 0; width: 350px; height: 470px;" src="https://bandcamp.com/EmbeddedPlayer/album=328387814/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/track=3931439622/transparent=true/" seamless><a href="http://kasanegiwristband.bandcamp.com/album/parafull">ParaFull+ by Kasanegi Wristband</a></iframe>
+<iframe style="border: 0; width: 350px; height: 470px;" src="https://bandcamp.com/EmbeddedPlayer/album=328387814/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/track=3931439622/transparent=true/" seamless><a href="https://kasanegiwristband.bandcamp.com/album/parafull">ParaFull+ Kasanegi Wristband</a></iframe>
 
 増田義基率いる演奏集団「かさねぎリストバンド」の中から「くじら眠る街」をリミックスした「車-machine-無地-R」という曲を作りました。
 
