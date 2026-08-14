@@ -82,6 +82,8 @@ Web Site : <https://matsuuratomoya.com>
 
 2019年 [未踏IT人材発掘・育成事業 採択、スーパークリエータ認定(テーマ：「プログラマブルな音楽制作ソフトウェアの開発」)](https://www.ipa.go.jp/jinzai/mitou/2019/gaiyou_tk-1.html)
 
+2026年 第66回プログラミング・シンポジウム 山内奨励賞, ラムダ計算の拡張に基づく音楽プログラミング言語mimiumとそのVMの実装, 情報処理学会 
+
 ---
 
 ## Technical Skills

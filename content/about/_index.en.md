@@ -3,7 +3,7 @@ title: about
 layout: single
 url: "/en/about/"
 name: Tomoya Matsuura
-shortprofile: Tomoya Matsuura (Fukuoka, Japan) is a sound artist who builds systems that describe and generate sound. These take the form of music, sound installations, and instruments.
+shortprofile: Tomoya Matsuura (Kanagawa, Japan) is a sound artist who builds systems that describe and generate sound. These take the form of music, sound installations, and instruments.
 ogpimage: ogp.jpg
 ---
 
@@ -78,7 +78,11 @@ Born in 1994 in Chigasaki City, Kanagawa Pref. Living in Kanagawa Pref. Japan.
 
 2018 [KAKEHASHI foundation](https://www.kakehashi-foundation.jp) Scholarship Student
 
-2019年 [Kitakyushu Digital Creators Contest　Selected](http://kdcc.info/archive/2019.html) ([Aphysical Unmodeling Instrument](/en/works/aphysical-unmodeling-instrument))
+2019 [Kitakyushu Digital Creators Contest　Selected](http://kdcc.info/archive/2019.html) ([Aphysical Unmodeling Instrument](/en/works/aphysical-unmodeling-instrument))
+
+2020 [MITOU Super Creator, Information Promotion Agency](https://www.ipa.go.jp/jinzai/mitou/2019/gaiyou_tk-1.html)
+
+2026 The 66th Programming Symposium Yamauchi Encouragement Award, Information Processing Society Japan 
 
 ---
 
