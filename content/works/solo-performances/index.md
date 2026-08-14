@@ -1,12 +1,31 @@
 ---
 title: Solo Performances
-thum: algotrek6_matsuura2.jpg
-date : 2025-10-27
+thum: amc_kansokujo_thum.jpg
+date : 2026-05-20
 category: artwork
 tags:
 - performance
 bigthum: true
 ---
+
+## 東京藝術大学芸術情報センター（AMC）オープンラボ「観測所」　ヨイク・プラクティス
+
+2026.05.20
+
+https://amc.geidai.ac.jp/exhibition/2026/
+
+![](amc_kansokujo_1.jpg)
+
+![](amc_kansokujo_2.jpg)
+
+![](amc_kansokujo_3.jpg)
+
+![](amc_kansokujo_4.jpg)
+
+Photos by AMC staff
+
+instruments: Exidiophone x2, Behringer MX802a, Lorre-Mill Double Knot v2, whistles
+
 
 ## Algotrek 6 at Long Pond, Providence
 
