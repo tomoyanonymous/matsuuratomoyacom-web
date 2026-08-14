@@ -11,6 +11,8 @@ bigthum: false
 
 <iframe style="border: 0; width: 350px; height: 470px;" src="https://bandcamp.com/EmbeddedPlayer/album=328387814/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/track=3931439622/transparent=true/" seamless><a href="https://kasanegiwristband.bandcamp.com/album/parafull">ParaFull+ Kasanegi Wristband</a></iframe>
 
+https://kasanegiwristband.bandcamp.com/track/the-city-where-the-whale-is-sleeping-kuruma-machine-muji-r-tomoya-matsuura-remix
+
 増田義基率いる演奏集団「かさねぎリストバンド」の中から「くじら眠る街」をリミックスした「車-machine-無地-R」という曲を作りました。
 
 この曲は2018年3月18日に行われたライブ「Parafull」の来場者特典として配布されたのち、bandcampで配信されたデジタルアルバム「Parafull+」に収録されました。
