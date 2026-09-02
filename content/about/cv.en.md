@@ -134,6 +134,7 @@ Last Updated: 2026.05.04
 
 ### Performances
 
+- Tokyo University of the Arts Art Media Center Open Lab "Observatory" Yoik Practice, Chinretsukan Garelly in The Art Museum of Tokyo University of the Arts, 2025.05.20
 - [Algotrek 6](https://femishonuga.com/wiki/algotrek.html) 2025.10.24, Long Pond, Providence
 - Sun Yizhou & Hiroyuki Ura & Naoki Nomoto, Ayami Suzuki & Takashi Masubuchi, Tomoya Matsuura, Satoshi Yashiro ,DJ FACE 2 FACE INOKI at ForestLimit 2023.07.04
 - Stain at Kyushu University Ohashi Campus 2023.05.13 

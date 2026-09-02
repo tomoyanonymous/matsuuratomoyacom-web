@@ -1,6 +1,7 @@
 ---
 title: Solo Performances
 thum: amc_kansokujo_thum.jpg
+ogpimage: amc_kansokujo_thum.jpg
 date : 2026-05-20
 category: artwork
 tags:

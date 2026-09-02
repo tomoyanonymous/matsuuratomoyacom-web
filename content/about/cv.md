@@ -135,6 +135,7 @@ Last Updated: 2026.05.04
 
 ### ライブパフォーマンス
 
+- 東京藝術大学芸術情報センター（AMC）オープンラボ「観測所」ヨイク・プラクティス, 東京藝術大学美術館陳列館 2025.05.20
 - [Algotrek 6](https://femishonuga.com/wiki/algotrek.html) 2025.10.24, Long Pond, Providence
 - Sun Yizhou & Hiroyuki Ura & Naoki Nomoto, Ayami Suzuki & Takashi Masubuchi, Tomoya Matsuura, Satoshi Yashiro ,DJ FACE 2 FACE INOKI at ForestLimit 2023.07.04
 - Stain at 九州大学大橋キャンパス音響特殊棟 2023.05.13
