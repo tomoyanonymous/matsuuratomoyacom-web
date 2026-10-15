@@ -44,7 +44,7 @@ me@matsuuratomoya.com https://matsuuratomoya.com
 
 Born in 1994 in Chigasaki City, Kanagawa Pref. Living in Kanagawa Pref., Japan.
 
-Last Updated: 2026.05.04
+Last Updated: 2026.10.15
 
 ## Educations
 
@@ -62,6 +62,7 @@ Last Updated: 2026.05.04
 - 2019.08 SFPC Summer 2019 in Yamaguchi Teaching Assistant
 - 2020~  Fukuoka Jo Gakuin University Part-time teacher (Sound Design)
 - 2022.04~2026.04 Project Assistant Professor at [Art Media Center](https://amc.geidai.ac.jp), Tokyo University of the Arts
+- 2026.10~ Part-time Project Assistant Professor at [Art Media Center](https://amc.geidai.ac.jp), Tokyo University of the Arts
 
 ## Grants/Scholarships
 
@@ -83,13 +84,16 @@ Last Updated: 2026.05.04
 - 2019 [Kitakyushu Digital Creators Contest　Selected](http://kdcc.info/archive/2019.html) ([Aphysical Unmodeling Instrument](/en/works/aphysical-unmodeling-instrument))
 - 2020　Information Promotion Agency Mitou IT Human Resounce Project Super Creator
 
+## Books
+
+Nagatomi Mari, Chu Sota, Hidaka Ryosuke, **Matsuura Tomoya**, et al., *Critical Words: Popular Music: Expanding and Updating "Listening"* (contributor; Part III, "Programming"), Film Art, 2023.03.25, ISBN 9784845921317
+
 ## Publications(Excerpts)
 
 1. **Matsuura, T**, Toward the Next Thinkerer: Notes on the Design of the "Code and Design" Course, AMC Journal vol. 5, pp. 75-89, 2026, https://amc.geidai.ac.jp/lab/archives/10841
-1. **Matsuura, T**, Hiding What from Whom? A Critical Review of the History of Programming languages for Music, Proceedings of the International Computer Music Conference 2025, 2025,  https://doi.org/10.5281/zenodo.15285756 (Preprint)
+1. **Matsuura, T**, Hiding What from Whom? A Critical Review of the History of Programming languages for Music, Proceedings of the International Computer Music Conference 2025, 2025,  https://doi.org/10.5281/zenodo.15285756
 1. **松浦知也**, 無いことは口にできない、口にしないなら無い？–ジョナサン・スターン『減退した能力-インペアメントの政治的現象学』書評, メディウム 第5号, 2024(to be published)
 1. **Matsuura, T**, Lambda-mmm: the Intermediate Representation for Synchronous Signal Processing Language Based on Lambda Calculus, Proceedings of International Faust Conference 2024, 2024 https://hal.science/hal-04849629
-1. **松浦知也**, 地球を掻き鳴らすピック – おおしまたくろう「滑琴狂走曲 in 秋田！（カッキンラプソディー・イン・アキタ）」（2023年1月15日）レビュー, 秋田市文化創造館 Webサイト, 2023, https://akitacc.jp/article/oshima_review/
 1. **松浦知也**、音楽土木工学を設計する—音楽のためのプログラミング言語mimiumの開発を通じて、2022、九州大学大学院芸術工学府博士論文 https://matsuuratomoya.com/hakuron
 1. **Matsuura, T**. and Jo, K. 2021. mimium: A Self-Extensible Programming Language for Sound and Music. FARM 2021 - Proceedings of the ACM SIGPLAN International Workshop on Functional Art, Music, Modeling, and Design (2021). https://dl.acm.org/doi/10.1145/3471872.3472969
 1. **松浦知也**、メディア考古学的視点から音の生成を再考する3つの作品制作、2019、九州大学大学院芸術工学府修士論文 https://github.com/tomoyanonymous/shuron/releases/download/v2.0.0/TomoyaMatsuura-MasterThesis-Submission.pdf
@@ -101,8 +105,8 @@ Last Updated: 2026.05.04
 ## Presentation, Guest Lectures
 
 1. **Matsuura, T**, "Multistage Programming in mimium, a Functional Programming Language for Music", Functional Matsuri 2026, 2026.07.12
-1. **Matsuura, T**, "Introduction to Media Expression", Industrial Art Course, Tokyo Metropolitan University (Guest Lecture), 2026.06.18
-1. **Matsuura, T**, "Artworks in the Age of Imitation Technology", "Music and Acoustics", Kyushu University (Guest Lecture), 2026.06.11
+1. **Matsuura, T**, "Introduction to Media Expression", Industrial Art Course, Tokyo Metropolitan University (Guest Lecture), 2026.06.18 (Invited)
+1. **Matsuura, T**, "Artworks in the Age of Imitation Technology", "Music and Acoustics", Kyushu University (Guest Lecture), 2026.06.11 (Invited)
 1. **Matsuura, T**, "mimium, a Multipurpose Functional DSP Programming Language", Audio Developer Conference Japan 2026, 2026.06.03, https://audio.dev/adc-japan-26/schedule/
 1. **Matsuura, T**, "Multistage Programming and Live Coding in the Music Programming Language mimium", The 67th Programming Symposium (Yamauchi Encouragement Award Invited Lecture), 2026.01.10
 1. **Matsuura, T**, "mimium, a programming language for music based on extended lambda calculus, and implementation of VM for it", The 66th Programming Symposium, 2025.01.10 https://jglobal.jst.go.jp/detail?JGLOBAL_ID=202502244058528895
@@ -116,6 +120,12 @@ Last Updated: 2026.05.04
 1. **松浦知也**, 城一裕, mimium:音と音楽のための自己拡張性の高いプログラミング言語の設計と実装, 第 29 回インタラクティブシステムとソフトウェアに関するワークショップ(WISS 2021), 2021.12.08
 1. **Matsuura, T**, "Can Technology (really) Change the Music?", X-music research groupregular meeting, Keio University, 2020.06.06 (Invited) https://speakerdeck.com/tomoyanonymous/can-we-seriously-change-music
 1. **松浦知也**, 城一裕 ,オーディオフィードバックに基づく電子音響楽器“Exidiophone”, 日本音楽学会西日本支部 7 月例会, 2018.07.14
+
+## Magazine Contributions, Reviews, and Interviews
+
+1. **Matsuura, T**, "Uncontrollable Instruments", *Eureka*, August 2026 issue, feature on Shuta Hasunuma, 2026.07
+1. **Matsuura, T**, "I Made My Own Solar Cell! A Report on a Dye-Sensitized Solar Cell Workshop", *Monthly I/O*, March 2026 issue, 2026.02.18
+1. **Matsuura, T**, "A Pick That Strums the Earth" - Review of Takuro Oshima's *Kakkin Rhapsody in Akita!* (2023.01.15), Akita City Cultural Creation Center website, 2023, https://akitacc.jp/article/oshima_review/
 
 ## Teaching
 
@@ -142,6 +152,8 @@ Last Updated: 2026.05.04
 
 ### Performances
 
+- "Garden of Phenomena: Spatial Expression Woven by Light and Shadow", Tokyo University of the Arts, Ueno Campus, 2026.09.26
+- "Mother, Demos of All", Solo Live Coding Performance, ART DX EXPO #3, Art Space, Tokyo University of the Arts, Ueno Campus, 2026.03.22
 - Tokyo University of the Arts Art Media Center Open Lab "Observatory" Yoik Practice, Chinretsukan Garelly in The Art Museum of Tokyo University of the Arts, 2025.05.20
 - [Algotrek 6](https://femishonuga.com/wiki/algotrek.html) 2025.10.24, Long Pond, Providence
 - Sun Yizhou & Hiroyuki Ura & Naoki Nomoto, Ayami Suzuki & Takashi Masubuchi, Tomoya Matsuura, Satoshi Yashiro ,DJ FACE 2 FACE INOKI at ForestLimit 2023.07.04
@@ -178,7 +190,9 @@ Last Updated: 2026.05.04
 
 ### Technical Support & Sound Design for Other Artists
 
-- Miyoshi Kensho "Movements of the Time" SEIKO Forest of Mechanisms 2025 Sound System Development (2025, with Masuda Yoshiki、Kono Shintaro) https://www.seiko-seed.com/karakurinomori2025/en
+- Miyoshi Kensho, "Elements of Time", SEIKO Forest of Mechanisms 2026, Sound Engineering (2026), https://www.seiko-seed.com/karakurinomori2026/
+- Nejiko Pijin + YCAM, "Seisei no Sensei", Autumn Meteorite 2026, Tokyo Metropolitan Theatre, robot maintenance and related work, 2026
+- Miyoshi Kensho, "Movements of the Time", SEIKO Forest of Mechanisms 2025, Sound System Development (2025), https://www.seiko-seed.com/karakurinomori2025/en
 - STUDIO POETIC CURIOSITY 「My My Voices」Sound System Development（2023-2024, With Masuda Yoshiki） https://www.instagram.com/p/DG5NxKzyoer/
 - SIDE CORE 「road work ver. under city」(2024.08-12), SIDE CORE｜Concrete Planet, Watarium, http://www.watarium.co.jp/jp/exhibition/202408/ （Sound Design for the Video Work, System Design and Programming for Multichannel Playback & Synchronization）
 - SIDE CORE 「road work ver. under city」(2023). https://ccbt.rekibun.or.jp/events/rodework_ver_undercity (Sound Design for the Video Work)

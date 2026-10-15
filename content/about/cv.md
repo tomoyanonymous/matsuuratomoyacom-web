@@ -43,7 +43,7 @@ me@matsuuratomoya.com https://matsuuratomoya.com
 
 1994年神奈川県茅ヶ崎市生まれ、神奈川県在住
 
-Last Updated: 2026.05.04
+Last Updated: 2026.10.15
 
 ## 学歴
 
@@ -60,6 +60,7 @@ Last Updated: 2026.05.04
 - 2019.08 SFPC Summer 2019 in Yamaguchi Teaching Assistant
 - 2020.04~ 福岡女学院大学 非常勤講師（サウンド・デザイン）
 - 2022.04~2026.04 [東京藝術大学芸術情報センター(AMC)](https://amc.geidai.ac.jp) 特任助教
+- 2026.10~[東京藝術大学芸術情報センター(AMC)](https://amc.geidai.ac.jp) 特任助教(非常勤)
 
 ## 奨学金・助成金
 
@@ -83,14 +84,16 @@ Last Updated: 2026.05.04
 - 2019 [北九州デジタルクリエーターコンテスト 2019 入選](http://kdcc.info/archive/2019.html) ([Aphysical Unmodeling Instrument](https://matsuuratomoya.com/works/aphysical-unmodeling-instrument))
 - 2020 未踏IT人材発掘・育成事業 スーパークリエータ認定
 
+## 書籍
+
+永冨真梨, 忠聡太, 日高良祐,  **松浦知也**, et al, クリティカル・ワード ポピュラー音楽 〈聴く〉を広げる・更新する (担当:分担執筆, 範囲:第3部「プログラミング」), フィルムアート社 2023.03.25, ISBN 9784845921317
+
 ## 論文（抜粋）
 
 1. **松浦知也**, 次の Thinkerer のために – 「コードとデザイン」授業設計の覚書, AMCジャーナル vol.5 p75-89, 2026, https://amc.geidai.ac.jp/lab/archives/10841
-1. **Matsuura, T**, Hiding What from Whom? A Critical Review of the History of Programming languages for Music, Proceedings of the International Computer Music Conference 2025, 2025,  https://doi.org/10.5281/zenodo.15285756 (Preprint)
+1. **Matsuura, T**, Hiding What from Whom? A Critical Review of the History of Programming languages for Music, Proceedings of the International Computer Music Conference 2025, 2025,  https://doi.org/10.5281/zenodo.15285756
 1. **松浦知也**, 無いことは口にできない、口にしないなら無い？–ジョナサン・スターン『減退した能力-インペアメントの政治的現象学』書評, メディウム 第5号, 2024.12, [https://mediensysteme2019.wordpress.com/2024/12/12/『メディウム』第5号/](https://mediensysteme2019.wordpress.com/2024/12/12/『メディウム』第5号/)
 1. **Matsuura, T**, Lambda-mmm: the Intermediate Representation for Synchronous Signal Processing Language Based on Lambda Calculus, Proceedings of International Faust Conference 2024, 2024 https://hal.science/hal-04849629
-1. **松浦知也**, 地球を掻き鳴らすピック – おおしまたくろう「滑琴狂走曲 in 秋田！（カッキンラプソディー・イン・アキタ）」（2023 年 1 月 15 日）レビュー, 秋田市文化創造館 Web サイト, 2023, https://akitacc.jp/article/oshima_review/
-1. 永冨真梨, 忠聡太, 日高良祐編著, **松浦知也** et al. 著, クリティカル・ワード ポピュラー音楽 〈聴く〉を広げる・更新する - 第3章「プログラミング」項の執筆, 2023.03.25 ISBN 9784845921317
 1. **松浦知也**、音楽土木工学を設計する—音楽のためのプログラミング言語 mimium の開発を通じて、2022、九州大学大学院芸術工学府博士論文 https://matsuuratomoya.com/hakuron
 1. **Matsuura, T**. and Jo, K. 2021. mimium: A Self-Extensible Programming Language for Sound and Music. FARM 2021 - Proceedings of the ACM SIGPLAN International Workshop on Functional Art, Music, Modeling, and Design (2021). https://dl.acm.org/doi/10.1145/3471872.3472969
 1. **松浦知也**、メディア考古学的視点から音の生成を再考する 3 つの作品制作、2019、九州大学大学院芸術工学府修士論文 https://github.com/tomoyanonymous/shuron/releases/download/v2.0.0/TomoyaMatsuura-MasterThesis-Submission.pdf 
@@ -102,8 +105,8 @@ Last Updated: 2026.05.04
 ## 講演、口頭発表、ゲスト講義（抜粋）
 
 1. **松浦知也**, 音楽のための関数型プログラミング言語mimiumにおける多段階計算の活用, 関数型まつり2026, 2026.07.12
-1. **松浦知也**, 東京都立大学 インダストリアルアートコース メディア表現概論(ゲスト講義) , 2026.06.18
-1. **松浦知也**, ものまね技術時代の芸術作品, 九州大学 音楽音響論(ゲスト講義) 2026.06.11
+1. **松浦知也**, 東京都立大学 インダストリアルアートコース メディア表現概論(ゲスト講義) , 2026.06.18(Invited)
+1. **松浦知也**, ものまね技術時代の芸術作品, 九州大学 音楽音響論(ゲスト講義) 2026.06.11(Invited)
 1. **松浦知也** 多目的な関数型DSP処理プログラミング言語mimium, Audio Developer Conference Japan 2026, 2026.06.03, https://audio.dev/adc-japan-26/schedule/
 1. **松浦知也**, 音楽プログラミング言語mimiumにおける多段階計算とライブコーディング, 第67回プログラミングシンポジウム(山内奨励賞招待講演), 2026.01.10 
 1. **松浦知也**, ラムダ計算の拡張に基づく音楽プログラミング言語mimiumとそのVMの実装, 第66回プログラミングシンポジウム, 2025.01.10 https://jglobal.jst.go.jp/detail?JGLOBAL_ID=202502244058528895
@@ -117,6 +120,12 @@ Last Updated: 2026.05.04
 1. **松浦知也**, 城一裕, mimium:音と音楽のための自己拡張性の高いプログラミング言語の設計と実装, 第 29 回インタラクティブシステムとソフトウェアに関するワークショップ(WISS 2021), 2021.12.08
 1. **松浦知也**, 技術は（本当の意味で）音楽を変えられるのか？, x-music 研究会, 2020.06.06 (Invited) https://speakerdeck.com/tomoyanonymous/can-we-seriously-change-music
 1. **松浦知也**, 城一裕 ,オーディオフィードバックに基づく電子音響楽器“Exidiophone”, 日本音楽学会西日本支部 7 月例会, 2018.07.14
+
+## 雑誌寄稿、レビュー、インタビュー等
+
+1. **松浦知也**, 制御できない楽器たち, ユリイカ 2026年8月号 特集：蓮沼執太 2026.07
+1. **松浦知也**, My太陽電池を作ってみた！色素増感太陽電池ワークショップの実施内容解説, 月刊I/O 2026年3月号, 2026.02.18
+1. **松浦知也**, 地球を掻き鳴らすピック – おおしまたくろう「滑琴狂走曲 in 秋田！（カッキンラプソディー・イン・アキタ）」（2023 年 1 月 15 日）レビュー, 秋田市文化創造館 Web サイト, 2023, https://akitacc.jp/article/oshima_review/
 
 ## 教育
 
@@ -143,7 +152,9 @@ Last Updated: 2026.05.04
 
 ### ライブパフォーマンス
 
+- 現象の庭 ─光と影が織りなす空間表現─　東京藝術大学上野キャンパス、2026.09.26
 - 東京藝術大学芸術情報センター（AMC）オープンラボ「観測所」ヨイク・プラクティス, 東京藝術大学美術館陳列館 2025.05.20
+- "Mother, Demos of All", Solo Live Coding Performance, ART DX EXPO #3, 東京藝術大学上野キャンパスアートスペース, 2026.03.22
 - [Algotrek 6](https://femishonuga.com/wiki/algotrek.html) 2025.10.24, Long Pond, Providence
 - Sun Yizhou & Hiroyuki Ura & Naoki Nomoto, Ayami Suzuki & Takashi Masubuchi, Tomoya Matsuura, Satoshi Yashiro ,DJ FACE 2 FACE INOKI at ForestLimit 2023.07.04
 - Stain at 九州大学大橋キャンパス音響特殊棟 2023.05.13
@@ -179,7 +190,9 @@ Last Updated: 2026.05.04
 
 ### 他のアーティストとの協働（テクニカルサポート・サウンドデザイン）
 
-- 三好賢聖 「時のムーブメント」SEIKO からくりの森2025 サウンドシステム開発（2025、増田義基、高野慎太郎との共同） https://www.seiko-seed.com/karakurinomori2025/
+- 三好賢聖 「時のエレメント」SEIKO からくりの森2026 サウンドエンジニアリング(2026) https://www.seiko-seed.com/karakurinomori2026/
+- 捩子ぴじん+YCAM「せいせいのせんせい」秋の隕石2026、東京芸術劇場、ロボットメンテナンス等、2026
+- 三好賢聖 「時のムーブメント」SEIKO からくりの森2025 サウンドシステム開発（2025） https://www.seiko-seed.com/karakurinomori2025/
 - STUDIO POETIC CURIOSITY 「私の私の声」サウンドシステム開発（2023-2024, 増田義基との共同） https://www.instagram.com/p/DG5NxKzyoer/
 - SIDE CORE 「road work ver. under city」(2024.08-12), SIDE CORE 展｜コンクリート・プラネット, ワタリウム美術館, http://www.watarium.co.jp/jp/exhibition/202408/ （映像サウンドデザイン、マルチチャンネル再生・同期システム設計）
 - SIDE CORE 「road work ver. under city」 (2023) . 目黒観測井横 空地 https://ccbt.rekibun.or.jp/events/rodework_ver_undercity (映像サウンドデザイン)
