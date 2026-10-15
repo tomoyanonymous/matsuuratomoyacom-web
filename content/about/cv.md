@@ -85,6 +85,7 @@ Last Updated: 2026.05.04
 
 ## 論文（抜粋）
 
+1. **松浦知也**, 次の Thinkerer のために – 「コードとデザイン」授業設計の覚書, AMCジャーナル vol.5 p75-89, 2026, https://amc.geidai.ac.jp/lab/archives/10841
 1. **Matsuura, T**, Hiding What from Whom? A Critical Review of the History of Programming languages for Music, Proceedings of the International Computer Music Conference 2025, 2025,  https://doi.org/10.5281/zenodo.15285756 (Preprint)
 1. **松浦知也**, 無いことは口にできない、口にしないなら無い？–ジョナサン・スターン『減退した能力-インペアメントの政治的現象学』書評, メディウム 第5号, 2024.12, [https://mediensysteme2019.wordpress.com/2024/12/12/『メディウム』第5号/](https://mediensysteme2019.wordpress.com/2024/12/12/『メディウム』第5号/)
 1. **Matsuura, T**, Lambda-mmm: the Intermediate Representation for Synchronous Signal Processing Language Based on Lambda Calculus, Proceedings of International Faust Conference 2024, 2024 https://hal.science/hal-04849629
@@ -100,7 +101,14 @@ Last Updated: 2026.05.04
 
 ## 講演、口頭発表、ゲスト講義（抜粋）
 
+1. **松浦知也**, 音楽のための関数型プログラミング言語mimiumにおける多段階計算の活用, 関数型まつり2026, 2026.07.12
+1. **松浦知也**, 東京都立大学 インダストリアルアートコース メディア表現概論(ゲスト講義) , 2026.06.18
+1. **松浦知也**, ものまね技術時代の芸術作品, 九州大学 音楽音響論(ゲスト講義) 2026.06.11
+1. **松浦知也** 多目的な関数型DSP処理プログラミング言語mimium, Audio Developer Conference Japan 2026, 2026.06.03, https://audio.dev/adc-japan-26/schedule/
+1. **松浦知也**, 音楽プログラミング言語mimiumにおける多段階計算とライブコーディング, 第67回プログラミングシンポジウム(山内奨励賞招待講演), 2026.01.10 
 1. **松浦知也**, ラムダ計算の拡張に基づく音楽プログラミング言語mimiumとそのVMの実装, 第66回プログラミングシンポジウム, 2025.01.10 https://jglobal.jst.go.jp/detail?JGLOBAL_ID=202502244058528895
+1. **松浦知也**, mimiumにおける多段階計算と信号処理内部状態のライブ更新, SIGPX 11, 2025.10.06
+1. **松浦知也**, 伊原 小百合, 多田 伊吹, Sasa-Marie, 大杉豊, 伊藤 隆之, インクルーシブにつくる／つかう道具とは？～CCBT＋東京藝術大学芸術情報センター（AMC）「音楽デバイス開発プロジェクト」報告会～ 2024.11.10
 1. **松浦知也**, 言葉を作ること、ないことについて話すこと, 九州大学芸術工学部 「音楽音響論」ゲスト講義, online, 2024.10.22 (Invited)
 1. **松浦知也**, 想像しうる音を、すべてあなた(たち)に – 音楽の道具としてのパーソナル・コンピューター論概説, 美学校「基礎教養シリーズ〜ゼロから聴きたいテクノロジーと音楽史〜」, 2024.02.25 (Invited) https://teach.matsuuratomoya.com/docs/2024/bigakko-fromzero/
 1. **Matsuura, T** Domain-Spcificity, Normativity and Generality of the CST for Arts, AIST Creative HCI Seminor #5 Creativity Support Tools for artistic work, online, 2023.11.23 (Invited) <https://chci.pages.dev/aist-seminar/5>

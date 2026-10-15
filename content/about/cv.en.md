@@ -85,6 +85,7 @@ Last Updated: 2026.05.04
 
 ## Publications(Excerpts)
 
+1. **Matsuura, T**, Toward the Next Thinkerer: Notes on the Design of the "Code and Design" Course, AMC Journal vol. 5, pp. 75-89, 2026, https://amc.geidai.ac.jp/lab/archives/10841
 1. **Matsuura, T**, Hiding What from Whom? A Critical Review of the History of Programming languages for Music, Proceedings of the International Computer Music Conference 2025, 2025,  https://doi.org/10.5281/zenodo.15285756 (Preprint)
 1. **松浦知也**, 無いことは口にできない、口にしないなら無い？–ジョナサン・スターン『減退した能力-インペアメントの政治的現象学』書評, メディウム 第5号, 2024(to be published)
 1. **Matsuura, T**, Lambda-mmm: the Intermediate Representation for Synchronous Signal Processing Language Based on Lambda Calculus, Proceedings of International Faust Conference 2024, 2024 https://hal.science/hal-04849629
@@ -99,7 +100,14 @@ Last Updated: 2026.05.04
 
 ## Presentation, Guest Lectures
 
+1. **Matsuura, T**, "Multistage Programming in mimium, a Functional Programming Language for Music", Functional Matsuri 2026, 2026.07.12
+1. **Matsuura, T**, "Introduction to Media Expression", Industrial Art Course, Tokyo Metropolitan University (Guest Lecture), 2026.06.18
+1. **Matsuura, T**, "Artworks in the Age of Imitation Technology", "Music and Acoustics", Kyushu University (Guest Lecture), 2026.06.11
+1. **Matsuura, T**, "mimium, a Multipurpose Functional DSP Programming Language", Audio Developer Conference Japan 2026, 2026.06.03, https://audio.dev/adc-japan-26/schedule/
+1. **Matsuura, T**, "Multistage Programming and Live Coding in the Music Programming Language mimium", The 67th Programming Symposium (Yamauchi Encouragement Award Invited Lecture), 2026.01.10
 1. **Matsuura, T**, "mimium, a programming language for music based on extended lambda calculus, and implementation of VM for it", The 66th Programming Symposium, 2025.01.10 https://jglobal.jst.go.jp/detail?JGLOBAL_ID=202502244058528895
+1. **Matsuura, T**, "Multistage Programming and Live Updating of Signal Processing Internal State in mimium", SIGPX 11, 2025.10.06
+1. **Matsuura, T**, Sayuri Ihara, Ibuki Tada, Sasa-Marie, Yutaka Osugi, Takayuki Ito, "What Does It Mean to Make and Use Tools Inclusively?" Report on the CCBT + Tokyo University of the Arts Art Media Center (AMC) Music Device Development Project, 2024.11.10
 1. **Matsuura, T**, "Talking on Nothingness, Making Languages" , Department of Design, Kyushu University ”Sound and Acoustics” Guest Lecture, online, 2024.10.22 (Invited)
 1. **Matsuura, T**, Any Sound (Prural) You Can Imagine – Basic Lecture of Personal Computing as a Tool for Music, Bigakko「Basic Knowledge Series〜Introduction from Zero, History of Technology and Music 〜」, 2024.02.25 (Invited) https://teach.matsuuratomoya.com/docs/2024/bigakko-fromzero/
 1. **Matsuura, T** Domain-Spcificity, Normativity and Generality of the CST for Arts, AIST Creative HCI Seminor #5 Creativity Support Tools for artistic work, online, 2023.11.23 (Invited) <https://chci.pages.dev/aist-seminar/5>
