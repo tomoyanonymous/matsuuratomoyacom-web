@@ -44,7 +44,7 @@ me@matsuuratomoya.com https://matsuuratomoya.com
 
 Born in 1994 in Chigasaki City, Kanagawa Pref. Living in Kanagawa Pref., Japan.
 
-Last Updated: 2026.10.15
+Last Updated: 2026.11.16
 
 ## Educations
 
@@ -91,6 +91,7 @@ Nagatomi Mari, Chu Sota, Hidaka Ryosuke, **Matsuura Tomoya**, et al., *Critical 
 ## Publications(Excerpts)
 
 1. **Matsuura, T**, Toward the Next Thinkerer: Notes on the Design of the "Code and Design" Course, AMC Journal vol. 5, pp. 75-89, 2026, https://amc.geidai.ac.jp/lab/archives/10841
+1. Sayuri Ihara, **Tomoya Matsuura**, Karin Furuhashi, Natsuki Sakamoo, Oto Sakurai, Proposing New Musical Experiences Through the Creation of Music Workshops for Children with Deafness or Hearing Impairments: The Creative Process Behind the Tokyo Bunka Kaikan Music Workshop "Wonder Museum”, Japanese Journal of Music Education Practice vol.23, pp56-65 , 2025
 1. **Matsuura, T**, Hiding What from Whom? A Critical Review of the History of Programming languages for Music, Proceedings of the International Computer Music Conference 2025, 2025,  https://doi.org/10.5281/zenodo.15285756
 1. **松浦知也**, 無いことは口にできない、口にしないなら無い？–ジョナサン・スターン『減退した能力-インペアメントの政治的現象学』書評, メディウム 第5号, 2024(to be published)
 1. **Matsuura, T**, Lambda-mmm: the Intermediate Representation for Synchronous Signal Processing Language Based on Lambda Calculus, Proceedings of International Faust Conference 2024, 2024 https://hal.science/hal-04849629
@@ -190,8 +191,8 @@ Nagatomi Mari, Chu Sota, Hidaka Ryosuke, **Matsuura Tomoya**, et al., *Critical 
 
 ### Technical Support & Sound Design for Other Artists
 
-- Miyoshi Kensho, "Elements of Time", SEIKO Forest of Mechanisms 2026, Sound Engineering (2026), https://www.seiko-seed.com/karakurinomori2026/
-- Nejiko Pijin + YCAM, "Seisei no Sensei", Autumn Meteorite 2026, Tokyo Metropolitan Theatre, robot maintenance and related work, 2026
+- Miyoshi Kensho, "Elements of Time", SEIKO Forest of Mechanisms 2026, Sound Engineering (2026), https://www.seiko-seed.com/karakurinomori2026/en
+- Neji Pijin + YCAM, "Seisei no Sensei", Autumn Meteorite 2026, Tokyo Metropolitan Theatre, robot maintenance and related work, 2026
 - Miyoshi Kensho, "Movements of the Time", SEIKO Forest of Mechanisms 2025, Sound System Development (2025), https://www.seiko-seed.com/karakurinomori2025/en
 - STUDIO POETIC CURIOSITY 「My My Voices」Sound System Development（2023-2024, With Masuda Yoshiki） https://www.instagram.com/p/DG5NxKzyoer/
 - SIDE CORE 「road work ver. under city」(2024.08-12), SIDE CORE｜Concrete Planet, Watarium, http://www.watarium.co.jp/jp/exhibition/202408/ （Sound Design for the Video Work, System Design and Programming for Multichannel Playback & Synchronization）

@@ -43,7 +43,7 @@ me@matsuuratomoya.com https://matsuuratomoya.com
 
 1994年神奈川県茅ヶ崎市生まれ、神奈川県在住
 
-Last Updated: 2026.10.15
+Last Updated: 2026.11.16
 
 ## 学歴
 
@@ -91,6 +91,7 @@ Last Updated: 2026.10.15
 ## 論文（抜粋）
 
 1. **松浦知也**, 次の Thinkerer のために – 「コードとデザイン」授業設計の覚書, AMCジャーナル vol.5 p75-89, 2026, https://amc.geidai.ac.jp/lab/archives/10841
+1. 伊原小百合, **松浦知也**, 古橋果林, 坂本夏樹, 櫻井音斗, ろう児・難聴児を対象とする音楽ワークショップの創作を通じた新たな音楽体験の提案：東京文化会館ミュージック・ワークショップ「不思議なミュージアム」の創作過程, 音楽教育実践ジャーナル vol.23, pp56-65 , 2025
 1. **Matsuura, T**, Hiding What from Whom? A Critical Review of the History of Programming languages for Music, Proceedings of the International Computer Music Conference 2025, 2025,  https://doi.org/10.5281/zenodo.15285756
 1. **松浦知也**, 無いことは口にできない、口にしないなら無い？–ジョナサン・スターン『減退した能力-インペアメントの政治的現象学』書評, メディウム 第5号, 2024.12, [https://mediensysteme2019.wordpress.com/2024/12/12/『メディウム』第5号/](https://mediensysteme2019.wordpress.com/2024/12/12/『メディウム』第5号/)
 1. **Matsuura, T**, Lambda-mmm: the Intermediate Representation for Synchronous Signal Processing Language Based on Lambda Calculus, Proceedings of International Faust Conference 2024, 2024 https://hal.science/hal-04849629
