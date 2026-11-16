@@ -108,7 +108,7 @@ Nagatomi Mari, Chu Sota, Hidaka Ryosuke, **Matsuura Tomoya**, et al., *Critical 
 1. **Matsuura, T**, "Multistage Programming in mimium, a Functional Programming Language for Music", Functional Matsuri 2026, 2026.07.12
 1. **Matsuura, T**, "Introduction to Media Expression", Industrial Art Course, Tokyo Metropolitan University (Guest Lecture), 2026.06.18 (Invited)
 1. **Matsuura, T**, "Artworks in the Age of Imitation Technology", "Music and Acoustics", Kyushu University (Guest Lecture), 2026.06.11 (Invited)
-1. **Matsuura, T**, "mimium, a Multipurpose Functional DSP Programming Language", Audio Developer Conference Japan 2026, 2026.06.03, https://audio.dev/adc-japan-26/schedule/
+1. **Matsuura, T**, "mimium, a Multipurpose Functional DSP Programming Language", Audio Developer Conference Japan 2026, 2026.06.03, https://audio.dev/archive/adc-japan-26/
 1. **Matsuura, T**, "Multistage Programming and Live Coding in the Music Programming Language mimium", The 67th Programming Symposium (Yamauchi Encouragement Award Invited Lecture), 2026.01.10
 1. **Matsuura, T**, "mimium, a programming language for music based on extended lambda calculus, and implementation of VM for it", The 66th Programming Symposium, 2025.01.10 https://jglobal.jst.go.jp/detail?JGLOBAL_ID=202502244058528895
 1. **Matsuura, T**, "Multistage Programming and Live Updating of Signal Processing Internal State in mimium", SIGPX 11, 2025.10.06
