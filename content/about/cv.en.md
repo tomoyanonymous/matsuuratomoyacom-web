@@ -165,7 +165,9 @@ Nagatomi Mari, Chu Sota, Hidaka Ryosuke, **Matsuura Tomoya**, et al., *Critical 
 - Solo Performance at Suidoubashi Ftarri, 2021.04.29
 - A mashup for "Nothing is Real(Strawberry fields)" & "I am sitting in a room" by Alvin Lucier, Online Performance, 2020.08.20
 - COMPUTER MUSIC PARTY(Ochiai Soup), 2019.12.08
-- OPAMで会いましょう。 Session Live w/Shuta Hasunuma, Ryotaro Miyasaka  2019.11.30
+- MEET on OPAM, Session Live w/Shuta Hasunuma, Ryotaro Miyasaka, Oita Prefectural Museum  2019.11.30
+- 菫夜講(Sumireyakov), Sumire-sha(Nagasaki), 2019.11.17
+- COPY CONT ROLL 08, at Kiyokawa Bar Bassic 2019.09.27
 - SLEEP 1(Ochiai Soup) 2019.02.17
 - Solo Performance at Suidoubashi Ftarri w/Reo Okagawa 2019.01.06
 - Park Live at Ginza Sony Park, 2019.04.27, w/Ayatake Ezaki (Keyboards), Manami Kakudo (Percussion, Ukulele, Voices, Tape Recorders), Yoshihiro Harada (Steel Pan)
