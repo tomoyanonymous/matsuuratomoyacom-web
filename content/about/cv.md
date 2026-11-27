@@ -83,6 +83,7 @@ Last Updated: 2026.11.16
 - 2017 学生 CG コンテスト アート部門ノミネート([送れ | 遅れ / post | past](https://matsuuratomoya.com/works/post-past_sotsuten))
 - 2019 [北九州デジタルクリエーターコンテスト 2019 入選](http://kdcc.info/archive/2019.html) ([Aphysical Unmodeling Instrument](https://matsuuratomoya.com/works/aphysical-unmodeling-instrument))
 - 2020 未踏IT人材発掘・育成事業 スーパークリエータ認定
+- 2026 第66回プログラミング・シンポジウム 山内奨励賞, ラムダ計算の拡張に基づく音楽プログラミング言語mimiumとそのVMの実装, 情報処理学会 
 
 ## 書籍
 

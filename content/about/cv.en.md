@@ -83,6 +83,7 @@ Last Updated: 2026.11.16
 - 2017 23rd Campus Genius Award Nominate ([送れ | 遅れ / post | past](/en/works/post-past_sotsuten))
 - 2019 [Kitakyushu Digital Creators Contest　Selected](http://kdcc.info/archive/2019.html) ([Aphysical Unmodeling Instrument](/en/works/aphysical-unmodeling-instrument))
 - 2020　Information Promotion Agency Mitou IT Human Resounce Project Super Creator
+- 2026 The 66th Programming Symposium Yamauchi Encouragement Award, "mimium, a programming language for music based on extended lambda calculus, and implementation of VM for it", Information Processing Society Japan
 
 ## Books
 
